@@ -5,7 +5,7 @@
   python process.py verify
   python process.py selftest
 Regla: Gemini solo puede usar el texto del item. Todo lo que no se pueda comprobar contra el texto crudo se descarta o se marca, y queda en verification_log.jsonl."""
-import argparse, json, os, re, sys, time, unicodedata, urllib.request, urllib.error
+import socket, argparse, json, os, re, sys, time, unicodedata, urllib.request, urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -133,6 +133,10 @@ def call_with_fallback(prompt, models, key, dead):
                 if e.code == 503 and attempt == 0: time.sleep(10); continue
                 if e.code == 503: break
                 raise
+            except (TimeoutError, socket.timeout, ConnectionError, urllib.error.URLError) as e:
+                last = f"{name}: {type(e).__name__} {e}"
+                print(f"  [sin respuesta] {name} ({type(e).__name__}) -> " + ("reintento" if attempt == 0 else "sigo con otro modelo"))
+                time.sleep(5); continue
     raise QuotaExhausted(last)
 
 def cmd_extract(a):

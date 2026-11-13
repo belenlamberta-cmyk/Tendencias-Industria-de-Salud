@@ -30,6 +30,7 @@ jobs:
       - name: 2. Filtrar lo relevante
         run: python agent/process.py filter --max 250
       - name: 3. Extraer tendencias con Gemini
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
