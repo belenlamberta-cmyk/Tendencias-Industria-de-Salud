@@ -24,10 +24,10 @@ def main():
                                                  "amounts", "url", "source", "title", "published", "evidence_level", "region", "flags", "status", "method")})
     raw, ext, log = rd(RAWF / "raw_items.jsonl"), rd(P / "extractions.jsonl"), rd(P / "verification_log.jsonl")
     runs = rd(RAWF / "run_log.jsonl")
-    proposed = sum(len((e.get("result") or {}).get("trends", [])) for e in ext + rd(P / "extractions_rules.jsonl"))
+    vt = rd(P / "verified_trends.jsonl"); proposed = len(vt) + sum(1 for l in log if l.get("action") == "descartada")
     meta = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "raw_items": len(raw), "candidates": len(rd(P / "candidates.jsonl")), "items_processed_by_llm": len(ext), "items_processed_by_rules": len(rd(P / "extractions_rules.jsonl")),
+        "raw_items": len(raw), "candidates": len(rd(P / "candidates.jsonl")), "items_processed_by_llm": len(ext), "items_processed_by_rules": len(rd(P / "extractions_rules.jsonl")), "items_processed_by_claude": len(rd(P / "extractions_claude.jsonl")),
         "trends_proposed": proposed, "trends_verified": len(trends),
         "verification": dict(Counter(l["action"] for l in log)),
         "sources_raw": dict(Counter(r["source"] for r in raw)),

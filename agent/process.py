@@ -236,12 +236,16 @@ def cmd_verify(a):
     raw = {i["id"]: i for i in read_jsonl(RAWF)}
     ok, logs, n_tr, n_err = [], [], 0, 0
     gem = read_jsonl(PROC / "extractions.jsonl")
+    cla = read_jsonl(PROC / "extractions_claude.jsonl")   # analisis hecho por Claude (IA) a pedido del grupo
     rul = read_jsonl(PROC / "extractions_rules.jsonl")
-    # si Gemini ya propuso la misma categoria para el mismo documento, se prioriza Gemini y se omite la regla
+    # prioridad: Claude > Gemini > reglas. Un documento revisado por Claude no se completa con reglas;
+    # si Gemini ya propuso la misma categoria para el mismo documento, se omite la regla.
+    reviewed = {e["item_id"] for e in cla}
     gem_keys = {(e["item_id"], t.get("category")) for e in gem if e.get("result") for t in (e["result"].get("trends") or [])}
-    for method, exts in (("ia", gem), ("reglas", rul)):
+    for method, exts in (("claude", cla), ("ia", gem), ("reglas", rul)):
         for e in exts:
             if e.get("error") or not e.get("result"): n_err += 1; continue
+            if method == "reglas" and e["item_id"] in reviewed: continue
             for t in e["result"].get("trends", []) or []:
                 if method == "reglas" and (e["item_id"], t.get("category")) in gem_keys: continue
                 n_tr += 1
@@ -250,7 +254,7 @@ def cmd_verify(a):
                 if c: c["method"] = method; ok.append(c)
     write_jsonl(PROC / "verified_trends.jsonl", ok); write_jsonl(PROC / "verification_log.jsonl", logs)
     desc = sum(1 for l in logs if l["action"] == "descartada")
-    print(f"Tendencias propuestas (IA + reglas): {n_tr} | verificadas: {len(ok)} (IA: {sum(1 for c in ok if c['method']=='ia')}, reglas: {sum(1 for c in ok if c['method']=='reglas')}) | descartadas: {desc} | items con error: {n_err}")
+    print(f"Tendencias propuestas (IA + reglas): {n_tr} | verificadas: {len(ok)} (Claude: {sum(1 for c in ok if c['method']=='claude')}, Gemini: {sum(1 for c in ok if c['method']=='ia')}, reglas: {sum(1 for c in ok if c['method']=='reglas')}) | descartadas: {desc} | items con error: {n_err}")
     print(f"Problemas registrados: {len(logs)}  -> {PROC/'verification_log.jsonl'}")
 
 # ---------------- autoprueba ----------------
