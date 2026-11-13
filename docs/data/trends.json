@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T21:23:42+00:00",
+  "generated_at": "2026-11-13T21:30:57+00:00",
   "raw_items": 825,
   "candidates": 176,
   "items_processed_by_llm": 0,
@@ -148,7 +148,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Inteligencia artificial en la educación odontológica.",
+   "resumen_es": "Revisión sistemática 2020–2025: la IA se usa cada vez más en la enseñanza de odontología (docencia, evaluación, apoyo a decisiones clínicas) y avanza hacia plataformas de IA generativa. Es educación: poca relevancia para un laboratorio.",
+   "quote_es": "hacia plataformas de IA generativa, incluidos modelos de lenguaje de gran tamaño y sistemas de generación aumentada por recuperación"
   },
   {
    "technology": "Gemelo digital mitocondrial para enfermedad hepática (MASLD)",
@@ -168,7 +171,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Gemelo digital mitocondrial en MASLD: mapeo de la epistasia mitonuclear para predecir la evolución de la enfermedad y la homeostasis bioenergética sistémica",
+   "resumen_es": "Artículo de perspectiva: propone que la mitocondria explica por qué la enfermedad hepática metabólica (MASLD) evoluciona distinto en cada persona, y plantea un gemelo digital mitocondrial para predecir su trayectoria. Es un marco conceptual, todavía no validado.",
+   "quote_es": "proponer un marco unificado de biología de sistemas: el Gemelo Digital Mitocondrial de MASLD (MASLD-MDT)"
   },
   {
    "technology": "Biofundiciones automatizadas con IA y calidad por diseño",
@@ -188,7 +194,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Convergencia de calidad por diseño, inteligencia artificial y automatización de biofundiciones: un nuevo paradigma para la biomanufactura circular escalable.",
+   "resumen_es": "Revisión que sostiene que la madurez simultánea de la calidad por diseño, el diseño biológico asistido por IA y las biofundiciones automatizadas abre un camino más reproducible del laboratorio a la biomanufactura industrial.",
+   "quote_es": "la madurez simultánea reciente de la calidad por diseño (QbD), el diseño biológico asistido por inteligencia artificial (IA) y los flujos de trabajo automatizados de biofundición empieza a delinear un camino más replicable"
   },
   {
    "technology": "Edición génica CRISPR in vivo en terapias",
@@ -210,7 +219,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "CRISPR, ARNm y más allá: terapias de ácidos nucleicos en alergia e inmunología.",
+   "resumen_es": "Revisión: las terapias con ácidos nucleicos (CRISPR, ARNm, oligonucleótidos antisentido, ARN interferente, vectores virales) buscan modificar la enfermedad alérgica en lugar de solo controlar síntomas. Una terapia CRISPR redujo un 87 % los ataques de angioedema hereditario frente a placebo en un ensayo aleatorizado.",
+   "quote_es": "una terapia génica CRISPR (lonvoguran ziclumeran) que redujo un 87 % los ataques de angioedema hereditario en comparación con placebo en un ensayo controlado aleatorizado"
   },
   {
    "technology": "Terapias de ácidos nucleicos (oligonucleótidos, ARNi y vectores AAV)",
@@ -230,7 +242,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "CRISPR, ARNm y más allá: terapias de ácidos nucleicos en alergia e inmunología.",
+   "resumen_es": "Revisión: las terapias con ácidos nucleicos (CRISPR, ARNm, oligonucleótidos antisentido, ARN interferente, vectores virales) buscan modificar la enfermedad alérgica en lugar de solo controlar síntomas. Una terapia CRISPR redujo un 87 % los ataques de angioedema hereditario frente a placebo en un ensayo aleatorizado.",
+   "quote_es": "oligonucleótidos antisentido y ARN interferentes pequeños que silencian selectivamente genes de enfermedad; vectores virales adenoasociados para la administración sostenida de genes"
   },
   {
    "technology": "Integración multi-ómica para modelar longevidad saludable",
@@ -250,7 +265,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "La longevitómica como ciencia del longevitoma: hacia una ciencia de sistemas unificada de la longevidad saludable.",
+   "resumen_es": "Artículo conceptual que propone la “longevitómica”: integrar datos genómicos, proteómicos, metabolómicos, de microbioma y de IA para modelar y predecir el envejecimiento saludable. Es un marco teórico.",
+   "quote_es": "Aquí presentamos la longevitómica como un marco integrador de sistemas para comprender, modelar y predecir la longevidad saludable"
   },
   {
    "technology": "Secuenciación de genoma completo y de ARN de célula única a gran escala",
@@ -270,7 +288,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Las variantes genéticas raras y comunes moldean la expresión génica inmune en células individuales",
+   "resumen_es": "Describe la primera fase de TenK10K, el mayor conjunto de datos que une genomas completos y ARN de célula única: más de 5 millones de células de 28 tipos inmunes de 1.925 personas, para ver cómo la genética regula la expresión génica.",
+   "quote_es": "Aquí describimos la primera fase de TenK10K, el mayor conjunto de datos hasta la fecha de secuenciación del genoma completo (WGS) y de ARN de célula única (scRNA-seq) emparejados"
   },
   {
    "technology": "Modelado estadístico directo de células individuales (sc-eQTL)",
@@ -290,7 +311,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Las variantes genéticas raras y comunes moldean la expresión génica inmune en células individuales",
+   "resumen_es": "Describe la primera fase de TenK10K, el mayor conjunto de datos que une genomas completos y ARN de célula única: más de 5 millones de células de 28 tipos inmunes de 1.925 personas, para ver cómo la genética regula la expresión génica.",
+   "quote_es": "un método introducido recientemente que aumenta la potencia al modelar células individuales directamente en lugar de depender de datos agregados"
   },
   {
    "technology": "Bancos de datos multimodales (clínicos, imagen y ómicos) con IA y NGS",
@@ -310,7 +334,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Estudio clínico internacional, multicéntrico y no intervencionista para construir la mayor colección de datos multimodales (clínicos, de imágenes…) en cáncer",
+   "resumen_es": "Ensayo registrado (activo, sin reclutar nuevos pacientes): reúne datos clínicos, de imágenes y genómicos de pacientes con cáncer para usar IA y secuenciación de nueva generación en tratamientos personalizados.",
+   "quote_es": "Los avances recientes en inteligencia artificial (IA) y secuenciación de nueva generación (NGS) han aportado nuevos conocimientos sobre la biología de la enfermedad y las vías de tratamiento"
   },
   {
    "technology": "Aprendizaje federado para datos genómicos y clínicos",
@@ -335,7 +362,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "GenoMed4ALL: mejorar la clasificación y el pronóstico de la anemia falciforme con IA",
+   "resumen_es": "Proyecto que usa aprendizaje federado para reunir datos genómicos y clínicos de enfermedades hematológicas sin compartir los datos originales, con el fin de predecir riesgos y orientar tratamientos.",
+   "quote_es": "una plataforma segura y respetuosa de la privacidad para compartir datos, basada en el novedoso esquema de aprendizaje federado"
   },
   {
    "technology": "Biobancos longitudinales con perfilado multi-ómico escalonado",
@@ -357,7 +387,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Registro de un biobanco multimodal longitudinal de biomuestras para el linfoma primario del sistema nervioso central en China",
+   "resumen_es": "Ensayo en reclutamiento: arma un biobanco de pacientes con linfoma cerebral, con muestras seguidas en el tiempo y perfilado multiómico, comparadas con controles sanos y con otras enfermedades.",
+   "quote_es": "las muestras de biopsia se someterán a un perfilado multiómico escalonado según la disponibilidad y la frescura de la muestra"
   },
   {
    "technology": "Perfilado de célula única en biopsias sinoviales para predecir respuesta a terapia",
@@ -379,7 +412,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Las subpoblaciones mieloides se asocian con la respuesta al tratamiento en un estudio prospectivo longitudinal en pacientes con artritis reumatoidea",
+   "resumen_es": "Con biopsias de sinovial guiadas por ecografía, sigue a pacientes con artritis reumatoidea para identificar, con tecnología de célula única, qué células inmunes se asocian con la respuesta al tratamiento.",
+   "quote_es": "Si bien varios estudios han caracterizado las poblaciones de células del estroma e inmunes con tecnología de célula única en muestras de biopsia sinovial"
   },
   {
    "technology": "Secuenciación por captura de sondas para vigilancia genómica de patógenos",
@@ -399,7 +435,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Diseño y evaluación de la secuenciación con captura por sondas en muestras clínicas de Neisseria gonorrhoeae",
+   "resumen_es": "Prueba una técnica (captura con sondas) que enriquece el ADN del patógeno directamente de muestras clínicas, para hacer vigilancia genómica de la gonorrea sin cultivar la bacteria, que es difícil de aislar.",
+   "quote_es": "investigamos la utilidad de la secuenciación con captura por sondas para enriquecer selectivamente el ADN específico del patógeno durante la secuenciación de nueva generación"
   },
   {
    "technology": "Orientación regulatoria conjunta para acelerar ensayos clínicos de vacunas",
@@ -419,7 +458,10 @@
    "region": "UE",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "La AMA y la EMA emiten una guía conjunta sobre el desarrollo de vacunas contra el Ébola",
+   "resumen_es": "La Agencia Europea de Medicamentos y la Agencia Africana de Medicamentos publicaron un documento conjunto para facilitar el inicio oportuno de ensayos clínicos de posibles vacunas contra el Ébola.",
+   "quote_es": "El Grupo de Trabajo de Emergencia de la EMA y la Agencia Africana de Medicamentos (AMA) publicaron un documento de posición conjunto para apoyar el inicio oportuno de ensayos clínicos"
   },
   {
    "technology": "Marco regulatorio de terapias avanzadas (génica, celular, ingeniería tisular) en Argentina",
@@ -439,7 +481,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "ANMAT: normas para medicamentos de terapia avanzada (Boletín Oficial, 20/09/2018)",
+   "resumen_es": "Define en la normativa argentina qué es un medicamento de terapia avanzada (terapia génica, terapia celular somática o producto de ingeniería tisular) y precisa qué se considera terapia génica.",
+   "quote_es": "es un medicamento biológico con las características siguientes: a. incluye un principio activo que contiene un ácido nucleico recombinante"
   },
   {
    "technology": "CAR-T académico en Argentina (proyecto de ley, no vigente)",
@@ -461,7 +506,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Proyecto de ley (Diputados): sistema nacional de terapias oncológicas avanzadas, incluye CAR-T",
+   "resumen_es": "Proyecto de ley que crearía un sistema nacional de terapias oncológicas avanzadas (CAR-T y TIL) y reconocería como “académicos” los productos CAR-T de instituciones públicas. Es un proyecto, no una ley vigente.",
+   "quote_es": "Se consideran productos CAR-T académicos aquellos desarrollados por instituciones públicas de investigación o universidades nacionales sin fines de lucro."
   },
   {
    "technology": "Terapias génicas personalizadas N-of-1 para enfermedades ultra-raras (proyecto de ley)",
@@ -483,7 +531,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "Proyecto de ley (Diputados): Ley de acceso acelerado a terapias génicas personalizadas",
+   "resumen_es": "Proyecto de ley para acelerar el acceso a terapias génicas personalizadas en enfermedades poco frecuentes y ultra-raras, incluidas las diseñadas para un solo paciente (N-of-1). Es un proyecto, no una ley vigente.",
+   "quote_es": "Terapia N-of-1: terapia génica diseñada específicamente para un único paciente, con base en su perfil genético individual."
   },
   {
    "technology": "Transferencia de tecnología de enzimas desde el CONICET (empresa de base tecnológica)",
@@ -508,7 +559,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "claude"
+   "method": "claude",
+   "title_es": "CONICET: el camino de un científico que fundó la Empresa de Base Tecnológica que exporta enzimas al mundo",
+   "resumen_es": "Nota del CONICET sobre un científico que fundó Keclon, una empresa de base tecnológica del CONICET que exporta tecnología de enzimas a Europa y Brasil.",
+   "quote_es": "creó Keclon, la Empresas de Base Tecnológica del CONICET que hoy exporta tecnología de enzimas a Europa, Brasil"
   },
   {
    "technology": "Terapias celulares (CAR-T)",
@@ -528,7 +582,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "El camino por delante de las terapias con células madre en la diabetes tipo 1.",
+   "resumen_es": "Las células β derivadas de células madre ya suman nueve ensayos clínicos, pero el injerto no dura: falta el microambiente del islote y hay rechazo inmune. Se proponen nichos bioingenierizados y edición génica hipoinmune.",
+   "quote_es": "El camino por delante de las terapias con células madre en la diabetes tipo 1."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -548,7 +605,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "El camino por delante de las terapias con células madre en la diabetes tipo 1.",
+   "resumen_es": "Las células β derivadas de células madre ya suman nueve ensayos clínicos, pero el injerto no dura: falta el microambiente del islote y hay rechazo inmune. Se proponen nichos bioingenierizados y edición génica hipoinmune.",
+   "quote_es": "Los nichos bioingenierizados, que incluyen organoides multilinaje, hidrogeles funcionalizados, matrices descelularizadas y bioimpresión, buscan recrear el microambiente natural del islote, mientras que los enfoques de biología sintética, como la edición génica hipoinmune, el control transcripcional basado en CRISPR y los circuitos de supervivencia sensibles a estímulos, buscan aumentar la resiliencia de los injertos."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -568,7 +628,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Agentes de imagen teranósticos: integración de diagnóstico molecular, terapias de precisión e inteligencia artificial.",
+   "resumen_es": "Revisión de agentes que combinan diagnóstico por imagen y terapia dirigida, y de cómo la IA, la radiómica, la multiómica espacial, la biopsia líquida y los gemelos digitales podrían mejorar la selección de tratamientos.",
+   "quote_es": "Además, se evalúa el potencial de aplicaciones emergentes de inteligencia artificial, radiómica, radiogenómica, multiómica espacial y de célula única, biopsia líquida, patología digital, dosimetría personalizada y gemelos digitales para mejorar la estratificación de pacientes, la selección del tratamiento, la evaluación de la respuesta y la terapia adaptativa."
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -588,7 +651,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Agentes de imagen teranósticos: integración de diagnóstico molecular, terapias de precisión e inteligencia artificial.",
+   "resumen_es": "Revisión de agentes que combinan diagnóstico por imagen y terapia dirigida, y de cómo la IA, la radiómica, la multiómica espacial, la biopsia líquida y los gemelos digitales podrían mejorar la selección de tratamientos.",
+   "quote_es": "Los agentes de imagen teranósticos combinan el diagnóstico molecular, la terapia dirigida y el seguimiento de la respuesta al tratamiento en un único paradigma de medicina de precisión."
   },
   {
    "technology": "Gemelos digitales",
@@ -610,7 +676,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Tecnología de gemelos digitales en el cuidado cardiovascular: perspectivas futuras para la práctica de enfermería, el manejo de pacientes y la toma de decisiones clínicas.",
+   "resumen_es": "Revisión: los gemelos digitales cardiovasculares combinan IA, modelos computacionales y sensores portátiles; se los presenta como una innovación prometedora. Los componentes más citados son IA, aprendizaje automático, sensores, nube, historias clínicas y analítica predictiva.",
+   "quote_es": "Los rápidos avances en inteligencia artificial, modelado computacional, biosensores portátiles, telesalud y tecnologías de salud digital han acelerado la aparición de la tecnología de gemelos digitales (DTT) como una innovación prometedora en la atención cardiovascular de precisión."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -632,7 +701,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Tecnología de gemelos digitales en el cuidado cardiovascular: perspectivas futuras para la práctica de enfermería, el manejo de pacientes y la toma de decisiones clínicas.",
+   "resumen_es": "Revisión: los gemelos digitales cardiovasculares combinan IA, modelos computacionales y sensores portátiles; se los presenta como una innovación prometedora. Los componentes más citados son IA, aprendizaje automático, sensores, nube, historias clínicas y analítica predictiva.",
+   "quote_es": "La inteligencia artificial, el aprendizaje automático, los biosensores portátiles, la computación en la nube, las historias clínicas electrónicas y la analítica predictiva fueron los componentes tecnológicos más frecuentemente reportados."
   },
   {
    "technology": "Terapia génica con vectores virales",
@@ -652,7 +724,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Terapia génica: avances en sistemas de administración, tecnologías de edición del genoma y aplicaciones en medicina humana y veterinaria.",
+   "resumen_es": "Revisión general de la terapia génica: los vectores virales siguen siendo los más eficaces, los no virales son más seguros, y CRISPR amplió las posibilidades de modificar el genoma con precisión.",
+   "quote_es": "Los vectores virales como los adenovirales, retrovirales, lentivirales, adenoasociados y de poxvirus siguen siendo las plataformas de administración más eficaces por su alta eficiencia de transducción, mientras que los enfoques no virales, incluidos los sistemas físicos y químicos, ofrecen mayor bioseguridad y menor inmunogenicidad."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -672,7 +747,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Terapia génica: avances en sistemas de administración, tecnologías de edición del genoma y aplicaciones en medicina humana y veterinaria.",
+   "resumen_es": "Revisión general de la terapia génica: los vectores virales siguen siendo los más eficaces, los no virales son más seguros, y CRISPR amplió las posibilidades de modificar el genoma con precisión.",
+   "quote_es": "Los desarrollos recientes en tecnologías de edición génica, en particular los sistemas asociados a CRISPR (repeticiones palindrómicas cortas agrupadas y regularmente espaciadas), han ampliado el potencial terapéutico de la terapia génica al permitir modificaciones precisas del genoma."
   },
   {
    "technology": "Flujos de trabajo reproducibles",
@@ -695,7 +773,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Aplicaciones de inteligencia artificial para el análisis de imágenes médicas con pyCERR y la nube genómica del cáncer.",
+   "resumen_es": "Software abierto para armar flujos de análisis con IA de imágenes radiológicas y de radioterapia, que corren igual en la nube genómica del cáncer (financiada por el NCI) y en equipos locales, de forma reproducible.",
+   "quote_es": "Los flujos de trabajo están en contenedores para una ejecución reproducible e idéntica en la CGC y en hardware local."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -718,7 +799,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Aplicaciones de inteligencia artificial para el análisis de imágenes médicas con pyCERR y la nube genómica del cáncer.",
+   "resumen_es": "Software abierto para armar flujos de análisis con IA de imágenes radiológicas y de radioterapia, que corren igual en la nube genómica del cáncer (financiada por el NCI) y en equipos locales, de forma reproducible.",
+   "quote_es": "Aplicaciones de inteligencia artificial para el análisis de imágenes médicas con pyCERR y la nube genómica del cáncer."
   },
   {
    "technology": "Biología sintética y biofundiciones",
@@ -740,7 +824,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Construcción de capacidades para la ingeniería de la biología y la biomanufactura en Finlandia.",
+   "resumen_es": "Cuenta cómo Finlandia pasó de la ingeniería genética de los años 80, ligada a la industria (lácteos, vacunas, enzimas), a la biología sintética y las biofundiciones, con una base industrial sólida.",
+   "quote_es": "El apoyo oportuno a la ingeniería metabólica, la biología de sistemas y las tecnologías de genoma completo (ómicas), junto con la bioinformática y el modelado celular, hizo evolucionar naturalmente el campo hacia la biología sintética y las actividades de biofundición."
   },
   {
    "technology": "Biomanufactura y bioprocesos",
@@ -762,7 +849,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Construcción de capacidades para la ingeniería de la biología y la biomanufactura en Finlandia.",
+   "resumen_es": "Cuenta cómo Finlandia pasó de la ingeniería genética de los años 80, ligada a la industria (lácteos, vacunas, enzimas), a la biología sintética y las biofundiciones, con una base industrial sólida.",
+   "quote_es": "Los esfuerzos se vincularon desde temprano con la industria, como las empresas lácteas, la producción de vacunas y de etanol y de enzimas industriales, y el desarrollo de bioprocesos a escala comercial."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -782,7 +872,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "De registros estáticos a pacientes digitales virtuales: un marco impulsado por inteligencia artificial para la valorización y gobernanza de datos médicos.",
+   "resumen_es": "Propone un marco conceptual para crear, acceder y actualizar “pacientes digitales virtuales” (la representación longitudinal de un paciente más modelos), con cuatro capas: datos, modelado con IA, gobernanza y uso clínico. Es una propuesta teórica.",
+   "quote_es": "Una síntesis narrativa de literatura seleccionada sobre políticas, modelado, interoperabilidad e inteligencia artificial en salud sustenta cuatro capas interdependientes: datos y representación; modelado y simulación con inteligencia artificial; gobernanza y control; y uso clínico y externo."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -802,7 +895,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Manejo de precisión de Helicobacter pylori impulsado por inteligencia artificial: un marco integrado desde la endoscopia y la multiómica hasta el diseño de vacunas y la atención digital.",
+   "resumen_es": "Propone un marco de cinco módulos que integra IA en el cuidado de H. pylori: resistencia a antibióticos, detección endoscópica, análisis genómico y de historias clínicas, y diseño de vacunas. Es un marco conceptual.",
+   "quote_es": "resistencia a fármacos de H. pylori; (2) la aplicación de IA multimodal, desde redes neuronales convolucionales hasta modelos fundacionales visión-lenguaje, para el cribado temprano endoscópico, la identificación patológica y la evaluación funcional; (3) el uso de aprendizaje automático sobre datos genómicos e historias clínicas electrónicas"
   },
   {
    "technology": "Integración multi-ómica",
@@ -822,7 +918,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Manejo de precisión de Helicobacter pylori impulsado por inteligencia artificial: un marco integrado desde la endoscopia y la multiómica hasta el diseño de vacunas y la atención digital.",
+   "resumen_es": "Propone un marco de cinco módulos que integra IA en el cuidado de H. pylori: resistencia a antibióticos, detección endoscópica, análisis genómico y de historias clínicas, y diseño de vacunas. Es un marco conceptual.",
+   "quote_es": "Manejo de precisión de Helicobacter pylori impulsado por inteligencia artificial: un marco integrado desde la endoscopia y la multiómica hasta el diseño de vacunas y la atención digital."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -842,7 +941,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Telemedicina potenciada por inteligencia artificial: transformando el diagnóstico y la atención personalizada en sistemas de salud virtuales",
+   "resumen_es": "Evalúa modelos de IA (ResNet-50 para imágenes, BERT para texto de historias clínicas) en plataformas de telemedicina y reporta mejoras en la precisión diagnóstica y el apoyo a decisiones clínicas.",
+   "quote_es": "La integración de la inteligencia artificial (IA) en la telemedicina ha revolucionado la atención sanitaria virtual al permitir diagnósticos de alta precisión y estrategias de tratamiento personalizadas a distancia."
   },
   {
    "technology": "Biomanufactura y bioprocesos",
@@ -862,7 +964,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Plataformas basadas en levaduras para aplicaciones de salud humana de nueva generación",
+   "resumen_es": "Revisión: las levaduras (S. cerevisiae, K. phaffii, S. boulardii, Y. lipolytica) pasan de organismos modelo a plataformas programables para biomanufactura y terapias vivas, gracias a herramientas de biología sintética como la edición CRISPR múltiple.",
+   "quote_es": "Esta revisión examina sistemáticamente la evolución traslacional de levaduras convencionales y no convencionales, entre ellas Saccharomyces cerevisiae, Komagataella phaffii, Saccharomyces boulardii y Yarrowia lipolytica, y las redefine como fábricas de biomanufactura escalables y terapias vivas avanzadas."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -882,7 +987,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Estudio de recolección y análisis de datos clínicos, anamnésicos, funcionales y biológicos con apoyo de inteligencia artificial para evaluar la posibilidad…",
+   "resumen_es": "Ensayo en reclutamiento: analiza datos de pacientes con tomografía de tórax sin contraste (conteo de fotones) para detectar nódulos y tumores, y usa IA para crear un “gemelo digital” del pulmón.",
+   "quote_es": "Objetivos secundarios: analizar los datos con ayuda de inteligencia artificial para crear un «gemelo digital» del pulmón, es decir, una copia virtual del pulmón que permite estudiar y simular su comportamiento"
   },
   {
    "technology": "Gemelos digitales",
@@ -902,7 +1010,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Estudio de recolección y análisis de datos clínicos, anamnésicos, funcionales y biológicos con apoyo de inteligencia artificial para evaluar la posibilidad…",
+   "resumen_es": "Ensayo en reclutamiento: analiza datos de pacientes con tomografía de tórax sin contraste (conteo de fotones) para detectar nódulos y tumores, y usa IA para crear un “gemelo digital” del pulmón.",
+   "quote_es": "Objetivos secundarios: analizar los datos con ayuda de inteligencia artificial para crear un «gemelo digital» del pulmón, es decir, una copia virtual del pulmón que permite estudiar y simular su comportamiento"
   },
   {
    "technology": "Edición génica CRISPR",
@@ -922,7 +1033,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Sistema de administración de edición genómica basada en CRISPR sensible a estímulos para el tratamiento del cáncer: revisión de fundamentos y aplicaciones.",
+   "resumen_es": "Revisión: la edición con CRISPR (Cas9, CRISPRi, edición de bases y prime editing) ofrece nuevas opciones contra el cáncer; el reto es administrarla con sistemas que respondan a estímulos.",
+   "quote_es": "Los sistemas de nucleasas como CRISPR/Cas9 permiten la escisión precisa de alelos mutantes y la inserción dirigida de secuencias exógenas aprovechando las vías endógenas de reparación del ADN, logrando modificaciones genómicas duraderas y precisas; herramientas derivadas como CRISPRi, la edición de bases y el prime editing permiten diversas formas"
   },
   {
    "technology": "Edición de bases y prime editing",
@@ -942,7 +1056,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Sistema de administración de edición genómica basada en CRISPR sensible a estímulos para el tratamiento del cáncer: revisión de fundamentos y aplicaciones.",
+   "resumen_es": "Revisión: la edición con CRISPR (Cas9, CRISPRi, edición de bases y prime editing) ofrece nuevas opciones contra el cáncer; el reto es administrarla con sistemas que respondan a estímulos.",
+   "quote_es": "Los sistemas de nucleasas como CRISPR/Cas9 permiten la escisión precisa de alelos mutantes y la inserción dirigida de secuencias exógenas aprovechando las vías endógenas de reparación del ADN, logrando modificaciones genómicas duraderas y precisas; herramientas derivadas como CRISPRi, la edición de bases y el prime editing permiten diversas formas"
   },
   {
    "technology": "Edición génica CRISPR",
@@ -962,7 +1079,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Silenciamiento génico basado en interferencia por CRISPR en insectos: de la genómica funcional a posibles aplicaciones en el manejo de plagas.",
+   "resumen_es": "Revisión: el CRISPR interferente podría controlar plagas agrícolas de forma reversible, a diferencia de Cas9 y del ARN interferente, que tienen limitaciones. Es agricultura: poca relevancia para un laboratorio de salud.",
+   "quote_es": "El sistema CRISPR/Cas9 con nucleasa activa permite la edición genética, pero sus modificaciones irreversibles del genoma plantean preocupaciones éticas, ecológicas y regulatorias."
   },
   {
    "technology": "Oligonucleótidos terapéuticos y ARN de interferencia",
@@ -982,7 +1102,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Silenciamiento génico basado en interferencia por CRISPR en insectos: de la genómica funcional a posibles aplicaciones en el manejo de plagas.",
+   "resumen_es": "Revisión: el CRISPR interferente podría controlar plagas agrícolas de forma reversible, a diferencia de Cas9 y del ARN interferente, que tienen limitaciones. Es agricultura: poca relevancia para un laboratorio de salud.",
+   "quote_es": "Aunque la interferencia por ARN (ARNi) ofrece una alternativa dirigida y respetuosa del ambiente, está limitada por la variabilidad entre especies, la rápida degradación del ARN bicatenario (ARNds), el silenciamiento inconsistente y los efectos fuera del blanco."
   },
   {
    "technology": "Biomanufactura y bioprocesos",
@@ -1002,7 +1125,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Bioproducción eficiente de ácido cítrico en Aspergillus niger.",
+   "resumen_es": "El ácido cítrico se produce a escala industrial (más de 2 millones de toneladas al año) con Aspergillus niger, pero los sistemas actuales llegan a sus límites; los avances (CRISPR, regulación génica dinámica) apuntan a una biomanufactura integrada y multiescala.",
+   "quote_es": "Estos avances apuntan colectivamente hacia una transición de la fermentación convencional a un marco de biomanufactura integrado y multiescala."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1022,7 +1148,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": "Bioproducción eficiente de ácido cítrico en Aspergillus niger.",
+   "resumen_es": "El ácido cítrico se produce a escala industrial (más de 2 millones de toneladas al año) con Aspergillus niger, pero los sistemas actuales llegan a sus límites; los avances (CRISPR, regulación génica dinámica) apuntan a una biomanufactura integrada y multiescala.",
+   "quote_es": "Paralelamente, el desarrollo de la edición genómica basada en CRISPR/Cas9, de sistemas de regulación génica dinámica y de la ingeniería de promotores ha permitido reconfigurar de forma precisa y múltiple las redes metabólicas."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1042,7 +1171,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -1062,7 +1194,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1082,7 +1217,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -1102,7 +1240,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Integración multi-ómica",
@@ -1122,7 +1263,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Proteómica y metabolómica",
@@ -1142,7 +1286,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -1162,7 +1309,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Integración multi-ómica",
@@ -1182,7 +1332,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Simulación y modelado in silico",
@@ -1202,7 +1355,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -1222,7 +1378,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Terapias celulares (CAR-T)",
@@ -1242,7 +1401,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Biología sintética y biofundiciones",
@@ -1262,7 +1424,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Computación en la nube y de alto rendimiento",
@@ -1285,7 +1450,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1305,7 +1473,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Proteómica y metabolómica",
@@ -1325,7 +1496,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Gemelos digitales",
@@ -1345,7 +1519,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1365,7 +1542,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Biomanufactura y bioprocesos",
@@ -1385,7 +1565,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Biología sintética y biofundiciones",
@@ -1405,7 +1588,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Biología sintética y biofundiciones",
@@ -1425,7 +1611,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -1445,7 +1634,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1465,7 +1657,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -1485,7 +1680,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Integración multi-ómica",
@@ -1505,7 +1703,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Integración multi-ómica",
@@ -1525,7 +1726,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1547,7 +1751,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -1567,7 +1774,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1587,7 +1797,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1607,7 +1820,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1627,7 +1843,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1647,7 +1866,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición de bases y prime editing",
@@ -1667,7 +1889,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -1687,7 +1912,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1707,7 +1935,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1727,7 +1958,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Integración multi-ómica",
@@ -1747,7 +1981,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1767,7 +2004,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -1787,7 +2027,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -1807,7 +2050,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Flujos de trabajo reproducibles",
@@ -1827,7 +2073,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Terapias celulares (CAR-T)",
@@ -1847,7 +2096,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -1867,7 +2119,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Terapia génica con vectores virales",
@@ -1887,7 +2142,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Oligonucleótidos terapéuticos y ARN de interferencia",
@@ -1907,7 +2165,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1927,7 +2188,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1947,7 +2211,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1967,7 +2234,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1987,7 +2257,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -2007,7 +2280,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Biosensores",
@@ -2027,7 +2303,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2051,7 +2330,10 @@
     "fecha_futura"
    ],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2071,7 +2353,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -2091,7 +2376,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -2111,7 +2399,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -2131,7 +2422,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2151,7 +2445,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2171,7 +2468,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Terapia génica con vectores virales",
@@ -2191,7 +2491,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2211,7 +2514,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2231,7 +2537,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2251,7 +2560,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2271,7 +2583,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2291,7 +2606,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2313,7 +2631,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -2335,7 +2656,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -2355,7 +2679,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Gemelos digitales",
@@ -2375,7 +2702,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -2395,7 +2725,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -2415,7 +2748,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -2435,7 +2771,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Datos FAIR e interoperabilidad",
@@ -2457,7 +2796,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2477,7 +2819,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Flujos de trabajo reproducibles",
@@ -2497,7 +2842,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Gobernanza y privacidad de datos de salud",
@@ -2519,7 +2867,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Organoides y modelos 3D",
@@ -2539,7 +2890,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2559,7 +2913,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2579,7 +2936,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -2599,7 +2959,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de nueva generación y genoma completo",
@@ -2621,7 +2984,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Bioseguridad y uso dual",
@@ -2643,7 +3009,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2663,7 +3032,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2683,7 +3055,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de lecturas largas",
@@ -2705,7 +3080,10 @@
    "region": "Argentina",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2725,7 +3103,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de lecturas largas",
@@ -2745,7 +3126,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -2765,7 +3149,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Biopsia líquida y ADN libre circulante",
@@ -2785,7 +3172,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2805,7 +3195,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2825,7 +3218,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2845,7 +3241,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -2865,7 +3264,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Regulación de IA y dispositivos médicos",
@@ -2885,7 +3287,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Gemelos digitales",
@@ -2905,7 +3310,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -2925,7 +3333,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "IA para descubrimiento de fármacos",
@@ -2945,7 +3356,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2965,7 +3379,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2985,7 +3402,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -3005,7 +3425,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -3025,7 +3448,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -3045,7 +3471,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -3065,7 +3494,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de célula única",
@@ -3085,7 +3517,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Integración multi-ómica",
@@ -3105,7 +3540,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -3127,7 +3565,10 @@
     "fecha_futura"
    ],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -3147,7 +3588,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "IA para descubrimiento de fármacos",
@@ -3167,7 +3611,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Gemelos digitales",
@@ -3187,7 +3634,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de nueva generación y genoma completo",
@@ -3207,7 +3657,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Secuenciación de lecturas largas",
@@ -3229,7 +3682,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -3249,7 +3705,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Edición génica CRISPR",
@@ -3269,7 +3728,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Simulación y modelado in silico",
@@ -3289,7 +3751,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -3309,7 +3774,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -3329,7 +3797,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -3349,7 +3820,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Datos FAIR e interoperabilidad",
@@ -3369,7 +3843,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Datos FAIR e interoperabilidad",
@@ -3389,7 +3866,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -3409,7 +3889,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -3431,7 +3914,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Datos FAIR e interoperabilidad",
@@ -3451,7 +3937,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Gobernanza y privacidad de datos de salud",
@@ -3471,7 +3960,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Flujos de trabajo reproducibles",
@@ -3491,7 +3983,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -3511,7 +4006,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   },
   {
    "technology": "Proteómica y metabolómica",
@@ -3531,7 +4029,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas"
+   "method": "reglas",
+   "title_es": null,
+   "resumen_es": null,
+   "quote_es": null
   }
  ]
 }

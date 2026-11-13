@@ -15,6 +15,8 @@ def rd(p):
     return [json.loads(l) for l in p.read_text(encoding="utf-8").splitlines() if l.strip()] if p.exists() else []
 
 def main():
+    tf = P / "translations_es.json"
+    TR = json.loads(tf.read_text(encoding="utf-8")) if tf.exists() else {"items": {}, "quotes": {}}
     trends, seen = [], set()
     for t in rd(P / "verified_trends.jsonl"):
         k = (t["url"], t["technology"].strip().lower())
@@ -22,6 +24,8 @@ def main():
         seen.add(k)
         trends.append({k2: t.get(k2) for k2 in ("technology", "category", "horizon", "hype_phase", "justification", "quote", "companies", "countries",
                                                  "amounts", "url", "source", "title", "published", "evidence_level", "region", "flags", "status", "method")})
+        it = TR["items"].get(t["url"], {})   # traduccion al espanol (la cita original se conserva para verificar)
+        trends[-1].update({"title_es": it.get("title_es"), "resumen_es": it.get("resumen_es"), "quote_es": TR["quotes"].get(t.get("quote"))})
     raw, ext, log = rd(RAWF / "raw_items.jsonl"), rd(P / "extractions.jsonl"), rd(P / "verification_log.jsonl")
     runs = rd(RAWF / "run_log.jsonl")
     vt = rd(P / "verified_trends.jsonl"); proposed = len(vt) + sum(1 for l in log if l.get("action") == "descartada")
