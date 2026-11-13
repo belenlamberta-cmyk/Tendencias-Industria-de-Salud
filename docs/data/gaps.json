@@ -1,31 +1,163 @@
 {
  "criterio": "Brecha = madurez esperada − adopción actual (escala 0–5). Referencia: horizonte mediano (2–5 años); brecha > 2 = alta.",
- "elaborado_por": "Estimación de Claude a partir de fuentes citadas; pendiente de revisión humana (reviewed=false hasta que la persona responsable lo apruebe).",
+ "elaborado_por": "Estimación de Claude a partir de fuentes citadas; revisada y aprobada por la persona responsable (Belén Lamberta) el 2026-11-13.",
  "fecha": "2026-11-13",
  "items": [
-  {"technology":"Edición génica CRISPR (terapias)","adoption":3,"expected":{"corto":4,"mediano":4,"largo":5},"reviewed":false,
-   "justification":"Hay una terapia CRISPR aprobada por la FDA (Casgevy, anemia falciforme, dic. 2023), pero es la primera de su tipo y para una sola enfermedad: uso en grupos líderes, no extendido. Siguen las dudas por ediciones fuera de blanco.",
-   "sources":[{"title":"STAT: la FDA aprueba Casgevy","url":"https://www.statnews.com/2023/12/08/fda-approves-casgevy-crispr-based-medicine-for-treatment-of-sickle-cell-disease/"},{"title":"Drugs.com / Vertex: comunicado de aprobación","url":"https://www.drugs.com/newdrugs/fda-approves-casgevy-exagamglogene-autotemcel-sickle-cell-6156.html"}]},
-  {"technology":"Secuenciación de célula única (single-cell)","adoption":4,"expected":{"corto":4,"mediano":5,"largo":5},"reviewed":false,
-   "justification":"Fue Método del Año de Nature Methods en 2013 y, según el CEO de NanoString (empresa interesada), siguió creciendo siete años después. Uso extendido en investigación; falta que sea estándar en todos los laboratorios.",
-   "sources":[{"title":"Comunicado NanoString (cita a Nature Methods)","url":"https://www.nasdaq.com/press-release/nature-methods-selects-spatially-resolved-transcriptomics-as-the-method-of-the-year"}]},
-  {"technology":"Ómicas espaciales (transcriptómica espacial)","adoption":2,"expected":{"corto":3,"mediano":4,"largo":5},"reviewed":false,
-   "justification":"Fue Método del Año 2020 de Nature Methods, y hay productos comerciales (Visium, MERFISH, GeoMx). Pero el propio artículo aclara que todavía no es rutina obtener el transcriptoma completo de todas las células: pilotos y grupos líderes.",
-   "sources":[{"title":"Nature Methods: Method of the Year 2020 (Marx)","url":"https://typeset.io/pdf/method-of-the-year-spatially-resolved-transcriptomics-ojt3xsva2n.pdf"},{"title":"Comunicado Vizgen","url":"https://www.businesswire.com/news/home/20210112005704/en/Nature-Methods-Cites-Vizgens-Spatial-Genomics-Technology-in-Method-of-the-Year-2020-Feature"}]},
-  {"technology":"Gemelos digitales en salud","adoption":1,"expected":{"corto":2,"mediano":3,"largo":4},"reviewed":false,
-   "justification":"El informe de las Academias Nacionales de EE. UU. (2024) ve gran potencial para decisiones médicas individuales, pero dice que quedan muchos desafíos antes de realizarlo: investigación básica con pocos usos reales.",
-   "sources":[{"title":"NASEM 2024: Foundational Research Gaps for Digital Twins","url":"https://www.nationalacademies.org/index.php/publications/26894"},{"title":"NCI: resumen del informe","url":"https://www.cancer.gov/about-nci/organization/cbiit/news-events/news/2024/new-report-spotlights-research-gaps-and-future-directions-digital-twins"}]},
-  {"technology":"Laboratorios autónomos (self-driving labs)","adoption":2,"expected":{"corto":3,"mediano":4,"largo":5},"reviewed":false,
-   "justification":"Una revisión de 2025 dice que pasaron de curiosidades académicas a herramientas útiles, pero otra revisión (2025) señala que la adopción requiere hardware robusto, software interoperable y datos de calidad: pilotos y grupos líderes.",
-   "sources":[{"title":"Royal Society Open Science 2025: revisión de SDLs","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12368842"},{"title":"CHIMIA 2025: promesas y desafíos de los SDLs","url":"https://www.chimia.ch/chimia/article/download/2025_600/2025_600/28621"}]},
-  {"technology":"IA para estructura y diseño de proteínas","adoption":4,"expected":{"corto":4,"mediano":5,"largo":5},"reviewed":false,
-   "justification":"AlphaFold ganó el Nobel de Química 2024 y su base de datos tiene más de 200 millones de estructuras; la usan más de dos millones de personas en 190 países. Uso extendido para estructura; el diseño de fármacos es menos maduro.",
-   "sources":[{"title":"Universidad de Utrecht: Nobel 2024","url":"https://www.uu.nl/en/news/nobel-prize-in-chemistry-2024-for-alphafold2-and-protein-design"},{"title":"Technology Networks: AlphaFold gana el Nobel","url":"https://www.technologynetworks.com/proteomics/news/alphafold-wins-the-nobel-prize-in-chemistry-2024-391930"}]},
-  {"technology":"Biología sintética / biofoundries","adoption":2,"expected":{"corto":3,"mediano":4,"largo":5},"reviewed":false,
-   "justification":"La Alianza Global de Biofoundries pasó de 15 miembros fundadores (2019) a más de 30 (2025), todos no comerciales: infraestructura concentrada en pocos centros. En 2019 no había miembros en Sudamérica (dato antiguo, a actualizar).",
-   "sources":[{"title":"Frontiers in Synthetic Biology 2025","url":"https://www.frontiersin.org/journals/synthetic-biology/articles/10.3389/fsybi.2025.1630026/epub"},{"title":"Entrevista a P. Freemont (2019)","url":"https://communities.springernature.com/posts/building-an-alliance-of-biofoundries-q-a-with-paul-freemont"}]},
-  {"technology":"Aprendizaje federado (datos genómicos y clínicos)","adoption":null,"expected":null,"reviewed":false,
-   "justification":"Sin fuente suficiente: solo hay un ensayo registrado en el tablero (no mide adopción). No se asigna número hasta conseguir una fuente.",
-   "sources":[{"title":"Ensayo NCT06019208 (ClinicalTrials.gov)","url":"https://clinicaltrials.gov/study/NCT06019208"}]}
+  {
+   "technology": "Edición génica CRISPR (terapias)",
+   "adoption": 3,
+   "expected": {
+    "corto": 4,
+    "mediano": 4,
+    "largo": 5
+   },
+   "reviewed": true,
+   "justification": "Hay una terapia CRISPR aprobada por la FDA (Casgevy, anemia falciforme, dic. 2023), pero es la primera de su tipo y para una sola enfermedad: uso en grupos líderes, no extendido. Siguen las dudas por ediciones fuera de blanco.",
+   "sources": [
+    {
+     "title": "STAT: la FDA aprueba Casgevy",
+     "url": "https://www.statnews.com/2023/12/08/fda-approves-casgevy-crispr-based-medicine-for-treatment-of-sickle-cell-disease/"
+    },
+    {
+     "title": "Drugs.com / Vertex: comunicado de aprobación",
+     "url": "https://www.drugs.com/newdrugs/fda-approves-casgevy-exagamglogene-autotemcel-sickle-cell-6156.html"
+    }
+   ]
+  },
+  {
+   "technology": "Secuenciación de célula única (single-cell)",
+   "adoption": 4,
+   "expected": {
+    "corto": 4,
+    "mediano": 5,
+    "largo": 5
+   },
+   "reviewed": true,
+   "justification": "Fue Método del Año de Nature Methods en 2013 y, según el CEO de NanoString (empresa interesada), siguió creciendo siete años después. Uso extendido en investigación; falta que sea estándar en todos los laboratorios.",
+   "sources": [
+    {
+     "title": "Comunicado NanoString (cita a Nature Methods)",
+     "url": "https://www.nasdaq.com/press-release/nature-methods-selects-spatially-resolved-transcriptomics-as-the-method-of-the-year"
+    }
+   ]
+  },
+  {
+   "technology": "Ómicas espaciales (transcriptómica espacial)",
+   "adoption": 2,
+   "expected": {
+    "corto": 3,
+    "mediano": 4,
+    "largo": 5
+   },
+   "reviewed": true,
+   "justification": "Fue Método del Año 2020 de Nature Methods, y hay productos comerciales (Visium, MERFISH, GeoMx). Pero el propio artículo aclara que todavía no es rutina obtener el transcriptoma completo de todas las células: pilotos y grupos líderes.",
+   "sources": [
+    {
+     "title": "Nature Methods: Method of the Year 2020 (Marx)",
+     "url": "https://typeset.io/pdf/method-of-the-year-spatially-resolved-transcriptomics-ojt3xsva2n.pdf"
+    },
+    {
+     "title": "Comunicado Vizgen",
+     "url": "https://www.businesswire.com/news/home/20210112005704/en/Nature-Methods-Cites-Vizgens-Spatial-Genomics-Technology-in-Method-of-the-Year-2020-Feature"
+    }
+   ]
+  },
+  {
+   "technology": "Gemelos digitales en salud",
+   "adoption": 1,
+   "expected": {
+    "corto": 2,
+    "mediano": 3,
+    "largo": 4
+   },
+   "reviewed": true,
+   "justification": "El informe de las Academias Nacionales de EE. UU. (2024) ve gran potencial para decisiones médicas individuales, pero dice que quedan muchos desafíos antes de realizarlo: investigación básica con pocos usos reales.",
+   "sources": [
+    {
+     "title": "NASEM 2024: Foundational Research Gaps for Digital Twins",
+     "url": "https://www.nationalacademies.org/index.php/publications/26894"
+    },
+    {
+     "title": "NCI: resumen del informe",
+     "url": "https://www.cancer.gov/about-nci/organization/cbiit/news-events/news/2024/new-report-spotlights-research-gaps-and-future-directions-digital-twins"
+    }
+   ]
+  },
+  {
+   "technology": "Laboratorios autónomos (self-driving labs)",
+   "adoption": 2,
+   "expected": {
+    "corto": 3,
+    "mediano": 4,
+    "largo": 5
+   },
+   "reviewed": true,
+   "justification": "Una revisión de 2025 dice que pasaron de curiosidades académicas a herramientas útiles, pero otra revisión (2025) señala que la adopción requiere hardware robusto, software interoperable y datos de calidad: pilotos y grupos líderes.",
+   "sources": [
+    {
+     "title": "Royal Society Open Science 2025: revisión de SDLs",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12368842"
+    },
+    {
+     "title": "CHIMIA 2025: promesas y desafíos de los SDLs",
+     "url": "https://www.chimia.ch/chimia/article/download/2025_600/2025_600/28621"
+    }
+   ]
+  },
+  {
+   "technology": "IA para estructura y diseño de proteínas",
+   "adoption": 4,
+   "expected": {
+    "corto": 4,
+    "mediano": 5,
+    "largo": 5
+   },
+   "reviewed": true,
+   "justification": "AlphaFold ganó el Nobel de Química 2024 y su base de datos tiene más de 200 millones de estructuras; la usan más de dos millones de personas en 190 países. Uso extendido para estructura; el diseño de fármacos es menos maduro.",
+   "sources": [
+    {
+     "title": "Universidad de Utrecht: Nobel 2024",
+     "url": "https://www.uu.nl/en/news/nobel-prize-in-chemistry-2024-for-alphafold2-and-protein-design"
+    },
+    {
+     "title": "Technology Networks: AlphaFold gana el Nobel",
+     "url": "https://www.technologynetworks.com/proteomics/news/alphafold-wins-the-nobel-prize-in-chemistry-2024-391930"
+    }
+   ]
+  },
+  {
+   "technology": "Biología sintética / biofoundries",
+   "adoption": 2,
+   "expected": {
+    "corto": 3,
+    "mediano": 4,
+    "largo": 5
+   },
+   "reviewed": true,
+   "justification": "La Alianza Global de Biofoundries pasó de 15 miembros fundadores (2019) a más de 30 (2025), todos no comerciales: infraestructura concentrada en pocos centros. En 2019 no había miembros en Sudamérica (dato antiguo, a actualizar).",
+   "sources": [
+    {
+     "title": "Frontiers in Synthetic Biology 2025",
+     "url": "https://www.frontiersin.org/journals/synthetic-biology/articles/10.3389/fsybi.2025.1630026/epub"
+    },
+    {
+     "title": "Entrevista a P. Freemont (2019)",
+     "url": "https://communities.springernature.com/posts/building-an-alliance-of-biofoundries-q-a-with-paul-freemont"
+    }
+   ]
+  },
+  {
+   "technology": "Aprendizaje federado (datos genómicos y clínicos)",
+   "adoption": null,
+   "expected": null,
+   "reviewed": true,
+   "justification": "Sin fuente suficiente: solo hay un ensayo registrado en el tablero (no mide adopción). No se asigna número hasta conseguir una fuente.",
+   "sources": [
+    {
+     "title": "Ensayo NCT06019208 (ClinicalTrials.gov)",
+     "url": "https://clinicaltrials.gov/study/NCT06019208"
+    }
+   ]
+  }
  ]
 }
