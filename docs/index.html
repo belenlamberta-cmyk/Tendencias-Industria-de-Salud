@@ -145,8 +145,16 @@ footer{padding:30px 0 50px;color:var(--ink3);font-size:13px}
         <div><b>Adopción actual (0–5)</b><br><span class="note" style="font-size:14px">0 = no se usa · 1 = investigación básica · 2 = pilotos · 3 = uso en grupos líderes · 4 = uso extendido · 5 = estándar de la industria.</span></div>
         <div><b>Madurez esperada (0–5)</b><br><span class="note" style="font-size:14px">Misma escala, proyectada al horizonte (corto, mediano, largo). Una brecha mayor a 2 se marca como alta.</span></div>
       </div>
-      <p class="note" style="font-size:14px">Cada puntaje llevará su justificación y al menos una fuente enlazada, y será revisado por una persona antes de publicarse. <span class="tag warn">En construcción: todavía no hay puntajes cargados, por eso no se muestra ningún mapa de brechas.</span></p>
+      <p class="note" style="font-size:14px">La brecha que se muestra usa el <b>horizonte mediano (2–5 años)</b>; se marca <b>alta</b> si es mayor a 2. Los puntajes son estimaciones con fuente enlazada y están <b>pendientes de revisión humana</b> hasta que se aprueben. Si no hay fuente suficiente, no se pone número.</p>
     </div>
+    <div class="card" style="margin-top:14px">
+      <div id="gap-svg"></div>
+      <div class="legend"><span><svg style="width:14px;height:14px;flex:none" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="var(--p1)"/></svg> Adopción actual</span><span><svg style="width:14px;height:14px;flex:none" aria-hidden="true"><rect x="2" y="2" width="9" height="9" fill="var(--p2)" transform="rotate(45 6.5 6.5)"/></svg> Madurez esperada (mediano)</span><span>Línea gruesa = brecha alta (&gt; 2)</span></div>
+    </div>
+    <div class="tablewrap" style="margin-top:14px"><table>
+      <thead><tr><th>Tecnología</th><th>Adopción</th><th>Esperada (corto / mediano / largo)</th><th>Brecha (mediano)</th><th>Justificación y fuentes</th><th>Estado</th></tr></thead>
+      <tbody id="gap-body"></tbody>
+    </table></div>
   </section>
 
   <section id="tabla" aria-labelledby="h-tab">
@@ -392,6 +400,40 @@ function boot(){
     document.getElementById("m-updated").textContent="Sin datos todavía";
     var h=document.getElementById("radar-svg");h.appendChild(el("div",{"class":"empty"},"No se pudo cargar data/trends.json ("+e.message+"). Si es la primera vez, ejecutá el flujo “Actualización diaria” en la pestaña Actions del repositorio."))})
 }
+function drawGaps(G){
+  var items=G.items||[],host=document.getElementById("gap-svg"),tb=document.getElementById("gap-body");host.textContent="";tb.textContent="";
+  var W=960,rowH=46,T=34,L=300,R=40,H=T+items.length*rowH+24;
+  var svg=sv("svg",{viewBox:"0 0 "+W+" "+H,width:"100%",role:"img","aria-label":"Mapa de brechas: adopción actual y madurez esperada por tecnología, escala 0 a 5"});
+  function X(v){return L+(W-L-R)*v/5}
+  for(var v=0;v<=5;v++){svg.appendChild(sv("line",{x1:X(v),x2:X(v),y1:T-10,y2:H-20,stroke:"var(--line)","stroke-width":1}));var t=sv("text",{x:X(v),y:T-16,"text-anchor":"middle","class":"ring-label"});t.textContent=v;svg.appendChild(t)}
+  items.forEach(function(it,i){
+    var y=T+i*rowH+rowH/2,lab=sv("text",{x:L-14,y:y,"text-anchor":"end","dominant-baseline":"middle","class":"sector-label"});var ws=it.technology.split(" "),l1=[],l2=[];ws.forEach(function(w){((l1.join(" ")+" "+w).length<=26&&!l2.length?l1:l2).push(w)});
+    var a1=sv("tspan",{x:L-14,dy:l2.length?"-0.6em":"0"});a1.textContent=l1.join(" ");lab.appendChild(a1);
+    if(l2.length){var a2=sv("tspan",{x:L-14,dy:"1.2em"});a2.textContent=l2.join(" ");lab.appendChild(a2)}
+    svg.appendChild(lab);
+    var tr=el("tr"),ok=it.adoption!=null&&it.expected;
+    var gap=ok?it.expected.mediano-it.adoption:null,hi=ok&&gap>2;
+    if(ok){
+      svg.appendChild(sv("line",{x1:X(it.adoption),x2:X(it.expected.mediano),y1:y,y2:y,stroke:hi?"var(--p2)":"var(--ink3)","stroke-width":hi?5:2}));
+      var c=sv("circle",{cx:X(it.adoption),cy:y,r:8,fill:"var(--p1)",stroke:"var(--surface)","stroke-width":2,tabindex:0});svg.appendChild(c);
+      var d=sv("rect",{x:X(it.expected.mediano)-7,y:y-7,width:14,height:14,fill:"var(--p2)",stroke:"var(--surface)","stroke-width":2,transform:"rotate(45 "+X(it.expected.mediano)+" "+y+")",tabindex:0});svg.appendChild(d);
+      var msg=it.technology+": adopción "+it.adoption+", esperada (mediano) "+it.expected.mediano+", brecha "+gap+(it.reviewed?"":" · pendiente de revisión");
+      [c,d].forEach(function(n){n.addEventListener("mousemove",function(e){tip(msg,e)});n.addEventListener("mouseleave",function(){document.getElementById("tip").style.display="none"});n.addEventListener("focus",function(){var r=n.getBoundingClientRect();tip(msg,{clientX:r.left,clientY:r.top})});n.addEventListener("blur",function(){document.getElementById("tip").style.display="none"})});
+      var vt=sv("text",{x:W-R+4,y:y,"dominant-baseline":"middle","class":"ring-label"});vt.textContent="";svg.appendChild(vt)
+    }else{var nt=sv("text",{x:L,y:y,"dominant-baseline":"middle","class":"ring-label"});nt.textContent="Sin fuente suficiente: no se asigna puntaje";svg.appendChild(nt)}
+    tr.appendChild(el("td",null,it.technology));
+    tr.appendChild(el("td",null,ok?String(it.adoption):"—"));
+    tr.appendChild(el("td",null,ok?it.expected.corto+" / "+it.expected.mediano+" / "+it.expected.largo:"—"));
+    var tg=el("td");if(ok){tg.appendChild(document.createTextNode(String(gap)+" "));if(hi)tg.appendChild(el("span",{"class":"tag warn"},"Brecha alta"))}else tg.textContent="—";tr.appendChild(tg);
+    var jd=el("td");jd.appendChild(el("div",null,it.justification));
+    (it.sources||[]).forEach(function(s){var u=safeUrl(s.url);if(u){var a=el("a",{href:u,target:"_blank",rel:"noopener noreferrer"},s.title);jd.appendChild(el("div",{"class":"note"})).appendChild(a)}});
+    tr.appendChild(jd);
+    var st=el("td");st.appendChild(el("span",{"class":it.reviewed?"tag":"tag warn"},it.reviewed?"Revisado":"Pendiente de revisión"));tr.appendChild(st);
+    tb.appendChild(tr)});
+  host.appendChild(svg)
+}
+function bootGaps(){fetch("data/gaps.json?"+Date.now()).then(function(r){if(!r.ok)throw new Error();return r.json()}).then(drawGaps).catch(function(){document.getElementById("gap-svg").appendChild(el("div",{"class":"empty"},"No se pudo cargar data/gaps.json."))})}
+bootGaps();
 boot();
 })();
 </script>
