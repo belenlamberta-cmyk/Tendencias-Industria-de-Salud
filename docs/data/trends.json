@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T21:02:47+00:00",
+  "generated_at": "2026-11-13T21:09:59+00:00",
   "raw_items": 825,
   "candidates": 176,
   "items_processed_by_llm": 0,
@@ -23,9 +23,9 @@
   },
   "models_used": {},
   "last_collection": {
-   "run_at": "2026-11-13T20:49:18+00:00",
-   "days": 3,
-   "nuevos": 173,
+   "run_at": "2026-11-13T21:09:56+00:00",
+   "days": 30,
+   "nuevos": 0,
    "fuentes": [
     {
      "source": "fierce_biotech",
@@ -60,7 +60,7 @@
     {
      "source": "pubmed",
      "ok": true,
-     "n": 85
+     "n": 129
     },
     {
      "source": "medrxiv",
@@ -75,7 +75,7 @@
     {
      "source": "openalex",
      "ok": true,
-     "n": 142
+     "n": 193
     },
     {
      "source": "clinicaltrials",
