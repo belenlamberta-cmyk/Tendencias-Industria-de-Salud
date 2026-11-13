@@ -141,7 +141,7 @@ def call_with_fallback(prompt, models, key, dead):
     raise QuotaExhausted(last)
 
 def cmd_extract(a):
-    keys = [os.environ[n] for n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 6)] if os.environ.get(n)]
+    keys = [os.environ[n].strip() for n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 6)] if os.environ.get(n, "").strip()]
     if not keys: sys.exit("Falta GEMINI_API_KEY (en Colab: Secretos -> GEMINI_API_KEY).")
     key = keys[0]; print(f"Claves disponibles: {len(keys)}")
     if a.model == "auto":
@@ -235,16 +235,22 @@ def verify_trend(t, it):
 def cmd_verify(a):
     raw = {i["id"]: i for i in read_jsonl(RAWF)}
     ok, logs, n_tr, n_err = [], [], 0, 0
-    for e in read_jsonl(PROC / "extractions.jsonl"):
-        if e.get("error") or not e.get("result"): n_err += 1; continue
-        for t in e["result"].get("trends", []) or []:
-            n_tr += 1
-            c, lg = verify_trend(t, raw[e["item_id"]]) if e["item_id"] in raw else (None, [{"item_id": e["item_id"], "problem": "item no esta en el crudo", "action": "descartada"}])
-            logs += lg
-            if c: ok.append(c)
+    gem = read_jsonl(PROC / "extractions.jsonl")
+    rul = read_jsonl(PROC / "extractions_rules.jsonl")
+    # si Gemini ya propuso la misma categoria para el mismo documento, se prioriza Gemini y se omite la regla
+    gem_keys = {(e["item_id"], t.get("category")) for e in gem if e.get("result") for t in (e["result"].get("trends") or [])}
+    for method, exts in (("ia", gem), ("reglas", rul)):
+        for e in exts:
+            if e.get("error") or not e.get("result"): n_err += 1; continue
+            for t in e["result"].get("trends", []) or []:
+                if method == "reglas" and (e["item_id"], t.get("category")) in gem_keys: continue
+                n_tr += 1
+                c, lg = verify_trend(t, raw[e["item_id"]]) if e["item_id"] in raw else (None, [{"item_id": e["item_id"], "problem": "item no esta en el crudo", "action": "descartada"}])
+                logs += lg
+                if c: c["method"] = method; ok.append(c)
     write_jsonl(PROC / "verified_trends.jsonl", ok); write_jsonl(PROC / "verification_log.jsonl", logs)
     desc = sum(1 for l in logs if l["action"] == "descartada")
-    print(f"Tendencias propuestas por Gemini: {n_tr} | verificadas: {len(ok)} | descartadas: {desc} | items con error: {n_err}")
+    print(f"Tendencias propuestas (IA + reglas): {n_tr} | verificadas: {len(ok)} (IA: {sum(1 for c in ok if c['method']=='ia')}, reglas: {sum(1 for c in ok if c['method']=='reglas')}) | descartadas: {desc} | items con error: {n_err}")
     print(f"Problemas registrados: {len(logs)}  -> {PROC/'verification_log.jsonl'}")
 
 # ---------------- autoprueba ----------------

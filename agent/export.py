@@ -21,13 +21,13 @@ def main():
         if k in seen: continue
         seen.add(k)
         trends.append({k2: t.get(k2) for k2 in ("technology", "category", "horizon", "hype_phase", "justification", "quote", "companies", "countries",
-                                                 "amounts", "url", "source", "title", "published", "evidence_level", "region", "flags", "status")})
+                                                 "amounts", "url", "source", "title", "published", "evidence_level", "region", "flags", "status", "method")})
     raw, ext, log = rd(RAWF / "raw_items.jsonl"), rd(P / "extractions.jsonl"), rd(P / "verification_log.jsonl")
     runs = rd(RAWF / "run_log.jsonl")
-    proposed = sum(len((e.get("result") or {}).get("trends", [])) for e in ext)
+    proposed = sum(len((e.get("result") or {}).get("trends", [])) for e in ext + rd(P / "extractions_rules.jsonl"))
     meta = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "raw_items": len(raw), "candidates": len(rd(P / "candidates.jsonl")), "items_processed_by_llm": len(ext),
+        "raw_items": len(raw), "candidates": len(rd(P / "candidates.jsonl")), "items_processed_by_llm": len(ext), "items_processed_by_rules": len(rd(P / "extractions_rules.jsonl")),
         "trends_proposed": proposed, "trends_verified": len(trends),
         "verification": dict(Counter(l["action"] for l in log)),
         "sources_raw": dict(Counter(r["source"] for r in raw)),

@@ -8,3 +8,4 @@
 - URLs de ANMAT/CONICET sin confirmar: dejadas deshabilitadas, no inventadas.
 | 2026-11-13 | Etapa 2 | Claude escribió `process.py` (filtro, extracción con Gemini, verificación) y `taxonomy.json`; diagnosticó la elección de modelo preview y el defecto del prompt de horizontes | Grupo corrió el cuaderno en Colab con su clave y compartió los resultados; decidió pasar a GitHub y página propia |
 | 2026-11-13 | Infra | Claude preparó el repositorio de GitHub y subió el código | Grupo creó la cuenta y el repositorio y dio los permisos |
+| 2026-11-13 | Etapa 2b | Claude escribió `rules.py` y `catalog.json` (clasificador por reglas sin IA, catálogo cerrado de 35 tecnologías) porque la cuota gratuita de Gemini se agotaba y los modelos devolvían errores 503/429 | Grupo pidió la alternativa; debe revisar el catálogo y las reglas de horizonte/fase (heurísticas, no Gartner) |

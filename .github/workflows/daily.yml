@@ -32,7 +32,9 @@ jobs:
         run: python agent/collect.py --days ${{ inputs.days || '7' }}
       - name: 2. Filtrar lo relevante
         run: python agent/process.py filter --max 250
-      - name: 3. Extraer tendencias con Gemini
+      - name: 2b. Identificar tendencias por reglas (sin IA)
+        run: python agent/rules.py
+      - name: 3. Extraer tendencias con Gemini (complemento con IA)
         continue-on-error: true
         env:
           PYTHONUNBUFFERED: "1"

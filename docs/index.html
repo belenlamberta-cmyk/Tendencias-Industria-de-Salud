@@ -164,7 +164,7 @@ footer{padding:30px 0 50px;color:var(--ink3);font-size:13px}
       <div class="card"><h3 style="margin-top:0">Qué es dato y qué es juicio</h3>
         <ul>
           <li><b>Dato con fuente:</b> el título, la fecha, el enlace y la cita textual de cada tendencia vienen del texto original recolectado.</li>
-          <li><b>Juicio del modelo:</b> el horizonte, la fase del ciclo y la categoría los estima un modelo de lenguaje a partir de ese texto. Pueden estar equivocados.</li>
+          <li><b>Juicio automático:</b> el horizonte y la fase del ciclo los estima, según cada tendencia, un modelo de lenguaje o un conjunto de reglas simples (el panel de detalle indica cuál). Son estimaciones y pueden estar equivocadas. Las reglas identifican tecnologías de un catálogo cerrado por palabras clave: no entienden el contexto.</li>
           <li><b>Verificación automática:</b> si la cita no aparece literalmente en el texto, la tendencia se descarta. Las empresas, países y montos que no figuran en el texto se quitan.</li>
         </ul></div>
       <div class="card"><h3 style="margin-top:0">Resultados de la verificación</h3><div id="verif"></div><h3>Fuentes recolectadas</h3><div id="srcs"></div></div>
@@ -304,11 +304,11 @@ function showDetail(t){
   d.appendChild(tags);
   d.appendChild(el("div",{"class":"note"},"Cita textual de la fuente (verificada contra el texto original):"));
   d.appendChild(el("blockquote",null,"“"+t.quote+"”"));
-  d.appendChild(el("div",{"class":"note",style:"margin-top:12px"},"Justificación del modelo (estimación, no dato):"));
+  d.appendChild(el("div",{"class":"note",style:"margin-top:12px"},"Justificación (estimación, no dato):"));
   d.appendChild(el("div",{style:"font-size:14px;color:var(--ink2)"},t.justification||""));
   var dl=el("dl");
   function row(k,v){if(!v||(Array.isArray(v)&&!v.length))return;dl.appendChild(el("dt",null,k));dl.appendChild(el("dd",null,Array.isArray(v)?v.join(", "):v))}
-  row("Empresas",t.companies);row("Países",t.countries);row("Montos",t.amounts);row("Fuente",t.source);row("Publicado",t.published);row("Región",regionLabel(t.region));
+  row("Empresas",t.companies);row("Países",t.countries);row("Montos",t.amounts);row("Fuente",t.source);row("Publicado",t.published);row("Región",regionLabel(t.region));row("Método",t.method==="reglas"?"Reglas automáticas (sin IA)":(t.method==="ia"?"Modelo de IA (Gemini)":"s/d"));
   d.appendChild(dl);
   d.appendChild(el("div",{"class":"note",style:"margin-top:10px"},t.title));
   var u=safeUrl(t.url);if(u){var a=el("a",{href:u,target:"_blank",rel:"noopener noreferrer"},"Ver fuente original ↗");a.style.display="inline-block";a.style.marginTop="8px";d.appendChild(a)}
@@ -342,7 +342,7 @@ function drawSummary(list){
 function drawKpis(){
   var m=D.meta,k=document.getElementById("kpis");k.textContent="";
   var v=m.verification||{};var desc=(v["descartada"]||0),norm=(v["normalizado"]||0);
-  [[D.trends.length,"tendencias verificadas con su fuente"],[m.raw_items||0,"documentos recolectados de "+Object.keys(m.sources_raw||{}).length+" fuente(s)"],[m.items_processed_by_llm||0,"documentos analizados por el modelo"],[desc,"tendencias descartadas por no poder verificarse"]].forEach(function(p){
+  [[D.trends.length,"tendencias verificadas con su fuente"],[m.raw_items||0,"documentos recolectados de "+Object.keys(m.sources_raw||{}).length+" fuente(s)"],[(m.items_processed_by_rules||0)+(m.items_processed_by_llm||0),"documentos analizados ("+(m.items_processed_by_rules||0)+" por reglas, "+(m.items_processed_by_llm||0)+" por IA)"],[desc,"tendencias descartadas por no poder verificarse"]].forEach(function(p){
     var d=el("div",{"class":"kpi"});d.appendChild(el("b",null,String(p[0])));d.appendChild(el("span",null,p[1]));k.appendChild(d)})}
 function drawMethod(){
   var m=D.meta,v=document.getElementById("verif");v.textContent="";
