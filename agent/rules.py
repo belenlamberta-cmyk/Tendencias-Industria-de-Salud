@@ -34,7 +34,7 @@ RULES_DOC = [
 
 P = lambda s: re.compile(s, re.I)
 R_FAIL = P(r"\b(failed|failure|setback|discontinu\w+|withdr[ae]w\w*|halted|terminated early|shut down|layoffs?)\b")
-R_STD = P(r"standard of care|widely adopted|routinely used|routine clinical|gold standard|well[- ]established|commercially available")
+R_STD = P(r"standard of care|widely adopted|routinely used|routine clinical|gold standard|commercially available")
 R_APPR = P(r"\b(approved|approval|fda clearance|cleared by|authori[sz]ation|authori[sz]ed)\b")
 R_PH3 = P(r"phase\s*(3|iii)\b")
 R_PH2 = P(r"phase\s*(2|ii)\b")
