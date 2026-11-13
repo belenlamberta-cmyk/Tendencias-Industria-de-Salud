@@ -88,7 +88,7 @@ footer{padding:30px 0 50px;color:var(--ink3);font-size:13px}
 <header class="top"><div class="wrap">
   <p class="eyebrow">Vigilancia tecnológica · Salud y biotecnología</p>
   <h1>Radar de tecnologías para laboratorios de investigación en salud</h1>
-  <p class="lede">Para quien decide qué tecnología incorporar en un laboratorio de investigación (tipo CONICET). Un agente de IA reúne fuentes públicas, extrae tendencias y <b>verifica cada dato contra el texto original</b>. Cada tendencia enlaza a su fuente.</p>
+  <p class="lede">Para quien decide qué tecnología incorporar en un laboratorio de investigación (tipo CONICET). Un agente automático reúne fuentes públicas, identifica tendencias con un catálogo de tecnologías y reglas explícitas, y <b>verifica cada dato contra el texto original</b>. Cada tendencia enlaza a su fuente.</p>
   <div class="meta"><span id="m-updated" class="pill">Cargando…</span><span id="m-note"></span></div>
   <div class="kpis" id="kpis" aria-live="polite"></div>
 </div></header>
@@ -355,6 +355,7 @@ function drawMethod(){
   ["Un modelo de lenguaje puede equivocarse: por eso cada tendencia se contrasta con el texto original, pero la verificación no detecta una interpretación errónea de un texto real.",
    "El horizonte y la fase se estiman a partir de un solo documento. Un artículo no representa el estado de una industria.",
    "Las fuentes son mayormente publicaciones científicas y registros de ensayos: reflejan lo que se investiga, no necesariamente lo que ya se compra o usa.",
+   "La actualización diaria no usa IA generativa: identifica tecnologías por palabras clave de un catálogo cerrado, sin entender el contexto. Puede marcar una tecnología que el texto apenas menciona.",
    "Algunas fuentes no pudieron usarse (bloquean consultas automáticas o no ofrecen feed): Fierce Biotech, Nature News y Nature Biotechnology. No hay todavía noticias oficiales de ANMAT ni CONICET.",
    "“Argentina” significa publicaciones con afiliación institucional argentina, no necesariamente adopción local.",
    "La cobertura de inversión, proveedores y regulación por país está en desarrollo."].forEach(function(t){lim.appendChild(el("li",null,t))})}
