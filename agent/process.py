@@ -151,12 +151,18 @@ def cmd_extract(a):
             print(f"No pude consultar la lista de modelos ({type(e).__name__}: {e}). Se reintenta en la proxima corrida."); return
         for m in models: print("  -", m)
     else: models = [a.model]
-    ok = []
-    for m in models:
-        try: gemini_call('Responde solo este JSON: {"ok": true}', m, key, timeout=20); ok.append(m); print(f"  [responde] {m}")
-        except Exception as e: print(f"  [descartado en el sondeo] {m}: {type(e).__name__}")
-    if not ok: print("Ningun modelo respondio al sondeo (cuota o demora de Gemini). Se reintenta en la proxima corrida."); return
-    models = ok
+    good_keys, key_models = [], {}
+    for n_k, k in enumerate(keys, 1):
+        ok = []
+        for m in models:
+            try: gemini_call('Responde solo este JSON: {"ok": true}', m, k, timeout=20); ok.append(m); print(f"  [clave {n_k}] responde {m}")
+            except urllib.error.HTTPError as e: print(f"  [clave {n_k}] descartado {m}: HTTP {e.code} {http_msg(e)[:120]}")
+            except Exception as e: print(f"  [clave {n_k}] descartado {m}: {type(e).__name__}")
+            if len(ok) >= 3: break
+        if ok: good_keys.append(k); key_models[k] = ok
+        else: print(f"  [clave {n_k}] sin modelos disponibles hoy: la salteo")
+    if not good_keys: print("Ninguna clave pudo usar ningun modelo (cuota agotada o demora de Gemini). Se reintenta en la proxima corrida."); return
+    keys = good_keys
     cands = read_jsonl(PROC / "candidates.jsonl"); done = {r["item_id"] for r in read_jsonl(PROC / "extractions.jsonl")}
     todo = [c for c in cands if c["id"] not in done][: a.limit]
     print(f"Pendientes: {len([c for c in cands if c['id'] not in done])} | esta corrida: {len(todo)}")
@@ -166,7 +172,7 @@ def cmd_extract(a):
         if time.time() - t0 > 25 * 60: print("Limite de 25 minutos alcanzado: se retoma en la proxima corrida."); break
         txt = None; fatal = False
         while ki < len(keys):
-            try: txt, used = call_with_fallback(build_prompt(it), models, keys[ki], deads[ki]); break
+            try: txt, used = call_with_fallback(build_prompt(it), key_models[keys[ki]], keys[ki], deads[ki]); break
             except QuotaExhausted as e:
                 ki += 1; print(f"  [clave {ki} agotada] " + ("paso a la siguiente clave" if ki < len(keys) else ""))
             except Exception as e:
