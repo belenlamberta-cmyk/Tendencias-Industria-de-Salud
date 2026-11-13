@@ -8,6 +8,9 @@ on:
       days:
         description: "Ventana de búsqueda en días (la primera vez conviene 30)"
         default: "30"
+      limit:
+        description: "Cuántos documentos analizar con IA (para una prueba rápida poné 8)"
+        default: "60"
 
 permissions:
   contents: write
@@ -36,7 +39,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
-        run: python agent/process.py extract --limit 60
+        run: python agent/process.py extract --limit ${{ inputs.limit || '60' }}
       - name: 4. Verificar contra el texto crudo
         run: python agent/process.py verify
       - name: 5. Exportar para el dashboard
