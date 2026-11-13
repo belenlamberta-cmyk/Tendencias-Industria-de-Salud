@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "generated_at": "2026-11-13T20:46:14+00:00",
+  "raw_items": 652,
+  "candidates": 169,
+  "items_processed_by_llm": 0,
+  "trends_proposed": 0,
+  "trends_verified": 0,
+  "verification": {},
+  "sources_raw": {
+   "pubmed": 129,
+   "medrxiv": 27,
+   "arxiv": 100,
+   "openalex": 193,
+   "clinicaltrials": 93,
+   "stat": 20,
+   "ema_news": 7,
+   "who_news": 83
+  },
+  "models_used": {},
+  "last_collection": {
+   "run_at": "2026-11-13T20:46:07+00:00",
+   "days": 30,
+   "nuevos": 652,
+   "fuentes": [
+    {
+     "source": "fierce_biotech",
+     "ok": false,
+     "n": 0,
+     "note": "deshabilitada (URL pendiente)"
+    },
+    {
+     "source": "nature_news",
+     "ok": false,
+     "n": 0,
+     "note": "deshabilitada (URL pendiente)"
+    },
+    {
+     "source": "nature_biotech",
+     "ok": false,
+     "n": 0,
+     "note": "deshabilitada (URL pendiente)"
+    },
+    {
+     "source": "anmat",
+     "ok": false,
+     "n": 0,
+     "note": "deshabilitada (URL pendiente)"
+    },
+    {
+     "source": "conicet",
+     "ok": false,
+     "n": 0,
+     "note": "deshabilitada (URL pendiente)"
+    },
+    {
+     "source": "pubmed",
+     "ok": true,
+     "n": 129
+    },
+    {
+     "source": "medrxiv",
+     "ok": true,
+     "n": 27
+    },
+    {
+     "source": "arxiv",
+     "ok": true,
+     "n": 100
+    },
+    {
+     "source": "openalex",
+     "ok": true,
+     "n": 193
+    },
+    {
+     "source": "clinicaltrials",
+     "ok": true,
+     "n": 93
+    },
+    {
+     "source": "stat",
+     "ok": true,
+     "n": 20
+    },
+    {
+     "source": "fda_press",
+     "ok": false,
+     "n": 0,
+     "note": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+     "source": "ema_news",
+     "ok": true,
+     "n": 7
+    },
+    {
+     "source": "who_news",
+     "ok": true,
+     "n": 83
+    }
+   ]
+  },
+  "categories": {
+   "ia_descubrimiento": "IA y modelos para descubrimiento",
+   "edicion_genica_terapias": "Edicion genica y terapias avanzadas",
+   "omicas": "Omicas, celula unica y espacial",
+   "automatizacion_lab": "Automatizacion y laboratorios autonomos",
+   "datos_computo": "Bioinformatica, datos y computo",
+   "biologia_sintetica": "Biologia sintetica y biomanufactura",
+   "gemelos_simulacion": "Gemelos digitales y simulacion",
+   "regulacion_seguridad": "Regulacion, etica y seguridad de datos",
+   "ensayos_precision": "Ensayos clinicos y medicina de precision"
+  },
+  "hype_phases": [
+   "Innovation Trigger",
+   "Peak of Inflated Expectations",
+   "Trough of Disillusionment",
+   "Slope of Enlightenment",
+   "Plateau of Productivity"
+  ],
+  "horizons": [
+   "corto",
+   "mediano",
+   "largo"
+  ]
+ },
+ "trends": []
+}
