@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de tecnologías · Laboratorios de investigación en salud</title>
+<meta name="description" content="Radar de tendencias tecnológicas para laboratorios de investigación en salud y biotecnología. Cada dato enlaza a su fuente original.">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f5f1; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --ink3:#78766f; --line:#e3e1d9; --line2:#cfcdc3;
+  --accent:#1c5cab; --accent-soft:#e6eefa;
+  --p1:#2a78d6; --p2:#eb6834; --p3:#1baf7a; --p4:#eda100; --p5:#e87ba4;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    color-scheme: dark;
+    --bg:#121211; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --ink3:#9a988f; --line:#2c2b29; --line2:#3d3c39;
+    --accent:#6da7ec; --accent-soft:#1d2a3d;
+    --p1:#3987e5; --p2:#d95926; --p3:#199e70; --p4:#c98500; --p5:#d55181;
+    --warn:#f0c36a; --warn-bg:#2d2411;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+header.top{padding:36px 0 22px;border-bottom:1px solid var(--line);background:var(--surface)}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin:0 0 8px}
+h1{font:600 clamp(26px,4vw,40px)/1.15 Georgia,"Times New Roman",serif;margin:0 0 10px;letter-spacing:-.01em}
+.lede{max-width:760px;color:var(--ink2);margin:0 0 14px}
+.meta{display:flex;gap:10px 18px;flex-wrap:wrap;font-size:13px;color:var(--ink3)}
+.pill{display:inline-block;padding:2px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:600}
+section{padding:28px 0 6px}
+h2{font:600 22px/1.25 Georgia,serif;margin:0 0 4px}
+.sub{color:var(--ink2);margin:0 0 16px;max-width:780px;font-size:15px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:22px 0 4px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi b{display:block;font:600 30px/1.1 Georgia,serif}
+.kpi span{font-size:13px;color:var(--ink2)}
+.filters{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);margin-top:18px}
+.frow{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line2);border-radius:10px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;padding:7px 13px;font:inherit;font-size:14px;color:var(--ink2);cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:#fff}
+.seg button:focus-visible,select:focus-visible,input:focus-visible,.dot:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+label.f{font-size:12px;color:var(--ink3);display:flex;flex-direction:column;gap:3px}
+select,input[type=search]{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line2);border-radius:10px;background:var(--surface);color:var(--ink);min-width:160px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.summary{margin-top:16px}
+.summary ul{margin:8px 0 0;padding-left:18px;color:var(--ink2)}
+.summary li{margin:3px 0}
+.grid2{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.85fr);gap:16px;align-items:start}
+@media (max-width:900px){.grid2{grid-template-columns:1fr}}
+svg{display:block;width:100%;height:auto}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink2);margin-top:10px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.detail h3{font:600 19px/1.25 Georgia,serif;margin:0 0 8px}
+.detail dl{margin:12px 0 0;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:14px}
+.detail dt{color:var(--ink3)}
+.detail dd{margin:0}
+.tag{display:inline-block;font-size:12px;padding:2px 9px;border-radius:99px;border:1px solid var(--line2);color:var(--ink2);margin:0 4px 4px 0}
+.tag.warn{border-color:var(--warn);color:var(--warn);background:var(--warn-bg)}
+blockquote{margin:10px 0 0;padding:8px 12px;border-left:3px solid var(--line2);color:var(--ink2);font-size:14px;background:var(--bg);border-radius:0 8px 8px 0}
+.note{font-size:12px;color:var(--ink3);margin-top:4px}
+.empty{padding:34px 18px;text-align:center;color:var(--ink2)}
+.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink3);position:sticky;top:0;background:var(--surface);cursor:pointer;white-space:nowrap}
+tbody tr:hover{background:var(--accent-soft)}
+.gap{border:1px dashed var(--line2);background:var(--surface)}
+.gap code,.crit code{background:var(--bg);padding:1px 6px;border-radius:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+footer{padding:30px 0 50px;color:var(--ink3);font-size:13px}
+.tip{position:fixed;pointer-events:none;z-index:20;max-width:280px;background:var(--ink);color:var(--bg);font-size:13px;padding:7px 10px;border-radius:8px;display:none;box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.dot{cursor:pointer}
+.sector-label{font-size:15px;fill:var(--ink2)}
+.ring-label{font-size:13px;fill:var(--ink3)}
+.sr{position:absolute;left:-9999px}
+</style>
+</head>
+<body>
+<a class="sr" href="#tabla">Ir a la tabla de tendencias</a>
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Vigilancia tecnológica · Salud y biotecnología</p>
+  <h1>Radar de tecnologías para laboratorios de investigación en salud</h1>
+  <p class="lede">Para quien decide qué tecnología incorporar en un laboratorio de investigación (tipo CONICET). Un agente de IA reúne fuentes públicas, extrae tendencias y <b>verifica cada dato contra el texto original</b>. Cada tendencia enlaza a su fuente.</p>
+  <div class="meta"><span id="m-updated" class="pill">Cargando…</span><span id="m-note"></span></div>
+  <div class="kpis" id="kpis" aria-live="polite"></div>
+</div></header>
+
+<div class="wrap">
+  <div class="filters" role="search" aria-label="Filtros">
+    <div class="frow">
+      <label class="f">Región
+        <span class="seg" id="f-region" role="group" aria-label="Región">
+          <button type="button" data-v="all" aria-pressed="true">Todas</button>
+          <button type="button" data-v="Argentina" aria-pressed="false">Argentina</button>
+          <button type="button" data-v="global" aria-pressed="false">Mundo</button>
+        </span></label>
+      <label class="f">Horizonte
+        <span class="seg" id="f-hz" role="group" aria-label="Horizonte">
+          <button type="button" data-v="all" aria-pressed="true">Todos</button>
+          <button type="button" data-v="corto" aria-pressed="false">Corto</button>
+          <button type="button" data-v="mediano" aria-pressed="false">Mediano</button>
+          <button type="button" data-v="largo" aria-pressed="false">Largo</button>
+        </span></label>
+      <label class="f">Categoría<select id="f-cat"><option value="all">Todas</option></select></label>
+      <label class="f">Fase (estimada)<select id="f-ph"><option value="all">Todas</option></select></label>
+      <label class="f">Buscar<input type="search" id="f-q" placeholder="tecnología, empresa, país…"></label>
+    </div>
+  </div>
+
+  <section id="resumen" class="summary card" aria-labelledby="h-res">
+    <h2 id="h-res">Resumen ejecutivo</h2>
+    <p class="sub" style="margin-bottom:0">Generado automáticamente a partir de los datos filtrados. Solo cuenta lo que hay; no agrega interpretación.</p>
+    <ul id="summary-list"></ul>
+  </section>
+
+  <section id="radar" aria-labelledby="h-radar">
+    <h2 id="h-radar">1 · ¿Qué hay y para cuándo? Radar por horizonte</h2>
+    <p class="sub">Cada punto es una tendencia verificada. Cuanto más lejos del centro, más lejos en el tiempo. El sector indica la categoría; el color y la forma, la fase estimada del ciclo de expectativas (ver abajo). Hacé clic en un punto para ver la cita original y la fuente.</p>
+    <div class="grid2">
+      <div class="card"><div id="radar-svg"></div><div class="legend" id="legend"></div></div>
+      <div class="card detail" id="detail" aria-live="polite"><div class="empty">Elegí una tendencia en el radar o en la tabla para ver su detalle y su fuente.</div></div>
+    </div>
+  </section>
+
+  <section id="hype" aria-labelledby="h-hype">
+    <h2 id="h-hype">2 · ¿En qué fase está cada tecnología? Ciclo de expectativas</h2>
+    <p class="sub">Ubicación en las cinco fases del ciclo de expectativas de Gartner. <b>Es una estimación propia del modelo con base en un texto, no una clasificación de Gartner.</b> Un solo artículo es evidencia débil: la fase por tecnología se consolida en la siguiente etapa.</p>
+    <div class="card"><div id="hype-svg"></div></div>
+  </section>
+
+  <section id="brechas" aria-labelledby="h-gap">
+    <h2 id="h-gap">3 · ¿Dónde están las brechas?</h2>
+    <p class="sub">Criterio explícito, para que se sepa qué significa “brecha” en este tablero.</p>
+    <div class="card gap crit">
+      <p style="margin-top:0"><b>Brecha = madurez esperada en el horizonte − adopción actual promedio</b>, por tecnología, en una escala de 0 a 5.</p>
+      <div class="two">
+        <div><b>Adopción actual (0–5)</b><br><span class="note" style="font-size:14px">0 = no se usa · 1 = investigación básica · 2 = pilotos · 3 = uso en grupos líderes · 4 = uso extendido · 5 = estándar de la industria.</span></div>
+        <div><b>Madurez esperada (0–5)</b><br><span class="note" style="font-size:14px">Misma escala, proyectada al horizonte (corto, mediano, largo). Una brecha mayor a 2 se marca como alta.</span></div>
+      </div>
+      <p class="note" style="font-size:14px">Cada puntaje llevará su justificación y al menos una fuente enlazada, y será revisado por una persona antes de publicarse. <span class="tag warn">En construcción: todavía no hay puntajes cargados, por eso no se muestra ningún mapa de brechas.</span></p>
+    </div>
+  </section>
+
+  <section id="tabla" aria-labelledby="h-tab">
+    <h2 id="h-tab">Todas las tendencias</h2>
+    <p class="sub">Misma información que el radar, en tabla. Tocá un encabezado para ordenar.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th data-k="technology">Tecnología</th><th data-k="category">Categoría</th><th data-k="horizon">Horizonte</th><th data-k="hype_phase">Fase (estimada)</th><th data-k="evidence_level">Evidencia</th><th>Fuente</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table></div>
+  </section>
+
+  <section id="metodo" aria-labelledby="h-met">
+    <h2 id="h-met">Cómo se hizo y qué límites tiene</h2>
+    <div class="two">
+      <div class="card"><h3 style="margin-top:0">Qué es dato y qué es juicio</h3>
+        <ul>
+          <li><b>Dato con fuente:</b> el título, la fecha, el enlace y la cita textual de cada tendencia vienen del texto original recolectado.</li>
+          <li><b>Juicio del modelo:</b> el horizonte, la fase del ciclo y la categoría los estima un modelo de lenguaje a partir de ese texto. Pueden estar equivocados.</li>
+          <li><b>Verificación automática:</b> si la cita no aparece literalmente en el texto, la tendencia se descarta. Las empresas, países y montos que no figuran en el texto se quitan.</li>
+        </ul></div>
+      <div class="card"><h3 style="margin-top:0">Resultados de la verificación</h3><div id="verif"></div><h3>Fuentes recolectadas</h3><div id="srcs"></div></div>
+    </div>
+    <div class="card" style="margin-top:16px"><h3 style="margin-top:0">Limitaciones conocidas</h3><ul id="limits"></ul></div>
+  </section>
+  <footer>Trabajo práctico universitario. Código, datos y registro de errores de IA en el <a href="https://github.com/belenlamberta-cmyk/Tendencias-Industria-de-Salud" rel="noopener">repositorio de GitHub</a>.</footer>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+(function(){
+"use strict";
+var NS="http://www.w3.org/2000/svg";
+var PH_ES={"Innovation Trigger":"Lanzamiento","Peak of Inflated Expectations":"Pico de expectativas","Trough of Disillusionment":"Desilusión","Slope of Enlightenment":"Maduración","Plateau of Productivity":"Meseta de productividad"};
+var HZ_ES={corto:"Corto (0–2 años)",mediano:"Mediano (2–5 años)",largo:"Largo (5–10+ años)"};
+var HZ_LONG=["corto","mediano","largo"];
+var SHAPES=["circle","square","diamond","triangle","cross"];
+var D={meta:{},trends:[]};
+var S={region:"all",hz:"all",cat:"all",ph:"all",q:"",sel:null,sort:{k:null,dir:1}};
+
+function el(tag,attrs,text){var e=document.createElement(tag);if(attrs)for(var k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;return e}
+function sv(tag,attrs){var e=document.createElementNS(NS,tag);if(attrs)for(var k in attrs)e.setAttribute(k,attrs[k]);return e}
+function safeUrl(u){return typeof u==="string"&&/^https:\/\//i.test(u)?u:null}
+function fmtDate(s){try{var d=new Date(s);return d.toLocaleDateString("es-AR",{day:"numeric",month:"long",year:"numeric"})}catch(e){return s}}
+function catLabel(c){return (D.meta.categories&&D.meta.categories[c])||c}
+function phIdx(p){var a=D.meta.hype_phases||Object.keys(PH_ES);return Math.max(0,a.indexOf(p))}
+function regionLabel(r){return r==="Argentina"?"Argentina":"Mundo"}
+function tid(t){return t.url+"|"+t.technology}
+
+function filtered(){
+  var q=S.q.trim().toLowerCase();
+  return D.trends.filter(function(t){
+    if(S.region!=="all"&&(t.region||"global")!==S.region)return false;
+    if(S.hz!=="all"&&t.horizon!==S.hz)return false;
+    if(S.cat!=="all"&&t.category!==S.cat)return false;
+    if(S.ph!=="all"&&t.hype_phase!==S.ph)return false;
+    if(q){var blob=(t.technology+" "+(t.companies||[]).join(" ")+" "+(t.countries||[]).join(" ")+" "+catLabel(t.category)+" "+t.title).toLowerCase();if(blob.indexOf(q)<0)return false}
+    return true});
+}
+
+/* ---------- formas ---------- */
+function shapeEl(type,x,y,r,fill){
+  var s;
+  if(type==="circle"){s=sv("circle",{cx:x,cy:y,r:r})}
+  else if(type==="square"){s=sv("rect",{x:x-r,y:y-r,width:2*r,height:2*r,rx:2})}
+  else if(type==="diamond"){s=sv("polygon",{points:[x,y-r*1.25,x+r*1.25,y,x,y+r*1.25,x-r*1.25,y].join(" ")})}
+  else if(type==="triangle"){s=sv("polygon",{points:[x,y-r*1.2,x+r*1.2,y+r,x-r*1.2,y+r].join(" ")})}
+  else{var a=r*1.2,b=r*.45;s=sv("polygon",{points:[x-b,y-a,x+b,y-a,x+b,y-b,x+a,y-b,x+a,y+b,x+b,y+b,x+b,y+a,x-b,y+a,x-b,y+b,x-a,y+b,x-a,y-b,x-b,y-b].join(" ")})}
+  s.setAttribute("fill",fill);s.setAttribute("stroke","var(--surface)");s.setAttribute("stroke-width","2");return s}
+
+function tip(html,ev){var t=document.getElementById("tip");t.textContent=html;t.style.display="block";var x=ev.clientX+14,y=ev.clientY+14;if(x+290>window.innerWidth)x=ev.clientX-290;t.style.left=Math.max(6,x)+"px";t.style.top=y+"px"}
+function tipFor(node,t){
+  var txt=t.technology+" · "+(HZ_ES[t.horizon]||t.horizon)+" · "+(PH_ES[t.hype_phase]||t.hype_phase);
+  node.addEventListener("mousemove",function(e){tip(txt,e)});
+  node.addEventListener("mouseleave",function(){document.getElementById("tip").style.display="none"});
+  node.addEventListener("focus",function(){var r=node.getBoundingClientRect();tip(txt,{clientX:r.right,clientY:r.top})});
+  node.addEventListener("blur",function(){document.getElementById("tip").style.display="none"});
+}
+function makeDot(t,x,y,r){
+  var g=sv("g",{"class":"dot",tabindex:"0",role:"button","aria-label":t.technology+", "+(PH_ES[t.hype_phase]||"")+", horizonte "+t.horizon});
+  var i=phIdx(t.hype_phase);var s=shapeEl(SHAPES[i],x,y,r,"var(--p"+(i+1)+")");
+  if(S.sel===tid(t)){var ring=sv("circle",{cx:x,cy:y,r:r+5,fill:"none",stroke:"var(--ink)","stroke-width":2});g.appendChild(ring)}
+  g.appendChild(s);
+  g.addEventListener("click",function(){select(t)});
+  g.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();select(t)}});
+  tipFor(g,t);return g}
+
+/* ---------- radar ---------- */
+function drawRadar(list){
+  var host=document.getElementById("radar-svg");host.textContent="";
+  var cats=Object.keys(D.meta.categories||{});if(!cats.length){return}
+  var W=960,H=740,cx=W/2,cy=H/2,R0=60,R=[60,145,230,310],n=cats.length;
+  var svg=sv("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"Radar de tendencias por categoría y horizonte"});
+  for(var k=1;k<R.length;k++){svg.appendChild(sv("circle",{cx:cx,cy:cy,r:R[k],fill:"none",stroke:"var(--line)","stroke-width":1}))}
+  for(var i=0;i<n;i++){
+    var a0=-Math.PI/2+i*2*Math.PI/n;
+    svg.appendChild(sv("line",{x1:cx+R[0]*Math.cos(a0),y1:cy+R[0]*Math.sin(a0),x2:cx+R[3]*Math.cos(a0),y2:cy+R[3]*Math.sin(a0),stroke:"var(--line)"}));
+    var am=a0+Math.PI/n,lx=cx+(R[3]+26)*Math.cos(am),ly=cy+(R[3]+26)*Math.sin(am);
+    var txt=sv("text",{x:lx,y:ly,"class":"sector-label","text-anchor":Math.cos(am)>0.2?"start":(Math.cos(am)<-0.2?"end":"middle"),"dominant-baseline":"middle"});
+    var words=catLabel(cats[i]).split(" "),line1=[],line2=[];words.forEach(function(w,j){(j<Math.ceil(words.length/2)?line1:line2).push(w)});
+    var t1=sv("tspan",{x:lx,dy:line2.length?"-0.6em":"0"});t1.textContent=line1.join(" ");txt.appendChild(t1);
+    if(line2.length){var t2=sv("tspan",{x:lx,dy:"1.2em"});t2.textContent=line2.join(" ");txt.appendChild(t2)}
+    svg.appendChild(txt)}
+  ["Corto","Mediano","Largo"].forEach(function(l,k){var tt=sv("text",{x:cx-6,y:cy-R[k+1]+12,"class":"ring-label","text-anchor":"end","dominant-baseline":"middle"});tt.textContent=l;svg.appendChild(tt)});
+  var groups={};
+  list.forEach(function(t){var ci=cats.indexOf(t.category),hi=HZ_LONG.indexOf(t.horizon);if(ci<0||hi<0)return;(groups[ci+"|"+hi]=groups[ci+"|"+hi]||[]).push(t)});
+  Object.keys(groups).forEach(function(key){
+    var p=key.split("|"),ci=+p[0],hi=+p[1],g=groups[key],a0=-Math.PI/2+ci*2*Math.PI/n,span=2*Math.PI/n,pad=span*.14;
+    var rows=Math.ceil(g.length/4),inner=R[hi]+14,outer=R[hi+1]-14;
+    g.forEach(function(t,j){
+      var row=j%rows,col=Math.floor(j/rows),perRow=Math.ceil(g.length/rows);
+      var ang=a0+pad+(span-2*pad)*((col+.5)/perRow);
+      var rr=rows===1?(inner+outer)/2:inner+(outer-inner)*((row+.5)/rows);
+      svg.appendChild(makeDot(t,cx+rr*Math.cos(ang),cy+rr*Math.sin(ang),8))})});
+  host.appendChild(svg);
+  var lg=document.getElementById("legend");lg.textContent="";
+  (D.meta.hype_phases||[]).forEach(function(p,i){var s=el("span");var sw=sv("svg",{width:16,height:16,viewBox:"0 0 16 16","aria-hidden":"true"});sw.style.width="16px";sw.style.height="16px";sw.appendChild(shapeEl(SHAPES[i],8,8,5,"var(--p"+(i+1)+")"));s.appendChild(sw);s.appendChild(document.createTextNode(PH_ES[p]||p));lg.appendChild(s)});
+}
+
+/* ---------- ciclo de expectativas ---------- */
+var CURVE=[[0.02,0.08],[0.12,0.3],[0.22,0.8],[0.30,0.95],[0.38,0.78],[0.46,0.35],[0.52,0.2],[0.62,0.32],[0.75,0.5],[0.88,0.6],[0.98,0.62]];
+var PHX=[[0.03,0.22],[0.22,0.40],[0.40,0.58],[0.58,0.80],[0.80,0.98]];
+function curveY(x){for(var i=1;i<CURVE.length;i++){if(x<=CURVE[i][0]){var a=CURVE[i-1],b=CURVE[i],f=(x-a[0])/(b[0]-a[0]);var s=f*f*(3-2*f);return a[1]+(b[1]-a[1])*s}}return CURVE[CURVE.length-1][1]}
+function drawHype(list){
+  var host=document.getElementById("hype-svg");host.textContent="";
+  var W=1000,H=420,L=30,B=H-70,T=30,PW=W-60;
+  var svg=sv("svg",{viewBox:"0 0 "+W+" "+H,role:"img","aria-label":"Ciclo de expectativas con las tendencias ubicadas por fase"});
+  var X=function(x){return L+x*PW},Y=function(y){return B-y*(B-T)};
+  PHX.forEach(function(r,i){
+    var bg=sv("rect",{x:X(r[0]-(i?0:.03)),y:T-10,width:PW*(r[1]-r[0]+(i?0:.03)),height:B-T+10,fill:"var(--p"+(i+1)+")","fill-opacity":.07});svg.appendChild(bg);
+    var tx=sv("text",{x:X((r[0]+r[1])/2),y:B+28,"text-anchor":"middle","class":"sector-label"});tx.textContent=PH_ES[D.meta.hype_phases[i]]||"";svg.appendChild(tx);
+    var cnt=list.filter(function(t){return phIdx(t.hype_phase)===i}).length;
+    var tc=sv("text",{x:X((r[0]+r[1])/2),y:B+46,"text-anchor":"middle","class":"ring-label"});tc.textContent=cnt+(cnt===1?" tendencia":" tendencias");svg.appendChild(tc)});
+  var d="";for(var s=0;s<=200;s++){var x=.02+.96*s/200;d+=(s?"L":"M")+X(x).toFixed(1)+" "+Y(curveY(x)).toFixed(1)}
+  svg.appendChild(sv("path",{d:d,fill:"none",stroke:"var(--ink3)","stroke-width":2.5,"stroke-linecap":"round"}));
+  svg.appendChild(sv("line",{x1:L,y1:B,x2:W-30,y2:B,stroke:"var(--line2)"}));
+  var yl=sv("text",{x:L,y:T-14,"class":"ring-label"});yl.textContent="Expectativas";svg.appendChild(yl);
+  PHX.forEach(function(r,i){
+    var g=list.filter(function(t){return phIdx(t.hype_phase)===i});
+    g.forEach(function(t,j){
+      var perRow=Math.max(1,Math.min(g.length,Math.floor((r[1]-r[0])*PW/22))),row=Math.floor(j/perRow),col=j%perRow,inRow=Math.min(perRow,g.length-row*perRow);
+      var x=r[0]+(r[1]-r[0])*((col+.5)/inRow),yy=Y(curveY(x))-18-row*20;
+      svg.appendChild(makeDot(t,X(x),yy,8))})});
+  host.appendChild(svg);
+}
+
+/* ---------- detalle ---------- */
+function select(t){S.sel=tid(t);renderAll();showDetail(t)}
+function showDetail(t){
+  var d=document.getElementById("detail");d.textContent="";
+  d.appendChild(el("h3",null,t.technology));
+  var tags=el("div");tags.appendChild(el("span",{"class":"tag"},catLabel(t.category)));tags.appendChild(el("span",{"class":"tag"},HZ_ES[t.horizon]||t.horizon));tags.appendChild(el("span",{"class":"tag"},"Fase: "+(PH_ES[t.hype_phase]||t.hype_phase)));
+  tags.appendChild(el("span",{"class":"tag"+((t.evidence_level||"").indexOf("preprint")>=0?" warn":"")},"Evidencia: "+(t.evidence_level||"s/d")));
+  (t.flags||[]).forEach(function(f){tags.appendChild(el("span",{"class":"tag warn"},f==="fecha_futura"?"Fecha de publicación futura":f))});
+  if(t.status==="parcial")tags.appendChild(el("span",{"class":"tag warn"},"Se quitaron datos no respaldados"));
+  d.appendChild(tags);
+  d.appendChild(el("div",{"class":"note"},"Cita textual de la fuente (verificada contra el texto original):"));
+  d.appendChild(el("blockquote",null,"“"+t.quote+"”"));
+  d.appendChild(el("div",{"class":"note",style:"margin-top:12px"},"Justificación del modelo (estimación, no dato):"));
+  d.appendChild(el("div",{style:"font-size:14px;color:var(--ink2)"},t.justification||""));
+  var dl=el("dl");
+  function row(k,v){if(!v||(Array.isArray(v)&&!v.length))return;dl.appendChild(el("dt",null,k));dl.appendChild(el("dd",null,Array.isArray(v)?v.join(", "):v))}
+  row("Empresas",t.companies);row("Países",t.countries);row("Montos",t.amounts);row("Fuente",t.source);row("Publicado",t.published);row("Región",regionLabel(t.region));
+  d.appendChild(dl);
+  d.appendChild(el("div",{"class":"note",style:"margin-top:10px"},t.title));
+  var u=safeUrl(t.url);if(u){var a=el("a",{href:u,target:"_blank",rel:"noopener noreferrer"},"Ver fuente original ↗");a.style.display="inline-block";a.style.marginTop="8px";d.appendChild(a)}
+}
+
+/* ---------- tabla, resumen, kpis ---------- */
+function drawTable(list){
+  var tb=document.getElementById("tbody");tb.textContent="";
+  var L=list.slice();
+  if(S.sort.k){L.sort(function(a,b){var x=(a[S.sort.k]||"")+"",y=(b[S.sort.k]||"")+"";return x.localeCompare(y,"es")*S.sort.dir})}
+  if(!L.length){var tr=el("tr");var td=el("td",{colspan:6,"class":"empty"},"No hay tendencias con estos filtros.");tr.appendChild(td);tb.appendChild(tr);return}
+  L.forEach(function(t){
+    var tr=el("tr");
+    var c1=el("td");var b=el("a",{href:"#detail"},t.technology);b.addEventListener("click",function(e){e.preventDefault();select(t);document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"nearest"})});c1.appendChild(b);tr.appendChild(c1);
+    tr.appendChild(el("td",null,catLabel(t.category)));tr.appendChild(el("td",null,HZ_ES[t.horizon]||t.horizon));tr.appendChild(el("td",null,PH_ES[t.hype_phase]||t.hype_phase));tr.appendChild(el("td",null,t.evidence_level||""));
+    var c6=el("td");var u=safeUrl(t.url);if(u){c6.appendChild(el("a",{href:u,target:"_blank",rel:"noopener noreferrer"},(t.source||"fuente")+" ↗"))}tr.appendChild(c6);tb.appendChild(tr)})}
+function count(arr,f){var o={};arr.forEach(function(x){var k=f(x);o[k]=(o[k]||0)+1});return o}
+function topKey(o){var b=null;for(var k in o)if(b===null||o[k]>o[b])b=k;return b}
+function drawSummary(list){
+  var ul=document.getElementById("summary-list");ul.textContent="";
+  if(!list.length){ul.appendChild(el("li",null,"No hay tendencias con los filtros elegidos."));return}
+  var byCat=count(list,function(t){return t.category}),byHz=count(list,function(t){return t.horizon}),byEv=count(list,function(t){return t.evidence_level||"sin clasificar"});
+  var tc=topKey(byCat);
+  ul.appendChild(el("li",null,list.length+" tendencias verificadas"+(list.length===D.trends.length?"":" (de "+D.trends.length+" en total)")+", extraídas de "+Object.keys(count(list,function(t){return t.url})).length+" documentos distintos."));
+  ul.appendChild(el("li",null,"La categoría con más tendencias es “"+catLabel(tc)+"” ("+byCat[tc]+")."));
+  ul.appendChild(el("li",null,"Por horizonte: "+HZ_LONG.map(function(h){return (byHz[h]||0)+" a "+h+" plazo"}).join(", ")+"."));
+  var pre=(byEv["preprint (sin revisión de pares)"]||0);
+  ul.appendChild(el("li",null,"Evidencia: "+Object.keys(byEv).map(function(k){return byEv[k]+" "+k}).join(", ")+(pre?". Los preprints no pasaron revisión de pares.":".")));
+  var ar=list.filter(function(t){return t.region==="Argentina"}).length;
+  ul.appendChild(el("li",null,ar?ar+" tendencias provienen de publicaciones con afiliación argentina.":"Todavía no hay tendencias con afiliación argentina en esta selección."))}
+function drawKpis(){
+  var m=D.meta,k=document.getElementById("kpis");k.textContent="";
+  var v=m.verification||{};var desc=(v["descartada"]||0),norm=(v["normalizado"]||0);
+  [[D.trends.length,"tendencias verificadas con su fuente"],[m.raw_items||0,"documentos recolectados de "+Object.keys(m.sources_raw||{}).length+" fuente(s)"],[m.items_processed_by_llm||0,"documentos analizados por el modelo"],[desc,"tendencias descartadas por no poder verificarse"]].forEach(function(p){
+    var d=el("div",{"class":"kpi"});d.appendChild(el("b",null,String(p[0])));d.appendChild(el("span",null,p[1]));k.appendChild(d)})}
+function drawMethod(){
+  var m=D.meta,v=document.getElementById("verif");v.textContent="";
+  var ver=m.verification||{};
+  var p=el("p",{style:"margin:0"},"El modelo propuso "+(m.trends_proposed||0)+" tendencias. Se verificaron "+(m.trends_verified||0)+". Acciones del verificador: "+(Object.keys(ver).length?Object.keys(ver).map(function(k){return ver[k]+" "+k}).join(", "):"ninguna todavía")+".");
+  v.appendChild(p);v.appendChild(el("p",{"class":"note"},"Registro completo en el repositorio: data/processed/verification_log.jsonl"));
+  var s=document.getElementById("srcs");s.textContent="";var src=m.sources_raw||{};
+  s.appendChild(el("p",{style:"margin:0"},Object.keys(src).sort(function(a,b){return src[b]-src[a]}).map(function(k){return k+" ("+src[k]+")"}).join(" · ")||"Sin datos"));
+  var lim=document.getElementById("limits");lim.textContent="";
+  ["Un modelo de lenguaje puede equivocarse: por eso cada tendencia se contrasta con el texto original, pero la verificación no detecta una interpretación errónea de un texto real.",
+   "El horizonte y la fase se estiman a partir de un solo documento. Un artículo no representa el estado de una industria.",
+   "Las fuentes son mayormente publicaciones científicas y registros de ensayos: reflejan lo que se investiga, no necesariamente lo que ya se compra o usa.",
+   "Algunas fuentes no pudieron usarse (bloquean consultas automáticas o no ofrecen feed): Fierce Biotech, Nature News y Nature Biotechnology. No hay todavía noticias oficiales de ANMAT ni CONICET.",
+   "“Argentina” significa publicaciones con afiliación institucional argentina, no necesariamente adopción local.",
+   "La cobertura de inversión, proveedores y regulación por país está en desarrollo."].forEach(function(t){lim.appendChild(el("li",null,t))})}
+
+/* ---------- controles ---------- */
+function initControls(){
+  var cat=document.getElementById("f-cat"),ph=document.getElementById("f-ph");
+  Object.keys(D.meta.categories||{}).forEach(function(c){var o=el("option",{value:c},D.meta.categories[c]);cat.appendChild(o)});
+  (D.meta.hype_phases||[]).forEach(function(p){ph.appendChild(el("option",{value:p},PH_ES[p]||p))});
+  function seg(id,key){document.getElementById(id).addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;S[key]=b.getAttribute("data-v");Array.prototype.forEach.call(this.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});renderAll()})}
+  seg("f-region","region");seg("f-hz","hz");
+  cat.addEventListener("change",function(){S.cat=this.value;renderAll()});ph.addEventListener("change",function(){S.ph=this.value;renderAll()});
+  document.getElementById("f-q").addEventListener("input",function(){S.q=this.value;renderAll()});
+  document.querySelectorAll("th[data-k]").forEach(function(th){th.addEventListener("click",function(){var k=th.getAttribute("data-k");S.sort.dir=(S.sort.k===k?-S.sort.dir:1);S.sort.k=k;renderAll()})})}
+function renderAll(){var l=filtered();drawSummary(l);drawRadar(l);drawHype(l);drawTable(l)}
+
+function boot(){
+  fetch("data/trends.json?"+Date.now()).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}).then(function(j){
+    D=j;var m=D.meta||{};
+    document.getElementById("m-updated").textContent="Actualizado: "+(m.generated_at?fmtDate(m.generated_at):"s/d");
+    document.getElementById("m-note").textContent="Se actualiza solo todos los días.";
+    drawKpis();initControls();drawMethod();
+    if(!D.trends.length){document.getElementById("radar-svg").appendChild(el("div",{"class":"empty"},"Todavía no hay tendencias verificadas. Ejecutá el flujo “Actualización diaria” en la pestaña Actions del repositorio."))}
+    renderAll()
+  }).catch(function(e){
+    document.getElementById("m-updated").textContent="Sin datos todavía";
+    var h=document.getElementById("radar-svg");h.appendChild(el("div",{"class":"empty"},"No se pudo cargar data/trends.json ("+e.message+"). Si es la primera vez, ejecutá el flujo “Actualización diaria” en la pestaña Actions del repositorio."))})
+}
+boot();
+})();
+</script>
+</body>
+</html>
