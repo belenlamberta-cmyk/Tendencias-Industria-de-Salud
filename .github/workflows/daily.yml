@@ -32,6 +32,7 @@ jobs:
       - name: 3. Extraer tendencias con Gemini
         continue-on-error: true
         env:
+          PYTHONUNBUFFERED: "1"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
