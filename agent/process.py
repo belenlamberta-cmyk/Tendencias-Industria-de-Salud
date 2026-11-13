@@ -136,8 +136,9 @@ def call_with_fallback(prompt, models, key, dead):
     raise QuotaExhausted(last)
 
 def cmd_extract(a):
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key: sys.exit("Falta GEMINI_API_KEY (en Colab: Secretos -> GEMINI_API_KEY).")
+    keys = [os.environ[n] for n in ["GEMINI_API_KEY"] + [f"GEMINI_API_KEY_{i}" for i in range(2, 6)] if os.environ.get(n)]
+    if not keys: sys.exit("Falta GEMINI_API_KEY (en Colab: Secretos -> GEMINI_API_KEY).")
+    key = keys[0]; print(f"Claves disponibles: {len(keys)}")
     if a.model == "auto":
         print("Modelos candidatos para tu clave:"); models = rank_models(list_models(key))[:6]
         for m in models: print("  -", m)
@@ -145,11 +146,15 @@ def cmd_extract(a):
     cands = read_jsonl(PROC / "candidates.jsonl"); done = {r["item_id"] for r in read_jsonl(PROC / "extractions.jsonl")}
     todo = [c for c in cands if c["id"] not in done][: a.limit]
     print(f"Pendientes: {len([c for c in cands if c['id'] not in done])} | esta corrida: {len(todo)}")
-    dead, n_ok = set(), 0
+    deads, ki, n_ok = [set() for _ in keys], 0, 0
     for n, it in enumerate(todo, 1):
-        try: txt, used = call_with_fallback(build_prompt(it), models, key, dead)
-        except QuotaExhausted as e:
-            print(f"Todos los modelos agotaron su cuota o estan saturados ({e}). Volve a correr mas tarde: retoma donde quedo."); break
+        txt = None
+        while ki < len(keys):
+            try: txt, used = call_with_fallback(build_prompt(it), models, keys[ki], deads[ki]); break
+            except QuotaExhausted as e:
+                ki += 1; print(f"  [clave {ki} agotada] " + ("paso a la siguiente clave" if ki < len(keys) else ""))
+        if txt is None:
+            print("Todas las claves/modelos agotaron su cuota o estan saturados. Se retoma en la proxima corrida."); break
         res, err = None, None
         try: res = json.loads(txt)
         except Exception as ex: err = f"JSON invalido: {ex}"

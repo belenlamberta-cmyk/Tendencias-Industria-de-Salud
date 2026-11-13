@@ -32,6 +32,8 @@ jobs:
       - name: 3. Extraer tendencias con Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
         run: python agent/process.py extract --limit 60
       - name: 4. Verificar contra el texto crudo
         run: python agent/process.py verify
