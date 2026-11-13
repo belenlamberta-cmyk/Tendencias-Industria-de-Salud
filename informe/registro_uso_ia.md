@@ -14,3 +14,4 @@
 
 | 2026-11-13 | Mapa de brechas | Claude propuso 8 tecnologías y asignó adopción (0–5) y madurez esperada (corto/mediano/largo) con justificación y fuentes de búsquedas web; 7 con puntaje, 1 "sin fuente suficiente". Se publicó en `docs/data/gaps.json` (copia de `agent/gaps.json`). | Puntajes = estimación de Claude, marcados "pendiente de revisión" hasta que la persona responsable los apruebe. |
 | 2026-11-13 | Revisión humana de brechas | Belén Lamberta revisó la tabla y aprobó todos los puntajes sin cambios; se marcaron como "Revisado". | Aprobación humana registrada. |
+| 2026-11-13 | Fuentes de Argentina | Claude buscó en la web documentos de ANMAT, CONICET y proyectos de ley, los cargó a mano en agent/manual_docs.json (con link) y analizó 4; pasaron la verificación contra el texto. | ANMAT/CONICET no tienen feed usable; limitación declarada en el tablero. |

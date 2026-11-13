@@ -234,6 +234,9 @@ def verify_trend(t, it):
 
 def cmd_verify(a):
     raw = {i["id"]: i for i in read_jsonl(RAWF)}
+    mf = ROOT / "agent" / "manual_docs.json"   # documentos argentinos curados a mano (con su link)
+    if mf.exists():
+        for d in json.loads(mf.read_text(encoding="utf-8")): raw[d["id"]] = d
     ok, logs, n_tr, n_err = [], [], 0, 0
     gem = read_jsonl(PROC / "extractions.jsonl")
     cla = read_jsonl(PROC / "extractions_claude.jsonl")   # analisis hecho por Claude (IA) a pedido del grupo
