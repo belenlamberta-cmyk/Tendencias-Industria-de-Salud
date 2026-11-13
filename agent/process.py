@@ -112,44 +112,69 @@ REGLAS ESTRICTAS:
 - Maximo 2 tendencias. Cada una DEBE incluir "quote": una cita copiada EXACTAMENTE del texto (8 a 40 palabras, sin modificar).
 - companies, countries y amounts: solo si aparecen literalmente en el texto; si no, listas vacias.
 - horizon y hype_phase son tu JUICIO: justificalo en una frase ("justification") apoyada en el texto.
-Valores permitidos: category = {cats}; horizon = corto (0-2 anios) | mediano (2-5) | largo (5-10+); hype_phase = {" | ".join(TAX["hype_phases"])}.
+Valores permitidos: category = {cats}; horizon = UNA sola palabra: corto | mediano | largo (corto=0-2 anios, mediano=2-5, largo=5-10+; escribi solo la palabra, sin parentesis ni numeros); hype_phase = {" | ".join(TAX["hype_phases"])}.
 Responde SOLO JSON con esta forma: {{"trends":[{{"technology":"","category":"","horizon":"","hype_phase":"","justification":"","quote":"","companies":[],"countries":[],"amounts":[]}}]}}
 
 TITULO: {it['title']}
 FUENTE: {it['source']} ({it['source_type']})
 TEXTO: {it['text']}"""
 
+class QuotaExhausted(Exception): pass
+
+def call_with_fallback(prompt, models, key, dead):
+    """Prueba los modelos en orden. 429 (cuota) -> marca el modelo como agotado hoy y sigue con otro. 503 (alta demanda) -> reintenta una vez y pasa al siguiente."""
+    last = "sin modelos disponibles"
+    for name in [m for m in models if m not in dead]:
+        for attempt in range(2):
+            try: return gemini_call(prompt, name, key), name
+            except urllib.error.HTTPError as e:
+                last = f"{name}: HTTP {e.code} {http_msg(e)}"
+                if e.code == 429: dead.add(name); print(f"  [cuota agotada] {name} -> sigo con otro modelo"); break
+                if e.code == 503 and attempt == 0: time.sleep(10); continue
+                if e.code == 503: break
+                raise
+    raise QuotaExhausted(last)
+
 def cmd_extract(a):
     key = os.environ.get("GEMINI_API_KEY")
     if not key: sys.exit("Falta GEMINI_API_KEY (en Colab: Secretos -> GEMINI_API_KEY).")
-    print("Probando modelos disponibles para tu clave...")
-    model = pick_model(key) if a.model == "auto" else a.model
-    print("Modelo elegido:", model)
+    if a.model == "auto":
+        print("Modelos candidatos para tu clave:"); models = rank_models(list_models(key))[:6]
+        for m in models: print("  -", m)
+    else: models = [a.model]
     cands = read_jsonl(PROC / "candidates.jsonl"); done = {r["item_id"] for r in read_jsonl(PROC / "extractions.jsonl")}
     todo = [c for c in cands if c["id"] not in done][: a.limit]
     print(f"Pendientes: {len([c for c in cands if c['id'] not in done])} | esta corrida: {len(todo)}")
+    dead, n_ok = set(), 0
     for n, it in enumerate(todo, 1):
+        try: txt, used = call_with_fallback(build_prompt(it), models, key, dead)
+        except QuotaExhausted as e:
+            print(f"Todos los modelos agotaron su cuota o estan saturados ({e}). Volve a correr mas tarde: retoma donde quedo."); break
         res, err = None, None
-        for attempt in range(4):
-            try:
-                res = json.loads(gemini_call(build_prompt(it), model, key)); break
-            except urllib.error.HTTPError as e:
-                if e.code == 429:
-                    if attempt == 3: print("Cuota agotada (" + http_msg(e) + "). Volve a correr mas tarde: retoma donde quedo."); return
-                    time.sleep(30 * (attempt + 1)); continue
-                err = f"HTTP {e.code}: {http_msg(e)}"; break
-            except Exception as e: err = f"{type(e).__name__}: {e}"; break
-        write_jsonl(PROC / "extractions.jsonl", [{"item_id": it["id"], "model": model, "extracted_at": NOW(), "result": res, "error": err}], "a")
+        try: res = json.loads(txt)
+        except Exception as ex: err = f"JSON invalido: {ex}"
+        write_jsonl(PROC / "extractions.jsonl", [{"item_id": it["id"], "model": used, "extracted_at": NOW(), "result": res, "error": err}], "a"); n_ok += 1
         if n % 10 == 0: print(f"  {n}/{len(todo)}")
         time.sleep(a.sleep)
+    print(f"Items procesados en esta corrida: {n_ok}")
 
 # ---------------- 3. VERIFICACION ----------------
 def nums(s): return re.findall(r"\d[\d.,]*\d|\d", s or "")
+
+def canon_enum(value, allowed, prefix=False):
+    v = norm(str(value or ""))
+    for a in allowed:
+        if v == norm(a) or (prefix and re.match(r"\s*" + re.escape(norm(a)) + r"\b", v)): return a
+    return None
 
 def verify_trend(t, it):
     """Devuelve (trend_limpio o None, lista de problemas)."""
     log, blob = [], norm(it["title"] + " " + it["text"])
     def P(problem, action): log.append({"item_id": it["id"], "url": it["url"], "technology": t.get("technology", ""), "problem": problem, "action": action})
+    t = dict(t)
+    for field, allowed, pre in (("horizon", TAX["horizons"], True), ("hype_phase", TAX["hype_phases"], False), ("category", list(TAX["categories"]), False)):
+        c0 = canon_enum(t.get(field), allowed, pre)
+        if c0 and c0 != t.get(field): P(f"{field} con formato distinto ('{t.get(field)}' -> '{c0}')", "normalizado"); t[field] = c0
     q = norm(t.get("quote", ""))
     if len(q.split()) < 6: P("cita ausente o muy corta", "descartada"); return None, log
     if q not in blob: P("la cita NO aparece en el texto crudo (posible alucinacion)", "descartada"); return None, log
@@ -209,7 +234,22 @@ def selftest():
     ms = [{"name": "models/" + n, "supportedGenerationMethods": ["generateContent"]} for n in
           ["gemini-omni-flash-preview", "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3-flash", "gemini-2.5-flash-image", "gemini-2.5-pro", "gemini-live-flash"]]
     r = rank_models(ms); assert r[0] == "gemini-3-flash" and r[-1] == "gemini-omni-flash-preview" and "gemini-2.5-flash-image" not in r and "gemini-2.5-pro" not in r, r
-    print("SELFTEST OK (ranking de modelos sin preview/omni primero, filtro, cita falsa descartada, entidades/montos inventados quitados, fecha futura marcada)")
+    c4, lg4 = verify_trend(dict(good, horizon="mediano (2-5)", hype_phase="innovation trigger"), it)
+    assert c4 and c4["horizon"] == "mediano" and c4["hype_phase"] == "Innovation Trigger" and any(l["action"] == "normalizado" for l in lg4), "normalizacion"
+    import io
+    calls = []
+    def fake(prompt, model, key):
+        calls.append(model)
+        if model == "A": raise urllib.error.HTTPError("u", 429, "q", {}, io.BytesIO(b'{"error":{"message":"quota"}}'))
+        return '{"trends": []}'
+    global gemini_call
+    real, gemini_call = gemini_call, fake
+    try:
+        dead = set(); out, used = call_with_fallback("p", ["A", "B"], "k", dead)
+        assert used == "B" and dead == {"A"}, "rotacion"
+        out, used = call_with_fallback("p", ["A", "B"], "k", dead); assert calls[-1] == "B" and "A" not in calls[2:], "no reintenta modelo agotado"
+    finally: gemini_call = real
+    print("SELFTEST OK (rotacion de modelos al agotarse la cuota, normalizacion de horizonte, ranking de modelos sin preview/omni primero, filtro, cita falsa descartada, entidades/montos inventados quitados, fecha futura marcada)")
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("cmd", choices=["filter", "extract", "verify", "selftest"])
