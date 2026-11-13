@@ -96,11 +96,11 @@ def pick_model(key, tries=6):
         time.sleep(2)
     raise RuntimeError("Ningun modelo respondio. Revisa la clave/cuota en aistudio.google.com (Rate limits) o fija uno con --model")
 
-def gemini_call(prompt, model, key):
+def gemini_call(prompt, model, key, timeout=45):
     body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
     req = urllib.request.Request(API + f"models/{model}:generateContent", data=json.dumps(body).encode(),
                                  headers={"x-goog-api-key": key, "Content-Type": "application/json"})
-    r = json.loads(urllib.request.urlopen(req, timeout=45).read())
+    r = json.loads(urllib.request.urlopen(req, timeout=timeout).read())
     return r["candidates"][0]["content"]["parts"][0]["text"]
 
 def build_prompt(it):
@@ -135,8 +135,9 @@ def call_with_fallback(prompt, models, key, dead):
                 raise
             except (TimeoutError, socket.timeout, ConnectionError, urllib.error.URLError) as e:
                 last = f"{name}: {type(e).__name__} {e}"
-                print(f"  [sin respuesta] {name} ({type(e).__name__}) -> " + ("reintento" if attempt == 0 else "sigo con otro modelo"))
-                time.sleep(5); continue
+                print(f"  [sin respuesta] {name} ({type(e).__name__}) -> " + ("reintento" if attempt == 0 else "lo descarto en esta corrida y sigo con otro"))
+                if attempt == 1: dead.add(name)
+                time.sleep(3); continue
     raise QuotaExhausted(last)
 
 def cmd_extract(a):
@@ -150,6 +151,12 @@ def cmd_extract(a):
             print(f"No pude consultar la lista de modelos ({type(e).__name__}: {e}). Se reintenta en la proxima corrida."); return
         for m in models: print("  -", m)
     else: models = [a.model]
+    ok = []
+    for m in models:
+        try: gemini_call('Responde solo este JSON: {"ok": true}', m, key, timeout=20); ok.append(m); print(f"  [responde] {m}")
+        except Exception as e: print(f"  [descartado en el sondeo] {m}: {type(e).__name__}")
+    if not ok: print("Ningun modelo respondio al sondeo (cuota o demora de Gemini). Se reintenta en la proxima corrida."); return
+    models = ok
     cands = read_jsonl(PROC / "candidates.jsonl"); done = {r["item_id"] for r in read_jsonl(PROC / "extractions.jsonl")}
     todo = [c for c in cands if c["id"] not in done][: a.limit]
     print(f"Pendientes: {len([c for c in cands if c['id'] not in done])} | esta corrida: {len(todo)}")
