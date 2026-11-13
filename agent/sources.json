@@ -1,0 +1,117 @@
+{
+  "_nota": "Cada fuente tiene id, tipo y justificacion. enabled=false o verify=true: la URL no fue confirmada, el recolector la prueba y reporta.",
+  "topics": [
+    "CRISPR gene editing",
+    "single-cell spatial transcriptomics",
+    "AI protein structure drug discovery",
+    "laboratory automation robotics",
+    "digital twin biology",
+    "bioinformatics cloud computing genomics",
+    "mRNA therapeutics platform",
+    "synthetic biology biofoundry",
+    "health data interoperability research",
+    "machine learning clinical research"
+  ],
+  "api_sources": [
+    {
+      "id": "pubmed",
+      "type": "paper",
+      "why": "Base de papers biomedicos revisados; senal de madurez cientifica. Incluye una pasada con afiliacion Argentina"
+    },
+    {
+      "id": "medrxiv",
+      "type": "preprint",
+      "why": "Senal temprana (preprints sin revision de pares: se marca como tal)"
+    },
+    {
+      "id": "arxiv",
+      "type": "preprint",
+      "why": "IA y computacion aplicada a biologia"
+    },
+    {
+      "id": "openalex",
+      "type": "papers",
+      "why": "Cobertura abierta de publicaciones y afiliaciones; permite medir crecimiento por tema"
+    },
+    {
+      "id": "clinicaltrials",
+      "type": "ensayos",
+      "why": "Madurez clinica real de una tecnologia (fase, estado)"
+    }
+  ],
+  "rss_sources": [
+    {
+      "id": "stat",
+      "type": "noticia",
+      "region": "global",
+      "url": "https://www.statnews.com/feed/",
+      "why": "Periodismo de salud y biotecnologia de referencia"
+    },
+    {
+      "id": "fierce_biotech",
+      "type": "noticia",
+      "region": "global",
+      "url": "https://www.fiercebiotech.com/rss/xml",
+      "why": "Probada 13/11/2026: HTTP 403 (bloquea pedidos automaticos). Desactivada; limitacion a declarar.",
+      "enabled": false
+    },
+    {
+      "id": "nature_news",
+      "type": "noticia",
+      "region": "global",
+      "url": "https://www.nature.com/nature.rss",
+      "why": "Probada 13/11/2026: respondio 0 items. Desactivada hasta confirmar URL de feed.",
+      "enabled": false
+    },
+    {
+      "id": "nature_biotech",
+      "type": "paper",
+      "region": "global",
+      "url": "https://www.nature.com/nbt.rss",
+      "why": "Probada 13/11/2026: la respuesta no es un feed valido (ParseError). Desactivada.",
+      "enabled": false
+    },
+    {
+      "id": "fda_press",
+      "type": "regulacion",
+      "region": "EE.UU.",
+      "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+      "verify": true,
+      "why": "Regulacion FDA"
+    },
+    {
+      "id": "ema_news",
+      "type": "regulacion",
+      "region": "UE",
+      "url": "https://www.ema.europa.eu/en/news.xml",
+      "verify": true,
+      "why": "Regulacion EMA"
+    },
+    {
+      "id": "who_news",
+      "type": "regulacion",
+      "region": "global",
+      "url": "https://www.who.int/rss-feeds/news-english.xml",
+      "verify": true,
+      "why": "Politica sanitaria OMS"
+    },
+    {
+      "id": "anmat",
+      "type": "regulacion",
+      "region": "Argentina",
+      "url": "",
+      "enabled": false,
+      "verify": true,
+      "why": "Sin feed RSS oficial hallado. Se cubre Argentina via PubMed (afiliacion) y OpenAlex (pais AR). Pendiente: cargar noticias de argentina.gob.ar/anmat y conicet.gov.ar a mano o con WebFetch"
+    },
+    {
+      "id": "conicet",
+      "type": "noticia",
+      "region": "Argentina",
+      "url": "",
+      "enabled": false,
+      "verify": true,
+      "why": "Sin feed RSS oficial hallado. Se cubre Argentina via PubMed (afiliacion) y OpenAlex (pais AR). Pendiente: cargar noticias de argentina.gob.ar/anmat y conicet.gov.ar a mano o con WebFetch"
+    }
+  ]
+}

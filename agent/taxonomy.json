@@ -1,0 +1,17 @@
+{
+  "horizons": ["corto", "mediano", "largo"],
+  "horizon_definition": {"corto": "0-2 anios", "mediano": "2-5 anios", "largo": "5-10+ anios"},
+  "hype_phases": ["Innovation Trigger", "Peak of Inflated Expectations", "Trough of Disillusionment", "Slope of Enlightenment", "Plateau of Productivity"],
+  "categories": {
+    "ia_descubrimiento": {"label": "IA y modelos para descubrimiento", "keywords": ["machine learning", "deep learning", "foundation model", "large language model", "alphafold", "protein design", "drug discovery", "generative ai", "neural network", "artificial intelligence"]},
+    "edicion_genica_terapias": {"label": "Edicion genica y terapias avanzadas", "keywords": ["crispr", "gene editing", "base editing", "prime editing", "gene therapy", "mrna", "car-t", "cell therapy", "aav", "oligonucleotide"]},
+    "omicas": {"label": "Omicas, celula unica y espacial", "keywords": ["single-cell", "single cell", "spatial transcriptomics", "spatial omics", "multi-omics", "proteomics", "metabolomics", "sequencing", "genomics", "long-read"]},
+    "automatizacion_lab": {"label": "Automatizacion y laboratorios autonomos", "keywords": ["laboratory automation", "lab automation", "robotic", "self-driving lab", "autonomous lab", "high-throughput", "lims", "liquid handling", "microfluidic"]},
+    "datos_computo": {"label": "Bioinformatica, datos y computo", "keywords": ["bioinformatics", "cloud computing", "high-performance computing", "fair data", "data sharing", "interoperability", "open data", "workflow", "quantum computing"]},
+    "biologia_sintetica": {"label": "Biologia sintetica y biomanufactura", "keywords": ["synthetic biology", "biofoundry", "biomanufacturing", "cell-free", "metabolic engineering", "biosensor"]},
+    "gemelos_simulacion": {"label": "Gemelos digitales y simulacion", "keywords": ["digital twin", "in silico", "computational model", "simulation", "organ-on-chip", "organoid"]},
+    "regulacion_seguridad": {"label": "Regulacion, etica y seguridad de datos", "keywords": ["regulation", "regulatory", "guidance", "approval", "cybersecurity", "privacy", "data protection", "ethics", "biosecurity", "policy"]},
+    "ensayos_precision": {"label": "Ensayos clinicos y medicina de precision", "keywords": ["clinical trial", "precision medicine", "biomarker", "personalized", "companion diagnostic", "decentralized trial", "real-world data"]}
+  },
+  "evidence_level": {"paper": "revisado por pares", "ensayo": "registro oficial", "regulacion": "fuente oficial", "preprint": "preprint (sin revision de pares)", "noticia": "prensa"}
+}
