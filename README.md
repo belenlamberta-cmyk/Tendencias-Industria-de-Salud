@@ -1,16 +1,15 @@
 # Tendencias-Industria-de-Salud
 
 Radar de tendencias tecnológicas para laboratorios de investigación en salud/biotecnología (tipo CONICET).
-Trabajo práctico universitario: un agente de IA que recolecta fuentes verificables, extrae tendencias con un modelo de lenguaje, verifica cada dato contra el texto crudo y alimenta un dashboard.
+Trabajo práctico universitario: un agente que recolecta fuentes públicas, identifica tendencias, verifica cada dato contra el texto original y alimenta un tablero público.
 
 ## Estado
-- Etapa 1 (recolección): `agent/collect.py`
-- Etapa 2 (filtro, extracción con Gemini, verificación): `agent/process.py`
-- Cuaderno de Colab para probar sin instalar nada: `notebooks/radar_salud_colab_v4.ipynb`
-- Registro de uso de IA: `docs/registro_uso_ia.md` y de errores detectados: `docs/registro_errores_ia.md`
-- Pendiente: brechas, dashboard y ejecución diaria automática.
+- Recolección: `agent/collect.py` · Filtro y verificación: `agent/process.py` · Reglas: `agent/rules.py` + `agent/catalog.json` · Exportación: `agent/export.py`
+- Tablero: `docs/index.html` (GitHub Pages) · Ejecución diaria: `.github/workflows/daily.yml`
+- Cuaderno de Colab para pruebas: `notebooks/radar_salud_colab_v4.ipynb`
+- Pendiente: mapa de brechas con puntajes revisados, inversión, regulación por país y fuentes argentinas.
 
-La clave de la API de Gemini **nunca** va en este repositorio (se guarda como secreto).
+Las claves de API **nunca** van en este repositorio (se guardan como secretos).
 
 ## Cómo ver el tablero
 Abrir la página pública (GitHub Pages): https://belenlamberta-cmyk.github.io/Tendencias-Industria-de-Salud/ — no requiere cuenta ni clave.
