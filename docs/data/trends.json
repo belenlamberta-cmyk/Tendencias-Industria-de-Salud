@@ -1,17 +1,17 @@
 {
  "meta": {
-  "generated_at": "2026-11-13T20:46:14+00:00",
-  "raw_items": 652,
-  "candidates": 169,
+  "generated_at": "2026-11-13T20:49:56+00:00",
+  "raw_items": 825,
+  "candidates": 176,
   "items_processed_by_llm": 0,
   "trends_proposed": 0,
   "trends_verified": 0,
   "verification": {},
   "sources_raw": {
-   "pubmed": 129,
-   "medrxiv": 27,
+   "pubmed": 155,
+   "medrxiv": 54,
    "arxiv": 100,
-   "openalex": 193,
+   "openalex": 313,
    "clinicaltrials": 93,
    "stat": 20,
    "ema_news": 7,
@@ -19,9 +19,9 @@
   },
   "models_used": {},
   "last_collection": {
-   "run_at": "2026-11-13T20:46:07+00:00",
-   "days": 30,
-   "nuevos": 652,
+   "run_at": "2026-11-13T20:49:18+00:00",
+   "days": 3,
+   "nuevos": 173,
    "fuentes": [
     {
      "source": "fierce_biotech",
@@ -56,7 +56,7 @@
     {
      "source": "pubmed",
      "ok": true,
-     "n": 129
+     "n": 85
     },
     {
      "source": "medrxiv",
@@ -71,7 +71,7 @@
     {
      "source": "openalex",
      "ok": true,
-     "n": 193
+     "n": 142
     },
     {
      "source": "clinicaltrials",
