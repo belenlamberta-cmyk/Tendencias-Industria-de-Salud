@@ -100,7 +100,7 @@ def gemini_call(prompt, model, key):
     body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
     req = urllib.request.Request(API + f"models/{model}:generateContent", data=json.dumps(body).encode(),
                                  headers={"x-goog-api-key": key, "Content-Type": "application/json"})
-    r = json.loads(urllib.request.urlopen(req, timeout=90).read())
+    r = json.loads(urllib.request.urlopen(req, timeout=45).read())
     return r["candidates"][0]["content"]["parts"][0]["text"]
 
 def build_prompt(it):
@@ -154,7 +154,9 @@ def cmd_extract(a):
     todo = [c for c in cands if c["id"] not in done][: a.limit]
     print(f"Pendientes: {len([c for c in cands if c['id'] not in done])} | esta corrida: {len(todo)}")
     deads, ki, n_ok = [set() for _ in keys], 0, 0
+    t0 = time.time()
     for n, it in enumerate(todo, 1):
+        if time.time() - t0 > 25 * 60: print("Limite de 25 minutos alcanzado: se retoma en la proxima corrida."); break
         txt = None; fatal = False
         while ki < len(keys):
             try: txt, used = call_with_fallback(build_prompt(it), models, keys[ki], deads[ki]); break
