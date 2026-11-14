@@ -120,6 +120,74 @@
   "https://pubmed.ncbi.nlm.nih.gov/43003971/": {
    "title_es": "Bioproducción eficiente de ácido cítrico en Aspergillus niger.",
    "resumen_es": "El ácido cítrico se produce a escala industrial (más de 2 millones de toneladas al año) con Aspergillus niger, pero los sistemas actuales llegan a sus límites; los avances (CRISPR, regulación génica dinámica) apuntan a una biomanufactura integrada y multiescala."
+  },
+  "https://doi.org/10.7775/rac.es.v94.i5.21056": {
+   "title_es": "Edición génica in vivo de PCSK9 en la prevención cardiovascular aterosclerótica: de la validación genética a la clínica",
+   "resumen_es": "Revisión de la edición génica (CRISPR-Cas9, edición de bases y prime editing) de PCSK9 con nanopartículas lipídicas para bajar el colesterol LDL con una sola infusión. Cita ensayos en curso (VERVE-101, VERVE-102, YOLT-101) con seguridad aceptable a corto plazo; la seguridad a largo plazo y los costos siguen abiertos. Relevante para el laboratorio como ejemplo de terapia génica en clínica."
+  },
+  "https://doi.org/10.3389/fmicb.2026.1948704": {
+   "title_es": "Bioimagen y genómica comparativa para caracterizar bacterias de superficies aisladas en un banco de sangre",
+   "resumen_es": "Estudio transversal en un banco de sangre público de Tucumán (Argentina): se aislaron 36 bacterias de las superficies y se las caracterizó con microscopía, MALDI-TOF y secuenciación de genoma completo. Es una aplicación puntual de técnicas ya establecidas a la bioseguridad; relevancia moderada para un laboratorio."
+  },
+  "https://doi.org/10.1038/s41598-026-78955-8": {
+   "title_es": "El panorama de isoformas de FMR1 revela nuevas variantes de empalme en sangre y tejido ovárico de mujeres",
+   "resumen_es": "Estudio empírico que usa secuenciación de lectura larga (Oxford Nanopore) para describir 30 isoformas de FMR1 en sangre y células de la granulosa; el perfil se conserva entre ambos tejidos. Es investigación básica; interesa sobre todo como ejemplo de la técnica."
+  },
+  "https://doi.org/10.1017/s0266462326107703": {
+   "title_es": "Más allá de las recomendaciones: revisión sistemática de los valores, resultados e impacto de las agencias de evaluación de tecnologías sanitarias en el mundo",
+   "resumen_es": "Revisión sistemática sobre 56 agencias gubernamentales de evaluación de tecnologías sanitarias (43 creadas por ley). Su impacto sobre la adopción de tecnología es muy variable y casi siempre indirecto. Es contexto de políticas, de relevancia indirecta para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43025061/": {
+   "title_es": "Oncología con gemelos digitales y modelos de IA basados en multiómica para predecir la respuesta personalizada a fármacos: una revisión sistemática de paradigmas computacionales emergentes y desafíos de implementación clínica",
+   "resumen_es": "Revisión sistemática de trabajos desde 2021 que combinan gemelos digitales y IA multiómica para predecir la respuesta a fármacos en oncología. Marca como obstáculos la heterogeneidad de datos y la interpretabilidad; es una revisión, no un producto en uso clínico."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43024006/": {
+   "title_es": "Enfoques recientes para modular la biosíntesis de citrinina en especies de Monascus: una revisión",
+   "resumen_es": "Revisión sobre cómo reducir la citrinina (una micotoxina nefrotóxica) en hongos Monascus mediante epigenética, multiómica, ARNi y CRISPR/Cas. Aplicación industrial y alimentaria; relevancia moderada para un laboratorio de salud."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43011237/": {
+   "title_es": "Tecnología CRISPR: de la mesa de laboratorio a la cama del paciente",
+   "resumen_es": "Revisión del recorrido de CRISPR desde el laboratorio a la clínica: terapias ex vivo para hemoglobinopatías ya aprobadas y edición de bases, prime editing y CAR-T in vivo en ensayos. Señala barreras como la genotoxicidad fuera de blanco y la inmunogenicidad."
+  },
+  "https://doi.org/10.3389/fdgth.2026.1965185": {
+   "title_es": "Inteligencia artificial en la educación odontológica",
+   "resumen_es": "Revisión sistemática 2020–2025: la IA se usa cada vez más en la enseñanza de odontología y avanza hacia la IA generativa. Es educación: poca relevancia para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42975625/": {
+   "title_es": "Farmacovigilancia impulsada por IA: transformación de la detección de señales, el monitoreo de seguridad en el mundo real y la toma de decisiones regulatorias",
+   "resumen_es": "Revisión sobre IA (aprendizaje automático, procesamiento de lenguaje natural) para detectar eventos adversos y priorizar señales de seguridad de fármacos; también menciona LLM, aprendizaje federado y gemelos digitales. Es una revisión conceptual; relevancia media para un laboratorio."
+  },
+  "https://doi.org/10.3389/jpps.2026.17484": {
+   "title_es": "La supervivencia de la herramienta más apta: elegir entre IA abierta y cerrada en la ciencia farmacéutica",
+   "resumen_es": "Revisión narrativa que ordena las herramientas de IA en las cinco etapas del desarrollo de fármacos, del descubrimiento a la farmacovigilancia, y discute cuál usar según el caso. Relevante para un laboratorio que evalúa qué IA adoptar."
+  },
+  "https://doi.org/10.64898/2026.11.05.26367384": {
+   "title_es": "Un mapa multiescala, resuelto por tipo celular, de la arquitectura trans-regulatoria en el cerebro humano envejecido",
+   "resumen_es": "Preprint que presenta TransMap, un marco computacional para mapear efectos genéticos sobre genes distantes en cerebro envejecido, integrando transcriptómica, proteómica y metabolómica de unos 476 donantes. Es un preprint sin revisión de pares y de interés metodológico."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43013067/": {
+   "title_es": "La edición génica específica de tumores potencia la inmunogenicidad del cáncer mediante la reprogramación de MHC-I por el metabolismo del succinato",
+   "resumen_es": "Trabajo experimental (preclínico) de un sistema CRISPR/Cas9 dirigido a tumores, entregado con nanopartículas lipídicas, que anula Sdhc para reactivar MHC-I y mejorar la inmunoterapia. Es investigación en fase temprana, lejos de la clínica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43022607/": {
+   "title_es": "Integración multiómica espacial con imágenes por espectrometría de masas: descifrar paisajes metabólicos y mecanismos de enfermedad",
+   "resumen_es": "Revisión que propone un flujo de trabajo para integrar transcriptómica espacial con imágenes por espectrometría de masas, un desafío por las diferencias de resolución y de identificación molecular. Útil como referencia metodológica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020064/": {
+   "title_es": "PIANO permite el modelado generativo de la expresión génica y escala la integración multiómica a 100 millones de células",
+   "resumen_es": "Artículo metodológico: PIANO es un marco de aprendizaje profundo (modelo generativo de expresión génica) para integrar datos de ARN de célula única, corregir efectos de lote y escalar a millones de células. Relevante para laboratorios con datos unicelulares."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42939460/": {
+   "title_es": "De los modelos mecanicistas a la sinergia con la IA: una hoja de ruta para una biología predictiva y personalizada",
+   "resumen_es": "Artículo de perspectiva (hoja de ruta conceptual) sobre combinar modelos matemáticos mecanicistas con IA para una biología predictiva. No presenta resultados experimentales."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43011477/": {
+   "title_es": "Inmunoterapia mediada por nanotransportadores para neoplasias ginecológicas: mecanismos, traslación clínica y estrategias emergentes basadas en ácidos nucleicos",
+   "resumen_es": "Revisión sobre nanotransportadores para inmunoterapia en cáncer de ovario, cuello uterino y endometrio, con énfasis en nanopartículas lipídicas/ARNm y entrega de ARN programable. Es una revisión; relevancia moderada."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42876371/": {
+   "title_es": "Base de datos CLEAN: cobertura de función enzimática para más de 55 millones de secuencias",
+   "resumen_es": "Presenta una base de datos con funciones enzimáticas predichas con IA para más de 55 millones de secuencias, útil para descubrir y diseñar enzimas, biología sintética y descubrimiento de fármacos. Es un recurso computacional."
   }
  },
  "quotes": {
@@ -163,6 +231,28 @@
   "Nuclease-active Clustered Regularly Interspaced Short Palindromic Repeats/CRISPR-associated protein 9 (CRISPR/Cas9) enables genetic editing, but its irreversible genome modifications raise ethical, ecological and regulatory concerns.": "El sistema CRISPR/Cas9 con nucleasa activa permite la edición genética, pero sus modificaciones irreversibles del genoma plantean preocupaciones éticas, ecológicas y regulatorias.",
   "Although RNA interference (RNAi) presents a targeted and eco-friendly alternative, it is limited by species variability, rapid double-stranded RNA (dsRNA) degradation, inconsistent silencing and off-target effects.": "Aunque la interferencia por ARN (ARNi) ofrece una alternativa dirigida y respetuosa del ambiente, está limitada por la variabilidad entre especies, la rápida degradación del ARN bicatenario (ARNds), el silenciamiento inconsistente y los efectos fuera del blanco.",
   "These advances collectively point toward a transition from conventional fermentation to a multi-scale, integrated biomanufacturing framework.": "Estos avances apuntan colectivamente hacia una transición de la fermentación convencional a un marco de biomanufactura integrado y multiescala.",
-  "In parallel, the development of CRISPR/Cas9-based genome editing, dynamic gene regulation systems, and promoter engineering has enabled precise and multiplexed rewiring of metabolic networks.": "Paralelamente, el desarrollo de la edición genómica basada en CRISPR/Cas9, de sistemas de regulación génica dinámica y de la ingeniería de promotores ha permitido reconfigurar de forma precisa y múltiple las redes metabólicas."
+  "In parallel, the development of CRISPR/Cas9-based genome editing, dynamic gene regulation systems, and promoter engineering has enabled precise and multiplexed rewiring of metabolic networks.": "Paralelamente, el desarrollo de la edición genómica basada en CRISPR/Cas9, de sistemas de regulación génica dinámica y de la ingeniería de promotores ha permitido reconfigurar de forma precisa y múltiple las redes metabólicas.",
+  "showing sustained, dose-dependent reductions in LDL-C following a single infusion": "que muestran reducciones sostenidas y dependientes de la dosis del LDL-C tras una sola infusión",
+  "Our results support incorporating integrated bioimaging, phenotypic characterization, and environmental surveillance with genomic resolution": "Nuestros resultados respaldan incorporar bioimagen integrada, caracterización fenotípica y vigilancia ambiental con resolución genómica",
+  "demonstrate the value of long-read sequencing for resolving complex splicing": "demuestran el valor de la secuenciación de lectura larga para resolver el empalme complejo",
+  "We identified 56 governmental HTA agencies, 43 established by law": "Identificamos 56 agencias gubernamentales de ETS, 43 de ellas establecidas por ley",
+  "Rapid advances in multi-omics technologies, artificial intelligence (AI) and digital twin modeling have significantly reshaped computational oncology research": "Los rápidos avances en tecnologías multiómicas, inteligencia artificial (IA) y modelado con gemelos digitales han transformado significativamente la investigación en oncología computacional",
+  "integrating epigenetic engineering with advanced genome and metabolic engineering can regulate citrinin": "integrar la ingeniería epigenética con la ingeniería genómica y metabólica avanzadas puede regular la citrinina",
+  "ex vivo CRISPR therapies for hemoglobinopathies have secured regulatory approval": "las terapias CRISPR ex vivo para hemoglobinopatías han obtenido aprobación regulatoria",
+  "Results: The included literature reflects an expansion from machine learning, deep learning, and computer vision systems primarily evaluated for diagnostic support toward generative AI platforms, including large language models and retrieval-augmented generation systems.": "Resultados: la literatura incluida refleja una expansión desde sistemas de aprendizaje automático, aprendizaje profundo y visión por computadora evaluados sobre todo como apoyo diagnóstico hacia plataformas de IA generativa, incluidos modelos de lenguaje de gran tamaño y sistemas de generación aumentada por recuperación.",
+  "It discusses use of machine learning, deep learning, neural networks, and natural language processing for adverse-event detection, literature mining, signal prioritization, and analysis of electronic health records (EHR) and social-media data.": "Se analiza el uso de aprendizaje automático, aprendizaje profundo, redes neuronales y procesamiento del lenguaje natural para la detección de eventos adversos, la minería de literatura, la priorización de señales y el análisis de historias clínicas electrónicas y datos de redes sociales.",
+  "Emerging technologies, including large language models, federated learning, blockchain, digital twins, and Internet of Things (IoT)-enabled monitoring systems, are also explored.": "También se exploran tecnologías emergentes, como los modelos de lenguaje de gran tamaño, el aprendizaje federado, blockchain, los gemelos digitales y los sistemas de monitoreo habilitados por Internet de las cosas (IoT).",
+  "Three years ago, this journal published the editorial Technological Darwinism , urging pharmaceutical scientists to adapt to artificial intelligence (AI) rather than resist it.": "Hace tres años, esta revista publicó el editorial Darwinismo tecnológico, que instaba a los científicos farmacéuticos a adaptarse a la inteligencia artificial (IA) en lugar de resistirla.",
+  "During the period covered by this review, the first generative AI-designed molecule targeting a generative AI-derived protein reported positive Phase IIa results and entered Phase III in July 2026; protein structure prediction was recognized with the 2024 Nobel Prize in": "Durante el período que cubre esta revisión, la primera molécula diseñada con IA generativa dirigida a una proteína derivada de IA generativa informó resultados positivos de fase IIa y pasó a fase III en julio de 2026; la predicción de estructuras de proteínas fue reconocida con el Premio Nobel 2024 en",
+  "We applied TransMap to bulk and single-nucleus transcriptomic profiles from the aging human brain in the ADSP Functional Genomics Consortium (FunGen-AD), further integrating proteomic, glycoproteomic and metabolomic biomarker measurements (average N=476 donors).": "Aplicamos TransMap a perfiles transcriptómicos de tejido total y de núcleo único del cerebro humano envejecido del Consorcio de Genómica Funcional ADSP (FunGen-AD), integrando además mediciones de biomarcadores proteómicos, glicoproteómicos y metabolómicos (N promedio = 476 donantes).",
+  "Multi-phenotype colocalization identified 49,532 trans-regulatory events supported by shared genetic signals with cis-eQTL or biomarker-QTL, including 1,825 candidate cis-trans-biomarker regulatory configurations.": "La colocalización multifenotipo identificó 49.532 eventos trans-regulatorios respaldados por señales genéticas compartidas con cis-eQTL o QTL de biomarcadores, incluidas 1.825 configuraciones regulatorias candidatas cis-trans-biomarcador.",
+  "Herein, we report a dual tumor-specific CRISPR/Cas9 gene editing system that can precisely knock out succinate dehydrogenase subunit C (Sdhc) to activate the MHC-I pathway via epigenetic and transcriptional regulation.": "En este trabajo informamos un sistema de edición génica CRISPR/Cas9 de doble especificidad tumoral que puede anular con precisión la subunidad C de la succinato deshidrogenasa (Sdhc) para activar la vía de MHC-I mediante regulación epigenética y transcripcional.",
+  "Subsequently, tumor-targeted delivery of AP-sgRNA and Cas9 mRNA (mCas9) is achieved using dibenzocyclooctyne-decorated lipid nanoparticle (DLNP), which upon bioorthogonal click reaction can anchor cancer cells that are prelabeled with azido groups using the unnatural sugar DCL-AAM.": "Luego, la entrega dirigida al tumor de AP-sgRNA y de ARNm de Cas9 (mCas9) se logra con una nanopartícula lipídica decorada con dibenzociclooctino (DLNP), que mediante una reacción bioortogonal de tipo click puede anclarse a células cancerosas premarcadas con grupos azido usando el azúcar no natural DCL-AAM.",
+  "Spatial multi-omics links molecular measurements to tissue architecture, but integrating spatial transcriptomics with mass spectrometry imaging (MSI) remains challenging because the modalities differ in sampling unit, spatial resolution, data structure, and molecular-identification certainty.": "La multiómica espacial vincula las mediciones moleculares con la arquitectura del tejido, pero integrar la transcriptómica espacial con las imágenes por espectrometría de masas (MSI) sigue siendo difícil porque las modalidades difieren en unidad de muestreo, resolución espacial, estructura de datos y certeza de la identificación molecular.",
+  "To address these challenges, we developed PIANO, probabilistic inference autoencoder networks for multi-omics, a deep learning framework whose central feature is a generative model of gene expression data.": "Para abordar estos desafíos, desarrollamos PIANO, redes autocodificadoras de inferencia probabilística para multiómica, un marco de aprendizaje profundo cuya característica central es un modelo generativo de datos de expresión génica.",
+  "For decades, mechanistic models have offered a rigorous, hypothesis-driven framework for dissecting biological processes, while AI has proven itself at finding patterns in the large, high-dimensional datasets of modern biology.": "Durante décadas, los modelos mecanicistas han ofrecido un marco riguroso, guiado por hipótesis, para analizar procesos biológicos, mientras que la IA ha demostrado su capacidad para encontrar patrones en los grandes conjuntos de datos de alta dimensionalidad de la biología moderna.",
+  "We focus on nanocarrier-mediated immunotherapeutic mechanisms in ovarian, cervical, and endometrial cancers, and further highlight emerging lipid nanoparticle/mRNA and programmable RNA delivery strategies.": "Nos centramos en los mecanismos inmunoterapéuticos mediados por nanotransportadores en cáncer de ovario, cuello uterino y endometrio, y destacamos además las estrategias emergentes de nanopartículas lipídicas/ARNm y de entrega de ARN programable.",
+  "This review summarizes major immunotherapeutic modalities for gynecological cancers-immune checkpoint blockade, CAR-T cell therapy, tumor vaccines, and oncolytic viruses-and the classification and characteristics of commonly used nanocarriers.": "Esta revisión resume las principales modalidades inmunoterapéuticas para los cánceres ginecológicos (bloqueo de puntos de control inmunitario, terapia con células CAR-T, vacunas tumorales y virus oncolíticos) y la clasificación y características de los nanotransportadores de uso común.",
+  "We anticipate that CLEAN DB will serve as a valuable platform for advancing enzyme discovery and applications in synthetic biology, metabolic engineering, enzyme engineering, retrosynthesis, and drug discovery.": "Anticipamos que CLEAN DB será una plataforma valiosa para impulsar el descubrimiento de enzimas y sus aplicaciones en biología sintética, ingeniería metabólica, ingeniería enzimática, retrosíntesis y descubrimiento de fármacos."
  }
 }
