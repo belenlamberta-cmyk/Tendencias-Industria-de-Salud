@@ -78,8 +78,8 @@
    "resumen_es": "Revisión: los gemelos digitales cardiovasculares combinan IA, modelos computacionales y sensores portátiles; se los presenta como una innovación prometedora. Los componentes más citados son IA, aprendizaje automático, sensores, nube, historias clínicas y analítica predictiva."
   },
   "https://pubmed.ncbi.nlm.nih.gov/43023515/": {
-   "title_es": "Terapia génica: avances en sistemas de administración, tecnologías de edición del genoma y aplicaciones en medicina humana y veterinaria.",
-   "resumen_es": "Revisión general de la terapia génica: los vectores virales siguen siendo los más eficaces, los no virales son más seguros, y CRISPR amplió las posibilidades de modificar el genoma con precisión."
+   "title_es": "Terapia génica: avances en sistemas de entrega, tecnologías de edición genómica y aplicaciones en medicina humana y veterinaria.",
+   "resumen_es": "Revisión general de terapia génica: vectores virales y no virales, edición con CRISPR y aplicaciones. Señala límites de entrega, respuesta inmune, escalado y seguridad a largo plazo. Es una revisión, no un resultado nuevo."
   },
   "https://pubmed.ncbi.nlm.nih.gov/42904475/": {
    "title_es": "Aplicaciones de inteligencia artificial para el análisis de imágenes médicas con pyCERR y la nube genómica del cáncer.",
@@ -87,11 +87,11 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/42876968/": {
    "title_es": "Construcción de capacidades para la ingeniería de la biología y la biomanufactura en Finlandia.",
-   "resumen_es": "Cuenta cómo Finlandia pasó de la ingeniería genética de los años 80, ligada a la industria (lácteos, vacunas, enzimas), a la biología sintética y las biofundiciones, con una base industrial sólida."
+   "resumen_es": "Ensayo que repasa cómo Finlandia desarrolló su biología sintética y biofundiciones desde los años 80, con foco industrial. Es un caso de política y capacidad nacional, útil como referencia comparativa."
   },
   "https://pubmed.ncbi.nlm.nih.gov/43016988/": {
-   "title_es": "De registros estáticos a pacientes digitales virtuales: un marco impulsado por inteligencia artificial para la valorización y gobernanza de datos médicos.",
-   "resumen_es": "Propone un marco conceptual para crear, acceder y actualizar “pacientes digitales virtuales” (la representación longitudinal de un paciente más modelos), con cuatro capas: datos, modelado con IA, gobernanza y uso clínico. Es una propuesta teórica."
+   "title_es": "De registros estáticos a pacientes digitales virtuales: un marco impulsado por IA para la conversión en activos y la gobernanza de datos médicos.",
+   "resumen_es": "Propuesta conceptual de un marco de gobernanza para crear y usar pacientes digitales virtuales. El propio artículo aclara que no presenta un algoritmo nuevo ni un sistema validado; es una idea de referencia, aún sin evidencia empírica."
   },
   "https://pubmed.ncbi.nlm.nih.gov/43022708/": {
    "title_es": "Manejo de precisión de Helicobacter pylori impulsado por inteligencia artificial: un marco integrado desde la endoscopia y la multiómica hasta el diseño de vacunas y la atención digital.",
@@ -102,8 +102,8 @@
    "resumen_es": "Evalúa modelos de IA (ResNet-50 para imágenes, BERT para texto de historias clínicas) en plataformas de telemedicina y reporta mejoras en la precisión diagnóstica y el apoyo a decisiones clínicas."
   },
   "https://doi.org/10.1093/femsyr/foag058": {
-   "title_es": "Plataformas basadas en levaduras para aplicaciones de salud humana de nueva generación",
-   "resumen_es": "Revisión: las levaduras (S. cerevisiae, K. phaffii, S. boulardii, Y. lipolytica) pasan de organismos modelo a plataformas programables para biomanufactura y terapias vivas, gracias a herramientas de biología sintética como la edición CRISPR múltiple."
+   "title_es": "Plataformas basadas en levaduras para aplicaciones de salud humana de nueva generación.",
+   "resumen_es": "Revisión sobre el uso de levaduras como fábricas de vacunas (HBV, HPV), enzimas terapéuticas y productos biológicos vivos para el intestino, con herramientas CRISPR e IA. Es una revisión de tecnología en parte ya establecida."
   },
   "https://clinicaltrials.gov/study/NCT07517393": {
    "title_es": "Estudio de recolección y análisis de datos clínicos, anamnésicos, funcionales y biológicos con apoyo de inteligencia artificial para evaluar la posibilidad…",
@@ -154,8 +154,8 @@
    "resumen_es": "Revisión sistemática 2020–2025: la IA se usa cada vez más en la enseñanza de odontología y avanza hacia la IA generativa. Es educación: poca relevancia para un laboratorio."
   },
   "https://pubmed.ncbi.nlm.nih.gov/42975625/": {
-   "title_es": "Farmacovigilancia impulsada por IA: transformación de la detección de señales, el monitoreo de seguridad en el mundo real y la toma de decisiones regulatorias",
-   "resumen_es": "Revisión sobre IA (aprendizaje automático, procesamiento de lenguaje natural) para detectar eventos adversos y priorizar señales de seguridad de fármacos; también menciona LLM, aprendizaje federado y gemelos digitales. Es una revisión conceptual; relevancia media para un laboratorio."
+   "title_es": "Farmacovigilancia impulsada por inteligencia artificial: transformación de la detección de señales, la monitorización real de la seguridad de fármacos y la toma de decisiones regulatorias.",
+   "resumen_es": "Revisión que describe cómo el aprendizaje automático, el procesamiento de lenguaje y los modelos de lenguaje pueden mejorar la detección de eventos adversos y la vigilancia de seguridad de medicamentos. Advierte barreras de interpretabilidad, calidad de datos y validación regulatoria. Relevancia moderada para un laboratorio."
   },
   "https://doi.org/10.3389/jpps.2026.17484": {
    "title_es": "La supervivencia de la herramienta más apta: elegir entre IA abierta y cerrada en la ciencia farmacéutica",
@@ -188,6 +188,126 @@
   "https://pubmed.ncbi.nlm.nih.gov/42876371/": {
    "title_es": "Base de datos CLEAN: cobertura de función enzimática para más de 55 millones de secuencias",
    "resumen_es": "Presenta una base de datos con funciones enzimáticas predichas con IA para más de 55 millones de secuencias, útil para descubrir y diseñar enzimas, biología sintética y descubrimiento de fármacos. Es un recurso computacional."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43033798/": {
+   "title_es": "Los componentes químicos asociados a los microplásticos se vinculan con la progresión del carcinoma hepatocelular mediante inestabilidad genómica y remodelación del microambiente espacial: estudio basado en análisis multiómico integrado.",
+   "resumen_es": "Estudio computacional que integra transcriptómica, aprendizaje automático, ARN de célula única, transcriptómica espacial y simulaciones moleculares para relacionar componentes de microplásticos (BPA, DBP, DEHP) con el cáncer de hígado. Es una asociación computacional, no una prueba clínica; interesa a un laboratorio por el flujo multiómico."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43026912/": {
+   "title_es": "Linfoma de Hodgkin clásico: modelo de enfermedad basado en la biología.",
+   "resumen_es": "Revisión narrativa sobre la biología del linfoma de Hodgkin clásico, su microambiente inmune, biomarcadores y clasificación molecular. Es una revisión de conocimiento clínico-biológico, de relevancia moderada para un laboratorio de investigación."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43033318/": {
+   "title_es": "Identificación de genes clave del metabolismo de ácidos grasos en la demencia vascular.",
+   "resumen_es": "Estudio bioinformático que combina transcriptómica, redes de coexpresión, aprendizaje automático y ARN de célula única para identificar genes del metabolismo de ácidos grasos en demencia vascular. Son hallazgos computacionales sin validación clínica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42995939/": {
+   "title_es": "El Servicio de Ejecución de Flujos de Trabajo de GA4GH: una API estándar para ejecutar y gestionar flujos de trabajo en genómica.",
+   "resumen_es": "Describe un estándar abierto (API) para enviar y gestionar flujos de trabajo bioinformáticos en clústeres locales o en la nube, pensado para datos genómicos sensibles y distribuidos. Es muy relevante para laboratorios que procesan datos genómicos a escala."
+  },
+  "https://doi.org/10.1016/j.cell.2026.09.008": {
+   "title_es": "Análisis de célula única de la cromatina y el transcriptoma en los ganglios basales humanos.",
+   "resumen_es": "Presenta un atlas multiómico de célula única de modificaciones de histonas y transcriptomas en ocho regiones de los ganglios basales de donantes adultos. Es investigación básica que sirve de referencia para interpretar variantes no codificantes asociadas a enfermedades."
+  },
+  "https://doi.org/10.1038/s41592-026-03262-z": {
+   "title_es": "OpenDVP: un marco experimental y computacional para la proteómica visual profunda impulsada por la comunidad.",
+   "resumen_es": "Presenta openDVP, un flujo de trabajo abierto de extremo a extremo para proteómica visual profunda (proteómica espacial por tipo celular), basado en herramientas de código abierto. Es un método nuevo, útil para laboratorios que quieran adoptar proteómica espacial."
+  },
+  "https://doi.org/10.1016/j.jii.2026.101231": {
+   "title_es": "Gemelos digitales cognitivos: una revisión del estado del arte.",
+   "resumen_es": "Revisión sobre gemelos digitales que incorporan funciones cognitivas (percepción, memoria, razonamiento, aprendizaje) mediante IA, orientados a sistemas industriales (Industria 4.0/5.0). Es un ensayo de revisión de enfoque industrial, con poca relevancia directa para salud."
+  },
+  "https://doi.org/10.3389/fmicb.2026.1961758": {
+   "title_es": "Bioconversión microbiana de CO2: integración de vías de fijación de carbono y biomanufactura sostenible.",
+   "resumen_es": "Revisión que une vías de fijación de carbono, plataformas microbianas, ingeniería metabólica y análisis tecnoeconómico para convertir CO2 en productos. Es un tema de biomanufactura sostenible, con relevancia indirecta para un laboratorio de salud."
+  },
+  "https://doi.org/10.1021/acssynbio.6c00624": {
+   "title_es": "La optimización multiparamétrica extiende la vida útil de la síntesis de proteínas libre de células en formato de alto rendimiento.",
+   "resumen_es": "Estudio experimental que optimiza el ADN molde, la composición de la reacción y el genotipo del lisado para que la síntesis de proteínas libre de células dure más en placas de 384 pocillos. Es una mejora metodológica útil para plataformas de alto rendimiento."
+  },
+  "https://clinicaltrials.gov/study/NCT07920757": {
+   "title_es": "Perfil multiómico del linfoma NK/T extranodal en recaída.",
+   "resumen_es": "Registro de un estudio observacional retrospectivo que analiza con ARN de célula única, secuenciación de receptores y transcriptómica espacial tejido de linfoma NK/T en recaída, para relacionarlo con la respuesta a inhibidores de PD-1. Es un registro de ensayo, aún sin resultados."
+  },
+  "https://clinicaltrials.gov/study/NCT07920770": {
+   "title_es": "Perfil multiómico antes y durante el tratamiento del cáncer de recto localmente avanzado.",
+   "resumen_es": "Registro de un estudio observacional prospectivo que perfila tumor y sangre (genoma, ARN de célula única, transcriptómica espacial, proteómica) antes y durante la terapia neoadyuvante. Es un registro de ensayo, sin resultados todavía."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43007855/": {
+   "title_es": "Derechos de propiedad intelectual y el intercambio global de tecnologías moleculares vegetales.",
+   "resumen_es": "Análisis jurídico y de patentes: la edición génica, la biología sintética y la información de secuencias digitales están rodeadas de patentes y reglas más estrictas que el acuerdo TRIPS. Es un ensayo de política, sobre plantas, con relevancia indirecta para salud."
+  },
+  "https://doi.org/10.1186/s11671-026-05121-4": {
+   "title_es": "Direcciones futuras de los nanocatalizadores en medicina de precisión: de la terapia catalítica a las nanozimas inteligentes.",
+   "resumen_es": "Revisión sobre nanozimas (nanomateriales con actividad tipo enzima) y su evolución hacia nanoestructuras sensibles a estímulos para terapia. Es una revisión conceptual de tecnología aún experimental."
+  },
+  "https://doi.org/10.1371/journal.pcbi.1014904": {
+   "title_es": "PhysInfer: una red neuronal con restricciones físicas para inferir de forma adaptativa el bursting transcripcional a partir de ARN-seq de célula única.",
+   "resumen_es": "Propone un método computacional (red neuronal con restricciones físicas) para inferir la dinámica de ráfagas de transcripción a partir de datos de célula única. Es un método nuevo, de interés para bioinformática; sin aplicación clínica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43025427/": {
+   "title_es": "Los ARN de repeticiones expandidas generan actividad aberrante de la red cortical en la epilepsia mioclónica familiar benigna del adulto.",
+   "resumen_es": "Estudio experimental con organoides corticales derivados de pacientes que muestra hiperexcitabilidad neuronal y que oligonucleótidos antisentido la reducen. Es investigación preclínica, de interés para modelos de enfermedad en laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43032062/": {
+   "title_es": "El análisis multiómico destaca las células epiteliales TM4SF4+ y el programa de señalización asociado a MMP14 en la patogénesis del adenocarcinoma de pulmón y la remodelación del microambiente.",
+   "resumen_es": "Estudio computacional que integra ARN de célula única, estudios de asociación genómica y transcriptómica espacial para identificar una subpoblación epitelial ligada al adenocarcinoma de pulmón. Son hallazgos bioinformáticos sin validación clínica."
+  },
+  "https://doi.org/10.1016/j.trip.2026.102352": {
+   "title_es": "Gemelos digitales para intersecciones inteligentes: una revisión de la literatura.",
+   "resumen_es": "Revisión de gemelos digitales aplicados al tránsito urbano (arquitecturas, simulación, IA para control de tráfico). No tiene relación con salud: poco relevante para un laboratorio de salud."
+  },
+  "https://doi.org/10.1007/s44340-026-00066-x": {
+   "title_es": "Terapias génicas de próxima generación para el tratamiento del cáncer y la modulación inmune.",
+   "resumen_es": "Revisión sobre terapias génicas en oncología: edición con CRISPR/Cas, plataformas de ARN, ARNm, interferencia de ARN y células inmunes modificadas. Es una revisión general, no un resultado clínico nuevo."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43018681/": {
+   "title_es": "Aplicación de OpenCRISPR-1, diseñado con IA, para la edición génica eficiente en soja y Nicotiana benthamiana.",
+   "resumen_es": "Estudio experimental que adapta OpenCRISPR-1 (una nucleasa tipo Cas9 diseñada con IA y con licencia accesible) para editar soja y tabaco. Es investigación en plantas, con relevancia indirecta para salud."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43012712/": {
+   "title_es": "Sistemas de edición genómica CRISPR-Cas en hongos filamentosos: herramientas actuales, estrategias de optimización y perspectivas.",
+   "resumen_es": "Revisión de herramientas de edición genómica (Cre-loxP, TALEN, CRISPR-Cas) en hongos filamentosos usados como fábricas microbianas. Es una revisión metodológica, relevante para biomanufactura."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020055/": {
+   "title_es": "Integración a escala poblacional de redes de ómica espacial para predicción clínica y descubrimiento biológico con SPIN.",
+   "resumen_es": "Presenta SPIN, un método estadístico que integra redes espaciales de célula única para predecir variables clínicas, aplicado a datos de enfermedad de Alzheimer. Es un método nuevo, aún en etapa de investigación."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020031/": {
+   "title_es": "Un atlas multiómico espacial 3D y de célula única de los ganglios basales humanos en desarrollo.",
+   "resumen_es": "Atlas del desarrollo de los ganglios basales humanos con secuenciación de metilación 3D, transcriptómica espacial e imágenes de cromatina y ARN. Es investigación básica de referencia, sin aplicación clínica inmediata."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020026/": {
+   "title_es": "Un atlas multimodal de célula única revela programas regulatorios en el cerebro humano.",
+   "resumen_es": "Atlas de más de 750.000 núcleos de 18 regiones del cerebro adulto que mide transcriptoma y modificaciones de histonas. Es un recurso de investigación básica de gran escala."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42993281/": {
+   "title_es": "El cirujano en el circuito: sesgo de automatización e interacción humano-IA en cirugía robótica.",
+   "resumen_es": "Experimento controlado con 19 cirujanos que mide cuánto aceptan guías de IA simuladas, incluso incorrectas, al trazar incisiones. Es un estudio pequeño con una superposición de IA simulada, no un sistema real; relevante para seguridad de la IA clínica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42962036/": {
+   "title_es": "Micromanipulación robótica impulsada por fluidos para fabricar ensambloides.",
+   "resumen_es": "Presenta una plataforma robótica con pinza fluídica y control visual para ensamblar esferoides celulares en ensambloides de forma programable. Es un desarrollo de laboratorio, útil para modelos celulares complejos."
+  },
+  "http://arxiv.org/abs/2611.17012v1": {
+   "title_es": "Anónimo solo de nombre: revisión crítica y ejercicio de reidentificación sobre las medidas de anonimización de la Comisión Europea para datos de búsqueda de Google según el artículo 6(11) de la DMA.",
+   "resumen_es": "Preprint (sin revisión de pares) que critica las medidas de anonimización de la Comisión Europea y muestra ejemplos de reidentificación. Trata datos de buscadores, no de salud; sirve como advertencia sobre la anonimización de datos."
+  },
+  "https://doi.org/10.64898/2026.08.27.26361529": {
+   "title_es": "Adopción global de repositorios de datos clínicos openEHR: encuesta a proveedores y a la comunidad.",
+   "resumen_es": "Preprint con una encuesta a 11 proveedores y a 29 profesionales: openEHR está desplegado en 25 países, sin figurar en normativa vinculante. Es una encuesta pequeña, sin revisión de pares, relevante para interoperabilidad de datos de salud."
+  },
+  "https://clinicaltrials.gov/study/NCT07902453": {
+   "title_es": "Gemelos humanos virtuales como herramientas de atención clínica personalizada en insuficiencia cardíaca con fracción de eyección preservada: estudio piloto.",
+   "resumen_es": "Registro de un estudio piloto, aún sin reclutar, que evalúa si un gemelo virtual cardiovascular predice la respuesta a espironolactona. Las predicciones son solo para investigación y no influyen en el tratamiento; no hay resultados."
+  },
+  "http://arxiv.org/abs/2611.17015v1": {
+   "title_es": "IA para biólogos: los límites de conocimiento de los modelos fundacionales en la era de los sistemas agénticos.",
+   "resumen_es": "Preprint de revisión que propone describir de forma estandarizada los límites de los modelos fundacionales biológicos y de los agentes basados en modelos de lenguaje. Es un ensayo conceptual, sin revisión de pares."
+  },
+  "https://clinicaltrials.gov/study/NCT06506461": {
+   "title_es": "Edición génica para la anemia falciforme.",
+   "resumen_es": "Registro de un ensayo de fase 1 en reclutamiento que evalúa la seguridad de células madre CD34+ editadas con CRISPR/Cas9 para aumentar la hemoglobina fetal. Aún no hay resultados."
   }
  },
  "quotes": {
@@ -253,6 +373,47 @@
   "For decades, mechanistic models have offered a rigorous, hypothesis-driven framework for dissecting biological processes, while AI has proven itself at finding patterns in the large, high-dimensional datasets of modern biology.": "Durante décadas, los modelos mecanicistas han ofrecido un marco riguroso, guiado por hipótesis, para analizar procesos biológicos, mientras que la IA ha demostrado su capacidad para encontrar patrones en los grandes conjuntos de datos de alta dimensionalidad de la biología moderna.",
   "We focus on nanocarrier-mediated immunotherapeutic mechanisms in ovarian, cervical, and endometrial cancers, and further highlight emerging lipid nanoparticle/mRNA and programmable RNA delivery strategies.": "Nos centramos en los mecanismos inmunoterapéuticos mediados por nanotransportadores en cáncer de ovario, cuello uterino y endometrio, y destacamos además las estrategias emergentes de nanopartículas lipídicas/ARNm y de entrega de ARN programable.",
   "This review summarizes major immunotherapeutic modalities for gynecological cancers-immune checkpoint blockade, CAR-T cell therapy, tumor vaccines, and oncolytic viruses-and the classification and characteristics of commonly used nanocarriers.": "Esta revisión resume las principales modalidades inmunoterapéuticas para los cánceres ginecológicos (bloqueo de puntos de control inmunitario, terapia con células CAR-T, vacunas tumorales y virus oncolíticos) y la clasificación y características de los nanotransportadores de uso común.",
-  "We anticipate that CLEAN DB will serve as a valuable platform for advancing enzyme discovery and applications in synthetic biology, metabolic engineering, enzyme engineering, retrosynthesis, and drug discovery.": "Anticipamos que CLEAN DB será una plataforma valiosa para impulsar el descubrimiento de enzimas y sus aplicaciones en biología sintética, ingeniería metabólica, ingeniería enzimática, retrosíntesis y descubrimiento de fármacos."
+  "We anticipate that CLEAN DB will serve as a valuable platform for advancing enzyme discovery and applications in synthetic biology, metabolic engineering, enzyme engineering, retrosynthesis, and drug discovery.": "Anticipamos que CLEAN DB será una plataforma valiosa para impulsar el descubrimiento de enzimas y sus aplicaciones en biología sintética, ingeniería metabólica, ingeniería enzimática, retrosíntesis y descubrimiento de fármacos.",
+  "Here, we propose PhysInfer, an unsupervised framework that integrates a physics-constrained neural network with adaptive model selection and parameter decoupling.": "Aquí proponemos PhysInfer, un marco no supervisado que integra una red neuronal con restricciones físicas, selección adaptativa de modelos y desacople de parámetros.",
+  "Single-cell RNA sequencing (scRNA-seq) has established that gene expression is driven by stochastic transcriptional bursting.": "El ARN-seq de célula única (scRNA-seq) ha establecido que la expresión génica está impulsada por ráfagas transcripcionales estocásticas.",
+  "A single-cell and spatial 3D multi-omic atlas of developing human basal ganglia.": "Un atlas multiómico espacial 3D y de célula única de los ganglios basales humanos en desarrollo.",
+  "Spatial omics enables the integration of high-dimensional molecular organization with clinical outcomes, yet incorporating spatial single-cell information into predictive models at the population scale remains challenging.": "La ómica espacial permite integrar la organización molecular de alta dimensión con resultados clínicos, pero incorporar información espacial de célula única en modelos predictivos a escala poblacional sigue siendo un desafío.",
+  "Here, we present a robotic micromanipulation platform-Fluid-Driven Tweezer with Visual Servo Control (FDT-VSC).": "Aquí presentamos una plataforma robótica de micromanipulación: la pinza fluídica con control servovisual (FDT-VSC).",
+  "The article reports neither a new algorithm nor a deployed or clinically validated system": "El artículo no informa ni un algoritmo nuevo ni un sistema desplegado o validado clínicamente",
+  "The widespread application of CRISPR/Cas genome editing for commercial crop improvement is currently hindered by a complex and restrictive intellectual property (IP) landscape.": "La aplicación generalizada de la edición genómica CRISPR/Cas para la mejora comercial de cultivos está actualmente limitada por un panorama de propiedad intelectual (PI) complejo y restrictivo.",
+  "Here, we present a large-scale single-cell multimodal atlas by jointly profiling the transcriptome with active (H3K27ac) or repressive (H3K27me3) histone modifications across 18 adult brain regions.": "Aquí presentamos un atlas multimodal de célula única a gran escala que perfila conjuntamente el transcriptoma con modificaciones de histonas activas (H3K27ac) o represivas (H3K27me3) en 18 regiones del cerebro adulto.",
+  "Multi-omics analysis highlights TM4SF4 + epithelial cells and the MMP14-associated signaling program in lung adenocarcinoma pathogenesis and microenvironment remodeling.": "El análisis multiómico destaca las células epiteliales TM4SF4+ y el programa de señalización asociado a MMP14 en la patogénesis del adenocarcinoma de pulmón y la remodelación del microambiente.",
+  "it is often unclear when these models' outputs can be trusted": "a menudo no está claro cuándo se puede confiar en los resultados de estos modelos",
+  "The review systematically categorizes existing research into five key thematic areas: (i) Digital Twin Architectures and Frameworks; (ii) Data Processing and Simulation Techniques; (iii) Artificial Intelligence and Machine Learning for Adaptive Traffic Control; (iv) Safety and Protection of Vulnerable Road": "La revisión categoriza sistemáticamente la investigación existente en cinco áreas temáticas clave: (i) arquitecturas y marcos de gemelos digitales; (ii) técnicas de procesamiento de datos y simulación; (iii) inteligencia artificial y aprendizaje automático para el control adaptativo del tráfico; (iv) seguridad y protección de usuarios vulnerables de la vía; y (v) escalamiento de intersecciones locales a todo el sistema de tráfico de la ciudad.",
+  "Participants drew incision lines on 20 static frames from robotic cholecystectomy videos, first without guidance (Phase 01) and then with a mock AI overlay (Phase 02).": "Los participantes dibujaron líneas de incisión en 20 imágenes fijas de videos de colecistectomía robótica, primero sin guía (Fase 01) y luego con una superposición de IA simulada (Fase 02).",
+  "This study integrates single-cell RNA sequencing (scRNA-seq), genome-wide association study, and spatial transcriptomics to identify epithelial subpopulations associated with this crosstalk.": "Este estudio integra ARN-seq de célula única (scRNA-seq), estudios de asociación del genoma completo y transcriptómica espacial para identificar subpoblaciones epiteliales asociadas con esta comunicación cruzada.",
+  "Single-cell RNA sequencing, intercellular communication inference, and in silico perturbation analyses were applied to define immune-stromal interactions.": "Se aplicaron ARN-seq de célula única, inferencia de comunicación intercelular y análisis de perturbación in silico para definir las interacciones inmune-estromales.",
+  "challenges related to delivery efficiency, immune responses, off-target effects, manufacturing scalability, regulatory approval, and long-term safety continue to limit widespread clinical implementation": "los desafíos relacionados con la eficiencia de entrega, las respuestas inmunes, los efectos fuera de blanco, la escalabilidad de la fabricación, la aprobación regulatoria y la seguridad a largo plazo siguen limitando la implementación clínica generalizada",
+  "As gene editing, synthetic biology, and Digital Sequence Information (DSI) become central to breeding drought-, heat-, and salinity-tolerant crops, these same technologies are increasingly enclosed within dense patent thickets, trade rules that go beyond the minimum standards of the Agreement": "A medida que la edición génica, la biología sintética y la información de secuencias digitales (DSI) se vuelven centrales para obtener cultivos tolerantes a la sequía, el calor y la salinidad, estas mismas tecnologías quedan cada vez más encerradas en densas marañas de patentes, reglas comerciales que van más allá de los estándares mínimos del Acuerdo sobre los ADPIC (TRIPS), conocidas como reglas TRIPS-plus, y requisitos regulatorios costosos.",
+  "Cognitive digital twins extend the capabilities of traditional digital twins by integrating cognitive functions such as perception, attention, memory, reasoning, problem-solving, and learning through artificial intelligence techniques, including machine learning.": "Los gemelos digitales cognitivos amplían las capacidades de los gemelos digitales tradicionales al integrar funciones cognitivas como la percepción, la atención, la memoria, el razonamiento, la resolución de problemas y el aprendizaje mediante técnicas de IA, incluido el aprendizaje automático.",
+  "In particular, the potential of CRISPR/Cas-based genome editing technologies, RNA-based biotechnological platforms, mRNA and RNA interference (RNAi)-based therapies, and genetically modified immune cell approaches in cancer treatment has been discussed.": "En particular, se ha discutido el potencial de las tecnologías de edición genómica basadas en CRISPR/Cas, las plataformas biotecnológicas basadas en ARN, las terapias basadas en ARNm e interferencia de ARN (ARNi) y los enfoques con células inmunes modificadas genéticamente en el tratamiento del cáncer.",
+  "By integrating systematic bibliometric evidence with a critical assessment of microbial CO 2 biomanufacturing, this review identifies the convergence of microbial physiology, metabolic engineering, bioprocess development, renewable energy, and data-driven approaches as central to advancing biological CO 2 conversion toward": "Al integrar evidencia bibliométrica sistemática con una evaluación crítica de la biomanufactura microbiana a partir de CO2, esta revisión identifica la convergencia de la fisiología microbiana, la ingeniería metabólica, el desarrollo de bioprocesos, la energía renovable y los enfoques basados en datos como central para avanzar en la conversión biológica del CO2.",
+  "Unlike previous reviews focusing on individual topics, such as carbon fixation pathways, gas fermentation, or metabolic engineering, this work presents an integrated framework connecting natural and synthetic carbon fixation pathways, microbial production platforms, metabolic engineering strategies, product diversification, and techno-economic": "A diferencia de revisiones previas centradas en temas individuales, como las vías de fijación de carbono, la fermentación de gases o la ingeniería metabólica, este trabajo presenta un marco integrado que conecta las vías de fijación de carbono naturales y sintéticas, las plataformas de producción microbiana, las estrategias de ingeniería metabólica, la diversificación de productos y el análisis tecnoeconómico.",
+  "engineered for in situ delivery and biosensing": "diseñados para la entrega in situ y la biodetección",
+  "These challenges are compounded in large-scale projects, where workflow runs must be dispatched to local clusters, cloud platforms or data hosting infrastructures with different underlying technologies.": "Estos desafíos se agravan en proyectos de gran escala, donde las ejecuciones de flujos de trabajo deben enviarse a clústeres locales, plataformas en la nube o infraestructuras de alojamiento de datos con tecnologías subyacentes distintas.",
+  "evolved the field naturally towards synthetic biology and biofoundry activities": "hizo evolucionar el campo de manera natural hacia la biología sintética y las actividades de biofundición",
+  "Future directions of nanocatalysts in precision medicine: from catalytic therapy to intelligent nanozymes": "Direcciones futuras de los nanocatalizadores en medicina de precisión: de la terapia catalítica a las nanozimas inteligentes",
+  "Abstract Cell-free protein synthesis (CFPS) is a powerful platform for synthetic biology, yet the factors governing reaction longevity remain poorly understood despite their importance for high-throughput applications.": "Resumen: la síntesis de proteínas libre de células (CFPS) es una plataforma potente para la biología sintética, pero los factores que gobiernan la longevidad de la reacción siguen siendo poco comprendidos pese a su importancia para las aplicaciones de alto rendimiento.",
+  "Pre- and On-treatment Multi-omics Profiling of Locally Advanced Rectal Cancer": "Perfil multiómico antes y durante el tratamiento del cáncer de recto localmente avanzado",
+  "openEHR has achieved national-scale presence through two distinct channels": "openEHR ha logrado presencia a escala nacional a través de dos canales distintos",
+  "We employed an integrated multi-omics workflow combining bulk transcriptomics, WGCNA, ten machine learning algorithms combined into 101 candidate model combinations, single-cell RNA-seq, spatial transcriptomics (ST), inferCNV, CytoTRACE, and molecular docking with 100 ns molecular dynamics (MD) simulations.": "Empleamos un flujo multiómico integrado que combina transcriptómica masiva, WGCNA, diez algoritmos de aprendizaje automático combinados en 101 modelos candidatos, ARN-seq de célula única, transcriptómica espacial (ST), inferCNV, CytoTRACE y acoplamiento molecular con simulaciones de dinámica molecular de 100 ns.",
+  "Emerging technologies, including base editing, prime editing, Cas12a, and Mad7, are also discussed for their potential to broaden editing capabilities.": "También se discuten tecnologías emergentes, como la edición de bases, la edición prime, Cas12a y Mad7, por su potencial para ampliar las capacidades de edición.",
+  "Here, we present the first single-cell multiome atlas of histone modifications and transcriptomes across eight basal ganglia regions from neurotypical adult human donors.": "Aquí presentamos el primer atlas multioma de célula única de modificaciones de histonas y transcriptomas en ocho regiones de los ganglios basales de donantes adultos neurotípicos.",
+  "AI-driven pharmacovigilance has potential to improve real-time safety surveillance, predictive risk assessment, and automated regulatory workflows": "La farmacovigilancia impulsada por IA tiene el potencial de mejorar la vigilancia de seguridad en tiempo real, la evaluación predictiva de riesgos y los flujos de trabajo regulatorios automatizados",
+  "Multi-omics Profiling of Relapsed Extranodal Natural Killer (NK)/T-cell Lymphoma": "Perfil multiómico del linfoma NK/T extranodal en recaída",
+  "Here, we establish patient-derived cortical organoids and a microelectrode array platform, coupled with a frequency-decomposition-based analytical framework, to characterize BAFME-associated neuronal hyperexcitability and compare organoid electrophysiological features with those observed in patient electroencephalographic recordings.": "Aquí establecemos organoides corticales derivados de pacientes y una plataforma de matrices de microelectrodos, junto con un marco analítico basado en la descomposición de frecuencias, para caracterizar la hiperexcitabilidad neuronal asociada a BAFME y comparar las características electrofisiológicas de los organoides con las observadas en los registros electroencefalográficos de pacientes.",
+  "increase the amount of a certain hemoglobin called fetal hemoglobin": "aumentará la cantidad de cierta hemoglobina llamada hemoglobina fetal",
+  "In this narrative review, we examined the literature on classic Hodgkin lymphoma biology, the tumor immune microenvironment, diagnostic and prognostic biomarkers, and molecular classification, prioritizing studies published through to mid-2026 and distinguishing established evidence from observational associations, preclinical findings, meeting": "En esta revisión narrativa examinamos la literatura sobre la biología del linfoma de Hodgkin clásico, el microambiente inmune tumoral, los biomarcadores diagnósticos y pronósticos y la clasificación molecular, priorizando estudios publicados hasta mediados de 2026 y distinguiendo la evidencia establecida de las asociaciones observacionales, los hallazgos preclínicos y las comunicaciones de congresos.",
+  "Intelligent intersections play a pivotal role in urban mobility, demanding innovative solutions such as digital twins to enhance safety and efficiency.": "Las intersecciones inteligentes cumplen un papel central en la movilidad urbana y exigen soluciones innovadoras, como los gemelos digitales, para mejorar la seguridad y la eficiencia.",
+  "Virtual twin predictions will be generated for research purposes only and will not influence treatment decisions": "Las predicciones del gemelo virtual se generarán solo con fines de investigación y no influirán en las decisiones de tratamiento",
+  "Deep visual proteomics (DVP) is an emerging approach for cell-type-specific and spatially resolved proteomics.": "La proteómica visual profunda (DVP) es un enfoque emergente para la proteómica espacial específica por tipo celular.",
+  "the approach of the EC relies on unjustified heuristics rather than formal privacy guarantees": "el enfoque de la CE se basa en heurísticas injustificadas y no en garantías formales de privacidad",
+  "Antisense oligonucleotides targeting the expanded repeat RNA-which reduce pathogenic RNA foci without significantly affecting SAMD12 mRNA levels-also attenuate hyperexcitability.": "Los oligonucleótidos antisentido dirigidos al ARN de repeticiones expandidas, que reducen los focos de ARN patogénico sin afectar de manera significativa los niveles de ARNm de SAMD12, también atenúan la hiperexcitabilidad.",
+  "We highlight CRISPR-Cas9 as the predominant platform and discuss optimization strategies involving sgRNA design, engineered Cas9 variants, promoter engineering, AMA1-based replicative plasmids, and ribonucleoprotein delivery.": "Destacamos CRISPR-Cas9 como la plataforma predominante y discutimos estrategias de optimización que incluyen el diseño de ARNsg, variantes de Cas9 modificadas, ingeniería de promotores, plásmidos replicativos basados en AMA1 y entrega de ribonucleoproteínas."
  }
 }

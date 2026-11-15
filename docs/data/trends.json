@@ -1,13 +1,13 @@
 {
  "meta": {
-  "generated_at": "2026-11-15T10:08:24+00:00",
+  "generated_at": "2026-11-15T10:52:36+00:00",
   "raw_items": 997,
   "candidates": 187,
   "items_processed_by_llm": 0,
   "items_processed_by_rules": 187,
-  "items_processed_by_claude": 33,
-  "trends_proposed": 198,
-  "trends_verified": 183,
+  "items_processed_by_claude": 43,
+  "trends_proposed": 197,
+  "trends_verified": 182,
   "verification": {
    "quitado": 2,
    "marcado": 1
@@ -801,15 +801,13 @@
    "quote_es": null
   },
   {
-   "technology": "Aprendizaje automático y profundo aplicado a salud",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 7 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "It discusses use of machine learning, deep learning, neural networks, and natural language processing for adverse-event detection, literature mining, signal prioritization, and analysis of electronic health records (EHR) and social-media data.",
-   "companies": [
-    "Google"
-   ],
+   "technology": "IA en farmacovigilancia y seguridad de medicamentos",
+   "category": "regulacion_seguridad",
+   "horizon": "corto",
+   "hype_phase": "Slope of Enlightenment",
+   "justification": "Revisión que describe aprendizaje automático y PLN para detectar eventos adversos y apoyar decisiones regulatorias; advierte barreras de interpretabilidad, calidad de datos y validación regulatoria.",
+   "quote": "AI-driven pharmacovigilance has potential to improve real-time safety surveillance, predictive risk assessment, and automated regulatory workflows",
+   "companies": [],
    "countries": [],
    "amounts": [],
    "url": "https://pubmed.ncbi.nlm.nih.gov/42975625/",
@@ -820,43 +818,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": "Farmacovigilancia impulsada por IA: transformación de la detección de señales, el monitoreo de seguridad en el mundo real y la toma de decisiones regulatorias",
-   "resumen_es": "Revisión sobre IA (aprendizaje automático, procesamiento de lenguaje natural) para detectar eventos adversos y priorizar señales de seguridad de fármacos; también menciona LLM, aprendizaje federado y gemelos digitales. Es una revisión conceptual; relevancia media para un laboratorio.",
-   "quote_es": "Se analiza el uso de aprendizaje automático, aprendizaje profundo, redes neuronales y procesamiento del lenguaje natural para la detección de eventos adversos, la minería de literatura, la priorización de señales y el análisis de historias clínicas electrónicas y datos de redes sociales."
+   "method": "claude",
+   "title_es": "Farmacovigilancia impulsada por inteligencia artificial: transformación de la detección de señales, la monitorización real de la seguridad de fármacos y la toma de decisiones regulatorias.",
+   "resumen_es": "Revisión que describe cómo el aprendizaje automático, el procesamiento de lenguaje y los modelos de lenguaje pueden mejorar la detección de eventos adversos y la vigilancia de seguridad de medicamentos. Advierte barreras de interpretabilidad, calidad de datos y validación regulatoria. Relevancia moderada para un laboratorio.",
+   "quote_es": "La farmacovigilancia impulsada por IA tiene el potencial de mejorar la vigilancia de seguridad en tiempo real, la evaluación predictiva de riesgos y los flujos de trabajo regulatorios automatizados"
   },
   {
-   "technology": "Modelos fundacionales y de lenguaje en biología",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Emerging technologies, including large language models, federated learning, blockchain, digital twins, and Internet of Things (IoT)-enabled monitoring systems, are also explored.",
-   "companies": [
-    "Google"
-   ],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42975625/",
-   "source": "pubmed",
-   "title": "Artificial intelligence-driven pharmacovigilance: transforming signal detection, real-world drug safety monitoring, and regulatory decision-making.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "Farmacovigilancia impulsada por IA: transformación de la detección de señales, el monitoreo de seguridad en el mundo real y la toma de decisiones regulatorias",
-   "resumen_es": "Revisión sobre IA (aprendizaje automático, procesamiento de lenguaje natural) para detectar eventos adversos y priorizar señales de seguridad de fármacos; también menciona LLM, aprendizaje federado y gemelos digitales. Es una revisión conceptual; relevancia media para un laboratorio.",
-   "quote_es": "También se exploran tecnologías emergentes, como los modelos de lenguaje de gran tamaño, el aprendizaje federado, blockchain, los gemelos digitales y los sistemas de monitoreo habilitados por Internet de las cosas (IoT)."
-  },
-  {
-   "technology": "Terapia génica con vectores virales",
+   "technology": "Terapia génica: vectores y edición CRISPR",
    "category": "edicion_genica_terapias",
    "horizon": "mediano",
-   "hype_phase": "Peak of Inflated Expectations",
-   "justification": "Estimación por regla automática (sin IA), R7 expectativas altas: el texto menciona esta tecnología 13 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Viral vectors such as adenoviral, retroviral, lentiviral, adeno-associated viral, and poxviral vectors remain the most effective delivery platforms owing to their high transduction efficiency, whereas non-viral approaches including physical and chemical delivery systems offer improved biosafety and reduced immunogenicity.",
+   "hype_phase": "Slope of Enlightenment",
+   "justification": "Revisión general: los vectores virales siguen siendo los más eficaces y CRISPR amplía el potencial, pero persisten límites de entrega, inmunidad, escalado y seguridad a largo plazo.",
+   "quote": "challenges related to delivery efficiency, immune responses, off-target effects, manufacturing scalability, regulatory approval, and long-term safety continue to limit widespread clinical implementation",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -868,33 +841,207 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": "Terapia génica: avances en sistemas de administración, tecnologías de edición del genoma y aplicaciones en medicina humana y veterinaria.",
-   "resumen_es": "Revisión general de la terapia génica: los vectores virales siguen siendo los más eficaces, los no virales son más seguros, y CRISPR amplió las posibilidades de modificar el genoma con precisión.",
-   "quote_es": "Los vectores virales como los adenovirales, retrovirales, lentivirales, adenoasociados y de poxvirus siguen siendo las plataformas de administración más eficaces por su alta eficiencia de transducción, mientras que los enfoques no virales, incluidos los sistemas físicos y químicos, ofrecen mayor bioseguridad y menor inmunogenicidad."
+   "method": "claude",
+   "title_es": "Terapia génica: avances en sistemas de entrega, tecnologías de edición genómica y aplicaciones en medicina humana y veterinaria.",
+   "resumen_es": "Revisión general de terapia génica: vectores virales y no virales, edición con CRISPR y aplicaciones. Señala límites de entrega, respuesta inmune, escalado y seguridad a largo plazo. Es una revisión, no un resultado nuevo.",
+   "quote_es": "los desafíos relacionados con la eficiencia de entrega, las respuestas inmunes, los efectos fuera de blanco, la escalabilidad de la fabricación, la aprobación regulatoria y la seguridad a largo plazo siguen limitando la implementación clínica generalizada"
   },
   {
-   "technology": "Edición génica CRISPR",
-   "category": "edicion_genica_terapias",
+   "technology": "Capacidad nacional en biología de ingeniería y biofundiciones (Finlandia)",
+   "category": "biologia_sintetica",
    "horizon": "mediano",
-   "hype_phase": "Peak of Inflated Expectations",
-   "justification": "Estimación por regla automática (sin IA), R7 expectativas altas: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Recent developments in gene-editing technologies, particularly clustered regularly interspaced short palindromic repeats (CRISPR)-associated protein systems, have expanded the therapeutic potential of gene therapy by enabling precise genome modifications.",
+   "hype_phase": "Plateau of Productivity",
+   "justification": "Describe cómo Finlandia pasó de la ingeniería genética a la biología sintética y las biofundiciones, con base industrial fuerte. Es un caso de política/capacidad, más que una tecnología nueva.",
+   "quote": "evolved the field naturally towards synthetic biology and biofoundry activities",
    "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43023515/",
+   "countries": [
+    "Finland"
+   ],
+   "amounts": [
+    "7.1 billion euros"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42876968/",
    "source": "pubmed",
-   "title": "Gene Therapy: Advances in Delivery Systems, Genome Editing Technologies, and Applications in Human and Veterinary Medicine.",
+   "title": "Building Capacity for the Engineering of Biology and Biomanufacturing in Finland.",
    "published": "2026",
    "evidence_level": "revisado por pares",
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": "Terapia génica: avances en sistemas de administración, tecnologías de edición del genoma y aplicaciones en medicina humana y veterinaria.",
-   "resumen_es": "Revisión general de la terapia génica: los vectores virales siguen siendo los más eficaces, los no virales son más seguros, y CRISPR amplió las posibilidades de modificar el genoma con precisión.",
-   "quote_es": "Los desarrollos recientes en tecnologías de edición génica, en particular los sistemas asociados a CRISPR (repeticiones palindrómicas cortas agrupadas y regularmente espaciadas), han ampliado el potencial terapéutico de la terapia génica al permitir modificaciones precisas del genoma."
+   "method": "claude",
+   "title_es": "Construcción de capacidades para la ingeniería de la biología y la biomanufactura en Finlandia.",
+   "resumen_es": "Ensayo que repasa cómo Finlandia desarrolló su biología sintética y biofundiciones desde los años 80, con foco industrial. Es un caso de política y capacidad nacional, útil como referencia comparativa.",
+   "quote_es": "hizo evolucionar el campo de manera natural hacia la biología sintética y las actividades de biofundición"
+  },
+  {
+   "technology": "Pacientes digitales virtuales y gobernanza de datos médicos",
+   "category": "gemelos_simulacion",
+   "horizon": "largo",
+   "hype_phase": "Innovation Trigger",
+   "justification": "Propuesta conceptual (marco de referencia) sin algoritmo nuevo ni sistema validado; propone capas de datos, modelado con IA, gobernanza y uso clínico.",
+   "quote": "The article reports neither a new algorithm nor a deployed or clinically validated system",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43016988/",
+   "source": "pubmed",
+   "title": "From Static Records to Virtual Digital Patients: An Artificial Intelligence-Driven Framework for Medical Data Assetization and Governance.",
+   "published": "2026",
+   "evidence_level": "revisado por pares",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "De registros estáticos a pacientes digitales virtuales: un marco impulsado por IA para la conversión en activos y la gobernanza de datos médicos.",
+   "resumen_es": "Propuesta conceptual de un marco de gobernanza para crear y usar pacientes digitales virtuales. El propio artículo aclara que no presenta un algoritmo nuevo ni un sistema validado; es una idea de referencia, aún sin evidencia empírica.",
+   "quote_es": "El artículo no informa ni un algoritmo nuevo ni un sistema desplegado o validado clínicamente"
+  },
+  {
+   "technology": "Plataformas de levadura para vacunas y terapias vivas",
+   "category": "biologia_sintetica",
+   "horizon": "mediano",
+   "hype_phase": "Slope of Enlightenment",
+   "justification": "Revisión: la levadura ya produce vacunas (HBV, HPV) y enzimas terapéuticas, y emergen productos biológicos vivos para el intestino, con herramientas CRISPR e IA para diseño de cepas.",
+   "quote": "engineered for in situ delivery and biosensing",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "https://doi.org/10.1093/femsyr/foag058",
+   "source": "openalex",
+   "title": "Yeast-Based Platforms for Next-Generation Human Health Applications",
+   "published": "2026-10-29",
+   "evidence_level": "revisado por pares",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "Plataformas basadas en levaduras para aplicaciones de salud humana de nueva generación.",
+   "resumen_es": "Revisión sobre el uso de levaduras como fábricas de vacunas (HBV, HPV), enzimas terapéuticas y productos biológicos vivos para el intestino, con herramientas CRISPR e IA. Es una revisión de tecnología en parte ya establecida.",
+   "quote_es": "diseñados para la entrega in situ y la biodetección"
+  },
+  {
+   "technology": "Anonimización de datos y riesgo de reidentificación (DMA, UE)",
+   "category": "regulacion_seguridad",
+   "horizon": "corto",
+   "hype_phase": "Trough of Disillusionment",
+   "justification": "Preprint crítico que muestra que las medidas de anonimización de la Comisión Europea para datos de búsqueda de Google se pueden reidentificar. Es un caso de buscadores, no de salud, pero ilustra el riesgo regulatorio de la anonimización.",
+   "quote": "the approach of the EC relies on unjustified heuristics rather than formal privacy guarantees",
+   "companies": [
+    "Alphabet",
+    "Google"
+   ],
+   "countries": [],
+   "amounts": [],
+   "url": "http://arxiv.org/abs/2611.17012v1",
+   "source": "arxiv",
+   "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+   "published": "2026-11-12",
+   "evidence_level": "preprint (sin revision de pares)",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "Anónimo solo de nombre: revisión crítica y ejercicio de reidentificación sobre las medidas de anonimización de la Comisión Europea para datos de búsqueda de Google según el artículo 6(11) de la DMA.",
+   "resumen_es": "Preprint (sin revisión de pares) que critica las medidas de anonimización de la Comisión Europea y muestra ejemplos de reidentificación. Trata datos de buscadores, no de salud; sirve como advertencia sobre la anonimización de datos.",
+   "quote_es": "el enfoque de la CE se basa en heurísticas injustificadas y no en garantías formales de privacidad"
+  },
+  {
+   "technology": "openEHR: repositorios de datos clínicos interoperables",
+   "category": "datos_computo",
+   "horizon": "corto",
+   "hype_phase": "Slope of Enlightenment",
+   "justification": "Encuesta: openEHR tiene presencia a escala nacional en varios países europeos sin estar en normativa vinculante, lo que sugiere oportunidad de alinearlo con el Espacio Europeo de Datos de Salud.",
+   "quote": "openEHR has achieved national-scale presence through two distinct channels",
+   "companies": [],
+   "countries": [
+    "Ireland",
+    "Malta",
+    "Greece",
+    "Slovenia",
+    "Iran"
+   ],
+   "amounts": [],
+   "url": "https://doi.org/10.64898/2026.08.27.26361529",
+   "source": "medrxiv",
+   "title": "Global Adoption of openEHR Clinical Data Repositories: A Vendor and Community Survey",
+   "published": "2026-11-08",
+   "evidence_level": "preprint (sin revision de pares)",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "Adopción global de repositorios de datos clínicos openEHR: encuesta a proveedores y a la comunidad.",
+   "resumen_es": "Preprint con una encuesta a 11 proveedores y a 29 profesionales: openEHR está desplegado en 25 países, sin figurar en normativa vinculante. Es una encuesta pequeña, sin revisión de pares, relevante para interoperabilidad de datos de salud.",
+   "quote_es": "openEHR ha logrado presencia a escala nacional a través de dos canales distintos"
+  },
+  {
+   "technology": "Gemelo humano virtual cardiovascular para predecir respuesta a espironolactona",
+   "category": "gemelos_simulacion",
+   "horizon": "mediano",
+   "hype_phase": "Innovation Trigger",
+   "justification": "Estudio piloto (aún sin reclutar) que evalúa si un gemelo virtual predice la respuesta individual en insuficiencia cardíaca; las predicciones no influyen en el tratamiento.",
+   "quote": "Virtual twin predictions will be generated for research purposes only and will not influence treatment decisions",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "https://clinicaltrials.gov/study/NCT07902453",
+   "source": "clinicaltrials",
+   "title": "Virtual Human Twins as Tools for Personalized Clinical Care in Heart Failure With Preserved Ejection Fraction: a Pilot Study",
+   "published": "2026-10-28",
+   "evidence_level": "registro oficial",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "Gemelos humanos virtuales como herramientas de atención clínica personalizada en insuficiencia cardíaca con fracción de eyección preservada: estudio piloto.",
+   "resumen_es": "Registro de un estudio piloto, aún sin reclutar, que evalúa si un gemelo virtual cardiovascular predice la respuesta a espironolactona. Las predicciones son solo para investigación y no influyen en el tratamiento; no hay resultados.",
+   "quote_es": "Las predicciones del gemelo virtual se generarán solo con fines de investigación y no influirán en las decisiones de tratamiento"
+  },
+  {
+   "technology": "Modelos fundacionales biológicos y sistemas agénticos",
+   "category": "ia_descubrimiento",
+   "horizon": "corto",
+   "hype_phase": "Peak of Inflated Expectations",
+   "justification": "Revisión que plantea el 'límite de conocimiento' de los modelos fundacionales y propone describir estandarizadamente sus límites para usarlos con confianza.",
+   "quote": "it is often unclear when these models' outputs can be trusted",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "http://arxiv.org/abs/2611.17015v1",
+   "source": "arxiv",
+   "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+   "published": "2026-11-12",
+   "evidence_level": "preprint (sin revision de pares)",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "IA para biólogos: los límites de conocimiento de los modelos fundacionales en la era de los sistemas agénticos.",
+   "resumen_es": "Preprint de revisión que propone describir de forma estandarizada los límites de los modelos fundacionales biológicos y de los agentes basados en modelos de lenguaje. Es un ensayo conceptual, sin revisión de pares.",
+   "quote_es": "a menudo no está claro cuándo se puede confiar en los resultados de estos modelos"
+  },
+  {
+   "technology": "Edición génica CRISPR/Cas9 ex vivo para anemia falciforme",
+   "category": "edicion_genica_terapias",
+   "horizon": "mediano",
+   "hype_phase": "Slope of Enlightenment",
+   "justification": "Ensayo de fase 1 en reclutamiento que evalúa la seguridad de células madre CD34+ editadas para aumentar la hemoglobina fetal.",
+   "quote": "increase the amount of a certain hemoglobin called fetal hemoglobin",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "https://clinicaltrials.gov/study/NCT06506461",
+   "source": "clinicaltrials",
+   "title": "Gene Editing For Sickle Cell Disease",
+   "published": "2026-10-15",
+   "evidence_level": "registro oficial",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "Edición génica para la anemia falciforme.",
+   "resumen_es": "Registro de un ensayo de fase 1 en reclutamiento que evalúa la seguridad de células madre CD34+ editadas con CRISPR/Cas9 para aumentar la hemoglobina fetal. Aún no hay resultados.",
+   "quote_es": "aumentará la cantidad de cierta hemoglobina llamada hemoglobina fetal"
   },
   {
    "technology": "Flujos de trabajo reproducibles",
@@ -947,79 +1094,6 @@
    "title_es": "Aplicaciones de inteligencia artificial para el análisis de imágenes médicas con pyCERR y la nube genómica del cáncer.",
    "resumen_es": "Software abierto para armar flujos de análisis con IA de imágenes radiológicas y de radioterapia, que corren igual en la nube genómica del cáncer (financiada por el NCI) y en equipos locales, de forma reproducible.",
    "quote_es": "Aplicaciones de inteligencia artificial para el análisis de imágenes médicas con pyCERR y la nube genómica del cáncer."
-  },
-  {
-   "technology": "Biología sintética y biofundiciones",
-   "category": "biologia_sintetica",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Timely support for activities in metabolic engineering, systems biology and genome wide technologies (omics) and incorporating bioinformatics and cell level modelling evolved the field naturally towards synthetic biology and biofoundry activities.",
-   "companies": [],
-   "countries": [
-    "Finland"
-   ],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42876968/",
-   "source": "pubmed",
-   "title": "Building Capacity for the Engineering of Biology and Biomanufacturing in Finland.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "Construcción de capacidades para la ingeniería de la biología y la biomanufactura en Finlandia.",
-   "resumen_es": "Cuenta cómo Finlandia pasó de la ingeniería genética de los años 80, ligada a la industria (lácteos, vacunas, enzimas), a la biología sintética y las biofundiciones, con una base industrial sólida.",
-   "quote_es": "El apoyo oportuno a la ingeniería metabólica, la biología de sistemas y las tecnologías de genoma completo (ómicas), junto con la bioinformática y el modelado celular, hizo evolucionar naturalmente el campo hacia la biología sintética y las actividades de biofundición."
-  },
-  {
-   "technology": "Biomanufactura y bioprocesos",
-   "category": "biologia_sintetica",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "The efforts were linked early on with industry, such as dairy companies, vaccine production and production of ethanol and industrial enzymes, and development of commercial scale bioprocesses.",
-   "companies": [],
-   "countries": [
-    "Finland"
-   ],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/42876968/",
-   "source": "pubmed",
-   "title": "Building Capacity for the Engineering of Biology and Biomanufacturing in Finland.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "Construcción de capacidades para la ingeniería de la biología y la biomanufactura en Finlandia.",
-   "resumen_es": "Cuenta cómo Finlandia pasó de la ingeniería genética de los años 80, ligada a la industria (lácteos, vacunas, enzimas), a la biología sintética y las biofundiciones, con una base industrial sólida.",
-   "quote_es": "Los esfuerzos se vincularon desde temprano con la industria, como las empresas lácteas, la producción de vacunas y de etanol y de enzimas industriales, y el desarrollo de bioprocesos a escala comercial."
-  },
-  {
-   "technology": "Aprendizaje automático y profundo aplicado a salud",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "A narrative synthesis of selected policy, modeling, interoperability, and health artificial intelligence literature informs four interdependent layers: data and representation; artificial intelligence modeling and simulation; governance and control; and clinical and external use.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43016988/",
-   "source": "pubmed",
-   "title": "From Static Records to Virtual Digital Patients: An Artificial Intelligence-Driven Framework for Medical Data Assetization and Governance.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "De registros estáticos a pacientes digitales virtuales: un marco impulsado por inteligencia artificial para la valorización y gobernanza de datos médicos.",
-   "resumen_es": "Propone un marco conceptual para crear, acceder y actualizar “pacientes digitales virtuales” (la representación longitudinal de un paciente más modelos), con cuatro capas: datos, modelado con IA, gobernanza y uso clínico. Es una propuesta teórica.",
-   "quote_es": "Una síntesis narrativa de literatura seleccionada sobre políticas, modelado, interoperabilidad e inteligencia artificial en salud sustenta cuatro capas interdependientes: datos y representación; modelado y simulación con inteligencia artificial; gobernanza y control; y uso clínico y externo."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1089,29 +1163,6 @@
    "title_es": "Telemedicina potenciada por inteligencia artificial: transformando el diagnóstico y la atención personalizada en sistemas de salud virtuales",
    "resumen_es": "Evalúa modelos de IA (ResNet-50 para imágenes, BERT para texto de historias clínicas) en plataformas de telemedicina y reporta mejoras en la precisión diagnóstica y el apoyo a decisiones clínicas.",
    "quote_es": "La integración de la inteligencia artificial (IA) en la telemedicina ha revolucionado la atención sanitaria virtual al permitir diagnósticos de alta precisión y estrategias de tratamiento personalizadas a distancia."
-  },
-  {
-   "technology": "Biomanufactura y bioprocesos",
-   "category": "biologia_sintetica",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "This review systematically examines the translational evolution of conventional and non-conventional yeasts including Saccharomyces cerevisiae, Komagataella phaffii, Saccharomyces boulardii, and Yarrowia lipolytica and redefines them as scalable biomanufacturing factories and advanced living therapeutics.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://doi.org/10.1093/femsyr/foag058",
-   "source": "openalex",
-   "title": "Yeast-Based Platforms for Next-Generation Human Health Applications",
-   "published": "2026-10-29",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "Plataformas basadas en levaduras para aplicaciones de salud humana de nueva generación",
-   "resumen_es": "Revisión: las levaduras (S. cerevisiae, K. phaffii, S. boulardii, Y. lipolytica) pasan de organismos modelo a plataformas programables para biomanufactura y terapias vivas, gracias a herramientas de biología sintética como la edición CRISPR múltiple.",
-   "quote_es": "Esta revisión examina sistemáticamente la evolución traslacional de levaduras convencionales y no convencionales, entre ellas Saccharomyces cerevisiae, Komagataella phaffii, Saccharomyces boulardii y Yarrowia lipolytica, y las redefine como fábricas de biomanufactura escalables y terapias vivas avanzadas."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1408,9 +1459,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Los componentes químicos asociados a los microplásticos se vinculan con la progresión del carcinoma hepatocelular mediante inestabilidad genómica y remodelación del microambiente espacial: estudio basado en análisis multiómico integrado.",
+   "resumen_es": "Estudio computacional que integra transcriptómica, aprendizaje automático, ARN de célula única, transcriptómica espacial y simulaciones moleculares para relacionar componentes de microplásticos (BPA, DBP, DEHP) con el cáncer de hígado. Es una asociación computacional, no una prueba clínica; interesa a un laboratorio por el flujo multiómico.",
+   "quote_es": "Empleamos un flujo multiómico integrado que combina transcriptómica masiva, WGCNA, diez algoritmos de aprendizaje automático combinados en 101 modelos candidatos, ARN-seq de célula única, transcriptómica espacial (ST), inferCNV, CytoTRACE y acoplamiento molecular con simulaciones de dinámica molecular de 100 ns."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1431,9 +1482,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Los componentes químicos asociados a los microplásticos se vinculan con la progresión del carcinoma hepatocelular mediante inestabilidad genómica y remodelación del microambiente espacial: estudio basado en análisis multiómico integrado.",
+   "resumen_es": "Estudio computacional que integra transcriptómica, aprendizaje automático, ARN de célula única, transcriptómica espacial y simulaciones moleculares para relacionar componentes de microplásticos (BPA, DBP, DEHP) con el cáncer de hígado. Es una asociación computacional, no una prueba clínica; interesa a un laboratorio por el flujo multiómico.",
+   "quote_es": "Empleamos un flujo multiómico integrado que combina transcriptómica masiva, WGCNA, diez algoritmos de aprendizaje automático combinados en 101 modelos candidatos, ARN-seq de célula única, transcriptómica espacial (ST), inferCNV, CytoTRACE y acoplamiento molecular con simulaciones de dinámica molecular de 100 ns."
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -1454,9 +1505,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Linfoma de Hodgkin clásico: modelo de enfermedad basado en la biología.",
+   "resumen_es": "Revisión narrativa sobre la biología del linfoma de Hodgkin clásico, su microambiente inmune, biomarcadores y clasificación molecular. Es una revisión de conocimiento clínico-biológico, de relevancia moderada para un laboratorio de investigación.",
+   "quote_es": "En esta revisión narrativa examinamos la literatura sobre la biología del linfoma de Hodgkin clásico, el microambiente inmune tumoral, los biomarcadores diagnósticos y pronósticos y la clasificación molecular, priorizando estudios publicados hasta mediados de 2026 y distinguiendo la evidencia establecida de las asociaciones observacionales, los hallazgos preclínicos y las comunicaciones de congresos."
   },
   {
    "technology": "Biopsia líquida y ADN libre circulante",
@@ -1477,9 +1528,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Linfoma de Hodgkin clásico: modelo de enfermedad basado en la biología.",
+   "resumen_es": "Revisión narrativa sobre la biología del linfoma de Hodgkin clásico, su microambiente inmune, biomarcadores y clasificación molecular. Es una revisión de conocimiento clínico-biológico, de relevancia moderada para un laboratorio de investigación.",
+   "quote_es": "En esta revisión narrativa examinamos la literatura sobre la biología del linfoma de Hodgkin clásico, el microambiente inmune tumoral, los biomarcadores diagnósticos y pronósticos y la clasificación molecular, priorizando estudios publicados hasta mediados de 2026 y distinguiendo la evidencia establecida de las asociaciones observacionales, los hallazgos preclínicos y las comunicaciones de congresos."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1500,9 +1551,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Identificación de genes clave del metabolismo de ácidos grasos en la demencia vascular.",
+   "resumen_es": "Estudio bioinformático que combina transcriptómica, redes de coexpresión, aprendizaje automático y ARN de célula única para identificar genes del metabolismo de ácidos grasos en demencia vascular. Son hallazgos computacionales sin validación clínica.",
+   "quote_es": "Se aplicaron ARN-seq de célula única, inferencia de comunicación intercelular y análisis de perturbación in silico para definir las interacciones inmune-estromales."
   },
   {
    "technology": "Simulación y modelado in silico",
@@ -1523,9 +1574,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Identificación de genes clave del metabolismo de ácidos grasos en la demencia vascular.",
+   "resumen_es": "Estudio bioinformático que combina transcriptómica, redes de coexpresión, aprendizaje automático y ARN de célula única para identificar genes del metabolismo de ácidos grasos en demencia vascular. Son hallazgos computacionales sin validación clínica.",
+   "quote_es": "Se aplicaron ARN-seq de célula única, inferencia de comunicación intercelular y análisis de perturbación in silico para definir las interacciones inmune-estromales."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1779,9 +1830,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El Servicio de Ejecución de Flujos de Trabajo de GA4GH: una API estándar para ejecutar y gestionar flujos de trabajo en genómica.",
+   "resumen_es": "Describe un estándar abierto (API) para enviar y gestionar flujos de trabajo bioinformáticos en clústeres locales o en la nube, pensado para datos genómicos sensibles y distribuidos. Es muy relevante para laboratorios que procesan datos genómicos a escala.",
+   "quote_es": "Estos desafíos se agravan en proyectos de gran escala, donde las ejecuciones de flujos de trabajo deben enviarse a clústeres locales, plataformas en la nube o infraestructuras de alojamiento de datos con tecnologías subyacentes distintas."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -1802,9 +1853,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Análisis de célula única de la cromatina y el transcriptoma en los ganglios basales humanos.",
+   "resumen_es": "Presenta un atlas multiómico de célula única de modificaciones de histonas y transcriptomas en ocho regiones de los ganglios basales de donantes adultos. Es investigación básica que sirve de referencia para interpretar variantes no codificantes asociadas a enfermedades.",
+   "quote_es": "Aquí presentamos el primer atlas multioma de célula única de modificaciones de histonas y transcriptomas en ocho regiones de los ganglios basales de donantes adultos neurotípicos."
   },
   {
    "technology": "Proteómica y metabolómica",
@@ -1825,9 +1876,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "OpenDVP: un marco experimental y computacional para la proteómica visual profunda impulsada por la comunidad.",
+   "resumen_es": "Presenta openDVP, un flujo de trabajo abierto de extremo a extremo para proteómica visual profunda (proteómica espacial por tipo celular), basado en herramientas de código abierto. Es un método nuevo, útil para laboratorios que quieran adoptar proteómica espacial.",
+   "quote_es": "La proteómica visual profunda (DVP) es un enfoque emergente para la proteómica espacial específica por tipo celular."
   },
   {
    "technology": "Gemelos digitales",
@@ -1848,9 +1899,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Gemelos digitales cognitivos: una revisión del estado del arte.",
+   "resumen_es": "Revisión sobre gemelos digitales que incorporan funciones cognitivas (percepción, memoria, razonamiento, aprendizaje) mediante IA, orientados a sistemas industriales (Industria 4.0/5.0). Es un ensayo de revisión de enfoque industrial, con poca relevancia directa para salud.",
+   "quote_es": "Los gemelos digitales cognitivos amplían las capacidades de los gemelos digitales tradicionales al integrar funciones cognitivas como la percepción, la atención, la memoria, el razonamiento, la resolución de problemas y el aprendizaje mediante técnicas de IA, incluido el aprendizaje automático."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1871,9 +1922,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Gemelos digitales cognitivos: una revisión del estado del arte.",
+   "resumen_es": "Revisión sobre gemelos digitales que incorporan funciones cognitivas (percepción, memoria, razonamiento, aprendizaje) mediante IA, orientados a sistemas industriales (Industria 4.0/5.0). Es un ensayo de revisión de enfoque industrial, con poca relevancia directa para salud.",
+   "quote_es": "Los gemelos digitales cognitivos amplían las capacidades de los gemelos digitales tradicionales al integrar funciones cognitivas como la percepción, la atención, la memoria, el razonamiento, la resolución de problemas y el aprendizaje mediante técnicas de IA, incluido el aprendizaje automático."
   },
   {
    "technology": "Biomanufactura y bioprocesos",
@@ -1894,9 +1945,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Bioconversión microbiana de CO2: integración de vías de fijación de carbono y biomanufactura sostenible.",
+   "resumen_es": "Revisión que une vías de fijación de carbono, plataformas microbianas, ingeniería metabólica y análisis tecnoeconómico para convertir CO2 en productos. Es un tema de biomanufactura sostenible, con relevancia indirecta para un laboratorio de salud.",
+   "quote_es": "Al integrar evidencia bibliométrica sistemática con una evaluación crítica de la biomanufactura microbiana a partir de CO2, esta revisión identifica la convergencia de la fisiología microbiana, la ingeniería metabólica, el desarrollo de bioprocesos, la energía renovable y los enfoques basados en datos como central para avanzar en la conversión biológica del CO2."
   },
   {
    "technology": "Biología sintética y biofundiciones",
@@ -1917,9 +1968,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Bioconversión microbiana de CO2: integración de vías de fijación de carbono y biomanufactura sostenible.",
+   "resumen_es": "Revisión que une vías de fijación de carbono, plataformas microbianas, ingeniería metabólica y análisis tecnoeconómico para convertir CO2 en productos. Es un tema de biomanufactura sostenible, con relevancia indirecta para un laboratorio de salud.",
+   "quote_es": "A diferencia de revisiones previas centradas en temas individuales, como las vías de fijación de carbono, la fermentación de gases o la ingeniería metabólica, este trabajo presenta un marco integrado que conecta las vías de fijación de carbono naturales y sintéticas, las plataformas de producción microbiana, las estrategias de ingeniería metabólica, la diversificación de productos y el análisis tecnoeconómico."
   },
   {
    "technology": "Biología sintética y biofundiciones",
@@ -1940,9 +1991,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "La optimización multiparamétrica extiende la vida útil de la síntesis de proteínas libre de células en formato de alto rendimiento.",
+   "resumen_es": "Estudio experimental que optimiza el ADN molde, la composición de la reacción y el genotipo del lisado para que la síntesis de proteínas libre de células dure más en placas de 384 pocillos. Es una mejora metodológica útil para plataformas de alto rendimiento.",
+   "quote_es": "Resumen: la síntesis de proteínas libre de células (CFPS) es una plataforma potente para la biología sintética, pero los factores que gobiernan la longevidad de la reacción siguen siendo poco comprendidos pese a su importancia para las aplicaciones de alto rendimiento."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -1963,9 +2014,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "La optimización multiparamétrica extiende la vida útil de la síntesis de proteínas libre de células en formato de alto rendimiento.",
+   "resumen_es": "Estudio experimental que optimiza el ADN molde, la composición de la reacción y el genotipo del lisado para que la síntesis de proteínas libre de células dure más en placas de 384 pocillos. Es una mejora metodológica útil para plataformas de alto rendimiento.",
+   "quote_es": "Resumen: la síntesis de proteínas libre de células (CFPS) es una plataforma potente para la biología sintética, pero los factores que gobiernan la longevidad de la reacción siguen siendo poco comprendidos pese a su importancia para las aplicaciones de alto rendimiento."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2032,9 +2083,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Perfil multiómico del linfoma NK/T extranodal en recaída.",
+   "resumen_es": "Registro de un estudio observacional retrospectivo que analiza con ARN de célula única, secuenciación de receptores y transcriptómica espacial tejido de linfoma NK/T en recaída, para relacionarlo con la respuesta a inhibidores de PD-1. Es un registro de ensayo, aún sin resultados.",
+   "quote_es": "Perfil multiómico del linfoma NK/T extranodal en recaída"
   },
   {
    "technology": "Integración multi-ómica",
@@ -2055,9 +2106,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Perfil multiómico antes y durante el tratamiento del cáncer de recto localmente avanzado.",
+   "resumen_es": "Registro de un estudio observacional prospectivo que perfila tumor y sangre (genoma, ARN de célula única, transcriptómica espacial, proteómica) antes y durante la terapia neoadyuvante. Es un registro de ensayo, sin resultados todavía.",
+   "quote_es": "Perfil multiómico antes y durante el tratamiento del cáncer de recto localmente avanzado"
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2080,9 +2131,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Derechos de propiedad intelectual y el intercambio global de tecnologías moleculares vegetales.",
+   "resumen_es": "Análisis jurídico y de patentes: la edición génica, la biología sintética y la información de secuencias digitales están rodeadas de patentes y reglas más estrictas que el acuerdo TRIPS. Es un ensayo de política, sobre plantas, con relevancia indirecta para salud.",
+   "quote_es": "A medida que la edición génica, la biología sintética y la información de secuencias digitales (DSI) se vuelven centrales para obtener cultivos tolerantes a la sequía, el calor y la salinidad, estas mismas tecnologías quedan cada vez más encerradas en densas marañas de patentes, reglas comerciales que van más allá de los estándares mínimos del Acuerdo sobre los ADPIC (TRIPS), conocidas como reglas TRIPS-plus, y requisitos regulatorios costosos."
   },
   {
    "technology": "Medicina de precisión y farmacogenómica",
@@ -2103,9 +2154,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Direcciones futuras de los nanocatalizadores en medicina de precisión: de la terapia catalítica a las nanozimas inteligentes.",
+   "resumen_es": "Revisión sobre nanozimas (nanomateriales con actividad tipo enzima) y su evolución hacia nanoestructuras sensibles a estímulos para terapia. Es una revisión conceptual de tecnología aún experimental.",
+   "quote_es": "Direcciones futuras de los nanocatalizadores en medicina de precisión: de la terapia catalítica a las nanozimas inteligentes"
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2126,9 +2177,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "PhysInfer: una red neuronal con restricciones físicas para inferir de forma adaptativa el bursting transcripcional a partir de ARN-seq de célula única.",
+   "resumen_es": "Propone un método computacional (red neuronal con restricciones físicas) para inferir la dinámica de ráfagas de transcripción a partir de datos de célula única. Es un método nuevo, de interés para bioinformática; sin aplicación clínica.",
+   "quote_es": "El ARN-seq de célula única (scRNA-seq) ha establecido que la expresión génica está impulsada por ráfagas transcripcionales estocásticas."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2149,9 +2200,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "PhysInfer: una red neuronal con restricciones físicas para inferir de forma adaptativa el bursting transcripcional a partir de ARN-seq de célula única.",
+   "resumen_es": "Propone un método computacional (red neuronal con restricciones físicas) para inferir la dinámica de ráfagas de transcripción a partir de datos de célula única. Es un método nuevo, de interés para bioinformática; sin aplicación clínica.",
+   "quote_es": "Aquí proponemos PhysInfer, un marco no supervisado que integra una red neuronal con restricciones físicas, selección adaptativa de modelos y desacople de parámetros."
   },
   {
    "technology": "Organoides y modelos 3D",
@@ -2172,9 +2223,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Los ARN de repeticiones expandidas generan actividad aberrante de la red cortical en la epilepsia mioclónica familiar benigna del adulto.",
+   "resumen_es": "Estudio experimental con organoides corticales derivados de pacientes que muestra hiperexcitabilidad neuronal y que oligonucleótidos antisentido la reducen. Es investigación preclínica, de interés para modelos de enfermedad en laboratorio.",
+   "quote_es": "Aquí establecemos organoides corticales derivados de pacientes y una plataforma de matrices de microelectrodos, junto con un marco analítico basado en la descomposición de frecuencias, para caracterizar la hiperexcitabilidad neuronal asociada a BAFME y comparar las características electrofisiológicas de los organoides con las observadas en los registros electroencefalográficos de pacientes."
   },
   {
    "technology": "Oligonucleótidos terapéuticos y ARN de interferencia",
@@ -2195,9 +2246,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Los ARN de repeticiones expandidas generan actividad aberrante de la red cortical en la epilepsia mioclónica familiar benigna del adulto.",
+   "resumen_es": "Estudio experimental con organoides corticales derivados de pacientes que muestra hiperexcitabilidad neuronal y que oligonucleótidos antisentido la reducen. Es investigación preclínica, de interés para modelos de enfermedad en laboratorio.",
+   "quote_es": "Los oligonucleótidos antisentido dirigidos al ARN de repeticiones expandidas, que reducen los focos de ARN patogénico sin afectar de manera significativa los niveles de ARNm de SAMD12, también atenúan la hiperexcitabilidad."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2218,9 +2269,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El análisis multiómico destaca las células epiteliales TM4SF4+ y el programa de señalización asociado a MMP14 en la patogénesis del adenocarcinoma de pulmón y la remodelación del microambiente.",
+   "resumen_es": "Estudio computacional que integra ARN de célula única, estudios de asociación genómica y transcriptómica espacial para identificar una subpoblación epitelial ligada al adenocarcinoma de pulmón. Son hallazgos bioinformáticos sin validación clínica.",
+   "quote_es": "Este estudio integra ARN-seq de célula única (scRNA-seq), estudios de asociación del genoma completo y transcriptómica espacial para identificar subpoblaciones epiteliales asociadas con esta comunicación cruzada."
   },
   {
    "technology": "Integración multi-ómica",
@@ -2241,9 +2292,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El análisis multiómico destaca las células epiteliales TM4SF4+ y el programa de señalización asociado a MMP14 en la patogénesis del adenocarcinoma de pulmón y la remodelación del microambiente.",
+   "resumen_es": "Estudio computacional que integra ARN de célula única, estudios de asociación genómica y transcriptómica espacial para identificar una subpoblación epitelial ligada al adenocarcinoma de pulmón. Son hallazgos bioinformáticos sin validación clínica.",
+   "quote_es": "El análisis multiómico destaca las células epiteliales TM4SF4+ y el programa de señalización asociado a MMP14 en la patogénesis del adenocarcinoma de pulmón y la remodelación del microambiente."
   },
   {
    "technology": "Gemelos digitales",
@@ -2264,9 +2315,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Gemelos digitales para intersecciones inteligentes: una revisión de la literatura.",
+   "resumen_es": "Revisión de gemelos digitales aplicados al tránsito urbano (arquitecturas, simulación, IA para control de tráfico). No tiene relación con salud: poco relevante para un laboratorio de salud.",
+   "quote_es": "Las intersecciones inteligentes cumplen un papel central en la movilidad urbana y exigen soluciones innovadoras, como los gemelos digitales, para mejorar la seguridad y la eficiencia."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2287,9 +2338,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Gemelos digitales para intersecciones inteligentes: una revisión de la literatura.",
+   "resumen_es": "Revisión de gemelos digitales aplicados al tránsito urbano (arquitecturas, simulación, IA para control de tráfico). No tiene relación con salud: poco relevante para un laboratorio de salud.",
+   "quote_es": "La revisión categoriza sistemáticamente la investigación existente en cinco áreas temáticas clave: (i) arquitecturas y marcos de gemelos digitales; (ii) técnicas de procesamiento de datos y simulación; (iii) inteligencia artificial y aprendizaje automático para el control adaptativo del tráfico; (iv) seguridad y protección de usuarios vulnerables de la vía; y (v) escalamiento de intersecciones locales a todo el sistema de tráfico de la ciudad."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2310,9 +2361,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Terapias génicas de próxima generación para el tratamiento del cáncer y la modulación inmune.",
+   "resumen_es": "Revisión sobre terapias génicas en oncología: edición con CRISPR/Cas, plataformas de ARN, ARNm, interferencia de ARN y células inmunes modificadas. Es una revisión general, no un resultado clínico nuevo.",
+   "quote_es": "En particular, se ha discutido el potencial de las tecnologías de edición genómica basadas en CRISPR/Cas, las plataformas biotecnológicas basadas en ARN, las terapias basadas en ARNm e interferencia de ARN (ARNi) y los enfoques con células inmunes modificadas genéticamente en el tratamiento del cáncer."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2333,9 +2384,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aplicación de OpenCRISPR-1, diseñado con IA, para la edición génica eficiente en soja y Nicotiana benthamiana.",
+   "resumen_es": "Estudio experimental que adapta OpenCRISPR-1 (una nucleasa tipo Cas9 diseñada con IA y con licencia accesible) para editar soja y tabaco. Es investigación en plantas, con relevancia indirecta para salud.",
+   "quote_es": "La aplicación generalizada de la edición genómica CRISPR/Cas para la mejora comercial de cultivos está actualmente limitada por un panorama de propiedad intelectual (PI) complejo y restrictivo."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -2356,9 +2407,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Sistemas de edición genómica CRISPR-Cas en hongos filamentosos: herramientas actuales, estrategias de optimización y perspectivas.",
+   "resumen_es": "Revisión de herramientas de edición genómica (Cre-loxP, TALEN, CRISPR-Cas) en hongos filamentosos usados como fábricas microbianas. Es una revisión metodológica, relevante para biomanufactura.",
+   "quote_es": "Destacamos CRISPR-Cas9 como la plataforma predominante y discutimos estrategias de optimización que incluyen el diseño de ARNsg, variantes de Cas9 modificadas, ingeniería de promotores, plásmidos replicativos basados en AMA1 y entrega de ribonucleoproteínas."
   },
   {
    "technology": "Edición de bases y prime editing",
@@ -2379,9 +2430,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Sistemas de edición genómica CRISPR-Cas en hongos filamentosos: herramientas actuales, estrategias de optimización y perspectivas.",
+   "resumen_es": "Revisión de herramientas de edición genómica (Cre-loxP, TALEN, CRISPR-Cas) en hongos filamentosos usados como fábricas microbianas. Es una revisión metodológica, relevante para biomanufactura.",
+   "quote_es": "También se discuten tecnologías emergentes, como la edición de bases, la edición prime, Cas12a y Mad7, por su potencial para ampliar las capacidades de edición."
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -2402,9 +2453,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Integración a escala poblacional de redes de ómica espacial para predicción clínica y descubrimiento biológico con SPIN.",
+   "resumen_es": "Presenta SPIN, un método estadístico que integra redes espaciales de célula única para predecir variables clínicas, aplicado a datos de enfermedad de Alzheimer. Es un método nuevo, aún en etapa de investigación.",
+   "quote_es": "La ómica espacial permite integrar la organización molecular de alta dimensión con resultados clínicos, pero incorporar información espacial de célula única en modelos predictivos a escala poblacional sigue siendo un desafío."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2425,9 +2476,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Integración a escala poblacional de redes de ómica espacial para predicción clínica y descubrimiento biológico con SPIN.",
+   "resumen_es": "Presenta SPIN, un método estadístico que integra redes espaciales de célula única para predecir variables clínicas, aplicado a datos de enfermedad de Alzheimer. Es un método nuevo, aún en etapa de investigación.",
+   "quote_es": "La ómica espacial permite integrar la organización molecular de alta dimensión con resultados clínicos, pero incorporar información espacial de célula única en modelos predictivos a escala poblacional sigue siendo un desafío."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2448,9 +2499,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Un atlas multiómico espacial 3D y de célula única de los ganglios basales humanos en desarrollo.",
+   "resumen_es": "Atlas del desarrollo de los ganglios basales humanos con secuenciación de metilación 3D, transcriptómica espacial e imágenes de cromatina y ARN. Es investigación básica de referencia, sin aplicación clínica inmediata.",
+   "quote_es": "Un atlas multiómico espacial 3D y de célula única de los ganglios basales humanos en desarrollo."
   },
   {
    "technology": "Integración multi-ómica",
@@ -2471,9 +2522,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Un atlas multiómico espacial 3D y de célula única de los ganglios basales humanos en desarrollo.",
+   "resumen_es": "Atlas del desarrollo de los ganglios basales humanos con secuenciación de metilación 3D, transcriptómica espacial e imágenes de cromatina y ARN. Es investigación básica de referencia, sin aplicación clínica inmediata.",
+   "quote_es": "Un atlas multiómico espacial 3D y de célula única de los ganglios basales humanos en desarrollo."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -2494,9 +2545,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Un atlas multimodal de célula única revela programas regulatorios en el cerebro humano.",
+   "resumen_es": "Atlas de más de 750.000 núcleos de 18 regiones del cerebro adulto que mide transcriptoma y modificaciones de histonas. Es un recurso de investigación básica de gran escala.",
+   "quote_es": "Aquí presentamos un atlas multimodal de célula única a gran escala que perfila conjuntamente el transcriptoma con modificaciones de histonas activas (H3K27ac) o represivas (H3K27me3) en 18 regiones del cerebro adulto."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -2517,9 +2568,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El cirujano en el circuito: sesgo de automatización e interacción humano-IA en cirugía robótica.",
+   "resumen_es": "Experimento controlado con 19 cirujanos que mide cuánto aceptan guías de IA simuladas, incluso incorrectas, al trazar incisiones. Es un estudio pequeño con una superposición de IA simulada, no un sistema real; relevante para seguridad de la IA clínica.",
+   "quote_es": "Los participantes dibujaron líneas de incisión en 20 imágenes fijas de videos de colecistectomía robótica, primero sin guía (Fase 01) y luego con una superposición de IA simulada (Fase 02)."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -2540,9 +2591,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Micromanipulación robótica impulsada por fluidos para fabricar ensambloides.",
+   "resumen_es": "Presenta una plataforma robótica con pinza fluídica y control visual para ensamblar esferoides celulares en ensambloides de forma programable. Es un desarrollo de laboratorio, útil para modelos celulares complejos.",
+   "quote_es": "Aquí presentamos una plataforma robótica de micromanipulación: la pinza fluídica con control servovisual (FDT-VSC)."
   },
   {
    "technology": "Flujos de trabajo reproducibles",
@@ -3380,31 +3431,6 @@
    "quote_es": null
   },
   {
-   "technology": "Gobernanza y privacidad de datos de salud",
-   "category": "regulacion_seguridad",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Our findings show that the approach of the EC relies on unjustified heuristics rather than formal privacy guarantees, underestimates the risks inherent in free-text search queries, and sacrifices data utility without achieving meaningful protection.",
-   "companies": [
-    "Google"
-   ],
-   "countries": [],
-   "amounts": [],
-   "url": "http://arxiv.org/abs/2611.17012v1",
-   "source": "arxiv",
-   "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
-   "published": "2026-11-12",
-   "evidence_level": "preprint (sin revision de pares)",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
    "technology": "Organoides y modelos 3D",
    "category": "ensayos_precision",
    "horizon": "mediano",
@@ -3648,29 +3674,6 @@
    "source": "clinicaltrials",
    "title": "Combining Gene Editing and iPS to Study and Treat Monogenic Autoinflammatory Diseases",
    "published": "2026-10-22",
-   "evidence_level": "registro oficial",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Edición génica CRISPR",
-   "category": "edicion_genica_terapias",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R6 ensayo fase 1: el texto menciona esta tecnología 9 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Primary Objective * To assess the safety of autologous infusion of clustered regularly interspaced palindromic repeats (CRISPR)/ CRISPR associated protein (Cas9)-edited CD34+ hematopoietic stem and progenitor cells (HSPCs) in patients with severe SCD.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://clinicaltrials.gov/study/NCT06506461",
-   "source": "clinicaltrials",
-   "title": "Gene Editing For Sickle Cell Disease",
-   "published": "2026-10-15",
    "evidence_level": "registro oficial",
    "region": "global",
    "flags": [],
@@ -3949,29 +3952,6 @@
    "source": "medrxiv",
    "title": "The frameshifted VNTR length determines the kidney survival in ADTKD-MUC1",
    "published": "2026-10-30",
-   "evidence_level": "preprint (sin revision de pares)",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Modelos fundacionales y de lenguaje en biología",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 8 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Agentic systems, AI assistants built on large language models, can run multistep analyses from plain-language requests and increasingly call foundation models as tools.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "http://arxiv.org/abs/2611.17015v1",
-   "source": "arxiv",
-   "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
-   "published": "2026-11-12",
    "evidence_level": "preprint (sin revision de pares)",
    "region": "global",
    "flags": [],
