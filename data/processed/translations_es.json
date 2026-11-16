@@ -308,6 +308,106 @@
   "https://clinicaltrials.gov/study/NCT06506461": {
    "title_es": "Edición génica para la anemia falciforme.",
    "resumen_es": "Registro de un ensayo de fase 1 en reclutamiento que evalúa la seguridad de células madre CD34+ editadas con CRISPR/Cas9 para aumentar la hemoglobina fetal. Aún no hay resultados."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/42995894/": {
+   "title_es": "Streamline CNV: un pipeline práctico en Nextflow para analizar variaciones del número de copias cromosómicas",
+   "resumen_es": "Herramienta de software (pipeline) pensada para que biólogos de laboratorio analicen variaciones del número de copias a partir de secuenciación genómica de baja cobertura, de forma portable y reproducible. Útil para un laboratorio por su foco en facilidad de uso."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43017074/": {
+   "title_es": "CAR-T alogénico, CAR-NK y CAR-T in vivo para enfermedades inflamatorias mediadas por el sistema inmune: evidencia comparada, ventajas y desventajas de cada plataforma y desafíos de traslación",
+   "resumen_es": "Revisión narrativa que compara tres estrategias de terapia celular (CAR-T alogénico, CAR-NK y CAR-T in vivo) para enfermedades autoinmunes; destaca que la evidencia in vivo todavía proviene de series muy pequeñas."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43009219/": {
+   "title_es": "BIOREDIS: una plataforma integrada para el diseño completo de terapias de ácidos nucleicos",
+   "resumen_es": "Presenta una plataforma web que reúne datos de nueve recursos biológicos para diseñar terapias de ARN y ADN (ARNi, vectores virales y de ARNm). Es un desarrollo de software publicado; no incluye ensayos clínicos."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43023824/": {
+   "title_es": "Aprendizaje automático causal para la heterogeneidad del efecto del tratamiento: interpretación, comparación y validación",
+   "resumen_es": "Comentario metodológico que discute un estudio previo que concluyó que los métodos de aprendizaje automático causal aún no son confiables para uso clínico, y matiza esa conclusión. Es un ensayo de opinión, no un estudio nuevo."
+  },
+  "https://doi.org/10.1038/s41586-026-11177-0": {
+   "title_es": "Decodificación de los programas regulatorios que gobiernan la plasticidad del glioblastoma",
+   "resumen_es": "Estudio que presenta scDORI, un modelo de aprendizaje profundo que infiere redes de regulación génica en células individuales, aplicado a más de un millón de células de glioblastomas. Muestra el potencial de la IA con datos ómicos de célula única."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020024/": {
+   "title_es": "Análisis de célula única de la cromatina y el transcriptoma en los ganglios basales humanos",
+   "resumen_es": "Atlas multiómico de célula única de modificaciones de histonas y transcriptomas en ocho regiones de los ganglios basales de donantes humanos. Es investigación básica de neurociencia; interesa por la técnica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020953/": {
+   "title_es": "Un atlas de célula única del cáncer de pulmón revela impulsores celulares y moleculares de la metástasis y del pronóstico clínico",
+   "resumen_es": "Atlas de secuenciación de ARN de célula única con más de 2,5 millones de núcleos de 454 pacientes con cáncer de pulmón de células no pequeñas, con datasets de descubrimiento y validación independiente."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43020260/": {
+   "title_es": "Biomarcadores moleculares e innovaciones en biosensado para el diagnóstico temprano de la espondilitis anquilosante",
+   "resumen_es": "Revisión sobre biomarcadores y biosensores para diagnosticar antes la espondilitis anquilosante; advierte que la mayoría de los biosensores sigue en etapa de factibilidad analítica, con muy poca validación clínica independiente."
+  },
+  "https://doi.org/10.48683/1926.00129374": {
+   "title_es": "Comprender el control de la floración perpetua y la producción continua de estolones en la frutilla",
+   "resumen_es": "Tesis o trabajo de agronomía que usa edición con CRISPR/Cas9 en variedades de frutilla. Poca relevancia para un laboratorio de salud; sirve solo como ejemplo de uso de CRISPR en plantas."
+  },
+  "https://openalex.org/W7220880849": {
+   "title_es": "Construcción de atlas espaciales y de transcriptómica de célula única para desentrañar la heterogeneidad y la función de los astrocitos en la salud y la enfermedad",
+   "resumen_es": "Documento en neerlandés (título) sobre cómo la transcriptómica de célula única y espacial permite estudiar la diversidad de los astrocitos. Es investigación básica de neurociencia."
+  },
+  "https://doi.org/10.3389/fmed.2026.1943129": {
+   "title_es": "Enfermedad del ojo seco más allá del déficit de lágrima: inflamación, biomarcadores, genética y medicina de precisión",
+   "resumen_es": "Revisión que presenta el ojo seco como una enfermedad compleja y heterogénea, y plantea que su manejo futuro se apoyará en biomarcadores, datos genómicos y fenotipos clínicos."
+  },
+  "https://doi.org/10.1186/s11671-026-05130-3": {
+   "title_es": "Sistema de entrega de ARNm basado en nanopartículas lipídicas para el manejo del cáncer",
+   "resumen_es": "Revisión sobre terapias de ARNm entregadas con nanopartículas lipídicas (vacunas, citocinas, inmunomodulación y estrategias tipo CAR). Es un artículo de revisión, no un ensayo."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43024681/": {
+   "title_es": "Ingeniería genómica de precisión por edición de bases en Toxoplasma gondii",
+   "resumen_es": "Estudio de laboratorio que establece las primeras plataformas de edición de bases (ABE y CBE) en el parásito Toxoplasma gondii, sin cortes de doble hebra ni moldes donantes."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43024324/": {
+   "title_es": "Aplicación de la inteligencia artificial en el infarto agudo de miocardio: un análisis bibliométrico de 2016 a 2025",
+   "resumen_es": "Análisis bibliométrico (con CiteSpace) de cómo creció la investigación sobre IA en infarto agudo de miocardio. Mide tendencias de publicación; no evalúa un método clínico."
+  },
+  "https://doi.org/10.1002/advs.202600019": {
+   "title_es": "El ultrasonido focalizado de baja intensidad permite modular en el tiempo la diferenciación de organoides de mesencéfalo humano",
+   "resumen_es": "Estudio de laboratorio que presenta una plataforma piezoeléctrica de ultrasonido para controlar el momento de las señales en organoides de mesencéfalo humano. Es investigación preclínica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43031427/": {
+   "title_es": "Más allá del balance de covariables: resiliencia estadística de la ponderación por probabilidad inversa aumentada con aprendizaje automático frente al balanceo por entropía en la traslación de evidencia clínica",
+   "resumen_es": "Estudio de simulación estadística que compara métodos para trasladar la evidencia de ensayos clínicos a poblaciones más heterogéneas. Es metodológico y de relevancia indirecta para un laboratorio."
+  },
+  "https://doi.org/10.1371/journal.ppat.1014804": {
+   "title_es": "La captación de ADN y la motilidad por contracción están controladas por el ARN pequeño Arp mediante la represión de la traducción de la pilina en Acinetobacter baumannii",
+   "resumen_es": "Estudio de microbiología básica sobre un ARN pequeño que regula funciones de los pili en una bacteria oportunista asociada a resistencia antimicrobiana. Relevancia indirecta."
+  },
+  "https://doi.org/10.1038/s44385-026-00124-3": {
+   "title_es": "StrataChip: un sistema microfisiológico para capturar el destino dinámico de los queratinocitos y las transiciones mecánicas durante la morfogénesis epidérmica humana",
+   "resumen_es": "Presenta un dispositivo microfluídico (órgano en chip) que reproduce capas de la epidermis humana, validado con imágenes y secuenciación de célula única. Es una prueba de concepto de laboratorio."
+  },
+  "https://doi.org/10.1021/jacs.6c18007": {
+   "title_es": "Diseño inverso de compuestos inorgánicos con IA generativa",
+   "resumen_es": "Perspectiva que analiza cómo la IA generativa puede diseñar compuestos inorgánicos a partir de propiedades deseadas. Es química de materiales; la relevancia para un laboratorio de salud es baja."
+  },
+  "https://doi.org/10.22541/authorea.15012022/v1": {
+   "title_es": "Inteligencia artificial en el cáncer de pulmón no microcítico con mutación de EGFR: replanteo del panorama terapéutico y biológico",
+   "resumen_es": "Revisión narrativa (preprint) sobre cómo la IA podría integrar datos clínicos, moleculares y de imágenes para monitorear la resistencia a osimertinib. Es una discusión del potencial, no resultados clínicos."
+  },
+  "https://doi.org/10.1016/b978-0-323-90024-9.00021-4": {
+   "title_es": "Computación en la nube para pruebas clínicas de secuenciación de nueva generación",
+   "resumen_es": "Capítulo de libro registrado solo por su título (sin resumen disponible): trata sobre el uso de la nube para análisis de secuenciación clínica. Poco se puede afirmar más allá del título."
+  },
+  "https://doi.org/10.1093/g3journal/jkag318": {
+   "title_es": "Estrategia de terapia génica para tratar el síndrome de Cornelia de Lange por deficiencia de Hdac8",
+   "resumen_es": "Estudio preclínico en un modelo de ratón creado con CRISPR-Cas9 que evalúa vectores AAV con HDAC8 humana como terapia génica para una enfermedad rara. Aún no hay datos en pacientes."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43023242/": {
+   "title_es": "CRISPR abre la puerta a la terapia dirigida contra el glioblastoma (revisión)",
+   "resumen_es": "Revisión sobre el uso de CRISPR en glioblastoma, tanto en cribados genéticos como para atacar genes del fenotipo maligno, en un contexto de ensayos clínicos mayormente decepcionantes."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43022808/": {
+   "title_es": "Entrega y expresión de CasRx mediada por AAV8 en la cóclea y el núcleo coclear de ratones",
+   "resumen_es": "Estudio en ratones que evalúa un vector AAV8 para entregar CasRx, una herramienta CRISPR que actúa sobre ARN sin alterar el ADN, como vía hacia terapias para la sordera hereditaria. Es preclínico."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43021951/": {
+   "title_es": "S100A4 facilita la replicación del virus de la influenza A al interactuar con M2 en células epiteliales alveolares humanas",
+   "resumen_es": "Estudio de laboratorio que, usando ARNi y CRISPR/Cas9, muestra que la proteína S100A4 del huésped favorece la replicación del virus de la influenza A. Investigación básica."
   }
  },
  "quotes": {
@@ -414,6 +514,46 @@
   "Deep visual proteomics (DVP) is an emerging approach for cell-type-specific and spatially resolved proteomics.": "La proteómica visual profunda (DVP) es un enfoque emergente para la proteómica espacial específica por tipo celular.",
   "the approach of the EC relies on unjustified heuristics rather than formal privacy guarantees": "el enfoque de la CE se basa en heurísticas injustificadas y no en garantías formales de privacidad",
   "Antisense oligonucleotides targeting the expanded repeat RNA-which reduce pathogenic RNA foci without significantly affecting SAMD12 mRNA levels-also attenuate hyperexcitability.": "Los oligonucleótidos antisentido dirigidos al ARN de repeticiones expandidas, que reducen los focos de ARN patogénico sin afectar de manera significativa los niveles de ARNm de SAMD12, también atenúan la hiperexcitabilidad.",
-  "We highlight CRISPR-Cas9 as the predominant platform and discuss optimization strategies involving sgRNA design, engineered Cas9 variants, promoter engineering, AMA1-based replicative plasmids, and ribonucleoprotein delivery.": "Destacamos CRISPR-Cas9 como la plataforma predominante y discutimos estrategias de optimización que incluyen el diseño de ARNsg, variantes de Cas9 modificadas, ingeniería de promotores, plásmidos replicativos basados en AMA1 y entrega de ribonucleoproteínas."
+  "We highlight CRISPR-Cas9 as the predominant platform and discuss optimization strategies involving sgRNA design, engineered Cas9 variants, promoter engineering, AMA1-based replicative plasmids, and ribonucleoprotein delivery.": "Destacamos CRISPR-Cas9 como la plataforma predominante y discutimos estrategias de optimización que incluyen el diseño de ARNsg, variantes de Cas9 modificadas, ingeniería de promotores, plásmidos replicativos basados en AMA1 y entrega de ribonucleoproteínas.",
+  "increasingly being explored in dental education as a tool to support teaching, learning, assessment, and clinical decision-making": "cada vez más explorada en la educación odontológica como herramienta de apoyo a la enseñanza, el aprendizaje, la evaluación y la toma de decisiones clínicas",
+  "reproducible, out-of-the-box, AI-based analysis workflows for radiological and radiotherapy data": "flujos de trabajo de análisis reproducibles, listos para usar y basados en IA para datos radiológicos y de radioterapia",
+  "We propose a conceptual five-module framework that integrates AI approaches across the H. pylori care continuum": "Proponemos un marco conceptual de cinco módulos que integra enfoques de IA a lo largo de todo el continuo de atención de H. pylori",
+  "enabling high-precision diagnostics and tailored treatment strategies remotely": "que permite diagnósticos de alta precisión y estrategias de tratamiento personalizadas a distancia",
+  "a virtual copy of the lung that allows you to study and simulate the behavior of the lung": "una copia virtual del pulmón que permite estudiar y simular su comportamiento",
+  "sophisticated delivery platforms have been engineered to respond to endogenous tumor-microenvironment cues": "se han diseñado plataformas de entrega sofisticadas que responden a señales endógenas del microambiente tumoral",
+  "offers a programmable approach for sequence-specific, reversible transcriptional suppression without inducing double-strand DNA breaks": "ofrece un enfoque programable de supresión transcripcional reversible y específica de secuencia, sin inducir roturas de doble hebra del ADN",
+  "have enabled a paradigm shift from empirical optimization to rational and programmable biomanufacturing": "han permitido un cambio de paradigma, de la optimización empírica a una biomanufactura racional y programable",
+  "capable open tools now exist for almost every application": "ya existen herramientas abiertas capaces para casi todas las aplicaciones",
+  "TransMap, a generalizable computational framework that combines multi-scale trans-QTL mapping": "TransMap, un marco computacional generalizable que combina el mapeo de trans-QTL multiescala",
+  "Streamline CNV is based on Nextflow and is packaged in a Docker image that can be executed using Singularity, making it portable and reproducible across different user environments.": "Streamline CNV se basa en Nextflow y se distribuye en una imagen de Docker que puede ejecutarse con Singularity, lo que lo hace portable y reproducible en distintos entornos de usuario.",
+  "Deep B-cell depletion using chimeric antigen receptor (CAR)-based therapies may induce clinical improvement and measurable immune reconstitution, but conventional autologous CAR-T manufacturing limits speed, standardization, and access.": "La depleción profunda de linfocitos B con terapias basadas en receptores quiméricos de antígeno (CAR) puede inducir mejoría clínica y reconstitución inmune medible, pero la manufactura convencional de CAR-T autólogo limita la rapidez, la estandarización y el acceso.",
+  "Peer-reviewed in vivo evidence now includes a five-patient non-integrating LNP/linear mRNA report and a 16-patient integrating lentiviral report.": "La evidencia in vivo revisada por pares incluye ahora un informe de cinco pacientes con LNP/ARNm lineal no integrante y otro de 16 pacientes con vector lentiviral integrante.",
+  "BIOREDIS integrates curated data from nine major biological resources and incorporates modules for coding sequence optimization, RNA interference (shRNA/siRNA) design, promoter/UTR selection, and automated construction of viral (AAV, lentiviral), non-viral, and mRNA vaccine vectors.": "BIOREDIS integra datos curados de nueve grandes recursos biológicos e incorpora módulos para optimización de secuencias codificantes, diseño de ARN de interferencia (shRNA/siRNA), selección de promotores/UTR y construcción automatizada de vectores virales (AAV, lentivirales), no virales y de vacunas de ARNm.",
+  "Causal machine learning (ML) has emerged as a promising approach for predicting individualized treatment effects and advancing precision medicine, moving beyond the limitations of conventional one-variable-at-a-time subgroup analyses of randomized trials.": "El aprendizaje automático causal (ML) surgió como un enfoque prometedor para predecir efectos individualizados del tratamiento y avanzar en la medicina de precisión, superando las limitaciones de los análisis de subgrupos de a una variable de los ensayos aleatorizados.",
+  "Here we introduce scDORI (single-cell deep multi-omic regulatory inference)—a deep-learning framework that infers enhancer-driven gene-regulatory networks at single-cell resolution—and apply it to single-nucleus multiome profiles of more than one million cells from primary glioblastomas.": "Presentamos scDORI (inferencia regulatoria multiómica profunda de célula única), un marco de aprendizaje profundo que infiere redes de regulación génica dirigidas por enhancers con resolución de célula única, y lo aplicamos a perfiles multioma de núcleo único de más de un millón de células de glioblastomas primarios.",
+  "Here, we generated a single-cell multi-omic atlas of histone modifications and transcriptomes across eight basal ganglia regions from neurotypical human donors.": "Aquí generamos un atlas multiómico de célula única de modificaciones de histonas y transcriptomas en ocho regiones de los ganglios basales de donantes humanos neurotípicos.",
+  "Here, to capture this complexity, we present LuCaS+, a multicenter single-cell RNA sequencing atlas comprising over 2.5 million nuclei from 454 clinically annotated patients with NSCLC with long-term follow-up.": "Aquí, para capturar esta complejidad, presentamos LuCaS+, un atlas multicéntrico de secuenciación de ARN de célula única con más de 2,5 millones de núcleos de 454 pacientes con cáncer de pulmón de células no pequeñas con anotación clínica y seguimiento a largo plazo.",
+  "Collectively, the combination of molecular biomarker research and next-generation biosensing technology can elevate diagnostic accuracy, providing early intervention and precision medicine strategies for disease assessment.": "En conjunto, la combinación de la investigación en biomarcadores moleculares y la tecnología de biosensado de nueva generación puede elevar la precisión diagnóstica y aportar estrategias de intervención temprana y de medicina de precisión para evaluar la enfermedad.",
+  "However, much of the available biosensor research remains at the level of analytical feasibility or biomarker detection, with limited evidence demonstrating discrimination of ankylosing spondylitis from clinical controls and very limited independent clinical validation.": "Sin embargo, gran parte de la investigación disponible en biosensores sigue en el nivel de factibilidad analítica o detección de biomarcadores, con poca evidencia de que distingan la espondilitis anquilosante de controles clínicos y una validación clínica independiente muy limitada.",
+  "x ananassa seasonal flowering cultivar ‘Malling Centenary’ and perpetual flowering cultivar ‘Calypso’ using CRISPR/Cas9 genome editing and phenotyping.": "x ananassa de floración estacional ‘Malling Centenary’ y de floración perpetua ‘Calypso’ mediante edición genómica con CRISPR/Cas9 y fenotipado.",
+  "Importantly, recent advances in single-cell and spatial transcriptomics (ST) now enable the exploration of astrocyte heterogeneity with unprecedented depth and resolution.": "Es importante que los avances recientes en transcriptómica de célula única y espacial (ST) permiten ahora explorar la heterogeneidad de los astrocitos con una profundidad y resolución sin precedentes.",
+  "The future of DED management will potentially be based on the analysis of biomarkers, genomic data, and clinical phenotypes to support precision medicine.": "El manejo futuro de la enfermedad del ojo seco probablemente se base en el análisis de biomarcadores, datos genómicos y fenotipos clínicos para apoyar la medicina de precisión.",
+  "Messenger RNA (mRNA)-based therapeutics have transformed cancer treatment strategies, especially after the success of lipid nanoparticle (LNP)-enabled mRNA vaccines.": "Las terapias basadas en ARN mensajero (ARNm) transformaron las estrategias de tratamiento del cáncer, en especial tras el éxito de las vacunas de ARNm habilitadas por nanopartículas lipídicas (LNP).",
+  "gondii: adenine base editors (ABEs) and cytosine base editors (CBEs), which enable precise point mutations via direct base conversion without DSBs or donor templates.": "gondii: editores de bases de adenina (ABE) y de citosina (CBE), que permiten mutaciones puntuales precisas mediante conversión directa de bases, sin roturas de doble hebra ni moldes donantes.",
+  "gondii), an obligate intracellular parasite of global medical importance, primarily relies on CRISPR-Cas9-mediated gene disruption.": "gondii), un parásito intracelular obligado de importancia médica mundial, se basa principalmente en la disrupción génica mediada por CRISPR-Cas9.",
+  "Growing interest suggests that the broad application of artificial intelligence (AI) in acute myocardial infarction (AMI) has advanced diagnosis, prognosis, and treatment.": "El interés creciente sugiere que la amplia aplicación de la inteligencia artificial (IA) en el infarto agudo de miocardio (IAM) ha hecho avanzar el diagnóstico, el pronóstico y el tratamiento.",
+  "ABSTRACT Controlling the precise timing of biosignaling cues in complex 3D models such as organoids is critical for guiding cellular differentiation and functional maturation.": "RESUMEN Controlar el momento preciso de las señales de bioseñalización en modelos 3D complejos como los organoides es fundamental para guiar la diferenciación celular y la maduración funcional.",
+  "We compared traditional parametric models, EB, and Machine Learning-Augmented Inverse Probability Weighting (ML-AIPW) across varying degrees of population overlap and functional non-linearity.": "Comparamos modelos paramétricos tradicionales, EB y la ponderación por probabilidad inversa aumentada con aprendizaje automático (ML-AIPW) con distintos grados de solapamiento poblacional y no linealidad funcional.",
+  "Previous proximity RNA-RNA ligation experiments using High throughput Global sRNA target Identification by Ligation and Sequencing (Hi-GRIL-seq), indicated interactions between Arp and the 5′ end of the pilA mRNA, encoding the major pilin subunit PilA.": "Experimentos previos de ligación ARN-ARN por proximidad con Hi-GRIL-seq (identificación global de blancos de ARN pequeños por ligación y secuenciación de alto rendimiento) indicaron interacciones entre Arp y el extremo 5′ del ARNm de pilA, que codifica la subunidad principal de la pilina, PilA.",
+  "High-resolution confocal imaging and single-cell RNA sequencing demonstrate that the StrataChip recapitulates key architectural and molecular features of the human epidermis, including distinct basal, spinous, and granular layers, as defined by canonical differentiation markers and adhesion molecule organization.": "Las imágenes confocales de alta resolución y la secuenciación de ARN de célula única demuestran que StrataChip reproduce características arquitectónicas y moleculares clave de la epidermis humana, incluidas las capas basal, espinosa y granular, definidas por marcadores canónicos de diferenciación y la organización de moléculas de adhesión.",
+  "Beyond the value of predictive models accelerating virtual screening, generative AI aims at enabling inverse design, reversing the compound-to-property prediction paradigm into property-to-compound generation.": "Más allá del valor de los modelos predictivos que aceleran el cribado virtual, la IA generativa busca habilitar el diseño inverso, invirtiendo el paradigma de predecir propiedades a partir del compuesto para generar compuestos a partir de propiedades.",
+  "This narrative review critically examines the potential of artificial intelligence (AI) to integrate clinical, molecular, imaging, and pharmacological data across the osimertinib treatment trajectory, with particular emphasis on resistance monitoring and clinical pharmacology.": "Esta revisión narrativa examina críticamente el potencial de la inteligencia artificial (IA) para integrar datos clínicos, moleculares, de imágenes y farmacológicos a lo largo del tratamiento con osimertinib, con especial énfasis en el monitoreo de la resistencia y la farmacología clínica.",
+  "Cloud computing for clinical next-generation sequencing testing": "Computación en la nube para pruebas clínicas de secuenciación de nueva generación",
+  "Two AAV vectors driving expression of human HDAC8 were assessed.": "Se evaluaron dos vectores AAV que impulsan la expresión de HDAC8 humana.",
+  "Here, we created a new CdLS5 mouse model by introducing a clinically reported HDAC8 p.Ile19Ser variant in the mouse Hdac8 gene using CRISPR-Cas9 technology.": "Aquí creamos un nuevo modelo murino de CdLS5 introduciendo, con tecnología CRISPR-Cas9, una variante de HDAC8 p.Ile19Ser descrita clínicamente en el gen Hdac8 del ratón.",
+  "Furthermore, the application of CRISPR in the study of GBM is explored, mainly by conducting CRISPR screens and employing CRISPR to target genes associated with the malignant phenotype of GBM.": "Además, se explora la aplicación de CRISPR en el estudio del glioblastoma, principalmente mediante cribados con CRISPR y su uso para actuar sobre genes asociados con el fenotipo maligno.",
+  "CRISPR/Cas9-based genome editing has made substantial progress in recent years and has enabled the treatment of a variety of genetic diseases, including hearing loss in congenitally deaf mice.": "La edición genómica basada en CRISPR/Cas9 ha avanzado sustancialmente en los últimos años y ha permitido tratar diversas enfermedades genéticas, incluida la pérdida auditiva en ratones sordos congénitos.",
+  "CasRx, also known as RfxCas13d, is a compact RNA-targeting CRISPR effector that can be packaged into AAV vectors for in vivo delivery.": "CasRx, también conocido como RfxCas13d, es un efector CRISPR compacto que actúa sobre ARN y puede empaquetarse en vectores AAV para su entrega in vivo.",
+  "In this study, we found the IAV replication was attenuated after host factor S100 calcium-binding protein A4 (S100A4) was knocked down with RNAi or knockout with CRISPR/Cas9 gene-editing technology.": "En este estudio encontramos que la replicación del virus de la influenza A (IAV) se atenuó cuando el factor del huésped S100A4 (proteína de unión a calcio S100 A4) se silenció con ARNi o se eliminó con la tecnología de edición génica CRISPR/Cas9."
  }
 }
