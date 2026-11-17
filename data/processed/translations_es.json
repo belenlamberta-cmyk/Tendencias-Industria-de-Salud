@@ -408,6 +408,106 @@
   "https://pubmed.ncbi.nlm.nih.gov/43021951/": {
    "title_es": "S100A4 facilita la replicación del virus de la influenza A al interactuar con M2 en células epiteliales alveolares humanas",
    "resumen_es": "Estudio de laboratorio que, usando ARNi y CRISPR/Cas9, muestra que la proteína S100A4 del huésped favorece la replicación del virus de la influenza A. Investigación básica."
+  },
+  "https://doi.org/10.59256/ijsreat.20260606020": {
+   "title_es": "Revisión de IA en medicina de precisión: desde imágenes y señales hasta genómica, descubrimiento de fármacos y despliegue confiable.",
+   "resumen_es": "Revisión narrativa (artículo de revisión, no un proyecto) que reúne 37 estudios de IA en medicina de precisión: imágenes, señales fisiológicas, genómica y descubrimiento de fármacos, con foco en privacidad, sesgo y despliegue confiable. Útil como panorama general para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43034267/": {
+   "title_es": "Estrategias avanzadas de administración de fármacos para superar el 'secuestro molecular' mediado por el tumor.",
+   "resumen_es": "Revisión sobre nanoterapéuticos, CAR-T, edición con CRISPR y terapias de ARN para superar la resistencia de los tumores a los fármacos, con desafíos de manufactura y regulación. Es una revisión, no un resultado experimental; relevancia moderada para un laboratorio."
+  },
+  "https://doi.org/10.1371/journal.pcsy.0000144": {
+   "title_es": "Firmas multiómicas indicativas del estado y la eficacia de la vacunación contra SARS-CoV-2 en hurones.",
+   "resumen_es": "Estudio en 16 hurones que integra datos multiómicos y Random Forest para identificar biomarcadores de respuesta a vacunas ADN contra SARS-CoV-2. Es investigación preclínica en animales; relevancia moderada como ejemplo de multiómica con ML."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43037917/": {
+   "title_es": "Terapéuticos con nanopartículas para enfermedades infecciosas que integran diseño guiado por IA, entrega de CRISPR, sinergia con fagos e inmunomodulación.",
+   "resumen_es": "Revisión conceptual sobre nanopartículas que combinan diseño guiado por IA, entrega de CRISPR, fagos e inmunomodulación contra infecciones resistentes. Es una propuesta teórica sin validación clínica; relevancia baja a moderada para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43035123/": {
+   "title_es": "Dirigirse a las proteínas tirosina fosfatasas en el cáncer: roles duales e implicancias terapéuticas.",
+   "resumen_es": "Revisión narrativa sobre inhibidores alostéricos y degradadores de proteínas tirosina fosfatasas combinados con inmunoterapia, apoyada en transcriptómica espacial. Es una propuesta conceptual en etapa preclínica o temprana; relevancia baja para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43037945/": {
+   "title_es": "Evolución de los dispositivos de administración automatizada de insulina en la era de la inteligencia artificial: una revisión narrativa.",
+   "resumen_es": "Revisión narrativa de la evolución de los sistemas de administración automatizada de insulina, hasta los de lazo cerrado que ya están en ensayos clínicos. Es sobre dispositivos médicos; relevancia indirecta para un laboratorio de investigación."
+  },
+  "https://doi.org/10.1038/s41593-026-02504-9": {
+   "title_es": "CRISPR-A dirigido a potenciadores rescata la haploinsuficiencia y los fenotipos mutantes en modelos de organoides de autismo",
+   "resumen_es": "Estudio experimental en células madre humanas y organoides cerebrales: activa con CRISPR los potenciadores de los genes CHD8 y SCN2A para corregir la haploinsuficiencia asociada al autismo. Es investigación preclínica; relevante para un laboratorio por el uso de organoides y edición génica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43038538/": {
+   "title_es": "Integración de FHIR y OMOP para la interoperabilidad de datos de salud en Bélgica: estudio de métodos mixtos",
+   "resumen_es": "Estudio de métodos mixtos sobre cómo integrar los estándares FHIR y OMOP para intercambiar y reutilizar datos de salud en Bélgica, donde la descentralización dificulta la interoperabilidad. Es relevante como antecedente de interoperabilidad de datos, no es un desarrollo de laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43039138/": {
+   "title_es": "Aprendizaje automático para antibióticos de molécula pequeña: del descubrimiento a la optimización preclínica",
+   "resumen_es": "Revisión narrativa sobre el uso de aprendizaje automático (cribado virtual, diseño molecular generativo, predicción ADMET) para descubrir antibióticos frente a la resistencia antimicrobiana. Es una revisión, no un resultado nuevo; relevancia alta para un laboratorio."
+  },
+  "https://doi.org/10.1002/dneu.70072": {
+   "title_es": "Marcos genómicos y de células madre para descubrir la función de variantes en el trastorno del espectro autista: una revisión narrativa",
+   "resumen_es": "Revisión narrativa que describe cómo bibliotecas de células madre editadas con CRISPR (nucleasas, base editing, prime editing) permiten estudiar sistemáticamente variantes genéticas del autismo. Es una revisión conceptual, sin datos nuevos."
+  },
+  "https://doi.org/10.1007/s44372-026-01016-x": {
+   "title_es": "Modificaciones genómicas de precisión con sistemas CRISPR, incluida la edición de bases y la edición prime, para el mejoramiento de cultivos",
+   "resumen_es": "Revisión sobre el uso de CRISPR, edición de bases y edición prime en cultivos para tolerancia al estrés y rasgos agronómicos. Es agricultura, no salud humana: poca relevancia para un laboratorio de salud."
+  },
+  "https://doi.org/10.64898/2026.11.06.26367367": {
+   "title_es": "Estudios genómicos en trasplante de sangre y médula (GS-BMT): iniciativa de medicina genómica NCI-CIBMTR en trasplante de células hematopoyéticas",
+   "resumen_es": "Preprint (sin revisión de pares) de una iniciativa del NCI y el CIBMTR que genotipifica y secuencia muestras de trasplante hematopoyético; incluye un análisis de prueba de concepto con aprendizaje automático en 9.262 pacientes con leucemia mieloide aguda. Relevancia moderada para un laboratorio."
+  },
+  "https://doi.org/10.3389/fmed.2026.1980371": {
+   "title_es": "Un enfoque de medicina de precisión para la dermatitis alérgica de contacto: evidencia actual y oportunidades futuras",
+   "resumen_es": "Revisión sobre genética, biología de la barrera cutánea y tecnologías digitales para predecir, prevenir y manejar la dermatitis alérgica de contacto. Es una revisión clínica; relevancia baja para un laboratorio de tendencias tecnológicas."
+  },
+  "https://doi.org/10.1002/cfch.70048": {
+   "title_es": "Integración de biotecnología e inteligencia artificial para sistemas alimentarios circulares: revisión crítica de evidencia, compensaciones y prioridades de investigación",
+   "resumen_es": "Revisión narrativa sobre cómo la biotecnología y la IA pueden apoyar sistemas alimentarios circulares. Es del área de alimentos, no de salud: relevancia baja para un laboratorio de salud."
+  },
+  "https://doi.org/10.1038/s44400-026-00147-y": {
+   "title_es": "Plataforma integrada de manufactura de organoides corticales revela desregulación temprana de fosfatasas y prefoldina en neuronas MAPT V337M",
+   "resumen_es": "Estudio experimental que desarrolla una plataforma escalable de organoides corticales con controles de calidad y ARN de célula única para estudiar demencia frontotemporal. Relevante para un laboratorio por la estandarización de organoides."
+  },
+  "https://doi.org/10.1073/pnas.2623177123": {
+   "title_es": "La transcriptómica espacial revela propiedades organizativas de la médula espinal de ratón y alteraciones en el dolor neuropático",
+   "resumen_es": "Estudio en ratón que usa transcriptómica espacial de célula única para describir la organización de la médula espinal y los cambios en el dolor neuropático. Es investigación básica en animales; relevancia moderada como ejemplo de tecnología espacial."
+  },
+  "https://doi.org/10.1126/sciadv.ady0296": {
+   "title_es": "Silenciamiento programable y selectivo de transcriptos de fusión oncogénicos con CRISPR-Cas13b mediante el reconocimiento de la secuencia del punto de ruptura",
+   "resumen_es": "Estudio experimental que propone CRISPR-PspCas13b como plataforma personalizable para silenciar transcriptos de fusión que causan cáncer. Es investigación preclínica; relevante por el potencial de terapias de ARN personalizadas."
+  },
+  "https://doi.org/10.1016/j.cell.2026.10.019": {
+   "title_es": "Atlas epigenómico multimodal de célula única y del genoma 3D de los ganglios basales humanos",
+   "resumen_es": "Atlas de metilación del ADN y conformación 3D de la cromatina en 261.331 núcleos de los ganglios basales humanos. Es un recurso de investigación básica de gran escala; relevante como ejemplo de omicas de célula única."
+  },
+  "https://clinicaltrials.gov/study/NCT07916636": {
+   "title_es": "Tecnología de detección de ADN tumoral circulante en sangre periférica basada en CRISPR/Cas y nanopartículas de oro",
+   "resumen_es": "Registro de un ensayo clínico, todavía sin reclutar, de una prueba sanguínea rápida con CRISPR/Cas12a y nanopartículas de oro para detectar ADN tumoral circulante. Es un estudio registrado, no hay resultados aún."
+  },
+  "https://clinicaltrials.gov/study/NCT07889947": {
+   "title_es": "Combinación de edición génica e iPS para estudiar y tratar enfermedades autoinflamatorias monogénicas",
+   "resumen_es": "Registro de un ensayo clínico en reclutamiento que busca desarrollar modelos de células iPS de pacientes y organoides para estudiar la enfermedad SAVI y evaluar la edición génica. Es un proyecto registrado, sin resultados todavía."
+  },
+  "https://clinicaltrials.gov/study/NCT06074835": {
+   "title_es": "Automatización de la preparación de gametos, ICSI, cultivo embrionario y vitrificación",
+   "resumen_es": "Registro de un ensayo clínico completado sobre la automatización robótica de pasos de la fertilización asistida (preparación de espermatozoides, ICSI, cultivo embrionario y criopreservación). Interesa por la automatización de procesos de laboratorio."
+  },
+  "https://clinicaltrials.gov/study/NCT07021235": {
+   "title_es": "Prueba de concepto de la herramienta Aiinane de evaluación de riesgo preoperatorio",
+   "resumen_es": "Registro de un estudio completado sobre un software médico (clase IIa) de apoyo a la decisión en la evaluación preoperatoria, para reducir cancelaciones de último momento. Es software clínico; relevancia baja para un laboratorio."
+  },
+  "https://clinicaltrials.gov/study/NCT07462572": {
+   "title_es": "Gemelos virtuales como herramientas para la atención clínica personalizada en denervación renal: estudio piloto",
+   "resumen_es": "Registro de un estudio piloto, aún sin reclutar, que probará si un gemelo digital puede predecir qué pacientes responderán a la denervación renal para la hipertensión. Es un proyecto registrado, sin resultados."
+  },
+  "https://clinicaltrials.gov/study/NCT07635355": {
+   "title_es": "Plataforma de investigación de vinculación de datos del mundo real",
+   "resumen_es": "Registro de un proyecto, aún sin reclutar, para desarrollar un agente inteligente de gobernanza de datos de salud basado en modelos de lenguaje y aprendizaje profundo. Es una propuesta en etapa inicial; relevante por la gobernanza de datos."
+  },
+  "https://clinicaltrials.gov/study/NCT06817564": {
+   "title_es": "Programa de retroalimentación personalizada de ejercicio con IA para la adherencia al ejercicio en lesión cerebral traumática",
+   "resumen_es": "Registro de un ensayo aleatorizado, en reclutamiento, de un programa con IA que da retroalimentación personalizada sobre ejercicio a pacientes con TCE leve. Es intervención clínica; relevancia baja para un laboratorio."
   }
  },
  "quotes": {
@@ -554,6 +654,39 @@
   "Furthermore, the application of CRISPR in the study of GBM is explored, mainly by conducting CRISPR screens and employing CRISPR to target genes associated with the malignant phenotype of GBM.": "Además, se explora la aplicación de CRISPR en el estudio del glioblastoma, principalmente mediante cribados con CRISPR y su uso para actuar sobre genes asociados con el fenotipo maligno.",
   "CRISPR/Cas9-based genome editing has made substantial progress in recent years and has enabled the treatment of a variety of genetic diseases, including hearing loss in congenitally deaf mice.": "La edición genómica basada en CRISPR/Cas9 ha avanzado sustancialmente en los últimos años y ha permitido tratar diversas enfermedades genéticas, incluida la pérdida auditiva en ratones sordos congénitos.",
   "CasRx, also known as RfxCas13d, is a compact RNA-targeting CRISPR effector that can be packaged into AAV vectors for in vivo delivery.": "CasRx, también conocido como RfxCas13d, es un efector CRISPR compacto que actúa sobre ARN y puede empaquetarse en vectores AAV para su entrega in vivo.",
-  "In this study, we found the IAV replication was attenuated after host factor S100 calcium-binding protein A4 (S100A4) was knocked down with RNAi or knockout with CRISPR/Cas9 gene-editing technology.": "En este estudio encontramos que la replicación del virus de la influenza A (IAV) se atenuó cuando el factor del huésped S100A4 (proteína de unión a calcio S100 A4) se silenció con ARNi o se eliminó con la tecnología de edición génica CRISPR/Cas9."
+  "In this study, we found the IAV replication was attenuated after host factor S100 calcium-binding protein A4 (S100A4) was knocked down with RNAi or knockout with CRISPR/Cas9 gene-editing technology.": "En este estudio encontramos que la replicación del virus de la influenza A (IAV) se atenuó cuando el factor del huésped S100A4 (proteína de unión a calcio S100 A4) se silenció con ARNi o se eliminó con la tecnología de edición génica CRISPR/Cas9.",
+  "It organizes 37 studies into a five-layer taxonomy and compares their data, methods and reported results": "Organiza 37 estudios en una taxonomía de cinco capas y compara sus datos, métodos y resultados informados.",
+  "this review article, these processes are collectively framed as tumor-mediated molecular hijacking": "En esta revisión, estos procesos se enmarcan colectivamente como secuestro molecular mediado por el tumor.",
+  "multi-omics data (transcriptomics, metabolomics, lipidomics, proteomics) were processed from 16 ferrets": "se procesaron datos multiómicos (transcriptómica, metabolómica, lipidómica, proteómica) de 16 hurones",
+  "AI-guided modelling enables predictive optimization of nanoparticle design": "el modelado guiado por IA permite la optimización predictiva del diseño de nanopartículas",
+  "We employed an integrated multi-omics workflow combining bulk transcriptomics, WGCNA": "Empleamos un flujo de trabajo multiómico integrado que combina transcriptómica masiva, WGCNA",
+  "which is not yet clinically validated": "que aún no está clínicamente validado",
+  "Integrated transcriptomic profiling was combined with network-based analysis": "El perfilado transcriptómico integrado se combinó con análisis basado en redes",
+  "Recent therapeutic advances have explored allosteric inhibitors, degraders and combination approaches": "Los avances terapéuticos recientes han explorado inhibidores alostéricos, degradadores y enfoques combinados",
+  "Fully closed-loop systems have entered clinical trials offering automated insulin delivery independent of meal announcements": "Los sistemas de lazo totalmente cerrado han entrado en ensayos clínicos y ofrecen administración automatizada de insulina independiente del anuncio de comidas",
+  "we report a dual tumor-specific CRISPR/Cas9 gene editing system": "informamos un sistema de edición génica CRISPR/Cas9 de doble especificidad tumoral",
+  "We mapped enhancers of two high-confidence autism genes, CHD8 and SCN2A, and used CRISPR-based gene activation targeting enhancers (eCRISPR-A) in human pluripotent stem cell (hPSC)-derived excitatory neurons and cerebral forebrain organoids to correct the effects of haploinsufficiency, taking advantage of": "Mapeamos los potenciadores de dos genes de alta confianza del autismo, CHD8 y SCN2A, y usamos la activación génica basada en CRISPR dirigida a potenciadores (eCRISPR-A) en neuronas excitatorias y organoides de prosencéfalo cerebral derivados de células madre pluripotentes humanas (hPSC) para corregir los efectos de la haploinsuficiencia",
+  "In Belgium, decentralization and fragmentation further complicate interoperability.": "En Bélgica, la descentralización y la fragmentación complican aún más la interoperabilidad.",
+  "Google Scholar and PubMed were searched through June 2026, combining terms for machine learning, deep learning, and artificial intelligence with antibiotic discovery and development, virtual screening, generative molecular design, and ADMET prediction.": "Se buscó en Google Scholar y PubMed hasta junio de 2026, combinando términos de aprendizaje automático, aprendizaje profundo e inteligencia artificial con descubrimiento y desarrollo de antibióticos, cribado virtual, diseño molecular generativo y predicción ADMET.",
+  "Experimental paradigms now exist for systematic variant-to-function interrogation through CRISPR-engineered isogenic human pluripotent stem-cell libraries incorporating Cas9 nucleases, programmable transcriptional modulators (dCas9-KRAB and dCas9-VP64), base editors, and prime editing systems.": "Ahora existen paradigmas experimentales para la interrogación sistemática de variante a función mediante bibliotecas isogénicas de células madre pluripotentes humanas editadas con CRISPR que incorporan nucleasas Cas9, moduladores transcripcionales programables (dCas9-KRAB y dCas9-VP64), editores de bases y sistemas de edición prime.",
+  "CRISPR-Cas technology has revolutionised genome editing in crop plants, enabling precise gene modifications to address critical agricultural challenges.": "La tecnología CRISPR-Cas ha revolucionado la edición del genoma en plantas de cultivo, permitiendo modificaciones génicas precisas para abordar desafíos agrícolas críticos.",
+  "The emergence of base editing and prime editing has further expanded their potential for precise genome engineering in crops, offering greater accuracy and versatility.": "La aparición de la edición de bases y la edición prime ha ampliado aún más su potencial para la ingeniería genómica precisa en cultivos, ofreciendo mayor exactitud y versatilidad.",
+  "We report study design and cohort characteristics and present two proof-of-concept analyses: comparison of conventional and machine learning prediction of overall survival after HCT in 9,262 patients with acute myeloid leukemia (AML), and assessment of inherited susceptibility to clonal hematopoiesis": "Informamos el diseño del estudio y las características de la cohorte, y presentamos dos análisis de prueba de concepto: la comparación de la predicción convencional y con aprendizaje automático de la supervivencia global tras el trasplante de células hematopoyéticas en 9.262 pacientes con leucemia mieloide aguda (LMA), y la evaluación de la susceptibilidad hereditaria a la hematopoyesis clonal",
+  "A precision medicine approach to allergic contact dermatitis: current evidence and future opportunities": "Un enfoque de medicina de precisión para la dermatitis alérgica de contacto: evidencia actual y oportunidades futuras",
+  "Biotechnology and artificial intelligence (AI) are supported circular food systems (CFS), but their combined benefits remain unclear.": "La biotecnología y la inteligencia artificial (IA) apoyan los sistemas alimentarios circulares (SAC), pero sus beneficios combinados siguen sin estar claros.",
+  "This narrative review, based on a structured search of five bibliographic databases, examines how biotechnological conversion routes (fermentation, enzyme‐assisted extraction, engineered microbial cell factories, crop biotechnology, and bio‐based packaging) and AI tools (machine learning, computer vision, soft sensors, and predictive": "Esta revisión narrativa, basada en una búsqueda estructurada en cinco bases de datos bibliográficas, examina cómo las vías de conversión biotecnológica (fermentación, extracción asistida por enzimas, fábricas celulares microbianas modificadas, biotecnología de cultivos y envases de base biológica) y las herramientas de IA (aprendizaje automático, visión por computadora, sensores virtuales y predictivos",
+  "Human pluripotent stem cell (hPSC)-derived cortical organoids are powerful models but are often limited by low efficiency, variability, and stress-related artifacts.": "Los organoides corticales derivados de células madre pluripotentes humanas (hPSC) son modelos poderosos, pero suelen estar limitados por baja eficiencia, variabilidad y artefactos relacionados con el estrés.",
+  "To address these challenges, we developed a scalable organoid platform with end-to-end quality control (QC) metrics spanning manufacturing and single-cell RNA-sequencing (scRNA-seq), developed using eight MAPT mutation isogenic line sets relevant to frontotemporal dementia (FTD-tau).": "Para abordar estos desafíos, desarrollamos una plataforma escalable de organoides con métricas de control de calidad (QC) de extremo a extremo que abarcan la manufactura y la secuenciación de ARN de célula única (scRNA-seq), desarrollada con ocho conjuntos de líneas isogénicas de mutaciones MAPT relevantes para la demencia frontotemporal (FTD-tau).",
+  "Here, we employed spatially resolved single-cell transcriptomic profiling of the adult mouse spinal cord to gain insights into the organizational logic of the spinal cord.": "Aquí empleamos perfilado transcriptómico de célula única con resolución espacial de la médula espinal de ratón adulto para obtener información sobre la lógica organizativa de la médula espinal.",
+  "Here, we establish CRISPR- Psp Cas13b as a personalizable platform for systematic silencing of various fusion transcripts.": "Aquí establecemos CRISPR-PspCas13b como una plataforma personalizable para el silenciamiento sistemático de diversos transcriptos de fusión.",
+  "Here we present a multimodal single-cell atlas profiling DNA methylation and 3D chromatin conformation in 261,331 nuclei (snm3C-seq) across eight subregions, resolving 12 classes, 31 subclasses, and 59 groups.": "Aquí presentamos un atlas multimodal de célula única que perfila la metilación del ADN y la conformación 3D de la cromatina en 261.331 núcleos (snm3C-seq) de ocho subregiones, y resuelve 12 clases, 31 subclases y 59 grupos.",
+  "When tumor cells die, they release small pieces of DNA called circulating tumor DNA (ctDNA) into the blood.": "Cuando las células tumorales mueren, liberan pequeños fragmentos de ADN llamados ADN tumoral circulante (ctDNA) en la sangre.",
+  "This study evaluates a new testing method called \"CRISPR/Cas12a combined with gold nanoparticle detection.\" This method uses a gene-editing protein (Cas12a) that can recognize a specific mutation in the BRCA1 gene and a gold nanoparticle-based readout that shows results within": "Este estudio evalúa un nuevo método de prueba llamado «CRISPR/Cas12a combinado con detección con nanopartículas de oro». Este método usa una proteína de edición génica (Cas12a) que puede reconocer una mutación específica en el gen BRCA1 y una lectura basada en nanopartículas de oro que muestra resultados en",
+  "This project aims to develop patient-derived induced pluripotent stem cell (iPSC) models, combined with somatic cell differentiation and 3D organoid technologies, to investigate SAVI pathogenesis and assess the feasibility and efficacy of gene editing (GE).": "Este proyecto busca desarrollar modelos de células madre pluripotentes inducidas (iPSC) derivadas de pacientes, combinados con diferenciación de células somáticas y tecnologías de organoides 3D, para investigar la patogénesis de SAVI y evaluar la factibilidad y eficacia de la edición génica (EG).",
+  "Robotic automation may include any of the following steps: robotic sperm preparation, robotic oocyte selection and denudation, robotic sperm injection, automated embryo culture, and automated cryopreservation.": "La automatización robótica puede incluir cualquiera de los siguientes pasos: preparación robótica de espermatozoides, selección y denudación robótica de ovocitos, inyección robótica de espermatozoides, cultivo automatizado de embriones y criopreservación automatizada.",
+  "The investigators have developed a Class IIa active diagnostic and monitoring product, a Medical Device Software (MDSW, EMDN V92), to support clinical decision-making in an automated digital preoperative environment.": "Los investigadores han desarrollado un producto activo de diagnóstico y monitoreo de clase IIa, un software como producto sanitario (MDSW, EMDN V92), para apoyar la toma de decisiones clínicas en un entorno preoperatorio digital automatizado.",
+  "The VITAL-RDN study (Virtual twins as tools for personalized clinical care in renal denervation - Pilot study) aims to test whether a \"digital twin\" can help predict which patients are most likely to respond to renal denervation.": "El estudio VITAL-RDN (Gemelos virtuales como herramientas para la atención clínica personalizada en denervación renal: estudio piloto) busca probar si un «gemelo digital» puede ayudar a predecir qué pacientes tienen más probabilidades de responder a la denervación renal.",
+  "To achieve this, a self-adaptive, automated governance intelligent agent will be developed based on a High-Order Programming (HOP) architecture, integrating Large Language Models (LLMs) and deep learning techniques.": "Para lograrlo, se desarrollará un agente inteligente de gobernanza automatizada y autoadaptativa basado en una arquitectura de programación de alto orden (HOP), que integra modelos de lenguaje de gran tamaño (LLM) y técnicas de aprendizaje profundo.",
+  "[Fase: NA; Estado: RECRUITING] This study aims to develop and evaluate an AI-driven Personalized Exercise Feedback Program (AI-PEF) to enhance exercise adherence and health outcomes in mTBI patients.": "[Fase: NA; Estado: RECRUITING] Este estudio busca desarrollar y evaluar un programa de retroalimentación personalizada de ejercicio con IA (AI-PEF) para mejorar la adherencia al ejercicio y los resultados de salud en pacientes con mTBI."
  }
 }
