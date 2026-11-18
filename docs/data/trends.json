@@ -1,13 +1,13 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T10:27:26+00:00",
+  "generated_at": "2026-11-18T10:52:36+00:00",
   "raw_items": 1563,
   "candidates": 245,
   "items_processed_by_llm": 0,
   "items_processed_by_rules": 245,
-  "items_processed_by_claude": 63,
-  "trends_proposed": 231,
-  "trends_verified": 206,
+  "items_processed_by_claude": 73,
+  "trends_proposed": 226,
+  "trends_verified": 201,
   "verification": {
    "quitado": 2,
    "marcado": 1
@@ -1505,12 +1505,12 @@
    "quote_es": "informamos un sistema de edición génica CRISPR/Cas9 de doble especificidad tumoral"
   },
   {
-   "technology": "Edición génica CRISPR",
+   "technology": "CRISPR-Cas9 para genómica funcional en parásitos protozoarios",
    "category": "edicion_genica_terapias",
    "horizon": "mediano",
    "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 15 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "CRISPR-Cas9 has become a central tool for functional genomics in these organisms, enabling targeted gene disruption, replacement, tagging, nucleotide modification and genome-wide functional screening.",
+   "justification": "Revisión: Cas9 ya es herramienta central en Plasmodium, Leishmania, Toxoplasma y otros, pero la eficiencia varía por especie; base editing, Cas12a y prime editing aparecen como extensiones emergentes.",
+   "quote": "CRISPR-Cas9 has become a central tool for functional genomics in these organisms",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1522,41 +1522,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Sistemas CRISPR-Cas en parásitos protozoarios: edición genómica, genómica funcional, regulación génica y aplicaciones emergentes",
+   "resumen_es": "Revisión de la bibliografía sobre cómo se usa CRISPR-Cas9 para editar genes en parásitos como Plasmodium, Leishmania y Toxoplasma, y por qué la eficiencia cambia según la especie. Es una revisión (no un producto); interesa a laboratorios de parasitología e ingeniería genética.",
+   "quote_es": "CRISPR-Cas9 se ha convertido en una herramienta central de genómica funcional en estos organismos"
   },
   {
-   "technology": "Edición de bases y prime editing",
-   "category": "edicion_genica_terapias",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "The review further examines the progression from single-gene editing to marker-free manipulation, base editing, conditional approaches and genome-wide functional screens.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43044679/",
-   "source": "pubmed",
-   "title": "CRISPR-Cas Systems in Protozoan Parasites: Genome Editing, Functional Genomics, Gene Regulation and Emerging Applications.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Secuenciación de célula única",
+   "technology": "Transcriptómica de célula única y espacial para resistencia terapéutica en cáncer",
    "category": "omicas",
-   "horizon": "mediano",
+   "horizon": "corto",
    "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 9 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Single-cell and spatial transcriptomics (ST) technologies are recent high-throughput sequencing advancements that enable transcriptome-wide profiling and characterization of cellular populations at single-cell resolution while preserving tissue spatial context.",
+   "justification": "Revisión: la integración de scRNA-seq y transcriptómica espacial, con IA, se usa para entender resistencia a tratamientos y hallar blancos; es un marco teórico, no un producto.",
+   "quote": "Growing evidence suggests that combining single-cell RNA sequencing (scRNA-seq) with ST offers a robust approach",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1568,41 +1545,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Mecanismos de resistencia terapéutica en cáncer mediante transcriptómica de célula única y espacial: enfoques actuales y perspectivas",
+   "resumen_es": "Revisión que resume cómo combinar secuenciación de ARN de célula única con transcriptómica espacial, apoyada en IA, para entender por qué los tumores resisten los tratamientos. Es un marco teórico; relevante para laboratorios de ómicas.",
+   "quote_es": "Cada vez hay más evidencia de que combinar la secuenciación de ARN de célula única (scRNA-seq) con ST ofrece un enfoque robusto"
   },
   {
-   "technology": "Transcriptómica y ómicas espaciales",
-   "category": "omicas",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Single-cell and spatial transcriptomics (ST) technologies are recent high-throughput sequencing advancements that enable transcriptome-wide profiling and characterization of cellular populations at single-cell resolution while preserving tissue spatial context.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43041570/",
-   "source": "pubmed",
-   "title": "Deciphering the Mechanisms Underlying Therapeutic Resistance in Cancer through Single-Cell and Spatial Transcriptomics Technologies: Current Approaches and Future Perspectives.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Aprendizaje automático y profundo aplicado a salud",
+   "technology": "Aprendizaje automático con datos del mundo real para planificación y política sanitaria",
    "category": "ia_descubrimiento",
    "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "The rapid advancement of information technology and machine learning (ML) has garnered significant interest from health care managers and policymakers.",
+   "hype_phase": "Trough of Disillusionment",
+   "justification": "Revisión de alcance: solo 6 estudios empíricos cumplieron los criterios; el uso real en gestión y políticas públicas está en etapa temprana y con validación externa insuficiente. Relevancia para un laboratorio: baja.",
+   "quote": "the real-world deployment of ML in health management and public policy remains at an early stage",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1614,18 +1568,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Aplicación de algoritmos de aprendizaje automático a la planificación de sistemas de salud y políticas públicas con datos del mundo real: revisión de alcance",
+   "resumen_es": "Revisión de alcance que encontró solo 6 estudios empíricos sobre aprendizaje automático en gestión sanitaria y políticas públicas, con validación externa limitada. Poco relevante para un laboratorio de investigación; sí para gestión de salud.",
+   "quote_es": "el uso real del aprendizaje automático en la gestión sanitaria y las políticas públicas sigue en una etapa temprana"
   },
   {
-   "technology": "Biología sintética y biofundiciones",
+   "technology": "Expresión libre de células (CFE) y bioseguridad en biomanufactura distribuida",
    "category": "biologia_sintetica",
-   "horizon": "corto",
-   "hype_phase": "Plateau of Productivity",
-   "justification": "Estimación por regla automática (sin IA), R2 meseta: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Cell-free expression (CFE) is an acellular biomanufacturing platform capable of producing diverse biomolecules, including proteins, enzymes, and mRNA, outside of living cells.",
+   "horizon": "mediano",
+   "hype_phase": "Innovation Trigger",
+   "justification": "Perspectiva/recomendaciones: la CFE permite síntesis descentralizada de proteínas y ARNm, pero plantea riesgos de bioseguridad; proponen unidades compatibles con GMP, componentes no transferibles y acceso escalonado.",
+   "quote": "CFE extracts can be freeze-dried, stored for extended periods, and reactivated on demand by simply adding a nucleic acid template",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1637,41 +1591,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Proteger la expresión libre de células: salvaguardas para la biomanufactura distribuida",
+   "resumen_es": "Artículo de perspectiva que plantea los riesgos de bioseguridad de la expresión libre de células (producción de proteínas y ARNm fuera de células) y propone medidas como componentes no transferibles y acceso escalonado. Es una propuesta conceptual, no un ensayo.",
+   "quote_es": "Los extractos de CFE pueden liofilizarse, almacenarse por largos períodos y reactivarse a demanda con solo agregar una plantilla de ácido nucleico"
   },
   {
-   "technology": "Biomanufactura y bioprocesos",
-   "category": "biologia_sintetica",
-   "horizon": "corto",
-   "hype_phase": "Plateau of Productivity",
-   "justification": "Estimación por regla automática (sin IA), R2 meseta: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Cell-free expression (CFE) is an acellular biomanufacturing platform capable of producing diverse biomolecules, including proteins, enzymes, and mRNA, outside of living cells.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43042506/",
-   "source": "pubmed",
-   "title": "Securing Cell-Free Expression: Safeguards for Distributed Biomanufacturing.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Integración multi-ómica",
+   "technology": "Multiómica espacial con imagen por espectrometría de masas (MSI)",
    "category": "omicas",
    "horizon": "mediano",
    "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Spatial multi-omics links molecular measurements to tissue architecture, but integrating spatial transcriptomics with mass spectrometry imaging (MSI) remains challenging because the modalities differ in sampling unit, spatial resolution, data structure, and molecular-identification certainty.",
+   "justification": "Revisión que propone un flujo de trabajo para integrar transcriptómica espacial y MSI; destaca límites de resolución, reproducibilidad entre laboratorios y que sirve para formular hipótesis, no causalidad.",
+   "quote": "spatial multi-omics is best used to formulate anatomically explicit, falsifiable hypotheses",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1683,41 +1614,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
+   "method": "claude",
    "title_es": "Integración multiómica espacial con imágenes por espectrometría de masas: descifrar paisajes metabólicos y mecanismos de enfermedad",
    "resumen_es": "Revisión que propone un flujo de trabajo para integrar transcriptómica espacial con imágenes por espectrometría de masas, un desafío por las diferencias de resolución y de identificación molecular. Útil como referencia metodológica.",
-   "quote_es": "La multiómica espacial vincula las mediciones moleculares con la arquitectura del tejido, pero integrar la transcriptómica espacial con las imágenes por espectrometría de masas (MSI) sigue siendo difícil porque las modalidades difieren en unidad de muestreo, resolución espacial, estructura de datos y certeza de la identificación molecular."
+   "quote_es": "la multiómica espacial se usa mejor para formular hipótesis anatómicamente explícitas y falsables"
   },
   {
-   "technology": "Proteómica y metabolómica",
-   "category": "omicas",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Spatial multi-omics links molecular measurements to tissue architecture, but integrating spatial transcriptomics with mass spectrometry imaging (MSI) remains challenging because the modalities differ in sampling unit, spatial resolution, data structure, and molecular-identification certainty.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43022607/",
-   "source": "pubmed",
-   "title": "Spatial Multi-Omics Integration with Mass Spectrometry Imaging: Decoding Metabolic Landscapes and Disease Mechanisms.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "Integración multiómica espacial con imágenes por espectrometría de masas: descifrar paisajes metabólicos y mecanismos de enfermedad",
-   "resumen_es": "Revisión que propone un flujo de trabajo para integrar transcriptómica espacial con imágenes por espectrometría de masas, un desafío por las diferencias de resolución y de identificación molecular. Útil como referencia metodológica.",
-   "quote_es": "La multiómica espacial vincula las mediciones moleculares con la arquitectura del tejido, pero integrar la transcriptómica espacial con las imágenes por espectrometría de masas (MSI) sigue siendo difícil porque las modalidades difieren en unidad de muestreo, resolución espacial, estructura de datos y certeza de la identificación molecular."
-  },
-  {
-   "technology": "Modelos fundacionales y de lenguaje en biología",
+   "technology": "PIANO: modelo generativo profundo para integración multiómica a gran escala",
    "category": "ia_descubrimiento",
-   "horizon": "mediano",
+   "horizon": "corto",
    "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "To address these challenges, we developed PIANO, probabilistic inference autoencoder networks for multi-omics, a deep learning framework whose central feature is a generative model of gene expression data.",
+   "justification": "Artículo de método computacional: integra datos de célula única y espaciales, entrena 10 veces más rápido y escala a más de 100 millones de células; relevante para bioinformática de un laboratorio.",
+   "quote": "PIANO achieves robust integrations and trains 10× faster than previous methods",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1729,41 +1637,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
+   "method": "claude",
    "title_es": "PIANO permite el modelado generativo de la expresión génica y escala la integración multiómica a 100 millones de células",
    "resumen_es": "Artículo metodológico: PIANO es un marco de aprendizaje profundo (modelo generativo de expresión génica) para integrar datos de ARN de célula única, corregir efectos de lote y escalar a millones de células. Relevante para laboratorios con datos unicelulares.",
-   "quote_es": "Para abordar estos desafíos, desarrollamos PIANO, redes autocodificadoras de inferencia probabilística para multiómica, un marco de aprendizaje profundo cuya característica central es un modelo generativo de datos de expresión génica."
+   "quote_es": "PIANO logra integraciones robustas y entrena 10 veces más rápido que los métodos anteriores"
   },
   {
-   "technology": "Integración multi-ómica",
-   "category": "omicas",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "To address these challenges, we developed PIANO, probabilistic inference autoencoder networks for multi-omics, a deep learning framework whose central feature is a generative model of gene expression data.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43020064/",
-   "source": "pubmed",
-   "title": "PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "PIANO permite el modelado generativo de la expresión génica y escala la integración multiómica a 100 millones de células",
-   "resumen_es": "Artículo metodológico: PIANO es un marco de aprendizaje profundo (modelo generativo de expresión génica) para integrar datos de ARN de célula única, corregir efectos de lote y escalar a millones de células. Relevante para laboratorios con datos unicelulares.",
-   "quote_es": "Para abordar estos desafíos, desarrollamos PIANO, redes autocodificadoras de inferencia probabilística para multiómica, un marco de aprendizaje profundo cuya característica central es un modelo generativo de datos de expresión génica."
-  },
-  {
-   "technology": "Simulación y modelado in silico",
+   "technology": "Integración de modelos mecanísticos e IA (híbridos) hacia gemelos digitales biológicos",
    "category": "gemelos_simulacion",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "For decades, mechanistic models have offered a rigorous, hypothesis-driven framework for dissecting biological processes, while AI has proven itself at finding patterns in the large, high-dimensional datasets of modern biology.",
+   "horizon": "largo",
+   "hype_phase": "Innovation Trigger",
+   "justification": "Revisión conceptual que propone una taxonomía de integración y enumera siete desafíos (interpretabilidad, causalidad, validación, etc.); los gemelos digitales biológicos aparecen como horizonte futuro.",
+   "quote": "we close with a view of biological digital twins, causal discovery engines, and automated science",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1775,18 +1660,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
+   "method": "claude",
    "title_es": "De los modelos mecanicistas a la sinergia con la IA: una hoja de ruta para una biología predictiva y personalizada",
    "resumen_es": "Artículo de perspectiva (hoja de ruta conceptual) sobre combinar modelos matemáticos mecanicistas con IA para una biología predictiva. No presenta resultados experimentales.",
-   "quote_es": "Durante décadas, los modelos mecanicistas han ofrecido un marco riguroso, guiado por hipótesis, para analizar procesos biológicos, mientras que la IA ha demostrado su capacidad para encontrar patrones en los grandes conjuntos de datos de alta dimensionalidad de la biología moderna."
+   "quote_es": "cerramos con una visión de gemelos digitales biológicos, motores de descubrimiento causal y ciencia automatizada"
   },
   {
-   "technology": "Vacunas y terapias de ARNm",
+   "technology": "Nanoportadores para inmunoterapia y ARNm/lípidos nanoparticulados en cánceres ginecológicos",
    "category": "edicion_genica_terapias",
    "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "We focus on nanocarrier-mediated immunotherapeutic mechanisms in ovarian, cervical, and endometrial cancers, and further highlight emerging lipid nanoparticle/mRNA and programmable RNA delivery strategies.",
+   "hype_phase": "Peak of Inflated Expectations",
+   "justification": "Revisión: los nanoportadores mejoran la entrega de inmunoterapias, con estrategias emergentes de nanopartículas lipídicas y ARNm; aún faltan targeting, toxicidad a largo plazo, escalado y requisitos regulatorios. Relevancia para laboratorio: media-baja.",
+   "quote": "highlight emerging lipid nanoparticle/mRNA and programmable RNA delivery strategies",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1798,41 +1683,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
+   "method": "claude",
    "title_es": "Inmunoterapia mediada por nanotransportadores para neoplasias ginecológicas: mecanismos, traslación clínica y estrategias emergentes basadas en ácidos nucleicos",
    "resumen_es": "Revisión sobre nanotransportadores para inmunoterapia en cáncer de ovario, cuello uterino y endometrio, con énfasis en nanopartículas lipídicas/ARNm y entrega de ARN programable. Es una revisión; relevancia moderada.",
-   "quote_es": "Nos centramos en los mecanismos inmunoterapéuticos mediados por nanotransportadores en cáncer de ovario, cuello uterino y endometrio, y destacamos además las estrategias emergentes de nanopartículas lipídicas/ARNm y de entrega de ARN programable."
+   "quote_es": "destacamos las estrategias emergentes de nanopartículas lipídicas/ARNm y de entrega de ARN programable"
   },
   {
-   "technology": "Terapias celulares (CAR-T)",
-   "category": "edicion_genica_terapias",
-   "horizon": "mediano",
+   "technology": "Base de datos CLEAN: anotación de función enzimática con IA",
+   "category": "ia_descubrimiento",
+   "horizon": "corto",
    "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "This review summarizes major immunotherapeutic modalities for gynecological cancers-immune checkpoint blockade, CAR-T cell therapy, tumor vaccines, and oncolytic viruses-and the classification and characteristics of commonly used nanocarriers.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43011477/",
-   "source": "pubmed",
-   "title": "Nanocarrier-Mediated Immunotherapy for Gynecological Malignancies: Mechanisms, Clinical Translation, and Emerging Nucleic Acid-Based Strategies.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": "Inmunoterapia mediada por nanotransportadores para neoplasias ginecológicas: mecanismos, traslación clínica y estrategias emergentes basadas en ácidos nucleicos",
-   "resumen_es": "Revisión sobre nanotransportadores para inmunoterapia en cáncer de ovario, cuello uterino y endometrio, con énfasis en nanopartículas lipídicas/ARNm y entrega de ARN programable. Es una revisión; relevancia moderada.",
-   "quote_es": "Esta revisión resume las principales modalidades inmunoterapéuticas para los cánceres ginecológicos (bloqueo de puntos de control inmunitario, terapia con células CAR-T, vacunas tumorales y virus oncolíticos) y la clasificación y características de los nanotransportadores de uso común."
-  },
-  {
-   "technology": "Biología sintética y biofundiciones",
-   "category": "biologia_sintetica",
-   "horizon": "mediano",
-   "hype_phase": "Innovation Trigger",
-   "justification": "Estimación por regla automática (sin IA), R10 por defecto: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "We anticipate that CLEAN DB will serve as a valuable platform for advancing enzyme discovery and applications in synthetic biology, metabolic engineering, enzyme engineering, retrosynthesis, and drug discovery.",
+   "justification": "Recurso abierto con más de 55 millones de anotaciones enzimáticas predichas por el modelo CLEAN y predicción de efecto de mutaciones; útil para biología sintética y descubrimiento.",
+   "quote": "a comprehensive resource encompassing >55 million enzyme function annotations across 1 098 305 strains",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1844,10 +1706,33 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
+   "method": "claude",
    "title_es": "Base de datos CLEAN: cobertura de función enzimática para más de 55 millones de secuencias",
    "resumen_es": "Presenta una base de datos con funciones enzimáticas predichas con IA para más de 55 millones de secuencias, útil para descubrir y diseñar enzimas, biología sintética y descubrimiento de fármacos. Es un recurso computacional.",
-   "quote_es": "Anticipamos que CLEAN DB será una plataforma valiosa para impulsar el descubrimiento de enzimas y sus aplicaciones en biología sintética, ingeniería metabólica, ingeniería enzimática, retrosíntesis y descubrimiento de fármacos."
+   "quote_es": "un recurso integral que abarca más de 55 millones de anotaciones de función enzimática en 1.098.305 cepas"
+  },
+  {
+   "technology": "IA en patología digital: hoja de ruta ADOPT para integración clínica",
+   "category": "regulacion_seguridad",
+   "horizon": "mediano",
+   "hype_phase": "Trough of Disillusionment",
+   "justification": "Revisión que compara marcos existentes y propone ADOPT, una hoja de ruta por fases alineada con CAP/CLIA; muestra que traducir la IA de patología a la práctica sigue siendo difícil.",
+   "quote": "a practical, phased deployment roadmap specifically designed to align with College of American Pathologists",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43008408/",
+   "source": "pubmed",
+   "title": "Pathology AI clinical integration: From promise to practice.",
+   "published": "2026",
+   "evidence_level": "revisado por pares",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "IA en patología: de la promesa a la práctica en la integración clínica",
+   "resumen_es": "Revisión que resume los avances de patología digital con IA y propone ADOPT, una hoja de ruta por fases alineada con las normas CAP/CLIA para llevar estas herramientas a la práctica clínica. Es una propuesta de marco, no un producto.",
+   "quote_es": "una hoja de ruta práctica de implementación por fases, diseñada específicamente para alinearse con las normas del Colegio de Patólogos Estadounidenses"
   },
   {
    "technology": "Computación en la nube y de alto rendimiento",
@@ -3401,9 +3286,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Secuenciación masiva paralela de amplicones múltiples agrupados para confirmar variantes potencialmente patogénicas del genoma completo en pacientes con parkinsonismo",
+   "resumen_es": "Preprint (sin revisión de pares) que propone confirmar variantes halladas por secuenciación del genoma con una estrategia de amplicones agrupados, como alternativa más rápida y económica que Sanger. Evaluado en 86 personas; útil para laboratorios de genómica clínica.",
+   "quote_es": "La secuenciación del genoma completo identifica gran cantidad de variantes genéticas, aunque solo un subconjunto requiere confirmación independiente para su interpretación clínica."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -3424,9 +3309,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Secuenciación masiva paralela de amplicones múltiples agrupados para confirmar variantes potencialmente patogénicas del genoma completo en pacientes con parkinsonismo",
+   "resumen_es": "Preprint (sin revisión de pares) que propone confirmar variantes halladas por secuenciación del genoma con una estrategia de amplicones agrupados, como alternativa más rápida y económica que Sanger. Evaluado en 86 personas; útil para laboratorios de genómica clínica.",
+   "quote_es": "Este enfoque ofrece un método robusto, rápido y económico para confirmar, a gran escala, las variantes genéticas identificadas por secuenciación del genoma completo, requiriendo poco ADN de entrada."
   },
   {
    "technology": "Organoides y modelos 3D",
@@ -3746,9 +3631,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Desarrollo de un modelo de aprendizaje profundo para detectar y segmentar glomérulos en imágenes de histopatología renal",
+   "resumen_es": "Preprint (sin revisión de pares) de un sistema de dos etapas de aprendizaje profundo que mide automáticamente el área de glomérulos en biopsias renales. Es una prueba de concepto en 114 biopsias; relevancia media para patología digital.",
+   "quote_es": "Métodos: desarrollamos un sistema de aprendizaje profundo en dos etapas que combina Faster R-CNN para detectar glomérulos en imágenes de portaobjetos completos (WSI) y DeepLabV3+ para la segmentación."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -3769,9 +3654,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aplicaciones del entrenamiento con equidad en inteligencia artificial para el diagnóstico de enfermedades oftalmológicas con fotografías externas del ojo",
+   "resumen_es": "Preprint (sin revisión de pares) que evalúa modelos de IA para detectar retinopatía diabética, degeneración macular y glaucoma a partir de fotos externas del ojo, con técnicas para reducir sesgos demográficos. Es investigación clínica; relevancia baja para un laboratorio.",
+   "quote_es": "Desarrollamos y evaluamos modelos de aprendizaje profundo y de visión-lenguaje para la clasificación binaria de retinopatía diabética que amenaza la visión (VTDR), degeneración macular avanzada y glaucoma, usando 40.687 fotografías externas del ojo de 9.878 pacientes del Massachusetts Eye and Ear."
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -3792,9 +3677,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aplicaciones del entrenamiento con equidad en inteligencia artificial para el diagnóstico de enfermedades oftalmológicas con fotografías externas del ojo",
+   "resumen_es": "Preprint (sin revisión de pares) que evalúa modelos de IA para detectar retinopatía diabética, degeneración macular y glaucoma a partir de fotos externas del ojo, con técnicas para reducir sesgos demográficos. Es investigación clínica; relevancia baja para un laboratorio.",
+   "quote_es": "Desarrollamos y evaluamos modelos de aprendizaje profundo y de visión-lenguaje para la clasificación binaria de retinopatía diabética que amenaza la visión (VTDR), degeneración macular avanzada y glaucoma, usando 40.687 fotografías externas del ojo de 9.878 pacientes del Massachusetts Eye and Ear."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -3815,9 +3700,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El perfilado de células únicas de placas humanas revela firmas celulares y moleculares de la aterosclerosis sintomática",
+   "resumen_es": "Preprint (sin revisión de pares) que compara 53 placas carotídeas sintomáticas y asintomáticas con secuenciación de ARN de núcleo único y célula única. Es un estudio de ómicas aplicado a enfermedad cardiovascular.",
+   "quote_es": "Aquí comparamos 53 placas carotídeas humanas sintomáticas y asintomáticas mediante secuenciación de ARN de núcleo único (snRNA-seq; 17 muestras, 19.100 núcleos; biobanco AtherOMICS) y de célula única (scRNA-seq; 36 muestras, 68.983 células; cuatro conjuntos de datos públicos), analizadas de forma independiente y combinadas por metaanálisis."
   },
   {
    "technology": "Proteómica y metabolómica",
@@ -3838,9 +3723,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "La resistencia a la insulina revierte a pesar del aumento de peso con agonismo pan-PPAR, y revela sus correlatos moleculares en plasma en la diabetes tipo 2",
+   "resumen_es": "Preprint (sin revisión de pares) que usa metabolómica y proteómica de plasma en 835 pacientes de dos ensayos de fase 3 para estudiar la resistencia a la insulina. Es investigación clínica con ómicas; relevancia media-baja.",
+   "quote_es": "Integramos metabolómica y proteómica de plasma en una estimación molecular del HOMA-IR."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -3863,7 +3748,7 @@
    "method": "reglas",
    "title_es": null,
    "resumen_es": null,
-   "quote_es": null
+   "quote_es": "Pregunta clave: ¿puede un modelo de aprendizaje profundo aplicado a imágenes de electrocardiograma diferenciar el síndrome de Takotsubo del infarto agudo anterior con elevación del ST, y la asistencia de inteligencia artificial (IA) ayuda a los lectores?"
   },
   {
    "technology": "Simulación y modelado in silico",
@@ -3884,9 +3769,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Una variante patogénica del dominio ICA de MYRF se transporta de forma anómala en el EPR y causa nanoftalmos aislado",
+   "resumen_es": "Preprint (sin revisión de pares) sobre una variante genética en MYRF identificada por secuenciación del genoma que causa nanoftalmos. Es un estudio de caso genético-molecular; poco relevante para tendencias tecnológicas.",
+   "quote_es": "La patogenicidad y el modelado in silico se evaluaron con la herramienta Ensembl VEP y PyMOL."
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -3907,9 +3792,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Objetivos como políticas: programas de costo con modelos de visión-lenguaje para manipulación robótica con contacto",
+   "resumen_es": "Preprint de robótica que conecta un modelo de visión-lenguaje con un controlador predictivo para manipular objetos. No es un trabajo de salud; relevancia baja, solo como antecedente de robótica para laboratorios automatizados.",
+   "quote_es": "Los modelos de visión-lenguaje (VLM) han mostrado una sólida capacidad de razonamiento semántico y espacial en entornos 3D."
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -3930,9 +3815,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Teoría estocástica exacta de la autorregulación génica postranscripcional mediada por proteínas de unión a ARN",
+   "resumen_es": "Preprint teórico que desarrolla un modelo matemático exacto de la autorregulación génica postranscripcional. Es un ensayo teórico sin aplicación directa; relevancia baja para un laboratorio de salud.",
+   "quote_es": "Aquí desarrollamos una teoría exacta de la autorregulación génica postranscripcional, en la que la unión reversible entre proteína y ARNm modula tanto la traducción como la estabilidad del ARNm."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -3953,9 +3838,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Hacia laboratorios autónomos resilientes mediante intervenciones telerrobóticas",
+   "resumen_es": "Preprint que presenta una interfaz de teleoperación para que personas resuelvan fallas en laboratorios autónomos (self-driving labs). Es un desarrollo en etapa de investigación; relevante para automatización de laboratorio.",
+   "quote_es": "Los laboratorios autónomos (SDL) aceleran la investigación científica al integrar robótica, experimentación automatizada y aprendizaje automático para ejecutar experimentos de forma autónoma."
   },
   {
    "technology": "Laboratorios autónomos",
@@ -3976,9 +3861,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Hacia laboratorios autónomos resilientes mediante intervenciones telerrobóticas",
+   "resumen_es": "Preprint que presenta una interfaz de teleoperación para que personas resuelvan fallas en laboratorios autónomos (self-driving labs). Es un desarrollo en etapa de investigación; relevante para automatización de laboratorio.",
+   "quote_es": "Los laboratorios autónomos (SDL) aceleran la investigación científica al integrar robótica, experimentación automatizada y aprendizaje automático para ejecutar experimentos de forma autónoma."
   },
   {
    "technology": "Gobernanza y privacidad de datos de salud",
@@ -3999,9 +3884,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "MeReader: un asistente de IA sin conexión, que preserva la privacidad y sigue el avance, para la lectura de libros electrónicos narrativos",
+   "resumen_es": "Preprint de un asistente de IA local para leer novelas sin revelar partes futuras. No tiene relación con la salud; relevancia nula para un laboratorio.",
+   "quote_es": "Este trabajo presenta MeReader, un asistente de IA sin conexión, que preserva la privacidad y es consciente del avance de lectura, diseñado como compañero contextual para la lectura narrativa en hardware de consumo."
   },
   {
    "technology": "Modelos fundacionales y de lenguaje en biología",
@@ -4022,9 +3907,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "MeReader: un asistente de IA sin conexión, que preserva la privacidad y sigue el avance, para la lectura de libros electrónicos narrativos",
+   "resumen_es": "Preprint de un asistente de IA local para leer novelas sin revelar partes futuras. No tiene relación con la salud; relevancia nula para un laboratorio.",
+   "quote_es": "A diferencia de los sistemas convencionales basados en modelos de lenguaje (LLM), que procesan los libros en línea y todo el texto a la vez, con el riesgo de revelar partes de la trama, MeReader limita tanto la recuperación como la generación a la posición específica del lector en el texto."
   },
   {
    "technology": "Gobernanza y privacidad de datos de salud",
@@ -4045,9 +3930,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El proyecto CYBER-BRIDGE: una plataforma con IA para ciberseguridad, cumplimiento normativo y forense transfronterizos en la UE",
+   "resumen_es": "Descripción de un proyecto financiado por la UE que integra ciberseguridad, cumplimiento (NIS2, GDPR) y forense digital con IA. Es un proyecto, no un producto; poco relevante para un laboratorio de salud.",
+   "quote_es": "Los ciberataques transfronterizos contra pymes y operadores de infraestructura crítica europeos exponen una brecha estructural de ciberresiliencia: la ciberseguridad (intercambio de amenazas, detección, respuesta), el cumplimiento (evaluación de marcos, certificación) y la informática forense (evidencia entre jurisdicciones) están regulados conjuntamente por NIS2, la CRA, el RGPD y la LED, y sin embargo"
   },
   {
    "technology": "Secuenciación de lecturas largas",
@@ -4070,9 +3955,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "La longitud del VNTR con cambio de marco determina la supervivencia renal en ADTKD-MUC1",
+   "resumen_es": "Preprint (sin revisión de pares) que usa secuenciación de lectura larga (Nanopore) para mostrar que la longitud de la proteína mutante MUC1 se asocia con la evolución de una enfermedad renal hereditaria. Relevante como ejemplo de secuenciación de lectura larga.",
+   "quote_es": "Los alelos mutantes del VNTR se reconstruyeron mediante secuenciación de lectura larga de Oxford Nanopore."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -4093,9 +3978,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Estudio de seguridad y tolerabilidad del fármaco de edición génica ZVS203e en participantes con retinitis pigmentosa",
+   "resumen_es": "Registro de un ensayo clínico de fase temprana, en reclutamiento, de un fármaco de edición génica inyectado en la retina para retinitis pigmentosa por mutación en RHO. Es un registro oficial, sin resultados; relevante para terapias de edición génica.",
+   "quote_es": "Estudio de seguridad y tolerabilidad del fármaco de edición génica ZVS203e en participantes con retinitis pigmentosa"
   },
   {
    "technology": "Simulación y modelado in silico",

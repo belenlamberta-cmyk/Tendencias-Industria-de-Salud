@@ -508,6 +508,82 @@
   "https://clinicaltrials.gov/study/NCT06817564": {
    "title_es": "Programa de retroalimentación personalizada de ejercicio con IA para la adherencia al ejercicio en lesión cerebral traumática",
    "resumen_es": "Registro de un ensayo aleatorizado, en reclutamiento, de un programa con IA que da retroalimentación personalizada sobre ejercicio a pacientes con TCE leve. Es intervención clínica; relevancia baja para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43044679/": {
+   "title_es": "Sistemas CRISPR-Cas en parásitos protozoarios: edición genómica, genómica funcional, regulación génica y aplicaciones emergentes",
+   "resumen_es": "Revisión de la bibliografía sobre cómo se usa CRISPR-Cas9 para editar genes en parásitos como Plasmodium, Leishmania y Toxoplasma, y por qué la eficiencia cambia según la especie. Es una revisión (no un producto); interesa a laboratorios de parasitología e ingeniería genética."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43041570/": {
+   "title_es": "Mecanismos de resistencia terapéutica en cáncer mediante transcriptómica de célula única y espacial: enfoques actuales y perspectivas",
+   "resumen_es": "Revisión que resume cómo combinar secuenciación de ARN de célula única con transcriptómica espacial, apoyada en IA, para entender por qué los tumores resisten los tratamientos. Es un marco teórico; relevante para laboratorios de ómicas."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43043633/": {
+   "title_es": "Aplicación de algoritmos de aprendizaje automático a la planificación de sistemas de salud y políticas públicas con datos del mundo real: revisión de alcance",
+   "resumen_es": "Revisión de alcance que encontró solo 6 estudios empíricos sobre aprendizaje automático en gestión sanitaria y políticas públicas, con validación externa limitada. Poco relevante para un laboratorio de investigación; sí para gestión de salud."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43042506/": {
+   "title_es": "Proteger la expresión libre de células: salvaguardas para la biomanufactura distribuida",
+   "resumen_es": "Artículo de perspectiva que plantea los riesgos de bioseguridad de la expresión libre de células (producción de proteínas y ARNm fuera de células) y propone medidas como componentes no transferibles y acceso escalonado. Es una propuesta conceptual, no un ensayo."
+  },
+  "https://doi.org/10.64898/2026.11.10.26367697": {
+   "title_es": "Secuenciación masiva paralela de amplicones múltiples agrupados para confirmar variantes potencialmente patogénicas del genoma completo en pacientes con parkinsonismo",
+   "resumen_es": "Preprint (sin revisión de pares) que propone confirmar variantes halladas por secuenciación del genoma con una estrategia de amplicones agrupados, como alternativa más rápida y económica que Sanger. Evaluado en 86 personas; útil para laboratorios de genómica clínica."
+  },
+  "https://doi.org/10.64898/2026.10.19.26365514": {
+   "title_es": "Desarrollo de un modelo de aprendizaje profundo para detectar y segmentar glomérulos en imágenes de histopatología renal",
+   "resumen_es": "Preprint (sin revisión de pares) de un sistema de dos etapas de aprendizaje profundo que mide automáticamente el área de glomérulos en biopsias renales. Es una prueba de concepto en 114 biopsias; relevancia media para patología digital."
+  },
+  "https://doi.org/10.64898/2026.11.08.26363489": {
+   "title_es": "Aplicaciones del entrenamiento con equidad en inteligencia artificial para el diagnóstico de enfermedades oftalmológicas con fotografías externas del ojo",
+   "resumen_es": "Preprint (sin revisión de pares) que evalúa modelos de IA para detectar retinopatía diabética, degeneración macular y glaucoma a partir de fotos externas del ojo, con técnicas para reducir sesgos demográficos. Es investigación clínica; relevancia baja para un laboratorio."
+  },
+  "https://doi.org/10.64898/2026.11.07.26367408": {
+   "title_es": "El perfilado de células únicas de placas humanas revela firmas celulares y moleculares de la aterosclerosis sintomática",
+   "resumen_es": "Preprint (sin revisión de pares) que compara 53 placas carotídeas sintomáticas y asintomáticas con secuenciación de ARN de núcleo único y célula única. Es un estudio de ómicas aplicado a enfermedad cardiovascular."
+  },
+  "https://doi.org/10.64898/2026.11.06.26367120": {
+   "title_es": "La resistencia a la insulina revierte a pesar del aumento de peso con agonismo pan-PPAR, y revela sus correlatos moleculares en plasma en la diabetes tipo 2",
+   "resumen_es": "Preprint (sin revisión de pares) que usa metabolómica y proteómica de plasma en 835 pacientes de dos ensayos de fase 3 para estudiar la resistencia a la insulina. Es investigación clínica con ómicas; relevancia media-baja."
+  },
+  "https://doi.org/10.64898/2026.10.15.26365514": {
+   "title_es": "Diferenciación electrocardiográfica de síndrome de Takotsubo e infarto agudo anterior con aprendizaje profundo: explicabilidad, interacción humano-IA e hipótesis de sesgo de utilización",
+   "resumen_es": "Preprint (sin revisión de pares) de un modelo de IA sobre imágenes de electrocardiogramas para distinguir Takotsubo de infarto, con un estudio de lectores. Es aplicación clínica; relevancia baja para un laboratorio de investigación."
+  },
+  "https://doi.org/10.64898/2026.11.08.26367379": {
+   "title_es": "Una variante patogénica del dominio ICA de MYRF se transporta de forma anómala en el EPR y causa nanoftalmos aislado",
+   "resumen_es": "Preprint (sin revisión de pares) sobre una variante genética en MYRF identificada por secuenciación del genoma que causa nanoftalmos. Es un estudio de caso genético-molecular; poco relevante para tendencias tecnológicas."
+  },
+  "http://arxiv.org/abs/2611.18298v1": {
+   "title_es": "Objetivos como políticas: programas de costo con modelos de visión-lenguaje para manipulación robótica con contacto",
+   "resumen_es": "Preprint de robótica que conecta un modelo de visión-lenguaje con un controlador predictivo para manipular objetos. No es un trabajo de salud; relevancia baja, solo como antecedente de robótica para laboratorios automatizados."
+  },
+  "http://arxiv.org/abs/2611.18062v1": {
+   "title_es": "Teoría estocástica exacta de la autorregulación génica postranscripcional mediada por proteínas de unión a ARN",
+   "resumen_es": "Preprint teórico que desarrolla un modelo matemático exacto de la autorregulación génica postranscripcional. Es un ensayo teórico sin aplicación directa; relevancia baja para un laboratorio de salud."
+  },
+  "http://arxiv.org/abs/2611.18496v1": {
+   "title_es": "Hacia laboratorios autónomos resilientes mediante intervenciones telerrobóticas",
+   "resumen_es": "Preprint que presenta una interfaz de teleoperación para que personas resuelvan fallas en laboratorios autónomos (self-driving labs). Es un desarrollo en etapa de investigación; relevante para automatización de laboratorio."
+  },
+  "http://arxiv.org/abs/2611.18513v1": {
+   "title_es": "MeReader: un asistente de IA sin conexión, que preserva la privacidad y sigue el avance, para la lectura de libros electrónicos narrativos",
+   "resumen_es": "Preprint de un asistente de IA local para leer novelas sin revelar partes futuras. No tiene relación con la salud; relevancia nula para un laboratorio."
+  },
+  "http://arxiv.org/abs/2611.21497v1": {
+   "title_es": "El proyecto CYBER-BRIDGE: una plataforma con IA para ciberseguridad, cumplimiento normativo y forense transfronterizos en la UE",
+   "resumen_es": "Descripción de un proyecto financiado por la UE que integra ciberseguridad, cumplimiento (NIS2, GDPR) y forense digital con IA. Es un proyecto, no un producto; poco relevante para un laboratorio de salud."
+  },
+  "https://doi.org/10.64898/2026.10.28.26365901": {
+   "title_es": "La longitud del VNTR con cambio de marco determina la supervivencia renal en ADTKD-MUC1",
+   "resumen_es": "Preprint (sin revisión de pares) que usa secuenciación de lectura larga (Nanopore) para mostrar que la longitud de la proteína mutante MUC1 se asocia con la evolución de una enfermedad renal hereditaria. Relevante como ejemplo de secuenciación de lectura larga."
+  },
+  "https://clinicaltrials.gov/study/NCT05805007": {
+   "title_es": "Estudio de seguridad y tolerabilidad del fármaco de edición génica ZVS203e en participantes con retinitis pigmentosa",
+   "resumen_es": "Registro de un ensayo clínico de fase temprana, en reclutamiento, de un fármaco de edición génica inyectado en la retina para retinitis pigmentosa por mutación en RHO. Es un registro oficial, sin resultados; relevante para terapias de edición génica."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43008408/": {
+   "title_es": "IA en patología: de la promesa a la práctica en la integración clínica",
+   "resumen_es": "Revisión que resume los avances de patología digital con IA y propone ADOPT, una hoja de ruta por fases alineada con las normas CAP/CLIA para llevar estas herramientas a la práctica clínica. Es una propuesta de marco, no un producto."
   }
  },
  "quotes": {
@@ -687,6 +763,37 @@
   "The investigators have developed a Class IIa active diagnostic and monitoring product, a Medical Device Software (MDSW, EMDN V92), to support clinical decision-making in an automated digital preoperative environment.": "Los investigadores han desarrollado un producto activo de diagnóstico y monitoreo de clase IIa, un software como producto sanitario (MDSW, EMDN V92), para apoyar la toma de decisiones clínicas en un entorno preoperatorio digital automatizado.",
   "The VITAL-RDN study (Virtual twins as tools for personalized clinical care in renal denervation - Pilot study) aims to test whether a \"digital twin\" can help predict which patients are most likely to respond to renal denervation.": "El estudio VITAL-RDN (Gemelos virtuales como herramientas para la atención clínica personalizada en denervación renal: estudio piloto) busca probar si un «gemelo digital» puede ayudar a predecir qué pacientes tienen más probabilidades de responder a la denervación renal.",
   "To achieve this, a self-adaptive, automated governance intelligent agent will be developed based on a High-Order Programming (HOP) architecture, integrating Large Language Models (LLMs) and deep learning techniques.": "Para lograrlo, se desarrollará un agente inteligente de gobernanza automatizada y autoadaptativa basado en una arquitectura de programación de alto orden (HOP), que integra modelos de lenguaje de gran tamaño (LLM) y técnicas de aprendizaje profundo.",
-  "[Fase: NA; Estado: RECRUITING] This study aims to develop and evaluate an AI-driven Personalized Exercise Feedback Program (AI-PEF) to enhance exercise adherence and health outcomes in mTBI patients.": "[Fase: NA; Estado: RECRUITING] Este estudio busca desarrollar y evaluar un programa de retroalimentación personalizada de ejercicio con IA (AI-PEF) para mejorar la adherencia al ejercicio y los resultados de salud en pacientes con mTBI."
+  "[Fase: NA; Estado: RECRUITING] This study aims to develop and evaluate an AI-driven Personalized Exercise Feedback Program (AI-PEF) to enhance exercise adherence and health outcomes in mTBI patients.": "[Fase: NA; Estado: RECRUITING] Este estudio busca desarrollar y evaluar un programa de retroalimentación personalizada de ejercicio con IA (AI-PEF) para mejorar la adherencia al ejercicio y los resultados de salud en pacientes con mTBI.",
+  "CRISPR-Cas9 has become a central tool for functional genomics in these organisms, enabling targeted gene disruption, replacement, tagging, nucleotide modification and genome-wide functional screening.": "CRISPR-Cas9 se ha convertido en una herramienta central de genómica funcional en estos organismos, y permite la disrupción, el reemplazo y el marcado dirigidos de genes, la modificación de nucleótidos y los cribados funcionales a escala genómica.",
+  "The review further examines the progression from single-gene editing to marker-free manipulation, base editing, conditional approaches and genome-wide functional screens.": "La revisión examina además el avance desde la edición de un solo gen hacia la manipulación sin marcadores, la edición de bases, los enfoques condicionales y los cribados funcionales a escala genómica.",
+  "Single-cell and spatial transcriptomics (ST) technologies are recent high-throughput sequencing advancements that enable transcriptome-wide profiling and characterization of cellular populations at single-cell resolution while preserving tissue spatial context.": "Las tecnologías de transcriptómica de célula única y espacial (ST) son avances recientes de secuenciación de alto rendimiento que permiten perfilar todo el transcriptoma y caracterizar poblaciones celulares con resolución de célula única, conservando el contexto espacial del tejido.",
+  "The rapid advancement of information technology and machine learning (ML) has garnered significant interest from health care managers and policymakers.": "El rápido avance de la tecnología de la información y del aprendizaje automático (ML) ha despertado un interés significativo entre gestores y responsables de políticas de salud.",
+  "Cell-free expression (CFE) is an acellular biomanufacturing platform capable of producing diverse biomolecules, including proteins, enzymes, and mRNA, outside of living cells.": "La expresión libre de células (CFE) es una plataforma acelular de biomanufactura capaz de producir diversas biomoléculas, como proteínas, enzimas y ARNm, fuera de células vivas.",
+  "Whole-genome sequencing identifies large numbers of genetic variants, although only a subset requires independent confirmation for clinical interpretation.": "La secuenciación del genoma completo identifica gran cantidad de variantes genéticas, aunque solo un subconjunto requiere confirmación independiente para su interpretación clínica.",
+  "This approach provides a robust, rapid, and cost-effective method for high-throughput genetic variants confirming identified by whole-genome sequencing while requiring only limited DNA input.": "Este enfoque ofrece un método robusto, rápido y económico para confirmar, a gran escala, las variantes genéticas identificadas por secuenciación del genoma completo, requiriendo poco ADN de entrada.",
+  "MethodsWe developed a two-stage deep learning system combining Faster R-CNN for glomerular detection in whole-slide images (WSIs) and DeepLabV3+ for segmentation.": "Métodos: desarrollamos un sistema de aprendizaje profundo en dos etapas que combina Faster R-CNN para detectar glomérulos en imágenes de portaobjetos completos (WSI) y DeepLabV3+ para la segmentación.",
+  "We developed and evaluated deep learning and vision-language models for binary classification of vision-threatening DR (VTDR), advanced AMD, and glaucoma using 40,687 external eye photographs from 9,878 patients at Massachusetts Eye and Ear.": "Desarrollamos y evaluamos modelos de aprendizaje profundo y de visión-lenguaje para la clasificación binaria de retinopatía diabética que amenaza la visión (VTDR), degeneración macular avanzada y glaucoma, usando 40.687 fotografías externas del ojo de 9.878 pacientes del Massachusetts Eye and Ear.",
+  "Here, we compared 53 symptomatic and asymptomatic human carotid plaques using single-nucleus (snRNA-seq; 17 samples, 19,100 nuclei; AtherOMICS biobank) and single-cell RNA sequencing (scRNA-seq; 36 samples, 68,983 cells; four public datasets), analyzed independently and combined by meta-analysis.": "Aquí comparamos 53 placas carotídeas humanas sintomáticas y asintomáticas mediante secuenciación de ARN de núcleo único (snRNA-seq; 17 muestras, 19.100 núcleos; biobanco AtherOMICS) y de célula única (scRNA-seq; 36 muestras, 68.983 células; cuatro conjuntos de datos públicos), analizadas de forma independiente y combinadas por metaanálisis.",
+  "We integrated plasma metabolomics and proteomics into a molecular estimate of HOMA-IR.": "Integramos metabolómica y proteómica de plasma en una estimación molecular del HOMA-IR.",
+  "Pathogenecity and in silico modeling were evaluated using the Ensembl VEP tool and PyMOL.": "La patogenicidad y el modelado in silico se evaluaron con la herramienta Ensembl VEP y PyMOL.",
+  "Vision-language models (VLMs) have shown strong semantic and spatial reasoning capabilities in 3D environments.": "Los modelos de visión-lenguaje (VLM) han mostrado una sólida capacidad de razonamiento semántico y espacial en entornos 3D.",
+  "Here, we develop an exact theory of post-transcriptional gene autoregulation, in which reversible protein-mRNA binding modulates both translation and mRNA stability.": "Aquí desarrollamos una teoría exacta de la autorregulación génica postranscripcional, en la que la unión reversible entre proteína y ARNm modula tanto la traducción como la estabilidad del ARNm.",
+  "Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously.": "Los laboratorios autónomos (SDL) aceleran la investigación científica al integrar robótica, experimentación automatizada y aprendizaje automático para ejecutar experimentos de forma autónoma.",
+  "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware.": "Este trabajo presenta MeReader, un asistente de IA sin conexión, que preserva la privacidad y es consciente del avance de lectura, diseñado como compañero contextual para la lectura narrativa en hardware de consumo.",
+  "Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and generation to the reader's distinct position in the text.": "A diferencia de los sistemas convencionales basados en modelos de lenguaje (LLM), que procesan los libros en línea y todo el texto a la vez, con el riesgo de revelar partes de la trama, MeReader limita tanto la recuperación como la generación a la posición específica del lector en el texto.",
+  "Mutant VNTR alleles were reconstructed by Oxford Nanopore long-read sequencing.": "Los alelos mutantes del VNTR se reconstruyeron mediante secuenciación de lectura larga de Oxford Nanopore.",
+  "Safety and Tolerability Study of Gene Editing Drug ZVS203e in Participants With Retinitis Pigmentosa": "Estudio de seguridad y tolerabilidad del fármaco de edición génica ZVS203e en participantes con retinitis pigmentosa",
+  "Cross-border cyber attacks on European SMEs and critical-infrastructure operators expose a structural cyber-resilience gap: cybersecurity (threat sharing, detection, response), compliance (framework assessment, certification) and digital forensics (cross-jurisdictional evidence) are jointly regulated by NIS2, the CRA, GDPR and the LED, yet": "Los ciberataques transfronterizos contra pymes y operadores de infraestructura crítica europeos exponen una brecha estructural de ciberresiliencia: la ciberseguridad (intercambio de amenazas, detección, respuesta), el cumplimiento (evaluación de marcos, certificación) y la informática forense (evidencia entre jurisdicciones) están regulados conjuntamente por NIS2, la CRA, el RGPD y la LED, y sin embargo",
+  "O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=122 SRC=\"FIGDIR/small/26365116v3_ufig1.gif\" ALT=\"Figure 1\"> View larger version (52K): org.highwire.dtl.DTLVardef@81be8aorg.highwire.dtl.DTLVardef@4815eorg.highwire.dtl.DTLVardef@1c94b8forg.highwire.dtl.DTLVardef@7fcd7e_HPS_FORMAT_FIGEXP M_FIG C_FIG Key QuestionCan a deep learning model applied to electrocardiogram images differentiate Takotsubo syndrome from acute anterior ST-segment elevation myocardial infarction, and does artificial intelligence (AI) assistance,": "Pregunta clave: ¿puede un modelo de aprendizaje profundo aplicado a imágenes de electrocardiograma diferenciar el síndrome de Takotsubo del infarto agudo anterior con elevación del ST, y la asistencia de inteligencia artificial (IA) ayuda a los lectores?",
+  "CRISPR-Cas9 has become a central tool for functional genomics in these organisms": "CRISPR-Cas9 se ha convertido en una herramienta central de genómica funcional en estos organismos",
+  "Growing evidence suggests that combining single-cell RNA sequencing (scRNA-seq) with ST offers a robust approach": "Cada vez hay más evidencia de que combinar la secuenciación de ARN de célula única (scRNA-seq) con ST ofrece un enfoque robusto",
+  "the real-world deployment of ML in health management and public policy remains at an early stage": "el uso real del aprendizaje automático en la gestión sanitaria y las políticas públicas sigue en una etapa temprana",
+  "CFE extracts can be freeze-dried, stored for extended periods, and reactivated on demand by simply adding a nucleic acid template": "Los extractos de CFE pueden liofilizarse, almacenarse por largos períodos y reactivarse a demanda con solo agregar una plantilla de ácido nucleico",
+  "spatial multi-omics is best used to formulate anatomically explicit, falsifiable hypotheses": "la multiómica espacial se usa mejor para formular hipótesis anatómicamente explícitas y falsables",
+  "PIANO achieves robust integrations and trains 10× faster than previous methods": "PIANO logra integraciones robustas y entrena 10 veces más rápido que los métodos anteriores",
+  "we close with a view of biological digital twins, causal discovery engines, and automated science": "cerramos con una visión de gemelos digitales biológicos, motores de descubrimiento causal y ciencia automatizada",
+  "highlight emerging lipid nanoparticle/mRNA and programmable RNA delivery strategies": "destacamos las estrategias emergentes de nanopartículas lipídicas/ARNm y de entrega de ARN programable",
+  "a comprehensive resource encompassing >55 million enzyme function annotations across 1 098 305 strains": "un recurso integral que abarca más de 55 millones de anotaciones de función enzimática en 1.098.305 cepas",
+  "a practical, phased deployment roadmap specifically designed to align with College of American Pathologists": "una hoja de ruta práctica de implementación por fases, diseñada específicamente para alinearse con las normas del Colegio de Patólogos Estadounidenses"
  }
 }
