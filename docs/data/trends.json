@@ -1,13 +1,13 @@
 {
  "meta": {
-  "generated_at": "2026-11-19T10:28:41+00:00",
+  "generated_at": "2026-11-19T10:52:38+00:00",
   "raw_items": 1764,
   "candidates": 250,
   "items_processed_by_llm": 0,
   "items_processed_by_rules": 250,
-  "items_processed_by_claude": 73,
-  "trends_proposed": 242,
-  "trends_verified": 208,
+  "items_processed_by_claude": 83,
+  "trends_proposed": 236,
+  "trends_verified": 204,
   "verification": {
    "quitado": 2,
    "marcado": 1
@@ -1735,127 +1735,81 @@
    "quote_es": "una hoja de ruta práctica de implementación por fases, diseñada específicamente para alinearse con las normas del Colegio de Patólogos Estadounidenses"
   },
   {
-   "technology": "Aprendizaje automático y profundo aplicado a salud",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
+   "technology": "Paquete técnico SCORE de la OMS para fortalecer sistemas de información de salud",
+   "category": "datos_computo",
+   "horizon": "corto",
    "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 6 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "This narrative review critically examines how machine learning, deep learning, computer vision, natural language processing, explainable AI, continuous glucose monitoring, wearable technologies, and multi-omics approaches may support individualized nutritional assessment and decision-making.",
+   "justification": "Es un anuncio institucional de la OMS (publicado en 2020) de un paquete de herramientas y estándares para mejorar la disponibilidad y calidad de datos de salud; relevancia para un laboratorio: baja a media (marco de datos, no tecnología de laboratorio).",
+   "quote": "SCORE includes more than 90 universally-accepted tools and standards for health information systems strengthening",
    "companies": [],
    "countries": [],
    "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43051588/",
-   "source": "pubmed",
-   "title": "Artificial Intelligence in Precision Nutrition: From Multi-Omics Integration to Personalized Dietary Interventions.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
+   "url": "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response",
+   "source": "who_news",
+   "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
+   "published": "Sat, 10 Oct 2026 07:49:45 Z",
+   "evidence_level": "fuente oficial",
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Nuevo paquete técnico de la OMS para ayudar a los países a mejorar los datos de salud para la respuesta a la COVID-19 y más allá",
+   "resumen_es": "Comunicado de la OMS (2020) que presenta el paquete técnico SCORE, un conjunto de herramientas y estándares para fortalecer los sistemas de información de salud. Es un documento institucional sobre datos sanitarios; para un laboratorio de salud tiene relevancia baja a media.",
+   "quote_es": "SCORE incluye más de 90 herramientas y estándares universalmente aceptados para el fortalecimiento de los sistemas de información de salud"
   },
   {
-   "technology": "Integración multi-ómica",
-   "category": "omicas",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 6 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "This narrative review critically examines how machine learning, deep learning, computer vision, natural language processing, explainable AI, continuous glucose monitoring, wearable technologies, and multi-omics approaches may support individualized nutritional assessment and decision-making.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43051588/",
-   "source": "pubmed",
-   "title": "Artificial Intelligence in Precision Nutrition: From Multi-Omics Integration to Personalized Dietary Interventions.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Aprendizaje automático y profundo aplicado a salud",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 6 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "This narrative review examines substantive applications of machine learning and deep learning while distinguishing them from routine bioinformatics and purely biophysical modeling.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43050788/",
-   "source": "pubmed",
-   "title": "Artificial intelligence in basic and translational cardiovascular research.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "IA para descubrimiento de fármacos",
-   "category": "ia_descubrimiento",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Its contribution differs across imaging, computational omics, mechanistic simulation, and drug discovery.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43050788/",
-   "source": "pubmed",
-   "title": "Artificial intelligence in basic and translational cardiovascular research.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "IA para descubrimiento de fármacos",
-   "category": "ia_descubrimiento",
+   "technology": "IA y multiómica para nutrición de precisión",
+   "category": "ensayos_precision",
    "horizon": "mediano",
    "hype_phase": "Peak of Inflated Expectations",
-   "justification": "Estimación por regla automática (sin IA), R7 expectativas altas: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Predicting individual disease trajectories and treatment responses remains challenging in drug discovery.",
+   "justification": "Revisión narrativa: la nutrición digital personalizada mejora algunas conductas, pero la evidencia de mejora clínica con IA es todavía limitada; faltan ensayos multicéntricos. Relevancia para un laboratorio: media.",
+   "quote": "evidence that an AI-enabled intervention improves clinical outcomes is still limited",
    "companies": [],
    "countries": [],
    "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43046701/",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43051588/",
    "source": "pubmed",
-   "title": "AI-powered virtual cells, digital twins and agentic AI are reshaping multi-omics, spatial biology and drug discovery.",
+   "title": "Artificial Intelligence in Precision Nutrition: From Multi-Omics Integration to Personalized Dietary Interventions.",
    "published": "2026",
    "evidence_level": "revisado por pares",
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Inteligencia artificial en nutrición de precisión: de la integración multiómica a las intervenciones dietarias personalizadas",
+   "resumen_es": "Revisión narrativa sobre el uso de IA, wearables y datos multiómicos para personalizar la nutrición. Concluye que la evidencia de mejoras clínicas con IA es todavía limitada y que faltan ensayos multicéntricos; relevancia media para un laboratorio.",
+   "quote_es": "la evidencia de que una intervención basada en IA mejora los resultados clínicos todavía es limitada"
   },
   {
-   "technology": "Gemelos digitales",
+   "technology": "IA híbrida con modelos biofísicos para simulación cardiovascular personalizada",
+   "category": "ia_descubrimiento",
+   "horizon": "mediano",
+   "hype_phase": "Slope of Enlightenment",
+   "justification": "Revisión narrativa que distingue las aplicaciones sustantivas de IA en investigación cardiovascular de la bioinformática rutinaria; advierte sobre limitaciones de validación. Relevancia: media.",
+   "quote": "Hybrid AI-biophysical models may accelerate personalized simulation",
+   "companies": [],
+   "countries": [],
+   "amounts": [],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43050788/",
+   "source": "pubmed",
+   "title": "Artificial intelligence in basic and translational cardiovascular research.",
+   "published": "2026",
+   "evidence_level": "revisado por pares",
+   "region": "global",
+   "flags": [],
+   "status": "verificado",
+   "method": "claude",
+   "title_es": "Inteligencia artificial en la investigación cardiovascular básica y traslacional",
+   "resumen_es": "Revisión narrativa que distingue las aplicaciones sustantivas de IA en investigación cardiovascular (imágenes, ómica, simulación, descubrimiento de fármacos) de la bioinformática rutinaria, y advierte sobre problemas de validación como la fuga de datos.",
+   "quote_es": "Los modelos híbridos de IA y biofísica pueden acelerar la simulación personalizada"
+  },
+  {
+   "technology": "Células virtuales y gemelos digitales con IA agéntica",
    "category": "gemelos_simulacion",
-   "horizon": "mediano",
-   "hype_phase": "Peak of Inflated Expectations",
-   "justification": "Estimación por regla automática (sin IA), R7 expectativas altas: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "This review introduces a nested framework of six capabilities for AI-powered virtual cells, spanning population-derived models, digital twins and agentic twins.",
+   "horizon": "largo",
+   "hype_phase": "Innovation Trigger",
+   "justification": "Revisión narrativa que propone un marco de seis capacidades; su valor depende de validación prospectiva, por lo que es una propuesta conceptual en etapa temprana.",
+   "quote": "Agentic twins add spatial context, biologically constrained interactions and actions, and environmental feedback",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1867,18 +1821,18 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Las células virtuales, los gemelos digitales y la IA agéntica con IA están transformando la multiómica, la biología espacial y el descubrimiento de fármacos",
+   "resumen_es": "Revisión narrativa que propone un marco conceptual de seis capacidades para células virtuales, gemelos digitales y gemelos agénticos. Es una propuesta conceptual en etapa temprana que depende de validación prospectiva.",
+   "quote_es": "Los gemelos agénticos agregan contexto espacial, interacciones y acciones restringidas biológicamente, y retroalimentación del entorno"
   },
   {
-   "technology": "Terapias celulares (CAR-T)",
+   "technology": "Terapias génicas y con células madre para sordera hereditaria",
    "category": "edicion_genica_terapias",
    "horizon": "mediano",
    "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 4 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Integrated therapeutic models that combine gene or stem cell therapy with cochlear implants are reshaping the treatment paradigm from symptom management to biological repair.",
+   "justification": "Revisión que resume el avance en genes como OTOF, GJB2 y SLC26A4 con CRISPR, AAV y células madre; persisten desafíos de entrega, inmunidad y eficacia a largo plazo.",
+   "quote": "Emerging technologies such as CRISPR/Cas, adeno-associated virus, and induced pluripotent stem cell-derived otic progenitors have opened new avenues",
    "companies": [],
    "countries": [],
    "amounts": [],
@@ -1890,33 +1844,10 @@
    "region": "global",
    "flags": [],
    "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Edición génica CRISPR",
-   "category": "edicion_genica_terapias",
-   "horizon": "mediano",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R9 desafios: el texto menciona esta tecnología 2 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Emerging technologies such as CRISPR/Cas, adeno-associated virus, and induced pluripotent stem cell-derived otic progenitors have opened new avenues for causal correction and tissue reconstruction.",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://pubmed.ncbi.nlm.nih.gov/43045834/",
-   "source": "pubmed",
-   "title": "Emerging gene and stem cell therapies for hereditary hearing loss: from molecular correction to regenerative reconstruction.",
-   "published": "2026",
-   "evidence_level": "revisado por pares",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "method": "claude",
+   "title_es": "Terapias génicas y con células madre emergentes para la pérdida auditiva hereditaria: de la corrección molecular a la reconstrucción regenerativa",
+   "resumen_es": "Revisión sobre terapias dirigidas a genes de sordera (OTOF, GJB2, SLC26A4) con CRISPR, virus adenoasociados y células madre; señala desafíos de entrega, respuesta inmune y eficacia a largo plazo.",
+   "quote_es": "Tecnologías emergentes como CRISPR/Cas, los virus adenoasociados y los progenitores óticos derivados de células madre pluripotentes inducidas han abierto nuevas vías"
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -1937,9 +1868,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aprendizaje profundo multicéntrico basado en TC para la estratificación preoperatoria del riesgo ganglionar en carcinoma papilar de tiroides",
+   "resumen_es": "Estudio que desarrolla y valida ThyLNT, un modelo de aprendizaje profundo con tomografías de 1560 pacientes de seis hospitales. Es investigación clínica de imágenes con IA; relevancia moderada para un laboratorio.",
+   "quote_es": "Desarrollamos y validamos ThyLNT, un modelo de aprendizaje profundo 2.5D basado en Transformer que usa tomografía computada preoperatoria, y exploramos características biológicas relacionadas en análisis multiómicos."
   },
   {
    "technology": "Integración multi-ómica",
@@ -1960,9 +1891,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aprendizaje profundo multicéntrico basado en TC para la estratificación preoperatoria del riesgo ganglionar en carcinoma papilar de tiroides",
+   "resumen_es": "Estudio que desarrolla y valida ThyLNT, un modelo de aprendizaje profundo con tomografías de 1560 pacientes de seis hospitales. Es investigación clínica de imágenes con IA; relevancia moderada para un laboratorio.",
+   "quote_es": "Desarrollamos y validamos ThyLNT, un modelo de aprendizaje profundo 2.5D basado en Transformer que usa tomografía computada preoperatoria, y exploramos características biológicas relacionadas en análisis multiómicos."
   },
   {
    "technology": "Edición génica CRISPR",
@@ -1983,9 +1914,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Vesículas extracelulares modificadas como vehículos de terapias CRISPR/Cas9: avances recientes en carga y entrega dirigida",
+   "resumen_es": "Revisión sobre vesículas extracelulares como alternativa a vectores virales y nanoportadores para entregar CRISPR/Cas9; plantea que la traslación clínica sigue limitada por la entrega segura y dirigida.",
+   "quote_es": "El potencial terapéutico de la edición genómica CRISPR/Cas ha impulsado la medicina de precisión; sin embargo, su traslación clínica en muchas aplicaciones in vivo sigue limitada por los desafíos de lograr una entrega segura, eficiente y dirigida."
   },
   {
    "technology": "Computación en la nube y de alto rendimiento",
@@ -2705,9 +2636,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "El análisis de datos de secuenciación de célula única revela un reprogramado metabólico con alta expresión de PDK4 en la fibrosis miocárdica no inflamatoria",
+   "resumen_es": "Estudio que integra secuenciación de núcleo único para investigar el metabolismo, la inflamación y la fibrosis tras un infarto. Es investigación básica cardiovascular; relevancia baja a media.",
+   "quote_es": "El análisis de datos de secuenciación de célula única revela un reprogramado metabólico caracterizado por alta expresión de PDK4 en la fibrosis miocárdica no inflamatoria."
   },
   {
    "technology": "Integración multi-ómica",
@@ -2728,9 +2659,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Firmas de citocinas de la miocarditis por inhibidores de puntos de control inmunitario y el papel modificador de la hematopoyesis clonal: estudio de aprendizaje automático y multiómica",
+   "resumen_es": "Preprint (sin revisión de pares) con 236 pacientes de cardio-oncología que usa multiómica y aprendizaje automático para estudiar citocinas en miocarditis por inmunoterapia. Relevancia media.",
+   "quote_es": "Objetivos: aprovechar un enfoque multiómico para evaluar las citocinas asociadas con la miocarditis por ICI, la resistencia a la inmunosupresión, el CHIP en esa miocarditis y las vías y tipos celulares implicados."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -2751,9 +2682,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Firmas de citocinas de la miocarditis por inhibidores de puntos de control inmunitario y el papel modificador de la hematopoyesis clonal: estudio de aprendizaje automático y multiómica",
+   "resumen_es": "Preprint (sin revisión de pares) con 236 pacientes de cardio-oncología que usa multiómica y aprendizaje automático para estudiar citocinas en miocarditis por inmunoterapia. Relevancia media.",
+   "quote_es": "Se tomaron muestras del perfil de citocinas de pacientes con ICI y se analizaron con aprendizaje automático e inteligencia artificial explicable."
   },
   {
    "technology": "Gemelos digitales",
@@ -2774,9 +2705,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Modelado conceptual de un vehículo completo de una plataforma robótica modular de tracción integral como base de una arquitectura de gemelo digital",
+   "resumen_es": "Preprint sobre un modelo de simulación de un vehículo de pruebas. No es un tema de salud: tiene relevancia nula para un laboratorio de salud (resultado del filtro por la palabra \"gemelo digital\").",
+   "quote_es": "El objetivo es crear una estructura de modelo basada en la física y ampliable que sirva como base de bajo nivel para futuras aplicaciones de gemelo digital."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -2797,9 +2728,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Modelado conceptual de un vehículo completo de una plataforma robótica modular de tracción integral como base de una arquitectura de gemelo digital",
+   "resumen_es": "Preprint sobre un modelo de simulación de un vehículo de pruebas. No es un tema de salud: tiene relevancia nula para un laboratorio de salud (resultado del filtro por la palabra \"gemelo digital\").",
+   "quote_es": "Modelado conceptual de un vehículo completo de una plataforma robótica modular de tracción integral como base de una arquitectura de gemelo digital"
   },
   {
    "technology": "Edición génica CRISPR",
@@ -3401,9 +3332,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Hacia un biosensor portátil de alcohol: precisión de las estimaciones de alcoholemia con tecnología transdérmica de nueva generación mediante pruebas en humanos y aprendizaje automático",
+   "resumen_es": "Registro de un estudio completado donde participantes usan biosensores transdérmicos durante 14 días más sesiones de laboratorio. Es un registro de estudio, no un resultado; relevancia media por el uso de biosensores.",
+   "quote_es": "Los participantes realizarán una evaluación ambulatoria durante 14 días, usando biosensores que miden la concentración transdérmica de alcohol y aportando lecturas de alcoholímetro en contextos reales."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -3424,9 +3355,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Hacia un biosensor portátil de alcohol: precisión de las estimaciones de alcoholemia con tecnología transdérmica de nueva generación mediante pruebas en humanos y aprendizaje automático",
+   "resumen_es": "Registro de un estudio completado donde participantes usan biosensores transdérmicos durante 14 días más sesiones de laboratorio. Es un registro de estudio, no un resultado; relevancia media por el uso de biosensores.",
+   "quote_es": "Hacia un biosensor portátil de alcohol: precisión de las estimaciones de alcoholemia con tecnología transdérmica de nueva generación mediante pruebas en humanos y aprendizaje automático"
   },
   {
    "technology": "Organoides y modelos 3D",
@@ -3861,8 +3792,8 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
+   "title_es": "Diferenciación electrocardiográfica con aprendizaje profundo del síndrome de Takotsubo frente al infarto agudo anterior: explicabilidad, interacción humano-IA e hipótesis de sesgo de utilización",
+   "resumen_es": "Preprint que desarrolla un modelo de IA sobre imágenes de ECG y evalúa si la asistencia de IA mejora el desempeño de los lectores. Relevancia baja a media para un laboratorio (clínica).",
    "quote_es": "Pregunta clave: ¿puede un modelo de aprendizaje profundo aplicado a imágenes de electrocardiograma diferenciar el síndrome de Takotsubo del infarto agudo anterior con elevación del ST, y la asistencia de inteligencia artificial (IA) ayuda a los lectores?"
   },
   {
@@ -4068,9 +3999,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Flujo de emparejamiento horizontal para la dinámica espaciotemporal de células individuales",
+   "resumen_es": "Preprint metodológico de aprendizaje automático para reconstruir la dinámica celular a partir de transcriptómica espacial. Es un método computacional teórico, de relevancia media para bioinformática.",
+   "quote_es": "Flujo de emparejamiento horizontal para la dinámica espaciotemporal de células individuales"
   },
   {
    "technology": "Transcriptómica y ómicas espaciales",
@@ -4091,9 +4022,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Flujo de emparejamiento horizontal para la dinámica espaciotemporal de células individuales",
+   "resumen_es": "Preprint metodológico de aprendizaje automático para reconstruir la dinámica celular a partir de transcriptómica espacial. Es un método computacional teórico, de relevancia media para bioinformática.",
+   "quote_es": "Aprender la dinámica espaciotemporal de las células a partir de transcriptómica espacial requiere conectar instantáneas de células distintas obtenidas en diferentes marcos de coordenadas."
   },
   {
    "technology": "Laboratorios autónomos",
@@ -4114,9 +4045,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Simulación basada en datos de la respuesta cerebral a la estimulación: enfoque de identificación de sistemas para neuromodulación de lazo cerrado, piloteado en estimulación cerebral profunda adaptativa",
+   "resumen_es": "Preprint que propone un entorno de simulación para diseñar controladores de estimulación cerebral profunda adaptativa en Parkinson. Es investigación en etapa temprana; relevancia baja para un laboratorio.",
+   "quote_es": "La neuromodulación de lazo cerrado usa un fisiomarcador para controlar la estimulación."
   },
   {
    "technology": "Secuenciación de célula única",
@@ -4137,9 +4068,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Elysium: puentes de Schrödinger no balanceados sin simulación",
+   "resumen_es": "Preprint metodológico para reconstruir dinámicas celulares a partir de mediciones de célula única que no permiten seguir a las mismas células en el tiempo. Es un método computacional teórico; relevancia media para bioinformática.",
+   "quote_es": "Reconstruir la dinámica celular a partir de instantáneas es difícil porque la naturaleza destructiva de las mediciones de célula única impide seguir a las mismas células en el tiempo."
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -4160,9 +4091,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Hacia una biología estructural de alto rendimiento y baja latencia con luz, Parte I: determinación de la pose proteína-ligando",
+   "resumen_es": "Preprint que muestra por primera vez que una espectroscopía óptica (EVV 2DIR) permitiría reconstruir geometrías 3D de uniones fármaco-proteína para el descubrimiento de fármacos. Es un resultado computacional, aún no una herramienta de uso rutinario.",
+   "quote_es": "Hacia una biología estructural de alto rendimiento y baja latencia con luz, Parte I: determinación de la pose proteína-ligando"
   },
   {
    "technology": "IA para descubrimiento de fármacos",
@@ -4183,8 +4114,8 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
+   "title_es": "Hacia una biología estructural de alto rendimiento y baja latencia con luz, Parte I: determinación de la pose proteína-ligando",
+   "resumen_es": "Preprint que muestra por primera vez que una espectroscopía óptica (EVV 2DIR) permitiría reconstruir geometrías 3D de uniones fármaco-proteína para el descubrimiento de fármacos. Es un resultado computacional, aún no una herramienta de uso rutinario.",
    "quote_es": null
   },
   {
@@ -4206,9 +4137,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Auditoría de modelos clínicos de predicción de caja negra con un modelo de lenguaje solo mediante consultas: una prueba ciega con fallas plantadas",
+   "resumen_es": "Preprint que pone a prueba si un modelo de lenguaje puede explicar y encontrar fallas en modelos clínicos de predicción, usando datos del International Stroke Trial. Relevancia media para IA confiable en salud.",
+   "quote_es": "Los modelos de lenguaje (LLM) se usan para explicar modelos clínicos de predicción, con la promesa de que pueden decir qué calcula un modelo, encontrar sus fallas e incluso revelar conocimiento nuevo en él."
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -4229,9 +4160,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aprendizaje profundo multimodal basado en TC de tórax y características clínicas para predecir el riesgo de complicaciones pulmonares posoperatorias: análisis de curva de decisión",
+   "resumen_es": "Registro de un estudio (con inscripción por invitación) para desarrollar un modelo que prediga complicaciones pulmonares en mayores de 65 años operados de cáncer colorrectal. Es un protocolo; relevancia baja para un laboratorio.",
+   "quote_es": "Este estudio busca desarrollar y validar un modelo de aprendizaje profundo multimodal que integre características de la TC de tórax preoperatoria con variables clínicas multidimensionales para predecir complicaciones pulmonares posoperatorias en pacientes de ≥65 años sometidos a cirugía radical electiva de cáncer colorrectal, y cuantificar su"
   },
   {
    "technology": "Secuenciación de lecturas largas",
@@ -4300,9 +4231,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "CARA-VT: un estudio dosimétrico in silico",
+   "resumen_es": "Registro de un estudio computacional completado sobre dosimetría para tratar la taquicardia ventricular con radiación. Es un registro de estudio; relevancia baja a media (simulación in silico).",
+   "quote_es": "CARA-VT: un estudio dosimétrico in silico"
   },
   {
    "technology": "Aprendizaje automático y profundo aplicado a salud",
@@ -4323,9 +4254,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Estudio prospectivo TIMELY-PrädiktoR",
+   "resumen_es": "Registro de un estudio en reclutamiento que recoge datos de alta resolución para modelos de aprendizaje automático que predigan resultados de la rehabilitación cardíaca. Es un protocolo; relevancia baja.",
+   "quote_es": "El estudio prospectivo TIMELY busca recoger datos de alta resolución para minería de datos y modelos de aprendizaje automático que identifiquen dependencias entre factores y predigan resultados favorables de la rehabilitación cardíaca."
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -4346,9 +4277,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Inmunoterapia con ARNm inhalado para pacientes con cáncer de pulmón avanzado o metástasis pulmonares de tumores sólidos",
+   "resumen_es": "Registro de un ensayo de fase I (aún sin reclutar) que evalúa seguridad de varias inmunoterapias de ARNm inhaladas. Es un protocolo en etapa temprana; relevancia media por la plataforma de ARNm.",
+   "quote_es": "[Fase: FASE 1 TEMPRANA; Estado: AÚN SIN RECLUTAR] Es un estudio de plataforma maestra de fase I, abierto, para evaluar la seguridad, la tolerabilidad y la eficacia antitumoral preliminar de varias inmunoterapias de ARNm inhaladas in vivo en adultos con tumores sólidos avanzados."
   },
   {
    "technology": "Vacunas y terapias de ARNm",
@@ -4369,9 +4300,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Refuerzo de vacuna COVID-19 (ARNm) de Bio-Manguinhos/Fiocruz",
+   "resumen_es": "Registro de un ensayo de fase I (aún sin reclutar) que evalúa seguridad e inmunogenicidad de una vacuna de ARNm de Bio-Manguinhos/Fiocruz en adultos sanos. Es un protocolo; relevancia media por producción regional de ARNm.",
+   "quote_es": "[Fase: FASE 1; Estado: AÚN SIN RECLUTAR] Es un estudio clínico de fase I descriptivo, abierto, multicéntrico, no aleatorizado y no controlado para evaluar la seguridad, la reactogenicidad y la inmunogenicidad de la vacuna COVID-19 (ARNm) de Bio-Manguinhos/Fiocruz en dosis de 25 μg, 50 μg y 100 μg"
   },
   {
    "technology": "Datos FAIR e interoperabilidad",
@@ -4392,9 +4323,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Aplicación móvil con Health-Kit para dejar de fumar",
+   "resumen_es": "Registro de un estudio completado sobre una app que usa datos de historias clínicas vía el estándar FHIR para ayudar a dejar el tabaco. Es un proyecto de salud digital; relevancia baja para un laboratorio.",
+   "quote_es": "Los datos ricos de las historias clínicas electrónicas ahora están disponibles para aplicaciones de terceros desde la app Salud (iOS) mediante la API del estándar FHIR (Fast Healthcare Interoperability Resources)."
   },
   {
    "technology": "Datos FAIR e interoperabilidad",
@@ -4415,9 +4346,9 @@
    "flags": [],
    "status": "verificado",
    "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
+   "title_es": "Contrato SBIR del NCI para el desarrollo de un prototipo de herramienta de navegación de pacientes",
+   "resumen_es": "Registro de un proyecto para crear una app móvil basada en el estándar FHIR que mejore la comunicación entre pacientes y navegadores en cirugía oncológica de páncreas. Es un proyecto; relevancia baja.",
+   "quote_es": "Las innovaciones clave del proyecto se basan en estándares de ingeniería FHIR que permiten la interoperabilidad entre plataformas de salud digital, aplican funciones de \"recomendación\" basadas en experiencias de pacientes similares y aprovechan herramientas de microeducación para mejorar la comprensión de los pacientes sobre su cirugía"
   },
   {
    "technology": "Automatización de laboratorio y robótica",
@@ -4459,29 +4390,6 @@
    "title": "Discovering Determinants of Food Intake by Application of Artificial Intelligence to Complex, High-Dimensional Data",
    "published": "2026-11-13",
    "evidence_level": "registro oficial",
-   "region": "global",
-   "flags": [],
-   "status": "verificado",
-   "method": "reglas",
-   "title_es": null,
-   "resumen_es": null,
-   "quote_es": null
-  },
-  {
-   "technology": "Datos FAIR e interoperabilidad",
-   "category": "datos_computo",
-   "horizon": "corto",
-   "hype_phase": "Slope of Enlightenment",
-   "justification": "Estimación por regla automática (sin IA), R3 aprobacion: el texto menciona esta tecnología 5 vez/veces con las palabras clave del catálogo. Horizonte y fase son heurísticos.",
-   "quote": "Seventy-five countries submit expressions of interest to COVAX Facility, joining up to 90 further countries which could be supported by the COVAX Advance Market Commitment (AMC) The COVAX Facility, and the AMC within it, is designed to guarantee rapid, fair",
-   "companies": [],
-   "countries": [],
-   "amounts": [],
-   "url": "https://www.who.int/news/item/15-07-2020-more-than-150-countries-engaged-in-covid-19-vaccine-global-access-facility",
-   "source": "who_news",
-   "title": "More than 150 countries engaged in COVID-19 vaccine global access facility",
-   "published": "Wed, 15 Jul 2020 14:39:21 Z",
-   "evidence_level": "fuente oficial",
    "region": "global",
    "flags": [],
    "status": "verificado",

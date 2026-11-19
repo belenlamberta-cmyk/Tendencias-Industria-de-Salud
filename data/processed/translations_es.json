@@ -584,6 +584,102 @@
   "https://pubmed.ncbi.nlm.nih.gov/43008408/": {
    "title_es": "IA en patología: de la promesa a la práctica en la integración clínica",
    "resumen_es": "Revisión que resume los avances de patología digital con IA y propone ADOPT, una hoja de ruta por fases alineada con las normas CAP/CLIA para llevar estas herramientas a la práctica clínica. Es una propuesta de marco, no un producto."
+  },
+  "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response": {
+   "title_es": "Nuevo paquete técnico de la OMS para ayudar a los países a mejorar los datos de salud para la respuesta a la COVID-19 y más allá",
+   "resumen_es": "Comunicado de la OMS (2020) que presenta el paquete técnico SCORE, un conjunto de herramientas y estándares para fortalecer los sistemas de información de salud. Es un documento institucional sobre datos sanitarios; para un laboratorio de salud tiene relevancia baja a media."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43051588/": {
+   "title_es": "Inteligencia artificial en nutrición de precisión: de la integración multiómica a las intervenciones dietarias personalizadas",
+   "resumen_es": "Revisión narrativa sobre el uso de IA, wearables y datos multiómicos para personalizar la nutrición. Concluye que la evidencia de mejoras clínicas con IA es todavía limitada y que faltan ensayos multicéntricos; relevancia media para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43050788/": {
+   "title_es": "Inteligencia artificial en la investigación cardiovascular básica y traslacional",
+   "resumen_es": "Revisión narrativa que distingue las aplicaciones sustantivas de IA en investigación cardiovascular (imágenes, ómica, simulación, descubrimiento de fármacos) de la bioinformática rutinaria, y advierte sobre problemas de validación como la fuga de datos."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43046701/": {
+   "title_es": "Las células virtuales, los gemelos digitales y la IA agéntica con IA están transformando la multiómica, la biología espacial y el descubrimiento de fármacos",
+   "resumen_es": "Revisión narrativa que propone un marco conceptual de seis capacidades para células virtuales, gemelos digitales y gemelos agénticos. Es una propuesta conceptual en etapa temprana que depende de validación prospectiva."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43045834/": {
+   "title_es": "Terapias génicas y con células madre emergentes para la pérdida auditiva hereditaria: de la corrección molecular a la reconstrucción regenerativa",
+   "resumen_es": "Revisión sobre terapias dirigidas a genes de sordera (OTOF, GJB2, SLC26A4) con CRISPR, virus adenoasociados y células madre; señala desafíos de entrega, respuesta inmune y eficacia a largo plazo."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43049448/": {
+   "title_es": "Aprendizaje profundo multicéntrico basado en TC para la estratificación preoperatoria del riesgo ganglionar en carcinoma papilar de tiroides",
+   "resumen_es": "Estudio que desarrolla y valida ThyLNT, un modelo de aprendizaje profundo con tomografías de 1560 pacientes de seis hospitales. Es investigación clínica de imágenes con IA; relevancia moderada para un laboratorio."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43049536/": {
+   "title_es": "Vesículas extracelulares modificadas como vehículos de terapias CRISPR/Cas9: avances recientes en carga y entrega dirigida",
+   "resumen_es": "Revisión sobre vesículas extracelulares como alternativa a vectores virales y nanoportadores para entregar CRISPR/Cas9; plantea que la traslación clínica sigue limitada por la entrega segura y dirigida."
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/43051521/": {
+   "title_es": "El análisis de datos de secuenciación de célula única revela un reprogramado metabólico con alta expresión de PDK4 en la fibrosis miocárdica no inflamatoria",
+   "resumen_es": "Estudio que integra secuenciación de núcleo único para investigar el metabolismo, la inflamación y la fibrosis tras un infarto. Es investigación básica cardiovascular; relevancia baja a media."
+  },
+  "https://doi.org/10.64898/2026.11.11.26367634": {
+   "title_es": "Firmas de citocinas de la miocarditis por inhibidores de puntos de control inmunitario y el papel modificador de la hematopoyesis clonal: estudio de aprendizaje automático y multiómica",
+   "resumen_es": "Preprint (sin revisión de pares) con 236 pacientes de cardio-oncología que usa multiómica y aprendizaje automático para estudiar citocinas en miocarditis por inmunoterapia. Relevancia media."
+  },
+  "http://arxiv.org/abs/2611.24646v1": {
+   "title_es": "Modelado conceptual de un vehículo completo de una plataforma robótica modular de tracción integral como base de una arquitectura de gemelo digital",
+   "resumen_es": "Preprint sobre un modelo de simulación de un vehículo de pruebas. No es un tema de salud: tiene relevancia nula para un laboratorio de salud (resultado del filtro por la palabra \"gemelo digital\")."
+  },
+  "https://clinicaltrials.gov/study/NCT05692830": {
+   "title_es": "Hacia un biosensor portátil de alcohol: precisión de las estimaciones de alcoholemia con tecnología transdérmica de nueva generación mediante pruebas en humanos y aprendizaje automático",
+   "resumen_es": "Registro de un estudio completado donde participantes usan biosensores transdérmicos durante 14 días más sesiones de laboratorio. Es un registro de estudio, no un resultado; relevancia media por el uso de biosensores."
+  },
+  "https://doi.org/10.64898/2026.10.15.26365116": {
+   "title_es": "Diferenciación electrocardiográfica con aprendizaje profundo del síndrome de Takotsubo frente al infarto agudo anterior: explicabilidad, interacción humano-IA e hipótesis de sesgo de utilización",
+   "resumen_es": "Preprint que desarrolla un modelo de IA sobre imágenes de ECG y evalúa si la asistencia de IA mejora el desempeño de los lectores. Relevancia baja a media para un laboratorio (clínica)."
+  },
+  "http://arxiv.org/abs/2611.24764v1": {
+   "title_es": "Flujo de emparejamiento horizontal para la dinámica espaciotemporal de células individuales",
+   "resumen_es": "Preprint metodológico de aprendizaje automático para reconstruir la dinámica celular a partir de transcriptómica espacial. Es un método computacional teórico, de relevancia media para bioinformática."
+  },
+  "http://arxiv.org/abs/2611.24818v1": {
+   "title_es": "Simulación basada en datos de la respuesta cerebral a la estimulación: enfoque de identificación de sistemas para neuromodulación de lazo cerrado, piloteado en estimulación cerebral profunda adaptativa",
+   "resumen_es": "Preprint que propone un entorno de simulación para diseñar controladores de estimulación cerebral profunda adaptativa en Parkinson. Es investigación en etapa temprana; relevancia baja para un laboratorio."
+  },
+  "http://arxiv.org/abs/2611.24763v1": {
+   "title_es": "Elysium: puentes de Schrödinger no balanceados sin simulación",
+   "resumen_es": "Preprint metodológico para reconstruir dinámicas celulares a partir de mediciones de célula única que no permiten seguir a las mismas células en el tiempo. Es un método computacional teórico; relevancia media para bioinformática."
+  },
+  "http://arxiv.org/abs/2611.24901v1": {
+   "title_es": "Hacia una biología estructural de alto rendimiento y baja latencia con luz, Parte I: determinación de la pose proteína-ligando",
+   "resumen_es": "Preprint que muestra por primera vez que una espectroscopía óptica (EVV 2DIR) permitiría reconstruir geometrías 3D de uniones fármaco-proteína para el descubrimiento de fármacos. Es un resultado computacional, aún no una herramienta de uso rutinario."
+  },
+  "http://arxiv.org/abs/2611.24877v1": {
+   "title_es": "Auditoría de modelos clínicos de predicción de caja negra con un modelo de lenguaje solo mediante consultas: una prueba ciega con fallas plantadas",
+   "resumen_es": "Preprint que pone a prueba si un modelo de lenguaje puede explicar y encontrar fallas en modelos clínicos de predicción, usando datos del International Stroke Trial. Relevancia media para IA confiable en salud."
+  },
+  "https://clinicaltrials.gov/study/NCT07946081": {
+   "title_es": "Aprendizaje profundo multimodal basado en TC de tórax y características clínicas para predecir el riesgo de complicaciones pulmonares posoperatorias: análisis de curva de decisión",
+   "resumen_es": "Registro de un estudio (con inscripción por invitación) para desarrollar un modelo que prediga complicaciones pulmonares en mayores de 65 años operados de cáncer colorrectal. Es un protocolo; relevancia baja para un laboratorio."
+  },
+  "https://clinicaltrials.gov/study/NCT07590908": {
+   "title_es": "CARA-VT: un estudio dosimétrico in silico",
+   "resumen_es": "Registro de un estudio computacional completado sobre dosimetría para tratar la taquicardia ventricular con radiación. Es un registro de estudio; relevancia baja a media (simulación in silico)."
+  },
+  "https://clinicaltrials.gov/study/NCT05461729": {
+   "title_es": "Estudio prospectivo TIMELY-PrädiktoR",
+   "resumen_es": "Registro de un estudio en reclutamiento que recoge datos de alta resolución para modelos de aprendizaje automático que predigan resultados de la rehabilitación cardíaca. Es un protocolo; relevancia baja."
+  },
+  "https://clinicaltrials.gov/study/NCT07657611": {
+   "title_es": "Inmunoterapia con ARNm inhalado para pacientes con cáncer de pulmón avanzado o metástasis pulmonares de tumores sólidos",
+   "resumen_es": "Registro de un ensayo de fase I (aún sin reclutar) que evalúa seguridad de varias inmunoterapias de ARNm inhaladas. Es un protocolo en etapa temprana; relevancia media por la plataforma de ARNm."
+  },
+  "https://clinicaltrials.gov/study/NCT07640308": {
+   "title_es": "Refuerzo de vacuna COVID-19 (ARNm) de Bio-Manguinhos/Fiocruz",
+   "resumen_es": "Registro de un ensayo de fase I (aún sin reclutar) que evalúa seguridad e inmunogenicidad de una vacuna de ARNm de Bio-Manguinhos/Fiocruz en adultos sanos. Es un protocolo; relevancia media por producción regional de ARNm."
+  },
+  "https://clinicaltrials.gov/study/NCT06292130": {
+   "title_es": "Aplicación móvil con Health-Kit para dejar de fumar",
+   "resumen_es": "Registro de un estudio completado sobre una app que usa datos de historias clínicas vía el estándar FHIR para ayudar a dejar el tabaco. Es un proyecto de salud digital; relevancia baja para un laboratorio."
+  },
+  "https://clinicaltrials.gov/study/NCT04892927": {
+   "title_es": "Contrato SBIR del NCI para el desarrollo de un prototipo de herramienta de navegación de pacientes",
+   "resumen_es": "Registro de un proyecto para crear una app móvil basada en el estándar FHIR que mejore la comunicación entre pacientes y navegadores en cirugía oncológica de páncreas. Es un proyecto; relevancia baja."
   }
  },
  "quotes": {
@@ -794,6 +890,34 @@
   "we close with a view of biological digital twins, causal discovery engines, and automated science": "cerramos con una visión de gemelos digitales biológicos, motores de descubrimiento causal y ciencia automatizada",
   "highlight emerging lipid nanoparticle/mRNA and programmable RNA delivery strategies": "destacamos las estrategias emergentes de nanopartículas lipídicas/ARNm y de entrega de ARN programable",
   "a comprehensive resource encompassing >55 million enzyme function annotations across 1 098 305 strains": "un recurso integral que abarca más de 55 millones de anotaciones de función enzimática en 1.098.305 cepas",
-  "a practical, phased deployment roadmap specifically designed to align with College of American Pathologists": "una hoja de ruta práctica de implementación por fases, diseñada específicamente para alinearse con las normas del Colegio de Patólogos Estadounidenses"
+  "a practical, phased deployment roadmap specifically designed to align with College of American Pathologists": "una hoja de ruta práctica de implementación por fases, diseñada específicamente para alinearse con las normas del Colegio de Patólogos Estadounidenses",
+  "SCORE includes more than 90 universally-accepted tools and standards for health information systems strengthening": "SCORE incluye más de 90 herramientas y estándares universalmente aceptados para el fortalecimiento de los sistemas de información de salud",
+  "evidence that an AI-enabled intervention improves clinical outcomes is still limited": "la evidencia de que una intervención basada en IA mejora los resultados clínicos todavía es limitada",
+  "Hybrid AI-biophysical models may accelerate personalized simulation": "Los modelos híbridos de IA y biofísica pueden acelerar la simulación personalizada",
+  "Agentic twins add spatial context, biologically constrained interactions and actions, and environmental feedback": "Los gemelos agénticos agregan contexto espacial, interacciones y acciones restringidas biológicamente, y retroalimentación del entorno",
+  "Emerging technologies such as CRISPR/Cas, adeno-associated virus, and induced pluripotent stem cell-derived otic progenitors have opened new avenues": "Tecnologías emergentes como CRISPR/Cas, los virus adenoasociados y los progenitores óticos derivados de células madre pluripotentes inducidas han abierto nuevas vías",
+  "We developed and validated ThyLNT, a Transformer-based 2.5D deep learning model using preoperative computed tomography (CT), and explored related biological features in multi-omics analyses.": "Desarrollamos y validamos ThyLNT, un modelo de aprendizaje profundo 2.5D basado en Transformer que usa tomografía computada preoperatoria, y exploramos características biológicas relacionadas en análisis multiómicos.",
+  "The therapeutic potential of CRISPR/Cas genome editing has advanced the development of precision medicine; however, its clinical translation for many in vivo applications remains limited by challenges in achieving safe, efficient, and targeted delivery.": "El potencial terapéutico de la edición genómica CRISPR/Cas ha impulsado la medicina de precisión; sin embargo, su traslación clínica en muchas aplicaciones in vivo sigue limitada por los desafíos de lograr una entrega segura, eficiente y dirigida.",
+  "Analysis of single-cell sequencing data reveals metabolic reprogramming characterized by high PDK4 expression in non-inflammatory myocardial fibrosis.": "El análisis de datos de secuenciación de célula única revela un reprogramado metabólico caracterizado por alta expresión de PDK4 en la fibrosis miocárdica no inflamatoria.",
+  "ObjectivesTo leverage a multi-omics approach to evaluate cytokines associated with ICI myocarditis, immunosuppression resistance, CHIP in ICI myocarditis and implicated pathways and cell type contributions.": "Objetivos: aprovechar un enfoque multiómico para evaluar las citocinas asociadas con la miocarditis por ICI, la resistencia a la inmunosupresión, el CHIP en esa miocarditis y las vías y tipos celulares implicados.",
+  "Cytokine profiling from patients on ICI were sampled and analyzed using machine learning and explainable artificial intelligence.": "Se tomaron muestras del perfil de citocinas de pacientes con ICI y se analizaron con aprendizaje automático e inteligencia artificial explicable.",
+  "The objective is to create a physics-based and extendable model structure that can serve as a low-level foundation for future digital twin applications.": "El objetivo es crear una estructura de modelo basada en la física y ampliable que sirva como base de bajo nivel para futuras aplicaciones de gemelo digital.",
+  "Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture": "Modelado conceptual de un vehículo completo de una plataforma robótica modular de tracción integral como base de una arquitectura de gemelo digital",
+  "Participants will engage in ambulatory assessment over the course of 14 days, wearing biosensors assessing transdermal alcohol concentration (TAC) and providing breathalyzer readings in real-world contexts.": "Los participantes realizarán una evaluación ambulatoria durante 14 días, usando biosensores que miden la concentración transdérmica de alcohol y aportando lecturas de alcoholímetro en contextos reales.",
+  "Towards a Wearable Alcohol Biosensor: Examining the Accuracy of BAC Estimates From New-Generation Transdermal Technology Using Large-Scale Human Testing and Machine Learning Algorithms": "Hacia un biosensor portátil de alcohol: precisión de las estimaciones de alcoholemia con tecnología transdérmica de nueva generación mediante pruebas en humanos y aprendizaje automático",
+  "Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics": "Flujo de emparejamiento horizontal para la dinámica espaciotemporal de células individuales",
+  "Learning the spatiotemporal dynamics of cells from spatial transcriptomics requires connecting snapshots of different cells acquired in different coordinate frames.": "Aprender la dinámica espaciotemporal de las células a partir de transcriptómica espacial requiere conectar instantáneas de células distintas obtenidas en diferentes marcos de coordenadas.",
+  "Closed-loop neuromodulation uses a physiomarker to control stimulation.": "La neuromodulación de lazo cerrado usa un fisiomarcador para controlar la estimulación.",
+  "Reconstructing cellular dynamics from snapshots is challenging because the destructive nature of single-cell measurements makes tracking the same cells over time impossible.": "Reconstruir la dinámica celular a partir de instantáneas es difícil porque la naturaleza destructiva de las mediciones de célula única impide seguir a las mismas células en el tiempo.",
+  "Toward high-throughput, low-latency structural biology using light, Part I: Protein-ligand pose determination": "Hacia una biología estructural de alto rendimiento y baja latencia con luz, Parte I: determinación de la pose proteína-ligando",
+  "We demonstrate for the first time that an optical spectroscopy - electron-vibration-vibration two-dimensional infrared spectroscopy (EVV 2DIR) - has sufficient structural competence to enable the reconstruction of the three-dimensional geometries of drug-protein binding at the level needed for practical drug discovery applications.": "Demostramos por primera vez que una espectroscopía óptica (infrarroja bidimensional electrón-vibración-vibración, EVV 2DIR) tiene competencia estructural suficiente para reconstruir las geometrías tridimensionales de la unión fármaco-proteína al nivel necesario para aplicaciones prácticas de descubrimiento de fármacos.",
+  "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it.": "Los modelos de lenguaje (LLM) se usan para explicar modelos clínicos de predicción, con la promesa de que pueden decir qué calcula un modelo, encontrar sus fallas e incluso revelar conocimiento nuevo en él.",
+  "This study aims to develop and validate a multimodal deep learning model that integrates preoperative chest CT-derived features with multidimensional clinical variables to predict PPCs in patients aged ≥65 years undergoing elective radical colorectal cancer surgery, and to quantify its": "Este estudio busca desarrollar y validar un modelo de aprendizaje profundo multimodal que integre características de la TC de tórax preoperatoria con variables clínicas multidimensionales para predecir complicaciones pulmonares posoperatorias en pacientes de ≥65 años sometidos a cirugía radical electiva de cáncer colorrectal, y cuantificar su",
+  "CARA-VT: a Dosimetric in Silico Study": "CARA-VT: un estudio dosimétrico in silico",
+  "The TIMELY prospective study aims to collect high-resolution data for data mining and artificial intelligence machine learning models to identify dependencies between factors and predict favorable outcomes of CR.": "El estudio prospectivo TIMELY busca recoger datos de alta resolución para minería de datos y modelos de aprendizaje automático que identifiquen dependencias entre factores y predigan resultados favorables de la rehabilitación cardíaca.",
+  "[Fase: EARLY_PHASE1; Estado: NOT_YET_RECRUITING] This is an open-label phase I master platform study to evaluate the safety, tolerability and preliminary anti-tumor efficacy of multiple inhaled in-vivo mRNA immunotherapies in adult patients with advanced solid tumors.": "[Fase: FASE 1 TEMPRANA; Estado: AÚN SIN RECLUTAR] Es un estudio de plataforma maestra de fase I, abierto, para evaluar la seguridad, la tolerabilidad y la eficacia antitumoral preliminar de varias inmunoterapias de ARNm inhaladas in vivo en adultos con tumores sólidos avanzados.",
+  "[Fase: PHASE1; Estado: NOT_YET_RECRUITING] This is a descriptive, open-label, multicenter, non-randomized, uncontrolled phase I clinical study to evaluate the safety, reactogenicity, and immunogenicity of the COVID-19 Vaccine (mRNA) - Bio-Manguinhos/Fiocruz at doses of 25 μg, 50 μg, and 100 μg": "[Fase: FASE 1; Estado: AÚN SIN RECLUTAR] Es un estudio clínico de fase I descriptivo, abierto, multicéntrico, no aleatorizado y no controlado para evaluar la seguridad, la reactogenicidad y la inmunogenicidad de la vacuna COVID-19 (ARNm) de Bio-Manguinhos/Fiocruz en dosis de 25 μg, 50 μg y 100 μg",
+  "Rich data from EHRs are now available to third-party apps from the Health app (iOS) via Fast Healthcare Interoperability Resources standard Application Programming Interface (API).": "Los datos ricos de las historias clínicas electrónicas ahora están disponibles para aplicaciones de terceros desde la app Salud (iOS) mediante la API del estándar FHIR (Fast Healthcare Interoperability Resources).",
+  "The key project innovations are based on Fast Healthcare Interoperability Resources (FHIR)-based engineering standards that enable interoperability among digital health platforms, apply 'recommender' functions based on similar patients' experiences, and exploit microeducation tools to enhance patient understanding about their surgical": "Las innovaciones clave del proyecto se basan en estándares de ingeniería FHIR que permiten la interoperabilidad entre plataformas de salud digital, aplican funciones de \"recomendación\" basadas en experiencias de pacientes similares y aprovechan herramientas de microeducación para mejorar la comprensión de los pacientes sobre su cirugía"
  }
 }
