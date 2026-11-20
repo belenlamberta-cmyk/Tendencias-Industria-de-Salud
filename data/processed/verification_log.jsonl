@@ -1,3 +1,5 @@
 {"item_id": "fa19295fce9f5925", "url": "https://pubmed.ncbi.nlm.nih.gov/43010164/", "technology": "Terapias con células madre para diabetes tipo 1 con nichos bioingenierizados y edición hipoinmune", "problem": "monto 'nueve ensayos clínicos' no figura en el texto", "action": "quitado"}
 {"item_id": "89e4b9696d9b56fc", "url": "https://pubmed.ncbi.nlm.nih.gov/43011469/", "technology": "Gemelos digitales en cuidado cardiovascular (monitoreo, predicción de arritmias, UCI inteligente)", "problem": "monto '30 estudios' no figura en el texto", "action": "quitado"}
+{"item_id": "82f12bec620e02c3", "url": "https://doi.org/10.1039/d6pm00312e", "technology": "Vacunas y terapias de ARNm", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
+{"item_id": "82f12bec620e02c3", "url": "https://doi.org/10.1039/d6pm00312e", "technology": "Oligonucleótidos terapéuticos y ARN de interferencia", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
 {"item_id": "a0fa050dff4df497", "url": "https://doi.org/10.48683/1926.00129374", "technology": "Edición génica CRISPR", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
