@@ -2,4 +2,6 @@
 {"item_id": "89e4b9696d9b56fc", "url": "https://pubmed.ncbi.nlm.nih.gov/43011469/", "technology": "Gemelos digitales en cuidado cardiovascular (monitoreo, predicción de arritmias, UCI inteligente)", "problem": "monto '30 estudios' no figura en el texto", "action": "quitado"}
 {"item_id": "82f12bec620e02c3", "url": "https://doi.org/10.1039/d6pm00312e", "technology": "Vacunas y terapias de ARNm", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
 {"item_id": "82f12bec620e02c3", "url": "https://doi.org/10.1039/d6pm00312e", "technology": "Oligonucleótidos terapéuticos y ARN de interferencia", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
+{"item_id": "171630c0fd750f8b", "url": "https://doi.org/10.61838/jhrlp.389", "technology": "Aprendizaje automático y profundo aplicado a salud", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
+{"item_id": "e976e15fa7946af9", "url": "https://doi.org/10.30493/das.2026.010708", "technology": "Aprendizaje automático y profundo aplicado a salud", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
 {"item_id": "a0fa050dff4df497", "url": "https://doi.org/10.48683/1926.00129374", "technology": "Edición génica CRISPR", "problem": "fecha de publicacion futura (2027-01-01)", "action": "marcado"}
