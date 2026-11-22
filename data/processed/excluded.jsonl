@@ -1454,12 +1454,32 @@
 {"id": "497eaa326357377e", "url": "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/?utm_campaign=rss", "source": "stat", "reason": "score 0 < 2"}
 {"id": "248bbd91d814898f", "url": "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/?utm_campaign=rss", "source": "stat", "reason": "score 0 < 2"}
 {"id": "89f3d4bf770d2bca", "url": "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/?utm_campaign=rss", "source": "stat", "reason": "score 0 < 2"}
+{"id": "8324f0bb8241ad52", "url": "https://pubmed.ncbi.nlm.nih.gov/43066109/", "source": "pubmed", "reason": "score 1 < 2"}
+{"id": "0822df1dcfd3ae70", "url": "https://pubmed.ncbi.nlm.nih.gov/43067542/", "source": "pubmed", "reason": "score 1 < 2"}
+{"id": "d98675d5438f7cfd", "url": "https://doi.org/10.64898/2026.11.12.26367975", "source": "medrxiv", "reason": "score 0 < 2"}
+{"id": "34f82ab1260fbcc1", "url": "https://doi.org/10.64898/2026.11.12.26367922", "source": "medrxiv", "reason": "score 0 < 2"}
+{"id": "21ca1e27c302eccb", "url": "https://doi.org/10.64898/2026.11.12.26367940", "source": "medrxiv", "reason": "score 0 < 2"}
+{"id": "a4f3ce2d5fd1cc89", "url": "https://doi.org/10.1126/sciadv.aeg4754", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "387362aded14e0d0", "url": "https://doi.org/10.1021/acsnano.6c08666", "source": "openalex", "reason": "score 1 < 2"}
+{"id": "4185d0e471ae8674", "url": "https://doi.org/10.1088/1758-5090/aec480", "source": "openalex", "reason": "score 1 < 2"}
+{"id": "8b264c635b7b1992", "url": "https://doi.org/10.1038/s42256-026-01339-0", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "2c8ecc0f205a6015", "url": "https://doi.org/10.1016/j.pnucene.2026.106701", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "4fe520fdcb9f6436", "url": "https://doi.org/10.1038/s41746-026-03383-x", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "661facdbdc435777", "url": "https://doi.org/10.1162/imag.a.1463", "source": "openalex", "reason": "score 1 < 2"}
+{"id": "57f39d1c2f246bd0", "url": "https://doi.org/10.1007/s00227-026-04973-9", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "ccece4e7ecf20a41", "url": "https://doi.org/10.1063/5.0355371", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "206a31679f9eace0", "url": "https://doi.org/10.56201/ijmepr.v8.no6.2024.pg213.252", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "36bc59a090337797", "url": "https://doi.org/10.1162/coli.a.652", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "070f2325ea8d1d69", "url": "https://doi.org/10.1086/743440", "source": "openalex", "reason": "score 0 < 2"}
+{"id": "5da827f3cf5bfa6c", "url": "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss", "source": "stat", "reason": "score 0 < 2"}
+{"id": "fad20a0a9484b196", "url": "https://pubmed.ncbi.nlm.nih.gov/43051521/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "035adaf13dd1ad10", "url": "https://pubmed.ncbi.nlm.nih.gov/43050566/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "44150a19d6b8f953", "url": "https://pubmed.ncbi.nlm.nih.gov/43056001/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "9272568da3ad3eb6", "url": "https://pubmed.ncbi.nlm.nih.gov/42904142/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "cff5eb27d62b32fd", "url": "https://pubmed.ncbi.nlm.nih.gov/43053306/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "f0b66d279c62c833", "url": "https://pubmed.ncbi.nlm.nih.gov/43057194/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "dc738665f125dfbe", "url": "https://pubmed.ncbi.nlm.nih.gov/43061968/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "7144b2eb4e97bce5", "url": "https://pubmed.ncbi.nlm.nih.gov/43065890/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "873bf7962cf77116", "url": "https://pubmed.ncbi.nlm.nih.gov/43018681/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "700027d3aae50505", "url": "https://pubmed.ncbi.nlm.nih.gov/43012712/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "b3423d11b30f0881", "url": "https://pubmed.ncbi.nlm.nih.gov/43022476/", "source": "pubmed", "reason": "tope por fuente/total"}
@@ -1487,6 +1507,8 @@
 {"id": "9ee6b0889b820c6b", "url": "https://pubmed.ncbi.nlm.nih.gov/43039099/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "8a315f81de58d608", "url": "https://pubmed.ncbi.nlm.nih.gov/42866891/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "0bb160cb105df201", "url": "https://pubmed.ncbi.nlm.nih.gov/43037794/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "df24f254f02698d6", "url": "https://doi.org/10.1002/cfch.70048", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "b65c3d8d3694769d", "url": "https://doi.org/10.1038/s41598-026-79549-0", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "e0059996e36d5d4e", "url": "https://pubmed.ncbi.nlm.nih.gov/43044828/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "2975a5df9c9e406c", "url": "https://pubmed.ncbi.nlm.nih.gov/43043754/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "1cc5639de0309856", "url": "https://pubmed.ncbi.nlm.nih.gov/43040035/", "source": "pubmed", "reason": "tope por fuente/total"}
@@ -1535,6 +1557,12 @@
 {"id": "8e14d2679cee3394", "url": "https://doi.org/10.5530/phrev.20270006", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "84ee0f661d67b747", "url": "https://doi.org/10.1038/s41467-026-78758-5", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "84ee0f661d67b747", "url": "https://doi.org/10.1038/s41467-026-78758-5", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "d3b69a211014da6e", "url": "https://pubmed.ncbi.nlm.nih.gov/43066850/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "a4ef8b9336232e67", "url": "https://pubmed.ncbi.nlm.nih.gov/43066646/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "f80d64ce5788f087", "url": "https://doi.org/10.1002/smll.76711", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "6ef76293e1b13aae", "url": "https://doi.org/10.1177/13623613261500528", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "79c76da8c61fbba5", "url": "https://doi.org/10.71086/iajss/v13i4/iajss1330", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "b5b129a0b3e7ec83", "url": "https://doi.org/10.71086/iajss/v13i4/iajss1327", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "ae90bc5d4fcc97dd", "url": "https://pubmed.ncbi.nlm.nih.gov/43023242/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "53202683fe4c9905", "url": "https://pubmed.ncbi.nlm.nih.gov/43022808/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "0a3123763d3188b5", "url": "https://pubmed.ncbi.nlm.nih.gov/43021951/", "source": "pubmed", "reason": "tope por fuente/total"}
@@ -1671,6 +1699,15 @@
 {"id": "8538e52b4803ab08", "url": "https://doi.org/10.1158/2326-6066.cir-25-1569", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "e9f0e2e0efd46881", "url": "https://doi.org/10.61440/jctv.2026.v1.04", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "672c8bf096038659", "url": "https://doi.org/10.71086/iajss/v13i4/iajss1324", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "2dad6cb0121c1233", "url": "https://pubmed.ncbi.nlm.nih.gov/43066938/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "8c5a4e5d99237670", "url": "https://pubmed.ncbi.nlm.nih.gov/43066931/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "9c3b284ffb7d1edd", "url": "https://pubmed.ncbi.nlm.nih.gov/43066424/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "da10b5a33dd45a03", "url": "https://doi.org/10.1158/2159-8290.cd-25-0748", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "c215abb207110bca", "url": "https://doi.org/10.1145/3815180", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "a37cd104d5d418b2", "url": "https://doi.org/10.3389/fmicb.2026.1992959", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "18eaa6cfbf57e1f2", "url": "https://doi.org/10.1158/1078-0432.ccr-26-2295", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "b441a6e1e3f02241", "url": "https://doi.org/10.2196/85709", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "8f245e0496df8a8d", "url": "https://doi.org/10.7717/peerj-cs.4163", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "ac2674c7f8b10a2a", "url": "https://pubmed.ncbi.nlm.nih.gov/43022632/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "5c24ef8b4f471a31", "url": "https://pubmed.ncbi.nlm.nih.gov/43021680/", "source": "pubmed", "reason": "tope por fuente/total"}
 {"id": "cf7df34b3ae28db3", "url": "https://pubmed.ncbi.nlm.nih.gov/43020056/", "source": "pubmed", "reason": "tope por fuente/total"}
@@ -1958,3 +1995,18 @@
 {"id": "48d75b685ffd5cef", "url": "https://doi.org/10.21203/rs.3.rs-11167481/v1", "source": "openalex", "reason": "tope por fuente/total"}
 {"id": "c1dbb63a0da70aac", "url": "https://clinicaltrials.gov/study/NCT07214324", "source": "clinicaltrials", "reason": "tope por fuente/total"}
 {"id": "9a6ba48de5711358", "url": "https://clinicaltrials.gov/study/NCT07909824", "source": "clinicaltrials", "reason": "tope por fuente/total"}
+{"id": "1b7478ab8a54e6d6", "url": "https://pubmed.ncbi.nlm.nih.gov/43067406/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "79ad36f7e422612f", "url": "https://pubmed.ncbi.nlm.nih.gov/43065092/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "064916df8abf67e5", "url": "https://pubmed.ncbi.nlm.nih.gov/43064923/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "ff0b815aa1e97fbf", "url": "https://pubmed.ncbi.nlm.nih.gov/43064890/", "source": "pubmed", "reason": "tope por fuente/total"}
+{"id": "b35e6715b27afcd8", "url": "https://doi.org/10.1126/sciadv.aeg5378", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "2807a25c62be72d8", "url": "https://doi.org/10.1038/s42003-026-11230-8", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "c5f15c79251a9093", "url": "https://doi.org/10.1038/s43018-026-01252-w", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "1398a732c56f06a4", "url": "https://doi.org/10.1093/jbmr/zjag170", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "7123d75cbf9cc9dc", "url": "https://doi.org/10.1038/s41467-026-79349-0", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "c39dcceffacbbc0a", "url": "https://doi.org/10.1177/02783649261501176", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "efc1da41a33ed4db", "url": "https://doi.org/10.1080/10618600.2026.2754090", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "cb63491c68871c1a", "url": "https://doi.org/10.1007/s44163-026-01645-x", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "b35e6715b27afcd8", "url": "https://doi.org/10.1126/sciadv.aeg5378", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "7f1f0137a6258093", "url": "https://doi.org/10.1002/smll.76758", "source": "openalex", "reason": "tope por fuente/total"}
+{"id": "c5f15c79251a9093", "url": "https://doi.org/10.1038/s43018-026-01252-w", "source": "openalex", "reason": "tope por fuente/total"}
